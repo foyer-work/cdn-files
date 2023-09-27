@@ -2,8 +2,14 @@
 
 Use this repo to store files which are to be served by the JSDelivr CDN. This repo is **PUBLIC**, so **DO NOT** include files which have sensitive information related to Merlin, or Foyer or any other production service in deployment.
 
-The URL of any file in this repo is like the following example:
+### Example URL
 
 File Name: `merlin_config.json`
 
 CDN URL: `https://cdn.jsdelivr.net/gh/foyer-work/cdn-files/merlin_config.json`
+
+### Purge Cache from CDN
+
+1. Head to `https://jsdelivr.com/tools/purge`.
+2. Enter upto 10 JSDelivr URL of the file to be purged.
+3. Click Purge and test out the URL again to check if the file has been updated.
