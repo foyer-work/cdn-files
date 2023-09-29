@@ -314,7 +314,7 @@
     "chat": {
       "astro": { "visible": true },
       "image": { "visible": true },
-      "rizz": { "visible": true },
+      "rizz": { "visible": false },
       "visible": "true",
       "web": { "visible": true }
     },
