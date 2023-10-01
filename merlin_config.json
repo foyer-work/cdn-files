@@ -319,7 +319,7 @@
       "web": { "visible": true }
     },
     "codeSummarizer": {
-      "blackListedDomains": ["bard.google.com", "chat.openai.com"],
+      "blackListedDomains": ["bard.google.com", "chat.openai.com", "platform.openai.com"],
       "visible": true
     },
     "merlinGUI": { "visible": true },
