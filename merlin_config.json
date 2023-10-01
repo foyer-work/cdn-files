@@ -38,14 +38,14 @@
     },
     {
       "charge": "Charges 2x Query",
-      "default": "false",
+      "default": false,
       "description": "Longer context model by OpenAI",
       "id": "gpt-3.5-turbo-16k",
       "name": "GPT 3.5 16K"
     },
     {
       "charge": "Charges 1x Query",
-      "default": "false",
+      "default": false,
       "description": "Open Source model by Meta, finetuned for coding tasks",
       "id": "codellama/CodeLlama-34b-Instruct-hf",
       "name": "Code-LLaMa"
