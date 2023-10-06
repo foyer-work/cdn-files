@@ -338,7 +338,16 @@
       ],
       "visible": true
     },
-    "serp": { "newMount": true, "regional": false, "visible": true },
+    "serp": {
+      "newMount": true,
+      "regional": false,
+      "visible": true,
+      "getHoroscope": {
+        "text": "Discover your destiny with Merlin's horoscope predictions",
+        "isActive": true,
+        "btnHandler": "getHoroscope"
+      }
+    },
     "shouldDoStatusCall": false
   },
   "newUploadEndpoint": true,
