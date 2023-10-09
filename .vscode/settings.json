@@ -1,0 +1,12 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.guides.bracketPairs": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "prettier.useTabs": false
+}
