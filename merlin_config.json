@@ -52,8 +52,8 @@
     }
   ],
   "blogWebchatCTA": {
-    "cta": "Chat With Me Sir",
-    "visible": false
+    "cta": "Chat With This Website",
+    "visible": true
   },
   "checkShortcutStatus": true,
   "fabStrip": {
