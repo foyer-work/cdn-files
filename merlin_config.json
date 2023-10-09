@@ -327,6 +327,9 @@
       ],
       "visible": true
     },
+    "dopplegainger": {
+      "visible": true
+    },
     "merlinGUI": { "visible": true },
     "ownAPIKey": true,
     "selectContextBtn": {
