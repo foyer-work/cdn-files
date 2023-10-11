@@ -710,48 +710,53 @@
   },
   "quickTips": [
     {
+      "html": "BEAST_MODE",
+      "probability": 1,
+      "text": "BEAST_MODE"
+    },
+    {
       "html": "Personalise Merlin by clicking here “  <span class=\"text-slate-800 dark:text-slate-300\">⋮</span> ” then click on \" Settings \"",
-      "probability": 0.2,
+      "probability": 0,
       "text": "Click '⋮', choose 'Settings' to personalize Merlin"
     },
     {
       "html": "For latest internet data, turn on 'Access Web'!",
-      "probability": 0.1,
+      "probability": 0,
       "text": "For latest internet data, turn on 'Access Web'"
     },
     {
       "html": "Now set your preferred language by clicking here “ <span class=\"text-slate-700 dark:text-slate-300\" >⋮</span> “",
-      "probability": 0.1,
+      "probability": 0,
       "text": "Now set your preferred language by clicking on the three dots “ ⋮ “"
     },
     {
       "html": "Show your \"X\"-factor. Create Tweets from YouTube.  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=tnBQmEqBCY0&ab_channel=YCombinator\"> Give it a swirl ↗</a>",
-      "probability": 0.1,
+      "probability": 0,
       "text": "Show your \"X\"-factor. Create Tweets from YouTube. Visit YouTube now!"
     },
     {
       "html": "Transform YouTube videos into epic Tweet threads.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\">Lets explore ↗</a>",
-      "probability": 0.1,
+      "probability": 0,
       "text": "Transform YouTube videos into epic Tweet threads. Visit YouTube now!"
     },
     {
       "html": "Improve your LinkedIn engagement. Create posts from YouTube!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=elrnAl6ygeM&ab_channel=BlueInfinityFilm\">Try ↗</a>",
-      "probability": 0.1,
+      "probability": 0,
       "text": "Boost LinkedIn engagement - Create posts from YouTube! "
     },
     {
       "html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\">Try it now ↗</a>",
-      "probability": 0.1,
+      "probability": 0,
       "text": "Turn YouTube videos into engaging blogs! Try it now!"
     },
     {
       "html": "Now summarise your favourite podcasts on YouTube. <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\">Give it a spin ↗</a>",
-      "probability": 0.1,
+      "probability": 0,
       "text": "Now summarise your favourite podcasts on YouTube, Give it a spin!"
     },
     {
       "html": "Blogs too long? Fret not, get highlights using summariser.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://medium.com/theuglymonster/across-the-spider-verse-and-canonicity-beddf01635c9\">Dive in ↗</a>",
-      "probability": 0.1,
+      "probability": 0,
       "text": "Long blogs? Use Summariser for highlights. Open a blog now!"
     }
   ],
