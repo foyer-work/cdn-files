@@ -605,6 +605,15 @@
     "ads": {
       "visible": true
     },
+    "merlinOnAmazon": {
+      "cta": "Ask AI",
+      "questions": [
+        "What are some reviews?",
+        "What are some pros and cons?",
+        "What are some features?"
+      ],
+      "visible": true
+    },
     "chat": {
       "astro": {
         "visible": true
