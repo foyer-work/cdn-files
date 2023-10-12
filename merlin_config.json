@@ -628,6 +628,9 @@
       ],
       "visible": true
     },
+    "dopplegainger": {
+      "visible": false
+    },
     "merlinGUI": {
       "visible": true
     },
