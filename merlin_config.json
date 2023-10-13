@@ -654,6 +654,10 @@
       "visible": true
     },
     "serp": {
+      "newBlockerUI": {
+        "visible": true,
+        "percent": 1
+      },
       "newMount": true,
       "regional": false,
       "visible": true,
