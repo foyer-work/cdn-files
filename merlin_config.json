@@ -344,7 +344,7 @@
       "visible": true,
       "getHoroscope": {
         "text": "Discover your destiny with Merlin's horoscope predictions",
-        "isActive": false,
+        "isActive": true,
         "btnHandler": "getHoroscope"
       }
     },
