@@ -635,7 +635,7 @@
         "chat.openai.com",
         "platform.openai.com"
       ],
-      "visible": true
+      "visible": false
     },
     "dopplegainger": {
       "visible": false
@@ -677,9 +677,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://picsum.photos/200",
       "name": "Merlin"
     },
