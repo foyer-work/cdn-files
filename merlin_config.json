@@ -727,12 +727,12 @@
   "quickTips": [
     {
       "html": "BEAST_MODE",
-      "probability": 1,
+      "probability": 12,
       "text": "BEAST_MODE"
     },
     {
       "html": "Personalise Merlin by clicking here “  <span class=\"text-slate-800 dark:text-slate-300\">⋮</span> ” then click on \" Settings \"",
-      "probability": 0,
+      "probability": 3,
       "text": "Click '⋮', choose 'Settings' to personalize Merlin"
     },
     {
