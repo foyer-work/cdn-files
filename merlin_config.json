@@ -103,6 +103,11 @@
       "isActive": true,
       "link": "https://bit.ly/serp-apes-ai",
       "text": "Check out our new social app- Apes and AI"
+    },
+    {
+      "isActive": true,
+      "link": "https://api.getmerlin.in/docs/intro",
+      "text": "Try our new API plan for building on top of our APIs. ✨"
     }
   ],
   "ga4Config": {
