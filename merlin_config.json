@@ -730,7 +730,7 @@
   "quickTips": [
     {
       "html": "CODE_LLAMA",
-      "probability": 12,
+      "probability": 0,
       "text": "CODE_LLAMA"
     },   
     {
