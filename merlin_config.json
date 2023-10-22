@@ -102,12 +102,17 @@
     {
       "isActive": true,
       "link": "https://bit.ly/serp-apes-ai",
-      "text": "Check out our new social app- Apes and AI"
+      "text": "Check out our new social app - Apes and AI!"
     },
     {
       "isActive": true,
       "link": "https://api.getmerlin.in/docs/intro",
       "text": "Try our new API plan for building on top of our APIs. ✨"
+    },
+    {
+      "isActive": true,
+      "link": "https://bit.ly/queries-announce",
+      "text": "Updates on query pricing on Merlin!"
     }
   ],
   "ga4Config": {
@@ -732,7 +737,7 @@
       "html": "CODE_LLAMA",
       "probability": 0,
       "text": "CODE_LLAMA"
-    },   
+    },
     {
       "html": "BEAST_MODE",
       "probability": 12,
