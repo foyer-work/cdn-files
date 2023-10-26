@@ -652,7 +652,7 @@
         "chat.openai.com",
         "platform.openai.com"
       ],
-      "visible": false
+      "visible": true
     },
     "dopplegainger": {
       "visible": true
@@ -673,7 +673,7 @@
     "serp": {
       "newBlockerUI": {
         "visible": true,
-        "percent": 1
+        "percent": 0.1
       },
       "newMount": true,
       "regional": false,
