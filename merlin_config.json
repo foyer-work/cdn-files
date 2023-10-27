@@ -3,7 +3,7 @@
     {
       "charge": "Charges 1x Query",
       "default": false,
-      "description": "Original chatGPT model. Fast and good at reasoning",
+      "description": "Original ChatGPT model. Fast and good at reasoning",
       "id": "GPT 3",
       "name": "GPT 3.5",
       "tooltip": "this will be the tooltip"
