@@ -2,6 +2,13 @@
   "availableModels": [
     {
       "charge": "Charges 1x Query",
+      "default": false,
+      "description": "Open Source model by Mistral AI",
+      "id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "name": "Mistral"
+    },
+    {
+      "charge": "Charges 1x Query",
       "default": true,
       "description": "Fast and good at reasoning",
       "id": "GPT 3",
@@ -16,14 +23,14 @@
       "name": "GPT 4"
     },
     {
-      "charge": "Charges 10x Queries",
+      "charge": "Charges 10x Queries/3000 words",
       "default": false,
       "description": "Claude 2 by Anthropic",
       "id": "claude-2",
       "name": "Claude 2"
     },
     {
-      "charge": "Charges 2x Queries",
+      "charge": "Charges 2x Queries/3000 words",
       "default": false,
       "description": "Claude Instant By Anthropic",
       "id": "claude-instant-1",
@@ -49,13 +56,6 @@
       "description": "Open Source model by Meta, finetuned for coding tasks",
       "id": "codellama/CodeLlama-34b-Instruct-hf",
       "name": "Code-LLaMa"
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "Open Source model by Mistral AI",
-      "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "name": "Mistral"
     }
   ],
   "blogWebchatCTA": {
