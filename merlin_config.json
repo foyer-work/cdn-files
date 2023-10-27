@@ -797,8 +797,13 @@
     },
     {
       "html": "Quick update on how queries are counted on Merlin! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://bit.ly/queries-announce\">Read more here↗</a>",
-      "probability": 40,
+      "probability": 500,
       "text": "Quick update on how queries are counted on Merlin! Read more here!"
+    }
+    {
+      "html": "Get a chance to win 1-week free Merlin Pro!😍 <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://forms.gle/qVXe1mXu7uVcC46o9\">Click here↗</a>",
+      "probability": 2000,
+      "text": "Get a chance to win 1-week free Merlin Pro!😍 "
     }
   ],
   "summarizer": {
