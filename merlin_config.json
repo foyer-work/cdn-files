@@ -654,6 +654,7 @@
         "visible": false
       },
       "visible": "true",
+      "chatSharing": true,
       "web": {
         "visible": true
       }
