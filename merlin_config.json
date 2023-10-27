@@ -2,15 +2,15 @@
   "availableModels": [
     {
       "charge": "Charges 1x Query",
-      "default": false,
-      "description": "Open Source model by Mistral AI",
+      "default": true,
+      "description": "Fast and less restrictive, best for general purpose use",
       "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "name": "Mistral"
+      "name": "Merlin"
     },
     {
       "charge": "Charges 1x Query",
-      "default": true,
-      "description": "Fast and good at reasoning",
+      "default": false,
+      "description": "Original ChatGPT model. Fast and good at reasoning",
       "id": "GPT 3",
       "name": "GPT 3.5",
       "tooltip": "this will be the tooltip"
