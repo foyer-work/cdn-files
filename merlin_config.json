@@ -147,13 +147,13 @@
     {
       "text": "Go Pro!",
       "threshold": 102,
-      "url": "https://app.getmerlin.in/plans",
+      "url": "https://app.getmerlin.in/plans?from=extension",
       "visible": true
     },
     {
       "text": "Upgrade!",
       "threshold": 3000,
-      "url": "https://app.getmerlin.in/plans",
+      "url": "https://app.getmerlin.in/plans?from=extension",
       "visible": true
     }
   ],
@@ -779,44 +779,44 @@
       "text": "Now set your preferred language by clicking on the three dots “ ⋮ “"
     },
     {
-      "html": "Show your \"X\"-factor. Create Tweets from YouTube.  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=tnBQmEqBCY0&ab_channel=YCombinator\"> Give it a swirl ↗</a>",
+      "html": "Show your \"X\"-factor. Create Tweets from YouTube.  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=tnBQmEqBCY0&ab_channel=YCombinator\" target=\"_blank\"> Give it a swirl ↗</a>",
       "probability": 3,
       "text": "Show your \"X\"-factor. Create Tweets from YouTube. Visit YouTube now!"
     },
     {
-      "html": "Transform YouTube videos into epic Tweet threads.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\">Lets explore ↗</a>",
+      "html": "Transform YouTube videos into epic Tweet threads.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Lets explore ↗</a>",
       "probability": 3,
       "text": "Transform YouTube videos into epic Tweet threads. Visit YouTube now!"
     },
     {
-      "html": "Improve your LinkedIn engagement. Create posts from YouTube!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=elrnAl6ygeM&ab_channel=BlueInfinityFilm\">Try ↗</a>",
+      "html": "Improve your LinkedIn engagement. Create posts from YouTube!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=elrnAl6ygeM&ab_channel=BlueInfinityFilm\" target=\"_blank\">Try ↗</a>",
       "probability": 3,
       "text": "Boost LinkedIn engagement - Create posts from YouTube! "
     },
     {
-      "html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\">Try it now ↗</a>",
+      "html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\" target=\"_blank\">Try it now ↗</a>",
       "probability": 3,
       "text": "Turn YouTube videos into engaging blogs! Try it now!"
     },
     {
-      "html": "Now summarise your favourite podcasts on YouTube. <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\">Give it a spin ↗</a>",
+      "html": "Now summarise your favourite podcasts on YouTube. <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Give it a spin ↗</a>",
       "probability": 3,
       "text": "Now summarise your favourite podcasts on YouTube, Give it a spin!"
     },
     {
-      "html": "Blogs too long? Fret not, get highlights using summariser.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://medium.com/theuglymonster/across-the-spider-verse-and-canonicity-beddf01635c9\">Dive in ↗</a>",
+      "html": "Blogs too long? Fret not, get highlights using summariser.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://medium.com/theuglymonster/across-the-spider-verse-and-canonicity-beddf01635c9\" target=\"_blank\">Dive in ↗</a>",
       "probability": 3,
       "text": "Long blogs? Use Summariser for highlights. Open a blog now!"
     },
     {
-      "html": "Quick update on how queries are counted on Merlin! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://bit.ly/queries-announce\">Read more here↗</a>",
+      "html": "Quick update on how queries are counted on Merlin! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://bit.ly/queries-announce\" target=\"_blank\">Read more here↗</a>",
       "probability": 500,
       "text": "Quick update on how queries are counted on Merlin! Read more here!"
     },
     {
-      "html": "Get a chance to win 1-week free Merlin Pro!😍 <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://forms.gle/qVXe1mXu7uVcC46o9\">Click here↗</a>",
+      "html": "Get a chance to win 1-week free Merlin Pro!😍 <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://forms.gle/qVXe1mXu7uVcC46o9\" target=\"_blank\">Click here↗</a>",
       "probability": 2000,
-      "text": "Get a chance to win 1-week free Merlin Pro!😍 "
+      "text": "Get a chance to win 1-week free Merlin Pro!😍"
     }
   ],
   "summarizer": {
