@@ -711,8 +711,10 @@
   },
   "personas": [
     {
-      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
-      "image": "https://picsum.photos/200",
+      "greetings": [
+        "Hello, I am Merlin! How can I assist you today?"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
     {
@@ -722,7 +724,7 @@
         "Greetings, mortal. How may I assist you in your quest for knowledge? "
       ],
       "id": "FFJCQ1os5jo0ahEEAT8s",
-      "image": "https://img.thedailybeast.com/image/upload/dpr_2.0/c_crop,h_1614,w_1614,x_900,y_0/c_limit,w_128/d_placeholder_euli9k,fl_lossy,q_auto/v1683562768/Screen_Shot_2023-05-08_at_10.49.55_AM_umpnxm",
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/oppenheimer.webp",
       "name": "Oppenheimer"
     },
     {
@@ -733,7 +735,7 @@
         "Hello, [NAME]! How can I add a little extra sparkle to your day?"
       ],
       "id": "aHwRM_CUwG75Y6KrO1_e",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbOAL6lo8uHHz2kagfxwHtP-_mP9lS3KNURQ&usqp=CAU",
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/barbie.webp",
       "name": "Barbie"
     },
     {
@@ -742,7 +744,7 @@
         "Howdy [NAME]! You've got Ted Lasso ready for action. What's on your mind today? How can I assist you on your health journey?"
       ],
       "id": "g78gvi389455h8",
-      "image": "https://img-www.tf-cdn.com/show/2/ted-lasso.jpeg?_v=1/1/1970%2012:00:00%20AM&auto=compress&fm=pjpg&fit=crop&crop=faces%2Centropy%20312&dpr=2&w=128&h=128",
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/ted_lasso.webp",
       "name": "Ted Lasso"
     }
   ],
