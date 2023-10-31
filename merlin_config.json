@@ -711,7 +711,7 @@
       "greetings": [
         "Hello, I am Merlin! How can I assist you today?"
       ],
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files/merlin.webp",
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
     {
@@ -721,7 +721,7 @@
         "Greetings, mortal. How may I assist you in your quest for knowledge? "
       ],
       "id": "FFJCQ1os5jo0ahEEAT8s",
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files/oppenheimer.webp",
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/oppenheimer.webp",
       "name": "Oppenheimer"
     },
     {
@@ -732,7 +732,7 @@
         "Hello, [NAME]! How can I add a little extra sparkle to your day?"
       ],
       "id": "aHwRM_CUwG75Y6KrO1_e",
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files/barbie.webp",
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/barbie.webp",
       "name": "Barbie"
     },
     {
@@ -741,7 +741,7 @@
         "Howdy [NAME]! You've got Ted Lasso ready for action. What's on your mind today? How can I assist you on your health journey?"
       ],
       "id": "g78gvi389455h8",
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files/ted_lasso.webp",
+      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/ted_lasso.webp",
       "name": "Ted Lasso"
     }
   ],
