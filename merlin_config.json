@@ -671,6 +671,9 @@
     "dopplegainger": {
       "visible": true
     },
+    "linkPreview": {
+      "visible": true
+    },
     "merlinGUI": {
       "visible": true
     },
