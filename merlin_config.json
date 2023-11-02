@@ -672,7 +672,7 @@
       "visible": true
     },
     "linkPreview": {
-      "visible": true
+      "visible": false
     },
     "merlinGUI": {
       "visible": true
