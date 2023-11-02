@@ -2,14 +2,14 @@
   "availableModels": [
     {
       "charge": "Charges 1x Query",
-      "default": true,
+      "default": false,
       "description": "Fast and less restrictive, best for general purpose use",
       "id": "mistralai/Mistral-7B-Instruct-v0.1",
       "name": "Merlin"
     },
     {
       "charge": "Charges 1x Query",
-      "default": false,
+      "default": true,
       "description": "Original ChatGPT model. Fast and good at reasoning",
       "id": "GPT 3",
       "name": "GPT 3.5",
@@ -711,9 +711,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
