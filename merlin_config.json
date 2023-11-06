@@ -671,6 +671,9 @@
     "dopplegainger": {
       "visible": true
     },
+    "doppelgainger": {
+      "visible": true
+    },
     "linkPreview": {
       "visible": false
     },
