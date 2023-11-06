@@ -626,6 +626,7 @@
       },
       "visible": "true",
       "chatSharing": true,
+      "chatWithImage": true,
       "web": {
         "visible": true
       }
