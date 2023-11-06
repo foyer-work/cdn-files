@@ -653,6 +653,9 @@
       "rizz": {
         "visible": false
       },
+      "chatbot": {
+        "visible": true
+      },
       "visible": "true",
       "chatSharing": true,
       "web": {
