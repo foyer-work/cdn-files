@@ -5,7 +5,8 @@
       "default": false,
       "description": "Fast and less restrictive, best for general purpose use",
       "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "name": "Merlin"
+      "name": "Merlin",
+      "queryCost": 1
     },
     {
       "charge": "Charges 1x Query",
@@ -13,49 +14,56 @@
       "description": "Original ChatGPT model. Fast and good at reasoning",
       "id": "GPT 3",
       "name": "GPT 3.5",
-      "tooltip": "this will be the tooltip"
+      "tooltip": "this will be the tooltip",
+      "queryCost": 1
     },
     {
       "charge": "Charges 30x Queries",
       "default": false,
       "description": "Slightly slow and best at reasoning",
       "id": "GPT 4",
-      "name": "GPT 4"
+      "name": "GPT 4",
+      "queryCost": 30
     },
     {
       "charge": "Charges 10x Queries/3000 words",
       "default": false,
       "description": "Claude 2 by Anthropic",
       "id": "claude-2",
-      "name": "Claude 2"
+      "name": "Claude 2",
+      "queryCost": 10
     },
     {
       "charge": "Charges 2x Queries/3000 words",
       "default": false,
       "description": "Claude Instant By Anthropic",
       "id": "claude-instant-1",
-      "name": "Claude Instant"
+      "name": "Claude Instant",
+      "queryCost": 2
     },
     {
       "charge": "Charges 1x Query",
       "default": false,
       "description": "The open source model by Meta",
       "id": "LLAMA",
-      "name": "Llama-2"
+      "name": "Llama-2",
+      "queryCost": 1
     },
     {
       "charge": "Charges 2x Queries",
       "default": false,
       "description": "Longer context model by OpenAI",
       "id": "gpt-3.5-turbo-16k",
-      "name": "GPT 3.5 16K"
+      "name": "GPT 3.5 16K",
+      "queryCost": 2
     },
     {
       "charge": "Charges 1x Query",
       "default": false,
       "description": "Open Source model by Meta, finetuned for coding tasks",
       "id": "codellama/CodeLlama-34b-Instruct-hf",
-      "name": "Code-LLaMa"
+      "name": "Code-LLaMa",
+      "queryCost": 1
     }
   ],
   "blogWebchatCTA": {
