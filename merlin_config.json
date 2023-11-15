@@ -681,10 +681,10 @@
       "visible": true
     },
     "dopplegainger": {
-      "visible": true
+      "visible": false
     },
     "doppelgainger": {
-      "visible": true
+      "visible": false
     },
     "linkPreview": {
       "visible": true
