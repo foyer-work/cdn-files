@@ -128,6 +128,11 @@
       "isActive": false,
       "link": "https://bit.ly/queries-announce",
       "text": "Updates on query pricing on Merlin!"
+    },
+    {
+      "isActive": true,
+      "link": "https://youtu.be/G6PoIw52JxQ",
+      "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
     }
   ],
   "ga4Config": {
