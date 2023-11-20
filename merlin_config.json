@@ -64,6 +64,14 @@
       "id": "codellama/CodeLlama-34b-Instruct-hf",
       "name": "Code-LLaMa",
       "queryCost": 1
+    },
+    {
+      "charge": "Charges 1x Query",
+      "default": false,
+      "description": "A finetuned model on Mistral, better and faster",
+      "id": "HuggingFaceH4/zephyr-7b-beta",
+      "name": "Zephyr",
+      "queryCost": 1
     }
   ],
   "blogWebchatCTA": {
