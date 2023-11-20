@@ -675,7 +675,7 @@
         "visible": false
       },
       "chatbot": {
-        "visible": true
+        "visible": false
       },
       "visible": "true",
       "chatSharing": true,
