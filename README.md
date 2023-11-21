@@ -6,7 +6,7 @@ Use this repo to store files which are to be served by the JSDelivr CDN. This re
 
 File Name: `merlin_config.json`
 
-CDN URL: `https://cdn.jsdelivr.net/gh/foyer-work/cdn-files/merlin_config.json`
+CDN URL: `https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin_config.json`
 
 ### Purge Cache from CDN
 
