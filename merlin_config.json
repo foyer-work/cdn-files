@@ -187,7 +187,9 @@
     "chat": {
       "text": "Update Your Merlin Shortcuts: Click Here for New Navigation Steps!",
       "url": "https://merlinbyfoyer.notion.site/merlinbyfoyer/Resolving-Merlin-s-Shortcut-Conflict-f78256e2c7a4400d9d809f421ca12a8a",
-      "visible": false
+      "visible": false,
+      "recurAfter": 86400000,
+      "timeout": 10000
     },
     "changeInQueryBanner": false
   },
