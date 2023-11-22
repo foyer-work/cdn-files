@@ -145,7 +145,7 @@
     {
       "isActive": true,
       "link": "https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d",
-      "text": "Merlin not working on X/Twitter? We're working on a fix!"
+      "text": "Merlin not working on X/Twitter? Please update or reinstall to fix!"
     }
   ],
   "ga4Config": {
@@ -853,9 +853,9 @@
       "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
     },
     {
-      "html": "Merlin broken on X/Twitter? We're working on a fix! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d\" target=\"_blank\">Read more ↗</a>",
+      "html": "Merlin broken on X/Twitter? Please update or reinstall to fix! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d\" target=\"_blank\">Read more ↗</a>",
       "probability": 2000,
-      "text": "Merlin broken on X/Twitter? We're working on a fix! Read more!"
+      "text": "Merlin broken on X/Twitter? Please update or reinstall to fix! Read more!"
     }
   ],
   "summarizer": {
