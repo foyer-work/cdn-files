@@ -128,7 +128,7 @@
       "text": "Check out our new social app - Apes and AI!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://api.getmerlin.in/docs/intro",
       "text": "Try our new API plan for building on top of our APIs. ✨"
     },
@@ -138,9 +138,14 @@
       "text": "Updates on query pricing on Merlin!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://youtu.be/G6PoIw52JxQ",
       "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
+    },
+    {
+      "isActive": true,
+      "link": "https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d",
+      "text": "Merlin not working on X/Twitter? We're working on a fix!"
     }
   ],
   "ga4Config": {
@@ -844,6 +849,11 @@
       "html": "Instantly preview webpages with a simple &nbsp;<span class=\"font-mono\">Shift+Hover</span>&nbsp; skip the clicks!",
       "probability": 12,
       "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
+    },
+    {
+      "html": "Merlin broken on X/Twitter? We're working on a fix! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d\" target=\"_blank\">Read more ↗</a>",
+      "probability": 2000,
+      "text": "Merlin broken on X/Twitter? We're working on a fix! Read more!"
     }
   ],
   "summarizer": {
