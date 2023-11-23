@@ -94,7 +94,8 @@
       "visible": true
     },
     "twitter": {
-      "visible": true
+      "visible": true,
+      "containerClassname": ".css-175oi2r.r-1iusvr4.r-16y2uox.r-1777fci.r-1h8ys4a.r-1bylmt5.r-13tjlyg.r-7qyjyx.r-1ftll1t"
     }
   },
   "fabStripV2": {
@@ -746,7 +747,9 @@
   },
   "personas": [
     {
-      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
+      "greetings": [
+        "Hello, I am Merlin! How can I assist you today?"
+      ],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
