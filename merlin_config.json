@@ -147,6 +147,11 @@
       "isActive": true,
       "link": "https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d",
       "text": "Merlin not working on X/Twitter? Please update or reinstall to fix!"
+    },
+    {
+      "isActive": true,
+      "link": "https://bcin.short.gy/black-friday",
+      "text": "Black Friday Sale is ON! Grab it Now!"
     }
   ],
   "ga4Config": {
@@ -175,12 +180,18 @@
       "text": "Go Pro!",
       "threshold": 102,
       "url": "https://app.getmerlin.in/plans?from=extension",
-      "visible": true
+      "visible": false
     },
     {
       "text": "Upgrade!",
       "threshold": 3000,
       "url": "https://app.getmerlin.in/plans?from=extension",
+      "visible": false
+    },
+    {
+      "text": "Grab the Black Friday Deal!",
+      "threshold": 102,
+      "url": "https://bcin.short.gy/chatbot-black-friday",
       "visible": true
     }
   ],
@@ -785,9 +796,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
