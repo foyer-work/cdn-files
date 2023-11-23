@@ -674,7 +674,45 @@
     },
     "chat": {
       "astro": {
-        "visible": true
+        "visible": true,
+        "astrologerPrompts": [
+          {
+            "prompts": [
+              "When will I meet the love of my life?",
+              "Have I met my soulmate yet?",
+              "Who can be my potential life partner?",
+              "What is holding me back from experiencing true love?"
+            ],
+            "title": "Unlock Love Secrets"
+          },
+          {
+            "prompts": [
+              "Am I happy with my current job?",
+              "How much increment will I get this time?",
+              "When will I get promoted next?",
+              "Should I start my own start-up?",
+              "Which career option is the best for me?"
+            ],
+            "title": "Find Career Clarity"
+          },
+          {
+            "prompts": [
+              "What does my stars say about my mental peace?",
+              "Am I an introvert or an extrovert?",
+              "Why don't I have good friends?"
+            ],
+            "title": "Discover True Self"
+          },
+          {
+            "prompts": [
+              "How much money will I be making in next 5 years?",
+              "When will I buy my dream home?",
+              "Am I earning to my full potential?",
+              "Should I take loan this year?"
+            ],
+            "title": "Consult Financial Destiny"
+          }
+        ]
       },
       "image": {
         "visible": true
