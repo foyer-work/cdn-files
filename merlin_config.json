@@ -144,7 +144,7 @@
       "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d",
       "text": "Merlin not working on X/Twitter? Please update or reinstall to fix!"
     },
@@ -781,8 +781,8 @@
       "regional": false,
       "visible": true,
       "getHoroscope": {
-        "text": "Discover your destiny with Merlin's horoscope predictions",
-        "isActive": true,
+        "text": "Discover your destiny with Merlin's horoscope predictions!",
+        "isActive": false,
         "btnHandler": "getHoroscope"
       }
     },
