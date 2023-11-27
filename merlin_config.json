@@ -151,7 +151,7 @@
     {
       "isActive": true,
       "link": "https://bcin.short.gy/black-friday",
-      "text": "Black Friday Sale is ON! Grab it Now!"
+      "text": "Cyber Monday Sale is ON! Grab it Now!"
     }
   ],
   "ga4Config": {
@@ -189,7 +189,7 @@
       "visible": false
     },
     {
-      "text": "Grab the Black Friday Deal!",
+      "text": "Grab the Cyber Monday Deal!",
       "threshold": 102,
       "url": "https://bcin.short.gy/chatbot-black-friday",
       "visible": true
