@@ -754,7 +754,31 @@
       "visible": true
     },
     "doppelgainger": {
-      "visible": true
+      "visible": true,
+      "blacklistedSlugs": [
+        "home",
+        "explore",
+        "notifications",
+        "messages",
+        "bookmarks",
+        "lists",
+        "profile",
+        "more",
+        "i",
+        "communities",
+        "settings",
+        "photo",
+        "compose",
+        "account",
+        "search",
+        "hashtag",
+        "intent",
+        "login",
+        "signup",
+        "logout",
+        "privacy",
+        "tos"
+      ]
     },
     "linkPreview": {
       "visible": true
