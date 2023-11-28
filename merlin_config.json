@@ -124,12 +124,12 @@
       "text": "We are on Edge now!"
     },
     {
-      "isActive": false,
+      "isActive": true,
       "link": "https://bit.ly/serp-apes-ai",
       "text": "Check out our new social app - Apes and AI!"
     },
     {
-      "isActive": false,
+      "isActive": true,
       "link": "https://api.getmerlin.in/docs/intro",
       "text": "Try our new API plan for building on top of our APIs. ✨"
     },
@@ -139,7 +139,7 @@
       "text": "Updates on query pricing on Merlin!"
     },
     {
-      "isActive": false,
+      "isActive": true,
       "link": "https://youtu.be/G6PoIw52JxQ",
       "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
     },
@@ -149,7 +149,7 @@
       "text": "Merlin not working on X/Twitter? Please update or reinstall to fix!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://bcin.short.gy/black-friday",
       "text": "Cyber Monday Sale is ON! Grab it Now!"
     }
@@ -180,19 +180,19 @@
       "text": "Go Pro!",
       "threshold": 102,
       "url": "https://app.getmerlin.in/plans?from=extension",
-      "visible": false
+      "visible": true
     },
     {
       "text": "Upgrade!",
       "threshold": 3000,
       "url": "https://app.getmerlin.in/plans?from=extension",
-      "visible": false
+      "visible": true
     },
     {
       "text": "Grab the Cyber Monday Deal!",
       "threshold": 102,
       "url": "https://bcin.short.gy/chatbot-black-friday",
-      "visible": true
+      "visible": false
     }
   ],
   "infoBanners": {
@@ -904,7 +904,7 @@
     },
     {
       "html": "Merlin broken on X/Twitter? Please update or reinstall to fix! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d\" target=\"_blank\">Read more ↗</a>",
-      "probability": 2000,
+      "probability": 0,
       "text": "Merlin broken on X/Twitter? Please update or reinstall to fix! Read more!"
     }
   ],
