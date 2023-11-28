@@ -1,4 +1,8 @@
 {
+   "goProModal": {
+      "visible": true,
+      "interval": 600000
+   },
   "availableModels": [
     {
       "charge": "Charges 1x Query",
