@@ -30,12 +30,12 @@
       "queryCost": 30
     },
     {
-      "charge": "Charges 10x Queries/3000 words",
+      "charge": "Charges 8x Queries/3000 words",
       "default": false,
       "description": "Claude 2 by Anthropic",
       "id": "claude-2",
       "name": "Claude 2",
-      "queryCost": 10
+      "queryCost": 8
     },
     {
       "charge": "Charges 2x Queries/3000 words",
@@ -201,11 +201,11 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Update Your Merlin Shortcuts: Click Here for New Navigation Steps!",
-      "url": "https://merlinbyfoyer.notion.site/merlinbyfoyer/Resolving-Merlin-s-Shortcut-Conflict-f78256e2c7a4400d9d809f421ca12a8a",
-      "visible": false,
-      "recurAfter": 86400000,
-      "timeout": 10000
+      "text": "Lowering our Claude 2 Pricing!",
+      "url": "https://anthropic.com/pricing",
+      "visible": true,
+      "recurAfter": 864000000,
+      "timeout": 0
     },
     "changeInQueryBanner": false
   },
@@ -934,6 +934,11 @@
       "html": "Merlin broken on X/Twitter? Please update or reinstall to fix! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d\" target=\"_blank\">Read more ↗</a>",
       "probability": 0,
       "text": "Merlin broken on X/Twitter? Please update or reinstall to fix! Read more!"
+    },
+    {
+      "html": "Chat with any personality on X/Twitter, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/swwLsut_vIA?si=-5BNejWh6UWZqBSx\" target=\"_blank\">Create their Doppelgainger↗</a>",
+      "probability": 12,
+      "text": "Chat with any personality on X/Twitter, Create their Doppelgainger!"
     }
   ],
   "summarizer": {
