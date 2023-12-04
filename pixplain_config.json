@@ -11,16 +11,16 @@
     {
       "charge": "Charges 45x Queries",
       "default": false,
-      "description": "Gives GPT 4 eyes to analyse visual content",
+      "description": "The multimodal model by OpenAI, best at vision tasks",
       "id": "gpt-4-vision-preview",
-      "name": "GPT VISION",
+      "name": "GPT Vision",
       "queryCost": 45
     },
     {
       "charge": "Charges 2x Query",
       "default": true,
       "description": "Original ChatGPT model. Fast and good at reasoning",
-      "id": "GPT 3",
+      "id": "gpt-3.5-turbo",
       "name": "GPT 3.5",
       "tooltip": "this will be the tooltip",
       "queryCost": 2
@@ -29,7 +29,7 @@
       "charge": "Charges 45x Queries",
       "default": false,
       "description": "Slightly slow and best at reasoning",
-      "id": "GPT 4",
+      "id": "gpt-4",
       "name": "GPT 4",
       "queryCost": 45
     },
