@@ -13,7 +13,7 @@
       "default": false,
       "description": "Gives GPT 4 eyes to analyse visual content",
       "id": "gpt-4-vision-preview",
-      "name": "GPT_4_VISION",
+      "name": "GPT VISION",
       "queryCost": 30
     },
     {
