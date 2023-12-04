@@ -1,8 +1,8 @@
 {
-   "goProModal": {
-      "visible": true,
-      "interval": 600000
-   },
+  "goProModal": {
+    "visible": true,
+    "interval": 600000
+  },
   "availableModels": [
     {
       "charge": "Charges 1x Query",
@@ -28,6 +28,14 @@
       "id": "GPT 4",
       "name": "GPT 4",
       "queryCost": 30
+    },
+    {
+      "charge": "Charges 50x Queries",
+      "default": false,
+      "description": "The multimodal model by OpenAI, best at vision tasks",
+      "id": "gpt-4-vision-preview",
+      "name": "GPT Vision",
+      "queryCost": 50
     },
     {
       "charge": "Charges 8x Queries/3000 words",
@@ -128,12 +136,12 @@
       "text": "We are on Edge now!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://bit.ly/serp-apes-ai",
       "text": "Check out our new social app - Apes and AI!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://api.getmerlin.in/docs/intro",
       "text": "Try our new API plan for building on top of our APIs. ✨"
     },
@@ -156,6 +164,11 @@
       "isActive": false,
       "link": "https://bcin.short.gy/black-friday",
       "text": "Cyber Monday Sale is ON! Grab it Now!"
+    },
+    {
+      "isActive": true,
+      "link": "https://chromewebstore.google.com/detail/pixplain/nfddopbgedlmbjbnpomhcamablpkbpnb",
+      "text": "Check out our new Chrome Extension - Pixplain!"
     }
   ],
   "ga4Config": {
@@ -939,6 +952,11 @@
       "html": "Chat with any personality on X/Twitter, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/swwLsut_vIA?si=-5BNejWh6UWZqBSx\" target=\"_blank\">Create their Doppelgainger↗</a>",
       "probability": 12,
       "text": "Chat with any personality on X/Twitter, Create their Doppelgainger!"
+    },
+    {
+      "html": "Check out our new Chrome Extension - <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://chromewebstore.google.com/detail/pixplain/nfddopbgedlmbjbnpomhcamablpkbpnb\" target=\"_blank\">Pixplain↗</a>",
+      "probability": "50",
+      "text": "Check out our new Chrome Extension - Pixplain!"
     }
   ],
   "summarizer": {
