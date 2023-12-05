@@ -685,6 +685,34 @@
         "promptMagicV3": 6,
         "merlinPromptMagic": 4
       }
+    },
+    {
+      "description": "A simple Yet Effective Tool for Crafting Images Ranging from Everyday Realism to Animated Styles.",
+      "id": 33,
+      "img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-2.png",
+      "name": "DALL-E.2",
+      "costPerImage": {
+        "base": 10,
+        "alchemy": 6,
+        "photoreal": 6,
+        "promptMagicV2": 2,
+        "promptMagicV3": 6,
+        "merlinPromptMagic": 4
+      }
+    },
+    {
+      "description": "Offering Superior Precision and Expanded Creativity in Image Generation. A Step Ahead of DALL-E 2",
+      "id": 34,
+      "img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-3.png",
+      "name": "DALL-E.3",
+      "costPerImage": {
+        "base": 60,
+        "alchemy": 6,
+        "photoreal": 6,
+        "promptMagicV2": 2,
+        "promptMagicV3": 6,
+        "merlinPromptMagic": 4
+      }
     }
   ],
   "misc": {
