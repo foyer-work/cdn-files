@@ -167,7 +167,7 @@
     },
     {
       "isActive": true,
-      "link": "https://chromewebstore.google.com/detail/pixplain/nfddopbgedlmbjbnpomhcamablpkbpnb",
+      "link": "https://bcin.short.gy/SERP-pixplain",
       "text": "Check out our new Chrome Extension - Pixplain!"
     }
   ],
@@ -214,10 +214,10 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Lowering our Claude 2 Pricing!",
-      "url": "https://anthropic.com/pricing",
+      "text": "Check out our new Chrome Extension - Pixplain!",
+      "url": "https://bcin.short.gy/SERP-pixplain",
       "visible": true,
-      "recurAfter": 864000000,
+      "recurAfter": 10800000,
       "timeout": 0
     },
     "changeInQueryBanner": false
@@ -952,11 +952,6 @@
       "html": "Chat with any personality on X/Twitter, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/swwLsut_vIA?si=-5BNejWh6UWZqBSx\" target=\"_blank\">Create their Doppelgainger↗</a>",
       "probability": 12,
       "text": "Chat with any personality on X/Twitter, Create their Doppelgainger!"
-    },
-    {
-      "html": "Check out our new Chrome Extension - <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://chromewebstore.google.com/detail/pixplain/nfddopbgedlmbjbnpomhcamablpkbpnb\" target=\"_blank\">Pixplain↗</a>",
-      "probability": "50",
-      "text": "Check out our new Chrome Extension - Pixplain!"
     }
   ],
   "summarizer": {
