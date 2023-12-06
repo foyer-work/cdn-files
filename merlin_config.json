@@ -160,7 +160,7 @@
     {
       "isActive": true,
       "link": "https://bcin.short.gy/SERP-pixplain",
-      "text": "Check out our new Chrome Extension - Pixplain!"
+      "text": "Get free early access to our image explainer now!"
     }
   ],
   "ga4Config": {
@@ -206,10 +206,10 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Check out our new Chrome Extension - Pixplain!",
+      "text": "Get free early access to our image explainer now!",
       "url": "https://bcin.short.gy/SERP-pixplain",
       "visible": true,
-      "recurAfter": 10800000,
+      "recurAfter": 14400000,
       "timeout": 0
     },
     "changeInQueryBanner": false
