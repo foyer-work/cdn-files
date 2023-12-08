@@ -5,12 +5,12 @@
   },
   "availableModels": [
     {
-      "charge": "Charges 1x Query",
+      "charge": "Charges 30x Queries",
       "default": false,
-      "description": "Fast and less restrictive, best for general purpose use",
-      "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "name": "Merlin",
-      "queryCost": 1
+      "description": "Slightly slow and best at reasoning",
+      "id": "GPT 4",
+      "name": "GPT 4",
+      "queryCost": 30
     },
     {
       "charge": "Charges 1x Query",
@@ -20,14 +20,6 @@
       "name": "GPT 3.5",
       "tooltip": "this will be the tooltip",
       "queryCost": 1
-    },
-    {
-      "charge": "Charges 30x Queries",
-      "default": false,
-      "description": "Slightly slow and best at reasoning",
-      "id": "GPT 4",
-      "name": "GPT 4",
-      "queryCost": 30
     },
     {
       "charge": "Charges 50x Queries",
@@ -75,6 +67,14 @@
       "description": "Open Source model by Meta, finetuned for coding tasks",
       "id": "codellama/CodeLlama-34b-Instruct-hf",
       "name": "Code-LLaMa",
+      "queryCost": 1
+    },
+    {
+      "charge": "Charges 1x Query",
+      "default": false,
+      "description": "Fast and less restrictive, best for general purpose use",
+      "id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "name": "Merlin",
       "queryCost": 1
     },
     {
