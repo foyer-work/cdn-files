@@ -690,7 +690,7 @@
   "dallEModels": [
     {
       "description": "A simple Yet Effective Tool for Crafting Images Ranging from Everyday Realism to Animated Styles.",
-      "id": 33,
+      "id": 101,
       "img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-2.png",
       "name": "DALL-E.2",
       "costPerImage": {
@@ -704,7 +704,7 @@
     },
     {
       "description": "Offering Superior Precision and Expanded Creativity in Image Generation. A Step Ahead of DALL-E 2",
-      "id": 34,
+      "id": 102,
       "img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-3.png",
       "name": "DALL-E.3",
       "costPerImage": {
