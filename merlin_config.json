@@ -723,6 +723,9 @@
     }
   ],
   "misc": {
+    "christmas": {
+      "visible": true
+    },
     "ads": {
       "visible": true
     },
