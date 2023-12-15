@@ -151,7 +151,7 @@
       "text": "Updates on query pricing on Merlin!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://youtu.be/G6PoIw52JxQ",
       "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
     },
@@ -167,6 +167,11 @@
     },
     {
       "isActive": true,
+      "link": "https://bcin.short.gy/ph-launch",
+      "text": "Merlin API is LIVE! Create your own app Now!"
+    },
+    {
+      "isActive": false,
       "link": "https://bcin.short.gy/SERP-pixplain",
       "text": "Get free early access to our image explainer now!"
     }
@@ -206,16 +211,16 @@
       "visible": true
     },
     {
-      "text": "Grab the Cyber Monday Deal!",
+      "text": "Merlin API is here! Try Now!",
       "threshold": 102,
-      "url": "https://bcin.short.gy/chatbot-black-friday",
-      "visible": false
+      "url": "https://bcin.short.gy/ph-launch",
+      "visible": true
     }
   ],
   "infoBanners": {
     "chat": {
-      "text": "Get free early access to our image explainer now!",
-      "url": "https://bcin.short.gy/SERP-pixplain",
+      "text": "Merlin API is Live! Create your own APP now!",
+      "url": "https://bcin.short.gy/ph-launch",
       "visible": true,
       "recurAfter": 14400000,
       "timeout": 0
