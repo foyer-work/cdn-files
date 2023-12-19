@@ -237,6 +237,17 @@
     },
     "changeInQueryBanner": false
   },
+  "globalInfoBanner": {
+    "items": [
+      {
+        "weight": 10,
+        "html": "",
+        "text": "All AI models under one API, Check out Merlin API Now!",
+        "url": "https://api.getmerlin.in/"
+      }
+    ],
+    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
+  },
   "latestVersion": "6.6.2",
   "leonardoModels": [
     {
