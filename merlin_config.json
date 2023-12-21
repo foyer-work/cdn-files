@@ -152,7 +152,7 @@
     },
     {
       "isActive": false,
-      "link": "https://api.getmerlin.in/docs/intro",
+      "link": "https://api.getmerlin.in/docs/introduction",
       "text": "Try our new API plan for building on top of our APIs. ✨"
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "isActive": true,
-      "link": "https://bcin.short.gy/ph-launch",
+      "link": "https://api.getmerlin.in/",
       "text": "All AI models under one API, Check out Merlin API Now!"
     },
     {
@@ -223,19 +223,30 @@
     {
       "text": "Merlin API is here! Try Now!",
       "threshold": 102,
-      "url": "https://bcin.short.gy/ph-launch",
+      "url": "https://api.getmerlin.in/",
       "visible": true
     }
   ],
   "infoBanners": {
     "chat": {
       "text": "Merlin API is Live! Create your own APP now!",
-      "url": "https://bcin.short.gy/ph-launch",
+      "url": "https://api.getmerlin.in/",
       "visible": true,
       "recurAfter": 14400000,
       "timeout": 0
     },
     "changeInQueryBanner": false
+  },
+  "globalInfoBanner": {
+    "items": [
+      {
+        "weight": 10,
+        "html": "",
+        "text": "All AI models under one API, Check out Merlin API Now!",
+        "url": "https://api.getmerlin.in/"
+      }
+    ],
+    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -894,6 +905,7 @@
       "visible": true
     },
     "serp": {
+      "realtime": false,
       "newBlockerUI": {
         "visible": true,
         "percent": 0.1
