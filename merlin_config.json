@@ -905,6 +905,7 @@
       "visible": true
     },
     "serp": {
+      "realtime": false,
       "newBlockerUI": {
         "visible": true,
         "percent": 0.1
