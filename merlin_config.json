@@ -5,22 +5,30 @@
   },
   "availableModels": [
     {
+      "charge": "Charges 1x Query",
+      "default": true,
+      "description": "Original ChatGPT model. Fast and good at reasoning",
+      "id": "GPT 3",
+      "name": "GPT 3.5",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
+      "charge": "Charges 1x Query",
+      "default": false,
+      "description": "Fast and less restrictive, best for general purpose use",
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "name": "Merlin",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
       "charge": "Charges 30x Queries",
       "default": false,
       "description": "Slightly slow and best at reasoning",
       "id": "GPT 4",
       "name": "GPT 4",
       "queryCost": 30,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": true,
-      "description": "Original ChatGPT model. Fast and good at reasoning",
-      "id": "GPT 3",
-      "name": "GPT 3.5",
-      "tooltip": "this will be the tooltip",
-      "queryCost": 1,
       "paid": false
     },
     {
@@ -31,6 +39,15 @@
       "name": "GPT Vision",
       "queryCost": 50,
       "paid": true
+    },
+    {
+      "charge": "Charges 1x Query",
+      "default": false,
+      "description": "Open Source model by Meta, finetuned for coding ts",
+      "id": "codellama/CodeLlama-34b-Instruct-hf",
+      "name": "Code-LLaMa",
+      "queryCost": 1,
+      "paid": false
     },
     {
       "charge": "Charges 8x Queries/3000 words",
@@ -60,29 +77,20 @@
       "paid": false
     },
     {
-      "charge": "Charges 2x Queries",
-      "default": false,
-      "description": "Longer context model by OpenAI",
-      "id": "gpt-3.5-turbo-16k",
-      "name": "GPT 3.5 16K",
-      "queryCost": 2,
-      "paid": false
-    },
-    {
       "charge": "Charges 1x Query",
       "default": false,
-      "description": "Open Source model by Meta, finetuned for coding ts",
-      "id": "codellama/CodeLlama-34b-Instruct-hf",
-      "name": "Code-LLaMa",
+      "description": "The open source model by Mistral AI",
+      "id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "name": "Mistral",
       "queryCost": 1,
       "paid": false
     },
     {
       "charge": "Charges 1x Query",
       "default": false,
-      "description": "Fast and less restrictive, best for general purpose use",
-      "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "name": "Merlin",
+      "description": "An improved model over Mistral by Mistral AI",
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "name": "Mixtral",
       "queryCost": 1,
       "paid": false
     },
