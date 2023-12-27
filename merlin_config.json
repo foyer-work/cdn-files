@@ -1002,9 +1002,9 @@
       "text": "Click '⋮', choose 'Settings' to personalize Merlin"
     },
     {
-      "html": "For latest internet data, turn on 'Access Web'!",
+      "html": "For latest internet data, use turbo or in-depth mode in 'Access Web'!",
       "probability": 3,
-      "text": "For latest internet data, turn on 'Access Web'"
+      "text": "For latest internet data, use turbo or in-depth mode in 'Access Web'"
     },
     {
       "html": "Now set your preferred language by clicking here “ <span class=\"text-slate-700 dark:text-slate-300\" >⋮</span> “",
@@ -1023,9 +1023,14 @@
     },
     {
       "html": "Improve your LinkedIn engagement. Create posts from YouTube!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=elrnAl6ygeM&ab_channel=BlueInfinityFilm\" target=\"_blank\">Try ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Boost LinkedIn engagement - Create posts from YouTube! "
     },
+    {
+      "html": "Get a preview of a link, without even visiting it! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.veed.io/view/48d82ba2-0dbb-4127-9d62-d948adca5d62?panel=share\" target=\"_blank\">Check it out ↗</a>",
+      "probability": 3,
+      "text": "Get a preview of a link, without even visiting it!"
+    },  
     {
       "html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\" target=\"_blank\">Try it now ↗</a>",
       "probability": 3,
