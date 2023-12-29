@@ -254,7 +254,10 @@
         "url": "https://api.getmerlin.in/"
       }
     ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
+    "mountOn": [
+      "blogSummarizer",
+      "youtubeSummarizer"
+    ]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -793,6 +796,9 @@
     "ads": {
       "visible": true
     },
+    "merlinCTA": {
+      "isVisible": true
+    },
     "merlinOnAmazon": {
       "cta": "Ask AI",
       "questions": [
@@ -940,7 +946,9 @@
   },
   "personas": [
     {
-      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
+      "greetings": [
+        "Hello, I am Merlin! How can I assist you today?"
+      ],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
@@ -1030,7 +1038,7 @@
       "html": "Get a preview of a link, without even visiting it! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.veed.io/view/48d82ba2-0dbb-4127-9d62-d948adca5d62?panel=share\" target=\"_blank\">Check it out ↗</a>",
       "probability": 3,
       "text": "Get a preview of a link, without even visiting it!"
-    },  
+    },
     {
       "html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\" target=\"_blank\">Try it now ↗</a>",
       "probability": 3,
