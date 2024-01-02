@@ -1060,6 +1060,11 @@
       "html": "Chat with any personality on X/Twitter, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/swwLsut_vIA?si=-5BNejWh6UWZqBSx\" target=\"_blank\">Create their Doppelgainger↗</a>",
       "probability": 12,
       "text": "Chat with any personality on X/Twitter, Create their Doppelgainger!"
+    },
+    {
+      "html": "Embed text into images now using DALL-E.3, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/fkvJgYZgBdM?si=l3BZCwQBS8JiKw8-\" target=\"_blank\">Check demo↗</a>",
+      "probability": 12,
+      "text": "Embed text into images now using DALL-E.3"
     }
   ],
   "summarizer": {
