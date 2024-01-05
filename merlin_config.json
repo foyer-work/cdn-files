@@ -800,7 +800,7 @@
       "visible": true
     },
     "merlinCTA": {
-      "isVisible": false
+      "isVisible": true
     },
     "merlinOnAmazon": {
       "cta": "Ask AI",
