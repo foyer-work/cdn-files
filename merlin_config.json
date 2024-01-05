@@ -793,6 +793,9 @@
     "christmas": {
       "visible": true
     },
+    "referAndEarn": {
+      "visible": true
+    },
     "ads": {
       "visible": true
     },
