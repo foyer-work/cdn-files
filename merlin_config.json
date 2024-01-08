@@ -1003,6 +1003,11 @@
       "html": "BEAST_MODE",
       "probability": 6,
       "text": "BEAST_MODE"
+    },    
+    {
+      "html": "CHANGE_PREFERRED_LANGUAGE",
+      "probability": 3,
+      "text": "CHANGE_PREFERRED_LANGUAGE"
     },
     {
       "html": "Personalise Merlin by clicking here “  <span class=\"text-slate-800 dark:text-slate-300\">⋮</span> ” then click on \" Settings \"",
@@ -1013,11 +1018,6 @@
       "html": "For latest internet data, use turbo or in-depth mode in 'Access Web'!",
       "probability": 3,
       "text": "For latest internet data, use turbo or in-depth mode in 'Access Web'"
-    },
-    {
-      "html": "Now set your preferred language by clicking here “ <span class=\"text-slate-700 dark:text-slate-300\" >⋮</span> “",
-      "probability": 3,
-      "text": "Now set your preferred language by clicking on the three dots “ ⋮ “"
     },
     {
       "html": "Show your \"X\"-factor. Create Tweets from YouTube.  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=tnBQmEqBCY0&ab_channel=YCombinator\" target=\"_blank\"> Give it a swirl ↗</a>",
