@@ -238,7 +238,7 @@
   "infoBanners": {
     "chat": {
       "text": "Go Bonkers with Merlin's New Web Image Chat Experience!",
-      "url": "https://www.getmerlin.in/image-chat",
+      "url": "https://www.getmerlin.in/bonkers",
       "visible": true,
       "recurAfter": 14400000,
       "timeout": 0
