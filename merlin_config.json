@@ -1,7 +1,7 @@
 {
   "goProModal": {
     "visible": true,
-    "interval": 3600000
+    "interval": 86400000
   },
   "availableModels": [
     {
