@@ -802,6 +802,14 @@
     "merlinCTA": {
       "isVisible": true
     },
+    "codeInterpreter": {
+      "isVisible": true,
+      "greeting": "Hey there 👋Welcome to Data Interpreter - your friendly data analyst to help you with your data-related work.",
+      "actions": [
+        "Derieve 3 insights from the data in this file.",
+        "Change format to Json"
+      ]
+    },
     "merlinOnAmazon": {
       "cta": "Ask AI",
       "questions": [
