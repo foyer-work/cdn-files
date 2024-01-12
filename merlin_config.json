@@ -254,10 +254,7 @@
         "url": "https://api.getmerlin.in/"
       }
     ],
-    "mountOn": [
-      "blogSummarizer",
-      "youtubeSummarizer"
-    ]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -802,6 +799,14 @@
     "merlinCTA": {
       "isVisible": true
     },
+    "codeInterpreter": {
+      "isVisible": true,
+      "greeting": "Hey there👋 Welcome to Data Interpreter - your friendly data analyst to help you with your data-related work!",
+      "actions": [
+        "Derive 3 insights from the data in this file",
+        "Change format to JSON"
+      ]
+    },
     "merlinOnAmazon": {
       "cta": "Ask AI",
       "questions": [
@@ -949,9 +954,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
