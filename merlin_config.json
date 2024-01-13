@@ -254,7 +254,10 @@
         "url": "https://api.getmerlin.in/"
       }
     ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
+    "mountOn": [
+      "blogSummarizer",
+      "youtubeSummarizer"
+    ]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -801,9 +804,11 @@
     },
     "codeInterpreter": {
       "isVisible": true,
-      "greeting": "Hey there👋 Welcome to Data Interpreter - your friendly data analyst to help you with your data-related work!",
+      "greeting": "Hey there 👋, Welcome to Code Interpreter - I will help you in decoding, analysing and making more sense of all your data-work.\n\nHow to use: \nStep-1: upload a document\nStep-2: input how you want to transform your data\nStep-3: open the final output in Google Sheets or download the file :)",
       "actions": [
-        "Derive 3 insights from the data in this file",
+        "Give me 3 insights",
+        "Statistical summary",
+        "Show me Trends",
         "Change format to JSON"
       ]
     },
@@ -954,7 +959,9 @@
   },
   "personas": [
     {
-      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
+      "greetings": [
+        "Hello, I am Merlin! How can I assist you today?"
+      ],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
