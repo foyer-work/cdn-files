@@ -254,10 +254,7 @@
         "url": "https://api.getmerlin.in/"
       }
     ],
-    "mountOn": [
-      "blogSummarizer",
-      "youtubeSummarizer"
-    ]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -959,9 +956,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
