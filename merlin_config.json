@@ -801,9 +801,11 @@
     },
     "codeInterpreter": {
       "isVisible": true,
-      "greeting": "Hey there👋 Welcome to Data Interpreter - your friendly data analyst to help you with your data-related work!",
+      "greeting": "Hey there 👋, Welcome to Code Interpreter - I will help you in decoding, analysing and making more sense of all your data-work.\n\nHow to use: \nStep-1: upload a document\nStep-2: input how you want to transform your data\nStep-3: open the final output in Google Sheets or download the file :)",
       "actions": [
-        "Derive 3 insights from the data in this file",
+        "Give me 3 insights",
+        "Statistical summary",
+        "Show me Trends",
         "Change format to JSON"
       ]
     },
