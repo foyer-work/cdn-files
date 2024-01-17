@@ -873,7 +873,7 @@
       "chatSharing": true,
       "chatWithImage": true,
       "web": {
-        "visible": false
+        "visible": true
       }
     },
     "codeSummarizer": {
