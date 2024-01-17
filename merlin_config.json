@@ -237,10 +237,10 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Web Chat and Doc Chat are currently under maintenance!",
-      "url": "https://coda.io/@getmerlin/under-maintainence",
+      "text": "Go Bonkers with Merlin's New Web Image Chat Experience!",
+      "url": "https://www.getmerlin.in/bonkers",
       "visible": true,
-      "recurAfter": 21600000,
+      "recurAfter": 14400000,
       "timeout": 0
     },
     "changeInQueryBanner": false
