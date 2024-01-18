@@ -878,10 +878,19 @@
     },
     "codeSummarizer": {
       "blackListedDomains": [
+        "discord.com",
+        "127.0.0.1",
+        "figma.com",
         "bard.google.com",
         "chat.openai.com",
         "platform.openai.com",
-        "getmerlin.in"
+        "getmerlin.in",
+        "localhost",
+        "colab.research.google.com",
+        "perplexity.ai",
+        "telegram.org",
+        "tabs.ultimate-guitar.com",
+        "huggingface.co"
       ],
       "visible": true
     },
