@@ -818,6 +818,11 @@
       ],
       "visible": false
     },
+    "merlinOnGoogleSheets": {
+      "cta": "Analyse Sheets With AI",
+      "questions": [],
+      "visible": true
+    },
     "chat": {
       "astro": {
         "visible": true,
