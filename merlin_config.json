@@ -185,8 +185,8 @@
     },
     {
       "isActive": true,
-      "link": "https://api.getmerlin.in/",
-      "text": "All AI models under one API, Check out Merlin API Now!"
+      "link": "https://www.producthunt.com/products/merlin-chatgpt-powered-browser-cmd-g/launches",
+      "text": "Support us on Product Hunt for the launch of our new product, 'Bonkers: An Effortless AI Text-to-Image Generator'"
     },
     {
       "isActive": false,
@@ -237,8 +237,8 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Go Bonkers with Merlin's New Web Image Chat Experience!",
-      "url": "https://www.getmerlin.in/bonkers",
+      "text": "Support us on Product Hunt for the launch of our new product, 'Bonkers: An Effortless AI Text-to-Image Generator'",
+      "url": "https://www.producthunt.com/products/merlin-chatgpt-powered-browser-cmd-g/launches",
       "visible": true,
       "recurAfter": 14400000,
       "timeout": 0
@@ -250,8 +250,8 @@
       {
         "weight": 10,
         "html": "",
-        "text": "All AI models under one API, Check out Merlin API Now!",
-        "url": "https://api.getmerlin.in/"
+        "text": "Support us on Product Hunt for the launch of our new product, 'Bonkers: An Effortless AI Text-to-Image Generator'",
+        "url": "https://www.producthunt.com/products/merlin-chatgpt-powered-browser-cmd-g/launches"
       }
     ],
     "mountOn": ["blogSummarizer", "youtubeSummarizer"]
