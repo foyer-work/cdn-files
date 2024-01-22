@@ -254,7 +254,7 @@
         "url": "https://www.producthunt.com/posts/bonkers-2"
       }
     ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
