@@ -186,7 +186,7 @@
     {
       "isActive": true,
       "link": "https://www.producthunt.com/posts/bonkers-2",
-      "text": "Support 'Bonkers' on Product Hunt: An effortless AI Text-to-Image Generator"
+      "text": "Checkout 'Bonkers': An effortless AI Text-to-Image Generator"
     },
     {
       "isActive": false,
@@ -254,7 +254,7 @@
         "url": "https://www.producthunt.com/posts/bonkers-2"
       }
     ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer"]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
