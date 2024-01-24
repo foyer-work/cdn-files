@@ -185,8 +185,8 @@
     },
     {
       "isActive": true,
-      "link": "https://www.producthunt.com/posts/bonkers-2",
-      "text": "Checkout 'Bonkers': An effortless AI Text-to-Image Generator"
+      "link": "https://www.getmerlin.in/mobile-app",
+      "text": "Get Early Access to Merlin Mobile"
     },
     {
       "isActive": false,
@@ -237,8 +237,8 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Support 'Bonkers' on Product Hunt: An effortless AI Text-to-Image Generator",
-      "url": "https://www.producthunt.com/posts/bonkers-2",
+      "text": "Get Early Access to Merlin Mobile",
+      "url": "https://www.getmerlin.in/mobile-app",
       "visible": true,
       "recurAfter": 14400000,
       "timeout": 0
@@ -250,8 +250,8 @@
       {
         "weight": 10,
         "html": "",
-        "text": "Support 'Bonkers' on Product Hunt: An effortless AI Text-to-Image Generator",
-        "url": "https://www.producthunt.com/posts/bonkers-2"
+        "text": "Get Early Access to Merlin Mobile",
+        "url": "https://www.getmerlin.in/mobile-app"
       }
     ],
     "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
