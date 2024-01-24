@@ -1,0 +1,246 @@
+{
+  "LinkedinMessage": [
+    {
+      "name": "Reply \"Yes\"",
+      "content": "Write a simple and crisp reply to in less than 50 words saying yes or replying affirmatively to the other person"
+    },
+    {
+      "name": "Follow Up",
+      "content": "Write a professional reply to follow up on the points mentioned in the previous messages"
+    },
+    {
+      "name": "Reply \"no\"",
+      "content": "Write a simple and crisp reply to in less than 50 words saying no or replying negatively (or declining) to the other person"
+    }
+  ],
+  "OutlookReply": [
+    {
+      "name": "Affirmative Response",
+      "content": "Write an optimistic, affirmative reply to an email request or inquiry."
+    },
+    {
+      "name": "Negative Response",
+      "content": "Draft a polite, professional email declining a request or opportunity."
+    },
+    {
+      "name": "Request for More Information",
+      "content": "Compose an email asking for additional information or elaboration on a discussed topic."
+    }
+  ],
+  "TweetReply": [
+    {
+      "name": "Casual tone",
+      "content": "Draft the text in a casual tone, that is something between being funny and playful and professional."
+    },
+    {
+      "name": "Positive reply",
+      "content": "Write the text in a way that is re positively to the context. Like celebrating an achievement, agreeing to a point or laughing at the joke."
+    },
+    {
+      "name": "Professional reply",
+      "content": "write in a professional tone that has good language with good etiquettes"
+    }
+  ],
+  "LinkedinPost": [
+    {
+      "name": "Thought leadership",
+      "content": "Write a LinkedIn template post for thought leadership'"
+    },
+    {
+      "name": "Company Updates",
+      "content": "Write a LinkedIn template post for Company Updates"
+    },
+    {
+      "name": "Personal Milestones",
+      "content": "Write a LinkedIn template post for personal milestones"
+    },
+    {
+      "name": "Hiring Post",
+      "content": "Write a linkedin template post about hiring for a specific job"
+    }
+  ],
+  "LinkedinComment": [
+    {
+      "name": "Positive reply",
+      "content": "Write a positive and supportive reply to this LinkedIn post"
+    },
+    {
+      "name": "Thoughtful reply",
+      "content": "Write a thoughtful and reflective reply to this LinkedIn post"
+    },
+    {
+      "name": "Curious reply",
+      "content": "Write a curious and engaging reply to this LinkedIn post"
+    }
+  ],
+  "Gmail": [
+    {
+      "name": "Yes...",
+      "content": "Respond to these matters affirmatively, expressing your interest."
+    },
+    {
+      "name": "No..",
+      "content": "Respond to these matters saying no, expressing your rejection or dis-interest."
+    }
+  ],
+  "Tweet": [
+    {
+      "name": "Funny tone",
+      "content": "write in a funny and witty way. Something that can go viral on twitter. "
+    },
+    {
+      "name": "Dad joke",
+      "content": "Write a tweet that incorporates a dad joke. It should be a banger and so funny that even grandads would be proud of."
+    }
+  ],
+  "FacebookBusinessMessages": [
+    {
+      "name": "Inquiry Response",
+      "content": "Write a professional reply to a business-related inquiry from a potential client."
+    },
+    {
+      "name": "Customer Service",
+      "content": "Draft a response for handling a customer complaint or query."
+    },
+    {
+      "name": "Follow Up",
+      "content": "Write a follow-up message to a client in a business context."
+    }
+  ],
+  "OutlookCompose": [
+    {
+      "name": "Initial Inquiry",
+      "content": "Draft an initial email inquiry on a professional matter."
+    },
+    {
+      "name": "Project Update",
+      "content": "Write an email providing an update on a project or task."
+    },
+    {
+      "name": "Meeting Request",
+      "content": "Compose an email requesting a meeting with time and date suggestions."
+    }
+  ],
+  "FacebookBusinessReelCaption": [
+    {
+      "name": "Product Highlight",
+      "content": "Draft a compelling caption for a reel that highlights a specific product."
+    },
+    {
+      "name": "Behind the Scenes",
+      "content": "Write a caption for a behind-the-scenes reel of the company operations."
+    },
+    {
+      "name": "Tutorial",
+      "content": "Compose a caption for a reel demonstrating how to use a particular product or service."
+    }
+  ],
+  "FacebookComment": [
+    {
+      "name": "Supportive comment",
+      "content": "Write a positive, supportive comment in response to a Facebook post."
+    },
+    {
+      "name": "Inquisitive comment",
+      "content": "Draft a comment seeking further information about a Facebook post."
+    },
+    {
+      "name": "Appreciative comment",
+      "content": "Compose a comment expressing appreciation or commendation for the content of a Facebook post."
+    }
+  ],
+  "FacebookBusinessPost": [
+    {
+      "name": "Product Update",
+      "content": "Write a Facebook post announcing the business's latest product update."
+    },
+    {
+      "name": "Event Invitation",
+      "content": "Compose an invitation to an upcoming business event."
+    },
+    {
+      "name": "Company Milestone",
+      "content": "Create a post celebrating a significant company achievement."
+    }
+  ],
+  "FacebookPost": [
+    {
+      "name": "Announcement",
+      "content": "Create a post announcing a personal or professional development."
+    },
+    {
+      "name": "Invitation",
+      "content": "Compose a post inviting friends to an event."
+    },
+    {
+      "name": "Sharing News",
+      "content": "Draft a post sharing a news article or interesting information."
+    }
+  ],
+  "GmailCompose": [
+    {
+      "name": "Draft Email",
+      "content": "Draft a simple and crisp email template that I can use for general needs"
+    },
+    {
+      "name": "Intro",
+      "content": "Write an email draft that is concise, brief, and aims to introduce the sender to the receiver based on the given prompt."
+    },
+    {
+      "name": "Sales / Marketing Template",
+      "content": "Write in a persuasive manner so as to persuade the other person into agreeing with you"
+    }
+  ],
+  "FacebookMessage": [
+    {
+      "name": "Friendly Greeting",
+      "content": "Compose a friendly, informal greeting to initiate a Facebook conversation."
+    },
+    {
+      "name": "Question",
+      "content": "Write a concise question seeking information."
+    },
+    {
+      "name": "Thank You",
+      "content": "Draft a sincere thank you message."
+    }
+  ],
+  "FacebookBusinessAd": [
+    {
+      "name": "Product Launch",
+      "content": "I want you to act as a professional copywriter with experience in writing high-converting Facebook ads. The ad copy should be written in fluent English and should be between 100-150 words long. I want you to write a Facebook ad copy for a product launch, using the following guidelines:  -Create a compelling headline that grabs attention and highlights the main benefit of the product -Use clear and concise language in the body copy that focuses on the benefits of the product and addresses any potential objections -Include a strong call to action that encourages users to take the desired action."
+    },
+    {
+      "name": "Services Promotion",
+      "content": "I want you to act as a professional copywriter with experience in writing high-converting Facebook ads. The ad copy should be written in fluent English and should be between 100-150 words long. I want you to write a Facebook ad copy for a Service, using the following guidelines:  -Create a compelling headline that grabs attention and highlights the main benefit of the Service -Use clear and concise language in the body copy that focuses on the benefits of the Services and addresses any potential objections -Include a strong call to action that encourages users to take the desired action."
+    },
+    {
+      "name": "Event Promotion",
+      "content": "I want you to act as a professional copywriter with experience in writing high-converting Facebook ads. The ad copy should be written in fluent English and should be between 100-150 words long. I want you to write a Facebook ad copy for a upcoming event, using the following guidelines:  -Create a compelling headline that grabs attention and highlights the main highlights of the event -Use clear and concise language in the body copy that focuses on the main highlights of the event -Include a strong call to action that encourages users to take the desired action."
+    }
+  ],
+  "FallbackPrompts": [
+    {
+      "name": "Professional reply",
+      "content": "Write a professional reply to this content"
+    },
+    {
+      "name": "Friendly reply",
+      "content": "Write a friendly reply to this content"
+    }
+  ],
+  "LinkedinInvite": [
+    {
+      "name": "Introduce yourself",
+      "content": "Write me a note requesting to connect, introducing myself and talking about mutual interest?"
+    },
+    {
+      "name": "Referred from a friend",
+      "content": "Write me a note requesting to connect, referring to positive interactions with a referral and a common connection?"
+    },
+    {
+      "name": "Request for Advice",
+      "content": "Write me a note requesting to connect, with an intent to ask for advice or mentorship?"
+    }
+  ]
+}
