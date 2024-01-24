@@ -787,9 +787,6 @@
     }
   ],
   "misc": {
-    "referAndEarn": {
-      "visible": false
-    },
     "ads": {
       "visible": true
     },
