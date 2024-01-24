@@ -876,6 +876,9 @@
       "chatWithImage": true,
       "web": {
         "visible": true
+      },
+      "doc": {
+        "visible": true
       }
     },
     "codeSummarizer": {
