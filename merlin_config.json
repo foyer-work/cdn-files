@@ -787,9 +787,6 @@
     }
   ],
   "misc": {
-    "christmas": {
-      "visible": false
-    },
     "referAndEarn": {
       "visible": false
     },
