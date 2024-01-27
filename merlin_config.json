@@ -14,15 +14,6 @@
       "paid": false
     },
     {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "Fast and less restrictive, best for general purpose use",
-      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "name": "Merlin",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
       "charge": "Charges 30x Queries",
       "default": false,
       "description": "Slightly slow and best at reasoning",
@@ -258,11 +249,7 @@
         "url": "https://www.getmerlin.in/mobile-app"
       }
     ],
-    "mountOn": [
-      "blogSummarizer",
-      "youtubeSummarizer",
-      "SERP"
-    ]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -975,9 +962,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
