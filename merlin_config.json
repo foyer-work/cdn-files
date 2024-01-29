@@ -1261,23 +1261,28 @@
   "tutorialConfig": {
     "facebook": {
       "summary": "How to use Merlin on Facebook under 30sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/Wkzzc3-jKx0"
+      "videoURL": "https://www.youtube-nocookie.com/embed/Wkzzc3-jKx0",
+      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
     },
     "gmail": {
       "summary": "How to use Merlin on Gmail under 40sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/fT3nYpJVPyg"
+      "videoURL": "https://www.youtube-nocookie.com/embed/fT3nYpJVPyg",
+      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-gmail"
     },
     "linkedin": {
       "summary": "How to use Merlin on LinkedIn under 30sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/J_HZNkMH4zw"
+      "videoURL": "https://www.youtube-nocookie.com/embed/J_HZNkMH4zw",
+      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-linkedIn"
     },
     "outlook": {
       "summary": "How to use Merlin on Outlook under 40sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/KGQH65CeWh0"
+      "videoURL": "https://www.youtube-nocookie.com/embed/KGQH65CeWh0",
+      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-gmail"
     },
     "twitter": {
       "summary": "How to use Merlin on Twitter under 30sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM"
+      "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
     }
   },
   "tweetify": {
