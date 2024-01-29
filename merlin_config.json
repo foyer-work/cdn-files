@@ -1,1291 +1,1273 @@
 {
-  "goProModal": {
-    "visible": true,
-    "interval": 86400000
-  },
-  "availableModels": [
-    {
-      "charge": "Charges 1x Query",
-      "default": true,
-      "description": "Original ChatGPT model. Fast and good at reasoning",
-      "id": "GPT 3",
-      "name": "GPT 3.5",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 30x Queries",
-      "default": false,
-      "description": "Slightly slow and best at reasoning",
-      "id": "GPT 4",
-      "name": "GPT 4",
-      "queryCost": 30,
-      "paid": false
-    },
-    {
-      "charge": "Charges 50x Queries",
-      "default": false,
-      "description": "The multimodal model by OpenAI, best at vision tasks",
-      "id": "gpt-4-vision-preview",
-      "name": "GPT Vision",
-      "queryCost": 50,
-      "paid": true
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "Open Source model by Meta, finetuned for coding ts",
-      "id": "codellama/CodeLlama-34b-Instruct-hf",
-      "name": "Code-LLaMa",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 8x Queries/3000 words",
-      "default": false,
-      "description": "Claude 2 by Anthropic",
-      "id": "claude-2",
-      "name": "Claude 2",
-      "queryCost": 8,
-      "paid": false
-    },
-    {
-      "charge": "Charges 2x Queries/3000 words",
-      "default": false,
-      "description": "Claude Instant By Anthropic",
-      "id": "claude-instant-1",
-      "name": "Claude Instant",
-      "queryCost": 2,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "The open source model by Meta",
-      "id": "LLAMA",
-      "name": "Llama-2",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "The open source model by Mistral AI",
-      "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "name": "Mistral",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "An improved model over Mistral by Mistral AI",
-      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "name": "Mixtral",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "A finetuned model on Mistral, better and faster",
-      "id": "HuggingFaceH4/zephyr-7b-beta",
-      "name": "Zephyr",
-      "queryCost": 1,
-      "paid": false
-    }
-  ],
-  "blogWebchatCTA": {
-    "cta": "Chat With This Website",
-    "visible": true
-  },
-  "checkShortcutStatus": true,
-  "fabStrip": {
-    "facebook": {
-      "visible": true
-    },
-    "gmail": {
-      "visible": true
-    },
-    "linkedIn": {
-      "inviteFeature": true,
-      "visible": true,
-      "inviteFabStripBlacklistPaths": [
-        "/search/results/",
-        "/analytics/profile-views/"
-      ]
-    },
-    "outlook": {
-      "visible": true
-    },
-    "twitter": {
-      "visible": true,
-      "containerClassname": ".css-175oi2r.r-1iusvr4.r-16y2uox.r-1777fci.r-1h8ys4a.r-1bylmt5.r-13tjlyg.r-7qyjyx.r-1ftll1t"
-    }
-  },
-  "fabStripV2": {
-    "facebook": {
-      "visible": true
-    },
-    "gmail": {
-      "visible": true
-    },
-    "linkedIn": {
-      "inviteFeature": true,
-      "visible": true
-    },
-    "outlook": {
-      "visible": true
-    },
-    "twitter": {
-      "visible": true
-    }
-  },
-  "featPersona": true,
-  "features": [
-    {
-      "isActive": false,
-      "link": "https://bit.ly/docChat",
-      "text": "We are on Edge now!"
-    },
-    {
-      "isActive": false,
-      "link": "https://bit.ly/serp-apes-ai",
-      "text": "Check out our new social app - Apes and AI!"
-    },
-    {
-      "isActive": false,
-      "link": "https://api.getmerlin.in/docs/introduction",
-      "text": "Try our new API plan for building on top of our APIs. ✨"
-    },
-    {
-      "isActive": false,
-      "link": "https://bit.ly/queries-announce",
-      "text": "Updates on query pricing on Merlin!"
-    },
-    {
-      "isActive": false,
-      "link": "https://youtu.be/G6PoIw52JxQ",
-      "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
-    },
-    {
-      "isActive": false,
-      "link": "https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d",
-      "text": "Merlin not working on X/Twitter? Please update or reinstall to fix!"
-    },
-    {
-      "isActive": false,
-      "link": "https://bcin.short.gy/black-friday",
-      "text": "Cyber Monday Sale is ON! Grab it Now!"
-    },
-    {
-      "isActive": true,
-      "link": "https://www.getmerlin.in/mobile-app",
-      "text": "Get Early Access to Merlin Mobile"
-    },
-    {
-      "isActive": false,
-      "link": "https://bcin.short.gy/SERP-pixplain",
-      "text": "Get free early access to our image explainer now!"
-    }
-  ],
-  "ga4Config": {
-    "active": true
-  },
-  "headerQueryCTA": [
-    {
-      "text": "Win Unlimited GPT-4 🎉",
-      "threshold": 999999,
-      "url": "https://bit.ly/merlin-ai-month",
-      "visible": false
-    },
-    {
-      "text": "Earn more queries",
-      "threshold": 10,
-      "url": "https://app.getmerlin.in/plans",
-      "visible": false
-    },
-    {
-      "text": "Rewards",
-      "threshold": 100,
-      "url": "https://app.getmerlin.in/dashboard/refer",
-      "visible": false
-    },
-    {
-      "text": "Go Pro!",
-      "threshold": 102,
-      "url": "https://app.getmerlin.in/plans?from=extension",
-      "visible": true
-    },
-    {
-      "text": "Upgrade!",
-      "threshold": 3000,
-      "url": "https://app.getmerlin.in/plans?from=extension",
-      "visible": true
-    },
-    {
-      "text": "Merlin API is here! Try Now!",
-      "threshold": 102,
-      "url": "https://api.getmerlin.in/",
-      "visible": true
-    }
-  ],
-  "infoBanners": {
-    "chat": {
-      "text": "Get Early Access to Merlin Mobile",
-      "url": "https://www.getmerlin.in/mobile-app",
-      "visible": true,
-      "recurAfter": 14400000,
-      "timeout": 0
-    },
-    "changeInQueryBanner": false
-  },
-  "globalInfoBanner": {
-    "items": [
-      {
-        "weight": 10,
-        "html": "",
-        "text": "Get Early Access to Merlin Mobile",
-        "url": "https://www.getmerlin.in/mobile-app"
-      }
-    ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
-  },
-  "latestVersion": "6.6.2",
-  "leonardoModels": [
-    {
-      "description": "Anashel returns with another great model, specialising in RPG characters of all kinds.",
-      "id": 0,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/ad43331b-c80c-40e5-8462-304aaaef3584/RPG_v5_a_stunning_photograph_of_a_grotesque_alien_creature_wit_1.jpg",
-      "name": "RPG v5",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "The latest Stable Diffusion model, currently in Beta.",
-      "id": 1,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/9ed4ccd8-649c-4a59-a7bb-9f5b704a91b1/SDXL_09_a_beautiful_woman_vivid_striking_colors_cinematic_phot_0.jpg",
-      "name": "SDXL0.9",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Great at 3D film vibes, capable of complex scenes with rich color. Storyboard time!",
-      "id": 2,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/0e85d140-3ea0-4179-a708-ae95bf9329a3/3D_Animation_Style_a_masterpiece_image_of_an_older_tired_and_b_2.jpg",
-      "name": "3D Animation Style",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Latest updated versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
-      "id": 3,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/911623f3-4a89-4db9-b49f-ace5ac086a3d/DreamShaper_v7_A_vibrant_cinematic_photo_of_a_female_adventure_1.jpg",
-      "name": "Dreamshape v7",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A photorealistic style model from Lykon. Great at all sorts of photorealism.",
-      "id": 4,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/9d7e2dbe-6dff-4bf5-b487-414dee2a10b9/Absolute_Reality_v16_a_stunning_photo_of_a_woman_with_aztech_t_1.jpg",
-      "name": "Absolute Reality v1.6",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Pastel anime styling. Use with PMv3 and the anime preset for incredible range. Model by Lykon.",
-      "id": 5,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8cc624c3-c1ba-40c9-b3cd-21056382728a/AnimePastelDream_fuji_film_candid_portrait_o_a_black_woman_wea_2.jpg",
-      "name": "Anime Pastel Dream",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A updated versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
-      "id": 6,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8ab5c76a-eefb-4801-817f-458f68958db7/DreamShaperV6_a_masterpiece_image_of_Splash_art_music_album_ar_6.jpg",
-      "name": "Dreamshape v6",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
-      "id": 7,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/bb22942b-40c8-4a06-a219-238808053ee0/DreamShaper_v5_extremely_intricate_fantasy_character_photoreal_0.jpg",
-      "name": "Dreamshape v5",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A model with incredible shading and contrast, great at both photos and artistic styles, by cac0e.",
-      "id": 8,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8905a8f0-9219-43ad-8ecb-1c37b4501dc5/Leonardo_Diffusion_ultra_detailed_artistic_photography_of_a_fashion_moden_3.jpg",
-      "name": "Leonardo Diffusion",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "This model is best at creating RPG character portraits with the ability for great photorealism. Created by Anashel.",
-      "id": 9,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/20cd8cca-ad36-46b1-a0e3-8bd669112017/RPG_portrait_painting_of_a_redhead_feminine_royal_woman_with_a_fe_3.jpg",
-      "name": "RPG 4.0",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A powerful model created by XpucT that  is great for both photorealism and artistic creations.",
-      "id": 10,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/da624520-f0c6-4afa-b171-9bfc3bbb27de/Deliberate_v11_waitress_pinup_art_style_kodak_portra_400_cinematic_smiling_0.jpg",
-      "name": "Deliberate 1.1",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "This model can generate a broad range of imagery with a vintage style as if it was taken from a film camera",
-      "id": 11,
-      "img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/7a6f17f3-689c-461d-9c59-14a7ac88fa0e/Vintage_Style_Photography_Classic_convertible_driving_on_an_open_road_vintage_style_2.jpg",
-      "name": "Vintage Style Photography",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "This model by Lykon is great at a range of portrait styles as well as artistic backgrounds.",
-      "id": 12,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/b2919072-7c52-409e-9c2a-11d56c5c2ed2/DreamShaper_32_Full_body_Beautiful_final_fantasy_style_portrait_clean_detai_2.jpg",
-      "name": "Dreamshape v3.2",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A powerful finetune of SD2.1 that can achieve a high level of realism.",
-      "id": 13,
-      "img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/ff4e1c40-933a-47da-8c52-31689ed282d7/Leonardo_Select_portrait_of_female_character_wearing_80s_clothing_she_should_0.png?w=512",
-      "name": "Leonardo Select",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "An alternative finetune of SD 2.1 that brings a little more creative interpretation to the mix.",
-      "id": 14,
-      "img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/3665e729-cf65-4766-aebc-e351bc27e239/Leonardo_Creative_portrait_of_male_character_wearing_80s_clothing_he_should_lo_0.png?w=512",
-      "name": "Leonardo Creative",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Generate a variety of detailed axe designs with this model. From medieval battle axes to modern chopping axes, this model is great for creating a r...",
-      "id": 15,
-      "img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/1a60b46c-24d1-47c0-9683-e0e837b6f129/Battle_Axes_an_axe_blade_centre_of_frame_3.jpg",
-      "name": "Battle Axes",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A pixel art model that's trained on headshots, but is surprisingly flexible with all sorts of subjects.",
-      "id": 16,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/5628b06f-d989-4f89-87b2-9f7af4bb0ee7/Default_A_robotic_cat_with_glowing_eyes_and_sleek_metal_fur_0.png?w=512",
-      "name": "Pixel Art",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Create all sorts of chest armor with this model in a consistent style but with wide thematic range.",
-      "id": 17,
-      "img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/465401c6-febf-4223-a9f1-fae4e54931bf/Default_test_chest_armor_2.png?w=512",
-      "name": "Chest Armor",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A great model for creating incredible semi-realistic magic potions. Try appending \"intricately detailed, 3d vray render\" to your prompt.",
-      "id": 18,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/6ae64207-79bc-48e2-b721-46c00d8c938b/Default_a_stunningly_beautiful_magic_potion_containing_a_galaxy_fili_1.png",
-      "name": "Magic Potions",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A model for creating crystal deposits. Well-suited for use as items or in an isometric environment.",
-      "id": 19,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/a9c191fa-6137-4e01-922c-943ee4e4788c/Default_a_yellow_tkwst2_object_2d_object_art_by_tekkonkinkreet_octane_2.png?w=512",
-      "name": "Crystal Deposits",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A model that's for creating awesome RPG characters of varying classes in a consistent style.",
-      "id": 20,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/1d554364-792b-498a-be17-ea0dfcca67d1/Default_male_king_green_hair_detailed_soft_hyperdetailed_Cinematic_oc_0.png?w=512",
-      "name": "Character Portraits",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Create a wide range of magical items like weapons, shields, boots, books. Very versatile.",
-      "id": 21,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/1a2ce3b1-998c-4795-8582-6f49aca28160/Default_a_red_boot_object_concept_art_dota_2_style_red_abstract_backg_1.png?w=512",
-      "name": "Magic Items",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Great at creating scifi buildings of varying themes. Append the word isometric to your prompt to ensure an isometric view. \"3d vray render\" also helps steer the generation well. ",
-      "id": 22,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/1aa5f16a-b64e-4a41-98d2-702fae7d4ba2/Default_a_stunning_scifi_base_turrets_and_lasers_3d_vray_render_0.png?w=512",
-      "name": "Isometric Scifi Buildings",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Generate festive and fun Christmas stickers with this model. From cute and colorful to traditional and elegant.",
-      "id": 23,
-      "img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/15aaa53a-6ee1-4887-bfba-f00213f64756/Default_test_sticker_0.png?w=512",
-      "name": "Christmas Stickers",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Create cute and charming game characters, perfect for adding some whimsy to your game design. Be sure to include the word \"character\" in your prompts for best results.",
-      "id": 24,
-      "img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/85cf7bd8-a233-42ca-a7d0-e900a0bdbb2a/Default_A_zany_game_character_clad_in_an_outrageous_cowboy_grass_skir_1.png",
-      "name": "Cute Characters",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Create unique and intricate amulets, jewellery and more. Try loading up the prompt terms to steer it in interesting directions.",
-      "id": 25,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/edccace2-4291-482b-b3c6-d735ff06e640/Default_A_closeup_of_an_ancient_amulet_illuminated_by_a_single_ray_o_2.png",
-      "name": "Amulets",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Perfect for creating adorable and cute animal characters - loveable and playful designs.",
-      "id": 26,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/6ac55e1f-500a-4967-bf7e-e5af117c5f6d/Default_a_rabbit_character_0.png",
-      "name": "Cute Animal Characters",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Create a variety of impressively varied and detailed shield designs. Allows for an incredible range of material types.",
-      "id": 27,
-      "img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/7b3c338c-8011-42e7-bcc7-4c9cfd450b71/Default_An_extraterrestrial_shield_bearing_delicate_swirls_and_ethere_1.png?w=512",
-      "name": "Sheilds",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "From whimsical fairy-like beings to mythical creatures, create unique cute spirit characters.",
-      "id": 28,
-      "img": "https://cdn.leonardo.ai/users/7a129367-fa22-48ff-a5eb-441861c60a20/generations/8874bdc9-9e80-4acb-ae5a-fa2c4db6819b/Default_a_creature_with_more_than_six_eyes_in_rainbow_colors_0.png",
-      "name": "Spirit Creatures",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Create all sorts of isometric fantasy environments. Try appending \"3d vray render, isometric\" and using a guidance scale of 6. For the negative prompt, try \"unclear, harsh, oversaturated, soft, blurry\".",
-      "id": 29,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8f5f48d1-0042-4625-b47a-83e266432abf/Isometric_Fantasy_Waterfall_isolated_on_white_3d_vray_render_isometric_ultra_d_3.jpg",
-      "name": "Isometric Fantasy",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "An alternative crystal deposits model that gives a slightly more realistic feel with its creations. Try using \"object\" and \"3d vray render\" in your prompts.",
-      "id": 30,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/49c5c8a5-5fd9-4222-bc15-6ac8cd63cb8e/Default_a_crystal_1.png?w=512",
-      "name": "Crystal Deposits Alternate",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "A model for creating isometric asteroid environment tiles. Try appending \"3d vray render, unreal engine, beautiful, intricately detailed, trending on artstation, 8k\" to your prompt.",
-      "id": 31,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8cd48839-28fe-4f25-9a32-b7a8a118583b/Default_isometric_tile_3d_vray_render_unreal_engine_beautiful_intrica_0.png",
-      "name": "Isometric Asteroid Tiles",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "The core model of the Leonardo platform. An extremely powerful and diverse finetune which is highly effective for a wide range of uses.",
-      "id": 32,
-      "img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/2956bf2a-3039-43ee-83d6-65318e5f58fa/Default_an_incredibly_stunning_photograph_of_a_throne_room_soft_light_2.png",
-      "name": "Leonardo Signature",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    }
-  ],
-  "dallEModels": [
-    {
-      "description": "A simple Yet Effective Tool for Crafting Images Ranging from Everyday Realism to Animated Styles.",
-      "id": 101,
-      "img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-2.png",
-      "name": "DALL-E.2",
-      "paid": false,
-      "costPerImage": {
-        "base": 10,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    },
-    {
-      "description": "Offering Superior Precision and Expanded Creativity in Image Generation. A Step Ahead of DALL-E 2",
-      "id": 102,
-      "img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-3.png",
-      "name": "DALL-E.3",
-      "paid": true,
-      "costPerImage": {
-        "base": 60,
-        "alchemy": 6,
-        "photoreal": 6,
-        "promptMagicV2": 2,
-        "promptMagicV3": 6,
-        "merlinPromptMagic": 4
-      }
-    }
-  ],
-  "misc": {
-    "ads": {
-      "visible": true
-    },
-    "merlinCTA": {
-      "isVisible": true
-    },
-    "codeInterpreter": {
-      "isVisible": true,
-      "greeting": "Hey there 👋, Welcome to Code Interpreter - I will help you in decoding, analysing and making more sense of all your data-work.\n\nHow to use: \nStep-1: upload a document\nStep-2: input how you want to transform your data\nStep-3: open the final output in Google Sheets or download the file :)",
-      "actions": [
-        "Give me 3 insights",
-        "Statistical summary",
-        "Show me Trends",
-        "Change format to JSON"
-      ]
-    },
-    "merlinOnAmazon": {
-      "cta": "Ask AI",
-      "questions": [
-        "What are some reviews?",
-        "What are some pros and cons?",
-        "What are some features?"
-      ],
-      "visible": false
-    },
-    "merlinOnGoogleSheets": {
-      "cta": "Analyse Sheets With AI",
-      "questions": [],
-      "visible": true
-    },
-    "chat": {
-      "astro": {
-        "visible": true,
-        "astrologerPrompts": [
-          {
-            "prompts": [
-              "When will I meet the love of my life?",
-              "Have I met my soulmate yet?",
-              "Who can be my potential life partner?",
-              "What is holding me back from experiencing true love?"
-            ],
-            "title": "Unlock Love Secrets"
-          },
-          {
-            "prompts": [
-              "Am I happy with my current job?",
-              "How much increment will I get this time?",
-              "When will I get promoted next?",
-              "Should I start my own start-up?",
-              "Which career option is the best for me?"
-            ],
-            "title": "Find Career Clarity"
-          },
-          {
-            "prompts": [
-              "What does my stars say about my mental peace?",
-              "Am I an introvert or an extrovert?",
-              "Why don't I have good friends?"
-            ],
-            "title": "Discover True Self"
-          },
-          {
-            "prompts": [
-              "How much money will I be making in next 5 years?",
-              "When will I buy my dream home?",
-              "Am I earning to my full potential?",
-              "Should I take loan this year?"
-            ],
-            "title": "Consult Financial Destiny"
-          }
-        ]
-      },
-      "image": {
-        "visible": true
-      },
-      "rizz": {
-        "visible": false
-      },
-      "chatbot": {
-        "visible": true
-      },
-      "visible": true,
-      "chatSharing": true,
-      "chatWithImage": true,
-      "web": {
-        "visible": true
-      },
-      "doc": {
-        "visible": true
-      }
-    },
-    "codeSummarizer": {
-      "blackListedDomains": [
-        "discord.com",
-        "127.0.0.1",
-        "figma.com",
-        "bard.google.com",
-        "chat.openai.com",
-        "platform.openai.com",
-        "getmerlin.in",
-        "localhost",
-        "colab.research.google.com",
-        "perplexity.ai",
-        "telegram.org",
-        "tabs.ultimate-guitar.com",
-        "huggingface.co"
-      ],
-      "visible": true
-    },
-    "dopplegainger": {
-      "visible": true
-    },
-    "doppelgainger": {
-      "visible": false,
-      "blacklistedSlugs": [
-        "home",
-        "explore",
-        "notifications",
-        "messages",
-        "bookmarks",
-        "lists",
-        "profile",
-        "more",
-        "i",
-        "communities",
-        "settings",
-        "photo",
-        "compose",
-        "account",
-        "search",
-        "hashtag",
-        "intent",
-        "login",
-        "signup",
-        "logout",
-        "privacy",
-        "tos"
-      ]
-    },
-    "linkPreview": {
-      "visible": true
-    },
-    "merlinGUI": {
-      "visible": true
-    },
-    "ownAPIKey": true,
-    "selectContextBtn": {
-      "blackListedDomains": [
-        "netflix.com",
-        "disneyplus.com",
-        "primevideo.com",
-        "hotstar.com"
-      ],
-      "visible": true
-    },
-    "serp": {
-      "realtime": true,
-      "newBlockerUI": {
-        "visible": true,
-        "percent": 0.1
-      },
-      "newMount": true,
-      "regional": false,
-      "visible": true,
-      "getHoroscope": {
-        "text": "Discover your destiny with Merlin's horoscope predictions!",
-        "isActive": false,
-        "btnHandler": "getHoroscope"
-      }
-    },
-    "shouldDoStatusCall": false
-  },
-  "newUploadEndpoint": true,
-  "onboardingDetails": {
-    "content": "Lets revise once more :P  \\nTo Activate Merlin on any website, Open any webpage such as - getmerlin.com\\n1. Click on Merlin Icon at bottom right corner  \\n2. ❛OR❜ simply press ⌘+M/Ctrl+M",
-    "videoId": "9jWtRfDpixM",
-    "videoTitle": "How to use Merlin AI | ChatGPT Chrome Extension with Free GPT-4, Claude2 and Llama2 | Try for FREE"
-  },
-  "personas": [
-    {
-      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
-      "name": "Merlin"
-    },
-    {
-      "greetings": [
-        "Hello [NAME]! How can I assist you today?",
-        "Greetings [NAME]! How can I assist you today? ",
-        "Greetings, mortal. How may I assist you in your quest for knowledge? "
-      ],
-      "id": "FFJCQ1os5jo0ahEEAT8s",
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/oppenheimer.png",
-      "name": "Oppenheimer"
-    },
-    {
-      "greetings": [
-        "Hello [NAME]! Welcome to Barbie Land, the land of all things fabulous! How can I make your day even more glamorous?",
-        "Hello [NAME]! Welcome to Barbie Land! How can I make your day even more fabulous? *sparkling smile*   ",
-        "Hello [NAME]! How can I add a touch of fabulousness to your day? strikes a pose What's on your mind?",
-        "Hello, [NAME]! How can I add a little extra sparkle to your day?"
-      ],
-      "id": "aHwRM_CUwG75Y6KrO1_e",
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/barbie.png",
-      "name": "Barbie"
-    },
-    {
-      "greetings": [
-        "Hello [NAME]! Fancy meeting you here. I'm Ted Lasso, your friendly health coach. How can I assist you today on this wonderful journey to a healthier lifestyle?",
-        "Howdy [NAME]! You've got Ted Lasso ready for action. What's on your mind today? How can I assist you on your health journey?"
-      ],
-      "id": "g78gvi389455h8",
-      "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/ted_lasso.png",
-      "name": "Ted Lasso"
-    }
-  ],
-  "posthogConfig": {
-    "samplingRate": 100,
-    "unsampledEvents": [
-      "BlogSummarizeButton",
-      "MerlinGUIResponseInvoked",
-      "MerlinGUIMounted",
-      "YoutubeSummarizeButton",
-      "YoutubeSummarizeMidButton"
-    ]
-  },
-  "quickTips": [
-    {
-      "html": "CODE_LLAMA",
-      "probability": 0,
-      "text": "CODE_LLAMA"
-    },
-    {
-      "html": "BEAST_MODE",
-      "probability": 6,
-      "text": "BEAST_MODE"
-    },
-    {
-      "html": "Personalise Merlin by clicking here “  <span class=\"text-slate-800 dark:text-slate-300\">⋮</span> ” then click on \" Settings \"",
-      "probability": 3,
-      "text": "Click '⋮', choose 'Settings' to personalize Merlin"
-    },
-    {
-      "html": "For latest internet data, use turbo or in-depth mode in 'Access Web'!",
-      "probability": 3,
-      "text": "For latest internet data, use turbo or in-depth mode in 'Access Web'"
-    },
-    {
-      "html": "Now set your preferred language by clicking here “ <span class=\"text-slate-700 dark:text-slate-300\" >⋮</span> “",
-      "probability": 3,
-      "text": "Now set your preferred language by clicking on the three dots “ ⋮ “"
-    },
-    {
-      "html": "Show your \"X\"-factor. Create Tweets from YouTube.  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=tnBQmEqBCY0&ab_channel=YCombinator\" target=\"_blank\"> Give it a swirl ↗</a>",
-      "probability": 3,
-      "text": "Show your \"X\"-factor. Create Tweets from YouTube. Visit YouTube now!"
-    },
-    {
-      "html": "Transform YouTube videos into epic Tweet threads.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Lets explore ↗</a>",
-      "probability": 3,
-      "text": "Transform YouTube videos into epic Tweet threads. Visit YouTube now!"
-    },
-    {
-      "html": "Improve your LinkedIn engagement. Create posts from YouTube!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=elrnAl6ygeM&ab_channel=BlueInfinityFilm\" target=\"_blank\">Try ↗</a>",
-      "probability": 0,
-      "text": "Boost LinkedIn engagement - Create posts from YouTube! "
-    },
-    {
-      "html": "Get a preview of a link, without even visiting it! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.veed.io/view/48d82ba2-0dbb-4127-9d62-d948adca5d62?panel=share\" target=\"_blank\">Check it out ↗</a>",
-      "probability": 3,
-      "text": "Get a preview of a link, without even visiting it!"
-    },
-    {
-      "html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\" target=\"_blank\">Try it now ↗</a>",
-      "probability": 3,
-      "text": "Turn YouTube videos into engaging blogs! Try it now!"
-    },
-    {
-      "html": "Now summarise your favourite podcasts on YouTube. <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Give it a spin ↗</a>",
-      "probability": 3,
-      "text": "Now summarise your favourite podcasts on YouTube, Give it a spin!"
-    },
-    {
-      "html": "Blogs too long? Fret not, get highlights using summariser.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://medium.com/theuglymonster/across-the-spider-verse-and-canonicity-beddf01635c9\" target=\"_blank\">Dive in ↗</a>",
-      "probability": 3,
-      "text": "Long blogs? Use Summariser for highlights. Open a blog now!"
-    },
-    {
-      "html": "Instantly preview webpages with a simple &nbsp;<span class=\"font-mono\">Shift+Hover</span>&nbsp; skip the clicks!",
-      "probability": 12,
-      "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
-    },
-    {
-      "html": "Merlin broken on X/Twitter? Please update or reinstall to fix! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d\" target=\"_blank\">Read more ↗</a>",
-      "probability": 0,
-      "text": "Merlin broken on X/Twitter? Please update or reinstall to fix! Read more!"
-    },
-    {
-      "html": "Chat with any personality on X/Twitter, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/swwLsut_vIA?si=-5BNejWh6UWZqBSx\" target=\"_blank\">Create their Doppelgainger↗</a>",
-      "probability": 12,
-      "text": "Chat with any personality on X/Twitter, Create their Doppelgainger!"
-    },
-    {
-      "html": "Embed text into images now using DALL-E.3, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/fkvJgYZgBdM?si=l3BZCwQBS8JiKw8-\" target=\"_blank\">Check demo↗</a>",
-      "probability": 12,
-      "text": "Embed text into images now using DALL-E.3"
-    }
-  ],
-  "summarizer": {
-    "text": {
-      "blackListedDomains": [
-        "twitter.com",
-        "reddit.com",
-        "linkedin.com",
-        "github.com",
-        "jam.dev",
-        "nobroker.in",
-        "localhost",
-        "twitch",
-        "instagram.com",
-        "discord.com",
-        "news.google.com",
-        "fiverr.com",
-        "zendesk.com",
-        "my.calltouch.ru",
-        "tradingview.com",
-        "soundcloud.com",
-        "lightning.force.com",
-        "zoomcar.com",
-        "vk.me",
-        "dropstab.com",
-        "stalindeep.com",
-        ".tv",
-        "powerbi.com",
-        "betwaysatta.com",
-        "opensea.io",
-        "console.aws.amazon.com",
-        "bitbucket.org",
-        "huggingface.co",
-        "ebay.com",
-        "hdfcsec.com",
-        "decathlon",
-        "google.com",
-        "pipedrive.com",
-        "ilerna.com",
-        "jasper.ai",
-        "my.hrduo.com",
-        "whatsapp",
-        "dashboard.tawk.to",
-        "rumble.com",
-        "app.",
-        "disneyplus",
-        "lucidchart.com",
-        "127.0.0.1",
-        "dzen.ru",
-        "primevideo.com",
-        "youtube.com",
-        "amazon",
-        "zillow.com",
-        "zoho.in",
-        "wildberries.ru",
-        "account.",
-        "yandex.ru",
-        "williamhill.com",
-        "truyenqqq.vn",
-        "online.bbva.com.ar",
-        ".live",
-        "freepik.com",
-        "vk.com",
-        "robinhood.com",
-        "loom.com",
-        "go.servicetitan.com",
-        "flaticon.com",
-        "apple.com",
-        "stepik.org",
-        "truyenqqq.vn",
-        "hubspot.com",
-        "hotstar.com",
-        "avito.ru",
-        "csgo",
-        "icloud.com",
-        "mercadolivre.com.br",
-        "vnexpress.net",
-        "dropbox.com",
-        "clickup.com",
-        "hdmovie2",
-        "hunter.io",
-        "duckduckgo.com",
-        "wattpad.com",
-        "liquipedia.net",
-        "fandom.com",
-        "asurascans.com",
-        "go.servicetitan.com",
-        "agoda.com",
-        "zara.com",
-        "zoho.com",
-        "mangadex",
-        "gitlab",
-        "vimeo",
-        ".art",
-        "basecamp.com",
-        "secure.helpscout.net",
-        "appsheet.com",
-        "pikabu.ru",
-        "shopify.com",
-        "spotify.com",
-        "zapier.com",
-        "anime",
-        "paramountplus.com",
-        "mail.proton.me",
-        "uakino.club",
-        "freecodecamp.org",
-        "hm.com",
-        "booking.com",
-        "joyspace.jd.com",
-        "ikea",
-        "artlist.io",
-        "pexels.com",
-        "pixabay.com",
-        "npmjs.com",
-        "voz.vn",
-        "alxswe.com",
-        "exceedlms.com"
-      ],
-      "blacklistThresholdValue": 20,
-      "data": [
-        {
-          "query": "article section",
-          "url": "medium.com"
-        },
-        {
-          "query": "article section",
-          "url": "nytimes.com"
-        },
-        {
-          "query": "article",
-          "url": "bbc.com"
-        },
-        {
-          "query": ".article__content-container",
-          "url": "cnn.com"
-        },
-        {
-          "query": ".article-body",
-          "url": "foxnews.com"
-        },
-        {
-          "query": "[itemprop=\"articleBody\"]",
-          "url": "dailymail.co.uk"
-        },
-        {
-          "queries": [
-            "main #mw-content-text",
-            "article .available-content",
-            "main article .post-content"
-          ],
-          "url": "misc"
-        },
-        {
-          "query": "main #mw-content-text",
-          "url": "wikipedia.org"
-        }
-      ],
-      "tokensPerQuery": 2000,
-      "universalView": true,
-      "visible": true
-    },
-    "whisper": {
-      "costPerHour": 100,
-      "visible": true
-    },
-    "youtube": {
-      "costPerHour": 14,
-      "visible": true
-    }
-  },
-  "switchEndpoint": false,
-  "tutorialConfig": {
-    "facebook": {
-      "summary": "How to use Merlin on Facebook under 30sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/Wkzzc3-jKx0",
-      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-    },
-    "gmail": {
-      "summary": "How to use Merlin on Gmail under 40sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/fT3nYpJVPyg",
-      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-gmail"
-    },
-    "linkedin": {
-      "summary": "How to use Merlin on LinkedIn under 30sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/J_HZNkMH4zw",
-      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-linkedIn"
-    },
-    "outlook": {
-      "summary": "How to use Merlin on Outlook under 40sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/KGQH65CeWh0",
-      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-gmail"
-    },
-    "twitter": {
-      "summary": "How to use Merlin on Twitter under 30sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-    }
-  },
-  "tweetify": {
-    "visible": true
-  }
+	"goProModal": {
+		"visible": true,
+		"interval": 86400000
+	},
+	"availableModels": [
+		{
+			"charge": "Charges 1x Query",
+			"default": true,
+			"description": "Original ChatGPT model. Fast and good at reasoning",
+			"id": "GPT 3",
+			"name": "GPT 3.5",
+			"queryCost": 1,
+			"paid": false
+		},
+		{
+			"charge": "Charges 30x Queries",
+			"default": false,
+			"description": "Slightly slow and best at reasoning",
+			"id": "GPT 4",
+			"name": "GPT 4",
+			"queryCost": 30,
+			"paid": false
+		},
+		{
+			"charge": "Charges 50x Queries",
+			"default": false,
+			"description": "The multimodal model by OpenAI, best at vision tasks",
+			"id": "gpt-4-vision-preview",
+			"name": "GPT Vision",
+			"queryCost": 50,
+			"paid": true
+		},
+		{
+			"charge": "Charges 1x Query",
+			"default": false,
+			"description": "Open Source model by Meta, finetuned for coding ts",
+			"id": "codellama/CodeLlama-34b-Instruct-hf",
+			"name": "Code-LLaMa",
+			"queryCost": 1,
+			"paid": false
+		},
+		{
+			"charge": "Charges 8x Queries/3000 words",
+			"default": false,
+			"description": "Claude 2 by Anthropic",
+			"id": "claude-2",
+			"name": "Claude 2",
+			"queryCost": 8,
+			"paid": false
+		},
+		{
+			"charge": "Charges 2x Queries/3000 words",
+			"default": false,
+			"description": "Claude Instant By Anthropic",
+			"id": "claude-instant-1",
+			"name": "Claude Instant",
+			"queryCost": 2,
+			"paid": false
+		},
+		{
+			"charge": "Charges 1x Query",
+			"default": false,
+			"description": "The open source model by Meta",
+			"id": "LLAMA",
+			"name": "Llama-2",
+			"queryCost": 1,
+			"paid": false
+		},
+		{
+			"charge": "Charges 1x Query",
+			"default": false,
+			"description": "The open source model by Mistral AI",
+			"id": "mistralai/Mistral-7B-Instruct-v0.1",
+			"name": "Mistral",
+			"queryCost": 1,
+			"paid": false
+		},
+		{
+			"charge": "Charges 1x Query",
+			"default": false,
+			"description": "An improved model over Mistral by Mistral AI",
+			"id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+			"name": "Mixtral",
+			"queryCost": 1,
+			"paid": false
+		},
+		{
+			"charge": "Charges 1x Query",
+			"default": false,
+			"description": "A finetuned model on Mistral, better and faster",
+			"id": "HuggingFaceH4/zephyr-7b-beta",
+			"name": "Zephyr",
+			"queryCost": 1,
+			"paid": false
+		}
+	],
+	"blogWebchatCTA": {
+		"cta": "Chat With This Website",
+		"visible": true
+	},
+	"checkShortcutStatus": true,
+	"fabStrip": {
+		"facebook": {
+			"visible": true
+		},
+		"gmail": {
+			"visible": true
+		},
+		"linkedIn": {
+			"inviteFeature": true,
+			"visible": true,
+			"inviteFabStripBlacklistPaths": ["/search/results/", "/analytics/profile-views/"]
+		},
+		"outlook": {
+			"visible": true
+		},
+		"twitter": {
+			"visible": true,
+			"containerClassname": ".css-175oi2r.r-1iusvr4.r-16y2uox.r-1777fci.r-1h8ys4a.r-1bylmt5.r-13tjlyg.r-7qyjyx.r-1ftll1t"
+		}
+	},
+	"fabStripV2": {
+		"facebook": {
+			"visible": true
+		},
+		"gmail": {
+			"visible": true
+		},
+		"linkedIn": {
+			"inviteFeature": true,
+			"visible": true
+		},
+		"outlook": {
+			"visible": true
+		},
+		"twitter": {
+			"visible": true
+		}
+	},
+	"featPersona": true,
+	"features": [
+		{
+			"isActive": false,
+			"link": "https://bit.ly/docChat",
+			"text": "We are on Edge now!"
+		},
+		{
+			"isActive": false,
+			"link": "https://bit.ly/serp-apes-ai",
+			"text": "Check out our new social app - Apes and AI!"
+		},
+		{
+			"isActive": false,
+			"link": "https://api.getmerlin.in/docs/introduction",
+			"text": "Try our new API plan for building on top of our APIs. ✨"
+		},
+		{
+			"isActive": false,
+			"link": "https://bit.ly/queries-announce",
+			"text": "Updates on query pricing on Merlin!"
+		},
+		{
+			"isActive": false,
+			"link": "https://youtu.be/G6PoIw52JxQ",
+			"text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
+		},
+		{
+			"isActive": false,
+			"link": "https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d",
+			"text": "Merlin not working on X/Twitter? Please update or reinstall to fix!"
+		},
+		{
+			"isActive": false,
+			"link": "https://bcin.short.gy/black-friday",
+			"text": "Cyber Monday Sale is ON! Grab it Now!"
+		},
+		{
+			"isActive": true,
+			"link": "https://www.getmerlin.in/mobile-app",
+			"text": "Get Early Access to Merlin Mobile"
+		},
+		{
+			"isActive": false,
+			"link": "https://bcin.short.gy/SERP-pixplain",
+			"text": "Get free early access to our image explainer now!"
+		}
+	],
+	"ga4Config": {
+		"active": true
+	},
+	"headerQueryCTA": [
+		{
+			"text": "Win Unlimited GPT-4 🎉",
+			"threshold": 999999,
+			"url": "https://bit.ly/merlin-ai-month",
+			"visible": false
+		},
+		{
+			"text": "Earn more queries",
+			"threshold": 10,
+			"url": "https://app.getmerlin.in/plans",
+			"visible": false
+		},
+		{
+			"text": "Rewards",
+			"threshold": 100,
+			"url": "https://app.getmerlin.in/dashboard/refer",
+			"visible": false
+		},
+		{
+			"text": "Go Pro!",
+			"threshold": 102,
+			"url": "https://app.getmerlin.in/plans?from=extension",
+			"visible": true
+		},
+		{
+			"text": "Upgrade!",
+			"threshold": 3000,
+			"url": "https://app.getmerlin.in/plans?from=extension",
+			"visible": true
+		},
+		{
+			"text": "Merlin API is here! Try Now!",
+			"threshold": 102,
+			"url": "https://api.getmerlin.in/",
+			"visible": true
+		}
+	],
+	"infoBanners": {
+		"chat": {
+			"text": "Get Early Access to Merlin Mobile",
+			"url": "https://www.getmerlin.in/mobile-app",
+			"visible": true,
+			"recurAfter": 14400000,
+			"timeout": 0
+		},
+		"changeInQueryBanner": false
+	},
+	"globalInfoBanner": {
+		"items": [
+			{
+				"weight": 10,
+				"html": "",
+				"text": "Get Early Access to Merlin Mobile",
+				"url": "https://www.getmerlin.in/mobile-app"
+			}
+		],
+		"mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
+	},
+	"latestVersion": "6.6.2",
+	"leonardoModels": [
+		{
+			"description": "Anashel returns with another great model, specialising in RPG characters of all kinds.",
+			"id": 0,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/ad43331b-c80c-40e5-8462-304aaaef3584/RPG_v5_a_stunning_photograph_of_a_grotesque_alien_creature_wit_1.jpg",
+			"name": "RPG v5",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "The latest Stable Diffusion model, currently in Beta.",
+			"id": 1,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/9ed4ccd8-649c-4a59-a7bb-9f5b704a91b1/SDXL_09_a_beautiful_woman_vivid_striking_colors_cinematic_phot_0.jpg",
+			"name": "SDXL0.9",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Great at 3D film vibes, capable of complex scenes with rich color. Storyboard time!",
+			"id": 2,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/0e85d140-3ea0-4179-a708-ae95bf9329a3/3D_Animation_Style_a_masterpiece_image_of_an_older_tired_and_b_2.jpg",
+			"name": "3D Animation Style",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Latest updated versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
+			"id": 3,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/911623f3-4a89-4db9-b49f-ace5ac086a3d/DreamShaper_v7_A_vibrant_cinematic_photo_of_a_female_adventure_1.jpg",
+			"name": "Dreamshape v7",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A photorealistic style model from Lykon. Great at all sorts of photorealism.",
+			"id": 4,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/9d7e2dbe-6dff-4bf5-b487-414dee2a10b9/Absolute_Reality_v16_a_stunning_photo_of_a_woman_with_aztech_t_1.jpg",
+			"name": "Absolute Reality v1.6",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Pastel anime styling. Use with PMv3 and the anime preset for incredible range. Model by Lykon.",
+			"id": 5,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8cc624c3-c1ba-40c9-b3cd-21056382728a/AnimePastelDream_fuji_film_candid_portrait_o_a_black_woman_wea_2.jpg",
+			"name": "Anime Pastel Dream",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A updated versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
+			"id": 6,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8ab5c76a-eefb-4801-817f-458f68958db7/DreamShaperV6_a_masterpiece_image_of_Splash_art_music_album_ar_6.jpg",
+			"name": "Dreamshape v6",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
+			"id": 7,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/bb22942b-40c8-4a06-a219-238808053ee0/DreamShaper_v5_extremely_intricate_fantasy_character_photoreal_0.jpg",
+			"name": "Dreamshape v5",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A model with incredible shading and contrast, great at both photos and artistic styles, by cac0e.",
+			"id": 8,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8905a8f0-9219-43ad-8ecb-1c37b4501dc5/Leonardo_Diffusion_ultra_detailed_artistic_photography_of_a_fashion_moden_3.jpg",
+			"name": "Leonardo Diffusion",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "This model is best at creating RPG character portraits with the ability for great photorealism. Created by Anashel.",
+			"id": 9,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/20cd8cca-ad36-46b1-a0e3-8bd669112017/RPG_portrait_painting_of_a_redhead_feminine_royal_woman_with_a_fe_3.jpg",
+			"name": "RPG 4.0",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A powerful model created by XpucT that  is great for both photorealism and artistic creations.",
+			"id": 10,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/da624520-f0c6-4afa-b171-9bfc3bbb27de/Deliberate_v11_waitress_pinup_art_style_kodak_portra_400_cinematic_smiling_0.jpg",
+			"name": "Deliberate 1.1",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "This model can generate a broad range of imagery with a vintage style as if it was taken from a film camera",
+			"id": 11,
+			"img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/7a6f17f3-689c-461d-9c59-14a7ac88fa0e/Vintage_Style_Photography_Classic_convertible_driving_on_an_open_road_vintage_style_2.jpg",
+			"name": "Vintage Style Photography",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "This model by Lykon is great at a range of portrait styles as well as artistic backgrounds.",
+			"id": 12,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/b2919072-7c52-409e-9c2a-11d56c5c2ed2/DreamShaper_32_Full_body_Beautiful_final_fantasy_style_portrait_clean_detai_2.jpg",
+			"name": "Dreamshape v3.2",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A powerful finetune of SD2.1 that can achieve a high level of realism.",
+			"id": 13,
+			"img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/ff4e1c40-933a-47da-8c52-31689ed282d7/Leonardo_Select_portrait_of_female_character_wearing_80s_clothing_she_should_0.png?w=512",
+			"name": "Leonardo Select",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "An alternative finetune of SD 2.1 that brings a little more creative interpretation to the mix.",
+			"id": 14,
+			"img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/3665e729-cf65-4766-aebc-e351bc27e239/Leonardo_Creative_portrait_of_male_character_wearing_80s_clothing_he_should_lo_0.png?w=512",
+			"name": "Leonardo Creative",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Generate a variety of detailed axe designs with this model. From medieval battle axes to modern chopping axes, this model is great for creating a r...",
+			"id": 15,
+			"img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/1a60b46c-24d1-47c0-9683-e0e837b6f129/Battle_Axes_an_axe_blade_centre_of_frame_3.jpg",
+			"name": "Battle Axes",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A pixel art model that's trained on headshots, but is surprisingly flexible with all sorts of subjects.",
+			"id": 16,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/5628b06f-d989-4f89-87b2-9f7af4bb0ee7/Default_A_robotic_cat_with_glowing_eyes_and_sleek_metal_fur_0.png?w=512",
+			"name": "Pixel Art",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Create all sorts of chest armor with this model in a consistent style but with wide thematic range.",
+			"id": 17,
+			"img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/465401c6-febf-4223-a9f1-fae4e54931bf/Default_test_chest_armor_2.png?w=512",
+			"name": "Chest Armor",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A great model for creating incredible semi-realistic magic potions. Try appending \"intricately detailed, 3d vray render\" to your prompt.",
+			"id": 18,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/6ae64207-79bc-48e2-b721-46c00d8c938b/Default_a_stunningly_beautiful_magic_potion_containing_a_galaxy_fili_1.png",
+			"name": "Magic Potions",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A model for creating crystal deposits. Well-suited for use as items or in an isometric environment.",
+			"id": 19,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/a9c191fa-6137-4e01-922c-943ee4e4788c/Default_a_yellow_tkwst2_object_2d_object_art_by_tekkonkinkreet_octane_2.png?w=512",
+			"name": "Crystal Deposits",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A model that's for creating awesome RPG characters of varying classes in a consistent style.",
+			"id": 20,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/1d554364-792b-498a-be17-ea0dfcca67d1/Default_male_king_green_hair_detailed_soft_hyperdetailed_Cinematic_oc_0.png?w=512",
+			"name": "Character Portraits",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Create a wide range of magical items like weapons, shields, boots, books. Very versatile.",
+			"id": 21,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/1a2ce3b1-998c-4795-8582-6f49aca28160/Default_a_red_boot_object_concept_art_dota_2_style_red_abstract_backg_1.png?w=512",
+			"name": "Magic Items",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Great at creating scifi buildings of varying themes. Append the word isometric to your prompt to ensure an isometric view. \"3d vray render\" also helps steer the generation well. ",
+			"id": 22,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/1aa5f16a-b64e-4a41-98d2-702fae7d4ba2/Default_a_stunning_scifi_base_turrets_and_lasers_3d_vray_render_0.png?w=512",
+			"name": "Isometric Scifi Buildings",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Generate festive and fun Christmas stickers with this model. From cute and colorful to traditional and elegant.",
+			"id": 23,
+			"img": "https://cdn.leonardo.ai/users/2e1f21ed-7ca4-4f78-80ed-1646ea463a01/generations/15aaa53a-6ee1-4887-bfba-f00213f64756/Default_test_sticker_0.png?w=512",
+			"name": "Christmas Stickers",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Create cute and charming game characters, perfect for adding some whimsy to your game design. Be sure to include the word \"character\" in your prompts for best results.",
+			"id": 24,
+			"img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/85cf7bd8-a233-42ca-a7d0-e900a0bdbb2a/Default_A_zany_game_character_clad_in_an_outrageous_cowboy_grass_skir_1.png",
+			"name": "Cute Characters",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Create unique and intricate amulets, jewellery and more. Try loading up the prompt terms to steer it in interesting directions.",
+			"id": 25,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/edccace2-4291-482b-b3c6-d735ff06e640/Default_A_closeup_of_an_ancient_amulet_illuminated_by_a_single_ray_o_2.png",
+			"name": "Amulets",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Perfect for creating adorable and cute animal characters - loveable and playful designs.",
+			"id": 26,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/6ac55e1f-500a-4967-bf7e-e5af117c5f6d/Default_a_rabbit_character_0.png",
+			"name": "Cute Animal Characters",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Create a variety of impressively varied and detailed shield designs. Allows for an incredible range of material types.",
+			"id": 27,
+			"img": "https://cdn.leonardo.ai/users/4e397cdd-4af3-48e5-b0e7-c2b5d1ebee59/generations/7b3c338c-8011-42e7-bcc7-4c9cfd450b71/Default_An_extraterrestrial_shield_bearing_delicate_swirls_and_ethere_1.png?w=512",
+			"name": "Sheilds",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "From whimsical fairy-like beings to mythical creatures, create unique cute spirit characters.",
+			"id": 28,
+			"img": "https://cdn.leonardo.ai/users/7a129367-fa22-48ff-a5eb-441861c60a20/generations/8874bdc9-9e80-4acb-ae5a-fa2c4db6819b/Default_a_creature_with_more_than_six_eyes_in_rainbow_colors_0.png",
+			"name": "Spirit Creatures",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Create all sorts of isometric fantasy environments. Try appending \"3d vray render, isometric\" and using a guidance scale of 6. For the negative prompt, try \"unclear, harsh, oversaturated, soft, blurry\".",
+			"id": 29,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8f5f48d1-0042-4625-b47a-83e266432abf/Isometric_Fantasy_Waterfall_isolated_on_white_3d_vray_render_isometric_ultra_d_3.jpg",
+			"name": "Isometric Fantasy",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "An alternative crystal deposits model that gives a slightly more realistic feel with its creations. Try using \"object\" and \"3d vray render\" in your prompts.",
+			"id": 30,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/49c5c8a5-5fd9-4222-bc15-6ac8cd63cb8e/Default_a_crystal_1.png?w=512",
+			"name": "Crystal Deposits Alternate",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "A model for creating isometric asteroid environment tiles. Try appending \"3d vray render, unreal engine, beautiful, intricately detailed, trending on artstation, 8k\" to your prompt.",
+			"id": 31,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/8cd48839-28fe-4f25-9a32-b7a8a118583b/Default_isometric_tile_3d_vray_render_unreal_engine_beautiful_intrica_0.png",
+			"name": "Isometric Asteroid Tiles",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "The core model of the Leonardo platform. An extremely powerful and diverse finetune which is highly effective for a wide range of uses.",
+			"id": 32,
+			"img": "https://cdn.leonardo.ai/users/384ab5c8-55d8-47a1-be22-6a274913c324/generations/2956bf2a-3039-43ee-83d6-65318e5f58fa/Default_an_incredibly_stunning_photograph_of_a_throne_room_soft_light_2.png",
+			"name": "Leonardo Signature",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		}
+	],
+	"dallEModels": [
+		{
+			"description": "A simple Yet Effective Tool for Crafting Images Ranging from Everyday Realism to Animated Styles.",
+			"id": 101,
+			"img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-2.png",
+			"name": "DALL-E.2",
+			"paid": false,
+			"costPerImage": {
+				"base": 10,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		},
+		{
+			"description": "Offering Superior Precision and Expanded Creativity in Image Generation. A Step Ahead of DALL-E 2",
+			"id": 102,
+			"img": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/dall-e-3.png",
+			"name": "DALL-E.3",
+			"paid": true,
+			"costPerImage": {
+				"base": 60,
+				"alchemy": 6,
+				"photoreal": 6,
+				"promptMagicV2": 2,
+				"promptMagicV3": 6,
+				"merlinPromptMagic": 4
+			}
+		}
+	],
+	"misc": {
+		"ads": {
+			"visible": true
+		},
+		"merlinCTA": {
+			"isVisible": true
+		},
+		"codeInterpreter": {
+			"isVisible": true,
+			"greeting": "Hey there 👋, Welcome to Code Interpreter - I will help you in decoding, analysing and making more sense of all your data-work.\n\nHow to use: \nStep-1: upload a document\nStep-2: input how you want to transform your data\nStep-3: open the final output in Google Sheets or download the file :)",
+			"actions": ["Give me 3 insights", "Statistical summary", "Show me Trends", "Change format to JSON"]
+		},
+		"merlinOnAmazon": {
+			"cta": "Ask AI",
+			"questions": ["What are some reviews?", "What are some pros and cons?", "What are some features?"],
+			"visible": false
+		},
+		"merlinOnGoogleSheets": {
+			"cta": "Analyse Sheets With AI",
+			"questions": [],
+			"visible": true
+		},
+		"chat": {
+			"astro": {
+				"visible": true,
+				"astrologerPrompts": [
+					{
+						"prompts": [
+							"When will I meet the love of my life?",
+							"Have I met my soulmate yet?",
+							"Who can be my potential life partner?",
+							"What is holding me back from experiencing true love?"
+						],
+						"title": "Unlock Love Secrets"
+					},
+					{
+						"prompts": [
+							"Am I happy with my current job?",
+							"How much increment will I get this time?",
+							"When will I get promoted next?",
+							"Should I start my own start-up?",
+							"Which career option is the best for me?"
+						],
+						"title": "Find Career Clarity"
+					},
+					{
+						"prompts": [
+							"What does my stars say about my mental peace?",
+							"Am I an introvert or an extrovert?",
+							"Why don't I have good friends?"
+						],
+						"title": "Discover True Self"
+					},
+					{
+						"prompts": [
+							"How much money will I be making in next 5 years?",
+							"When will I buy my dream home?",
+							"Am I earning to my full potential?",
+							"Should I take loan this year?"
+						],
+						"title": "Consult Financial Destiny"
+					}
+				]
+			},
+			"image": {
+				"visible": true
+			},
+			"rizz": {
+				"visible": false
+			},
+			"chatbot": {
+				"visible": true
+			},
+			"visible": true,
+			"chatSharing": true,
+			"chatWithImage": true,
+			"web": {
+				"visible": true
+			},
+			"doc": {
+				"visible": true
+			}
+		},
+		"codeSummarizer": {
+			"blackListedDomains": [
+				"discord.com",
+				"127.0.0.1",
+				"figma.com",
+				"bard.google.com",
+				"chat.openai.com",
+				"platform.openai.com",
+				"getmerlin.in",
+				"localhost",
+				"colab.research.google.com",
+				"perplexity.ai",
+				"telegram.org",
+				"tabs.ultimate-guitar.com",
+				"huggingface.co"
+			],
+			"visible": true
+		},
+		"dopplegainger": {
+			"visible": true
+		},
+		"doppelgainger": {
+			"visible": false,
+			"blacklistedSlugs": [
+				"home",
+				"explore",
+				"notifications",
+				"messages",
+				"bookmarks",
+				"lists",
+				"profile",
+				"more",
+				"i",
+				"communities",
+				"settings",
+				"photo",
+				"compose",
+				"account",
+				"search",
+				"hashtag",
+				"intent",
+				"login",
+				"signup",
+				"logout",
+				"privacy",
+				"tos"
+			]
+		},
+		"linkPreview": {
+			"visible": true
+		},
+		"merlinGUI": {
+			"visible": true
+		},
+		"ownAPIKey": true,
+		"selectContextBtn": {
+			"blackListedDomains": ["netflix.com", "disneyplus.com", "primevideo.com", "hotstar.com"],
+			"visible": true
+		},
+		"serp": {
+			"realtime": true,
+			"newBlockerUI": {
+				"visible": true,
+				"percent": 0.1
+			},
+			"tryRealtimeSearch": {
+				"percent": 0
+			},
+			"newMount": true,
+			"regional": false,
+			"visible": true,
+			"getHoroscope": {
+				"text": "Discover your destiny with Merlin's horoscope predictions!",
+				"isActive": false,
+				"btnHandler": "getHoroscope"
+			}
+		},
+		"shouldDoStatusCall": false
+	},
+	"newUploadEndpoint": true,
+	"onboardingDetails": {
+		"content": "Lets revise once more :P  \\nTo Activate Merlin on any website, Open any webpage such as - getmerlin.com\\n1. Click on Merlin Icon at bottom right corner  \\n2. ❛OR❜ simply press ⌘+M/Ctrl+M",
+		"videoId": "9jWtRfDpixM",
+		"videoTitle": "How to use Merlin AI | ChatGPT Chrome Extension with Free GPT-4, Claude2 and Llama2 | Try for FREE"
+	},
+	"personas": [
+		{
+			"greetings": ["Hello, I am Merlin! How can I assist you today?"],
+			"image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
+			"name": "Merlin"
+		},
+		{
+			"greetings": [
+				"Hello [NAME]! How can I assist you today?",
+				"Greetings [NAME]! How can I assist you today? ",
+				"Greetings, mortal. How may I assist you in your quest for knowledge? "
+			],
+			"id": "FFJCQ1os5jo0ahEEAT8s",
+			"image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/oppenheimer.png",
+			"name": "Oppenheimer"
+		},
+		{
+			"greetings": [
+				"Hello [NAME]! Welcome to Barbie Land, the land of all things fabulous! How can I make your day even more glamorous?",
+				"Hello [NAME]! Welcome to Barbie Land! How can I make your day even more fabulous? *sparkling smile*   ",
+				"Hello [NAME]! How can I add a touch of fabulousness to your day? strikes a pose What's on your mind?",
+				"Hello, [NAME]! How can I add a little extra sparkle to your day?"
+			],
+			"id": "aHwRM_CUwG75Y6KrO1_e",
+			"image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/barbie.png",
+			"name": "Barbie"
+		},
+		{
+			"greetings": [
+				"Hello [NAME]! Fancy meeting you here. I'm Ted Lasso, your friendly health coach. How can I assist you today on this wonderful journey to a healthier lifestyle?",
+				"Howdy [NAME]! You've got Ted Lasso ready for action. What's on your mind today? How can I assist you on your health journey?"
+			],
+			"id": "g78gvi389455h8",
+			"image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/ted_lasso.png",
+			"name": "Ted Lasso"
+		}
+	],
+	"posthogConfig": {
+		"samplingRate": 100,
+		"unsampledEvents": [
+			"BlogSummarizeButton",
+			"MerlinGUIResponseInvoked",
+			"MerlinGUIMounted",
+			"YoutubeSummarizeButton",
+			"YoutubeSummarizeMidButton"
+		]
+	},
+	"quickTips": [
+		{
+			"html": "CODE_LLAMA",
+			"probability": 0,
+			"text": "CODE_LLAMA"
+		},
+		{
+			"html": "BEAST_MODE",
+			"probability": 6,
+			"text": "BEAST_MODE"
+		},
+		{
+			"html": "Personalise Merlin by clicking here “  <span class=\"text-slate-800 dark:text-slate-300\">⋮</span> ” then click on \" Settings \"",
+			"probability": 3,
+			"text": "Click '⋮', choose 'Settings' to personalize Merlin"
+		},
+		{
+			"html": "For latest internet data, use turbo or in-depth mode in 'Access Web'!",
+			"probability": 3,
+			"text": "For latest internet data, use turbo or in-depth mode in 'Access Web'"
+		},
+		{
+			"html": "Now set your preferred language by clicking here “ <span class=\"text-slate-700 dark:text-slate-300\" >⋮</span> “",
+			"probability": 3,
+			"text": "Now set your preferred language by clicking on the three dots “ ⋮ “"
+		},
+		{
+			"html": "Show your \"X\"-factor. Create Tweets from YouTube.  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=tnBQmEqBCY0&ab_channel=YCombinator\" target=\"_blank\"> Give it a swirl ↗</a>",
+			"probability": 3,
+			"text": "Show your \"X\"-factor. Create Tweets from YouTube. Visit YouTube now!"
+		},
+		{
+			"html": "Transform YouTube videos into epic Tweet threads.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Lets explore ↗</a>",
+			"probability": 3,
+			"text": "Transform YouTube videos into epic Tweet threads. Visit YouTube now!"
+		},
+		{
+			"html": "Improve your LinkedIn engagement. Create posts from YouTube!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=elrnAl6ygeM&ab_channel=BlueInfinityFilm\" target=\"_blank\">Try ↗</a>",
+			"probability": 0,
+			"text": "Boost LinkedIn engagement - Create posts from YouTube! "
+		},
+		{
+			"html": "Get a preview of a link, without even visiting it! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.veed.io/view/48d82ba2-0dbb-4127-9d62-d948adca5d62?panel=share\" target=\"_blank\">Check it out ↗</a>",
+			"probability": 3,
+			"text": "Get a preview of a link, without even visiting it!"
+		},
+		{
+			"html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\" target=\"_blank\">Try it now ↗</a>",
+			"probability": 3,
+			"text": "Turn YouTube videos into engaging blogs! Try it now!"
+		},
+		{
+			"html": "Now summarise your favourite podcasts on YouTube. <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Give it a spin ↗</a>",
+			"probability": 3,
+			"text": "Now summarise your favourite podcasts on YouTube, Give it a spin!"
+		},
+		{
+			"html": "Blogs too long? Fret not, get highlights using summariser.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://medium.com/theuglymonster/across-the-spider-verse-and-canonicity-beddf01635c9\" target=\"_blank\">Dive in ↗</a>",
+			"probability": 3,
+			"text": "Long blogs? Use Summariser for highlights. Open a blog now!"
+		},
+		{
+			"html": "Instantly preview webpages with a simple &nbsp;<span class=\"font-mono\">Shift+Hover</span>&nbsp; skip the clicks!",
+			"probability": 12,
+			"text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
+		},
+		{
+			"html": "Merlin broken on X/Twitter? Please update or reinstall to fix! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://merlinbyfoyer.notion.site/Merlin-not-working-on-Twitter-03bc0367ab384268af9b1b2f3709333d\" target=\"_blank\">Read more ↗</a>",
+			"probability": 0,
+			"text": "Merlin broken on X/Twitter? Please update or reinstall to fix! Read more!"
+		},
+		{
+			"html": "Chat with any personality on X/Twitter, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/swwLsut_vIA?si=-5BNejWh6UWZqBSx\" target=\"_blank\">Create their Doppelgainger↗</a>",
+			"probability": 12,
+			"text": "Chat with any personality on X/Twitter, Create their Doppelgainger!"
+		},
+		{
+			"html": "Embed text into images now using DALL-E.3, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/fkvJgYZgBdM?si=l3BZCwQBS8JiKw8-\" target=\"_blank\">Check demo↗</a>",
+			"probability": 12,
+			"text": "Embed text into images now using DALL-E.3"
+		}
+	],
+	"summarizer": {
+		"text": {
+			"blackListedDomains": [
+				"twitter.com",
+				"reddit.com",
+				"linkedin.com",
+				"github.com",
+				"jam.dev",
+				"nobroker.in",
+				"localhost",
+				"twitch",
+				"instagram.com",
+				"discord.com",
+				"news.google.com",
+				"fiverr.com",
+				"zendesk.com",
+				"my.calltouch.ru",
+				"tradingview.com",
+				"soundcloud.com",
+				"lightning.force.com",
+				"zoomcar.com",
+				"vk.me",
+				"dropstab.com",
+				"stalindeep.com",
+				".tv",
+				"powerbi.com",
+				"betwaysatta.com",
+				"opensea.io",
+				"console.aws.amazon.com",
+				"bitbucket.org",
+				"huggingface.co",
+				"ebay.com",
+				"hdfcsec.com",
+				"decathlon",
+				"google.com",
+				"pipedrive.com",
+				"ilerna.com",
+				"jasper.ai",
+				"my.hrduo.com",
+				"whatsapp",
+				"dashboard.tawk.to",
+				"rumble.com",
+				"app.",
+				"disneyplus",
+				"lucidchart.com",
+				"127.0.0.1",
+				"dzen.ru",
+				"primevideo.com",
+				"youtube.com",
+				"amazon",
+				"zillow.com",
+				"zoho.in",
+				"wildberries.ru",
+				"account.",
+				"yandex.ru",
+				"williamhill.com",
+				"truyenqqq.vn",
+				"online.bbva.com.ar",
+				".live",
+				"freepik.com",
+				"vk.com",
+				"robinhood.com",
+				"loom.com",
+				"go.servicetitan.com",
+				"flaticon.com",
+				"apple.com",
+				"stepik.org",
+				"truyenqqq.vn",
+				"hubspot.com",
+				"hotstar.com",
+				"avito.ru",
+				"csgo",
+				"icloud.com",
+				"mercadolivre.com.br",
+				"vnexpress.net",
+				"dropbox.com",
+				"clickup.com",
+				"hdmovie2",
+				"hunter.io",
+				"duckduckgo.com",
+				"wattpad.com",
+				"liquipedia.net",
+				"fandom.com",
+				"asurascans.com",
+				"go.servicetitan.com",
+				"agoda.com",
+				"zara.com",
+				"zoho.com",
+				"mangadex",
+				"gitlab",
+				"vimeo",
+				".art",
+				"basecamp.com",
+				"secure.helpscout.net",
+				"appsheet.com",
+				"pikabu.ru",
+				"shopify.com",
+				"spotify.com",
+				"zapier.com",
+				"anime",
+				"paramountplus.com",
+				"mail.proton.me",
+				"uakino.club",
+				"freecodecamp.org",
+				"hm.com",
+				"booking.com",
+				"joyspace.jd.com",
+				"ikea",
+				"artlist.io",
+				"pexels.com",
+				"pixabay.com",
+				"npmjs.com",
+				"voz.vn",
+				"alxswe.com",
+				"exceedlms.com"
+			],
+			"blacklistThresholdValue": 20,
+			"data": [
+				{
+					"query": "article section",
+					"url": "medium.com"
+				},
+				{
+					"query": "article section",
+					"url": "nytimes.com"
+				},
+				{
+					"query": "article",
+					"url": "bbc.com"
+				},
+				{
+					"query": ".article__content-container",
+					"url": "cnn.com"
+				},
+				{
+					"query": ".article-body",
+					"url": "foxnews.com"
+				},
+				{
+					"query": "[itemprop=\"articleBody\"]",
+					"url": "dailymail.co.uk"
+				},
+				{
+					"queries": ["main #mw-content-text", "article .available-content", "main article .post-content"],
+					"url": "misc"
+				},
+				{
+					"query": "main #mw-content-text",
+					"url": "wikipedia.org"
+				}
+			],
+			"tokensPerQuery": 2000,
+			"universalView": true,
+			"visible": true
+		},
+		"whisper": {
+			"costPerHour": 100,
+			"visible": true
+		},
+		"youtube": {
+			"costPerHour": 14,
+			"visible": true
+		}
+	},
+	"switchEndpoint": false,
+	"tutorialConfig": {
+		"facebook": {
+			"summary": "How to use Merlin on Facebook under 30sec",
+			"videoURL": "https://www.youtube-nocookie.com/embed/Wkzzc3-jKx0",
+			"blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+		},
+		"gmail": {
+			"summary": "How to use Merlin on Gmail under 40sec",
+			"videoURL": "https://www.youtube-nocookie.com/embed/fT3nYpJVPyg",
+			"blogURL": "https://www.getmerlin.in/feature/chatgpt-for-gmail"
+		},
+		"linkedin": {
+			"summary": "How to use Merlin on LinkedIn under 30sec",
+			"videoURL": "https://www.youtube-nocookie.com/embed/J_HZNkMH4zw",
+			"blogURL": "https://www.getmerlin.in/feature/chatgpt-for-linkedIn"
+		},
+		"outlook": {
+			"summary": "How to use Merlin on Outlook under 40sec",
+			"videoURL": "https://www.youtube-nocookie.com/embed/KGQH65CeWh0",
+			"blogURL": "https://www.getmerlin.in/feature/chatgpt-for-gmail"
+		},
+		"twitter": {
+			"summary": "How to use Merlin on Twitter under 30sec",
+			"videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+			"blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+		}
+	},
+	"tweetify": {
+		"visible": true
+	}
 }
