@@ -796,7 +796,10 @@
         "Statistical summary",
         "Show me Trends",
         "Change format to JSON"
-      ]
+      ],
+      "summary": "How to use code interpreter under 30sec",
+      "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
     },
     "merlinOnAmazon": {
       "cta": "Ask AI",
@@ -852,58 +855,40 @@
             ],
             "title": "Consult Financial Destiny"
           }
-        ]
+        ],
+        "summary": "How to use astro chat under 30sec",
+        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
       },
       "image": {
-        "visible": true
+        "visible": true,
+        "summary": "How to use image chat under 30sec",
+        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
       },
       "rizz": {
         "visible": false
       },
       "chatbot": {
-        "visible": true
+        "visible": true,
+        "summary": "How to use chatbots under 30sec",
+        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
       },
       "visible": true,
       "chatSharing": true,
       "chatWithImage": true,
       "web": {
-        "visible": true
+        "visible": true,
+        "summary": "How to use webchat under 30sec",
+        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
       },
       "doc": {
-        "visible": true
-      },
-      "featureTutorial": {
-        "CODE_INTERPRETER":{
-            "summary": "How to use code interpreter under 30sec",
-            "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-            "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-        },
-        "DOC_CHAT":{
-            "summary": "How to use doc chat under 30sec",
-            "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-            "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-        },
-        "IMAGE_CHAT":{
-            "summary": "How to use image chat under 30sec",
-            "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-            "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-        },
-        "ASTRO_CHAT":{
-            "summary": "How to use astro chat under 30sec",
-            "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-            "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-        },
-        "CHATBOTS_LIST":{
-            "summary": "How to use chatbots under 30sec",
-            "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-            "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-        },
-        "WEB_CHAT":{
-            "summary": "How to use webchat under 30sec",
-            "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-            "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
-        },
-        "visible": true
+        "visible": true,
+        "summary": "How to use doc chat under 30sec",
+        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
+        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
       }
     },
     "codeSummarizer": {
