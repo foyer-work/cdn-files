@@ -10,75 +10,12 @@
       "paid": false
     },
     {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "Fast and less restrictive, best for general purpose use",
-      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "name": "Merlin",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
       "charge": "Charges 30x Queries",
       "default": false,
       "description": "Slightly slow and best at reasoning",
       "id": "GPT 4",
       "name": "GPT 4",
       "queryCost": 30,
-      "paid": false
-    },
-    {
-      "charge": "Charges 8x Queries/3000 words",
-      "default": false,
-      "description": "Claude 2 by Anthropic",
-      "id": "claude-2",
-      "name": "Claude 2",
-      "queryCost": 8,
-      "paid": false
-    },
-    {
-      "charge": "Charges 2x Queries/3000 words",
-      "default": false,
-      "description": "Claude Instant By Anthropic",
-      "id": "claude-instant-1",
-      "name": "Claude Instant",
-      "queryCost": 2,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "The open source model by Meta",
-      "id": "LLAMA",
-      "name": "Llama-2",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "The open source model by Mistral AI",
-      "id": "mistralai/Mistral-7B-Instruct-v0.1",
-      "name": "Mistral",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "An improved model over Mistral by Mistral AI",
-      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "name": "Mixtral",
-      "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "Charges 1x Query",
-      "default": false,
-      "description": "A finetuned model on Mistral, better and faster",
-      "id": "HuggingFaceH4/zephyr-7b-beta",
-      "name": "Zephyr",
-      "queryCost": 1,
       "paid": false
     }
   ]
