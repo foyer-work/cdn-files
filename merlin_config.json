@@ -913,7 +913,7 @@
       "visible": true
     },
     "doppelgainger": {
-      "visible": false,
+      "visible": true,
       "blacklistedSlugs": [
         "home",
         "explore",
