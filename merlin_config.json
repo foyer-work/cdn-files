@@ -254,7 +254,11 @@
         "url": "https://www.getmerlin.in/mobile-app"
       }
     ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
+    "mountOn": [
+      "blogSummarizer",
+      "youtubeSummarizer",
+      "SERP"
+    ]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -894,6 +898,9 @@
         "summary": "How to use doc chat under 30sec",
         "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
         "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+      },
+      "unified": {
+        "visible": false
       }
     },
     "codeSummarizer": {
@@ -996,7 +1003,9 @@
   },
   "personas": [
     {
-      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
+      "greetings": [
+        "Hello, I am Merlin! How can I assist you today?"
+      ],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
