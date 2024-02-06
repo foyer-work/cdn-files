@@ -34,7 +34,7 @@
     {
       "charge": "Charges 1x Query",
       "default": false,
-      "description": "Open Source model by Meta, finetuned for coding ts",
+      "description": "Open Source model by Meta, finetuned for coding tasks",
       "id": "codellama/CodeLlama-34b-Instruct-hf",
       "name": "Code-LLaMa",
       "queryCost": 1,
@@ -179,9 +179,14 @@
       "text": "Cyber Monday Sale is ON! Grab it Now!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://www.getmerlin.in/mobile-app",
       "text": "Get Early Access to Merlin Mobile"
+    },
+    {
+      "isActive": true,
+      "link": "https://bcin.short.gy/backlink-chatbot",
+      "text": "Merlin Pro Giveaway is here! Join Now!"
     },
     {
       "isActive": false,
@@ -913,7 +918,7 @@
       "visible": true
     },
     "doppelgainger": {
-      "visible": false,
+      "visible": true,
       "blacklistedSlugs": [
         "home",
         "explore",
