@@ -885,7 +885,7 @@
         "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
       },
       "visible": true,
-      "chatSharing": true,
+      "chatSharing": false,
       "chatWithImage": true,
       "web": {
         "visible": true,
