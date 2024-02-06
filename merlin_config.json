@@ -185,7 +185,7 @@
     },
     {
       "isActive": false,
-      "link": "https://bcin.short.gy/-pixplain",
+      "link": "https://bcin.short.gy/SERP-pixplain",
       "text": "Get free early access to our image explainer now!"
     }
   ],
@@ -249,7 +249,7 @@
         "url": "https://www.getmerlin.in/mobile-app"
       }
     ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer", ""]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
