@@ -179,9 +179,14 @@
       "text": "Cyber Monday Sale is ON! Grab it Now!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://www.getmerlin.in/mobile-app",
       "text": "Get Early Access to Merlin Mobile"
+    },
+    {
+      "isActive": true,
+      "link": "https://bcin.short.gy/backlink-chatbot",
+      "text": "Merlin Pro Giveaway is here! Join Now!"
     },
     {
       "isActive": false,
