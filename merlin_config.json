@@ -900,7 +900,7 @@
         "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
       },
       "unified": {
-        "visible": false
+        "visible": true
       }
     },
     "codeSummarizer": {
