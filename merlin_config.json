@@ -815,9 +815,10 @@
         "Show me Trends",
         "Change format to JSON"
       ],
+      "tutorialVisibility": true,
       "summary": "How to use code interpreter under 30sec",
-      "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-      "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+      "videoURL": "https://www.youtube-nocookie.com/embed/VKEi5eeoeg4",
+      "blogURL": "https://www.getmerlin.in/blogs/ai-tools/how-to-use-ai-for-data-analysis"
     },
     "merlinOnAmazon": {
       "cta": "Ask AI",
@@ -874,39 +875,44 @@
             "title": "Consult Financial Destiny"
           }
         ],
+        "tutorialVisibility": true,
         "summary": "How to use astro chat under 30sec",
-        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+        "videoURL": "https://www.youtube-nocookie.com/embed/QnAnLqWooB0?si=YhxQIfVQPRNdboGI",
+        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/astrology-ai"
       },
       "image": {
         "visible": true,
+        "tutorialVisibility": true,
         "summary": "How to use image chat under 30sec",
-        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+        "videoURL": "https://www.youtube-nocookie.com/embed/3BV8RVKpR5Y",
+        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/kids-drawing-into-ai-art"
       },
       "rizz": {
         "visible": false
       },
       "chatbot": {
         "visible": true,
+        "tutorialVisibility": false,
         "summary": "How to use chatbots under 30sec",
         "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+        "blogURL": "https://www.getmerlin.in/blogs/feature-updates/what-is-venus-ai"
       },
       "visible": true,
       "chatSharing": false,
       "chatWithImage": true,
       "web": {
         "visible": true,
+        "tutorialVisibility": true,
         "summary": "How to use webchat under 30sec",
-        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+        "videoURL": "https://www.youtube-nocookie.com/embed/i0uI2Wyb2Vg",
+        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/chat-with-any-website"
       },
       "doc": {
         "visible": true,
+        "tutorialVisibility": true,
         "summary": "How to use doc chat under 30sec",
-        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-        "blogURL": "https://www.getmerlin.in/feature/chatgpt-for-twitter"
+        "videoURL": "https://www.youtube-nocookie.com/embed/AFdcZj0Z6Xc",
+        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/summarize-any-pdf"
       },
       "unified": {
         "visible": true
