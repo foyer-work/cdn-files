@@ -93,6 +93,15 @@
       "name": "Zephyr",
       "queryCost": 1,
       "paid": false
+    },
+    {
+      "charge": "Charges 1x Query",
+      "default": false,
+      "description": "Google's latest and best model for good reasoning",
+      "id": "gemini-pro",
+      "name": "Gemini",
+      "queryCost": 1,
+      "paid": false
     }
   ],
   "blogWebchatCTA": {
