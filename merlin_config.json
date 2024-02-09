@@ -34,7 +34,16 @@
     {
       "charge": "Charges 1x Query",
       "default": false,
-      "description": "Open Source model by Meta, finetuned for coding ts",
+      "description": "Google's latest and best model for good reasoning",
+      "id": "gemini-pro",
+      "name": "Gemini",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
+      "charge": "Charges 1x Query",
+      "default": false,
+      "description": "Open Source model by Meta, finetuned for coding tasks",
       "id": "codellama/CodeLlama-34b-Instruct-hf",
       "name": "Code-LLaMa",
       "queryCost": 1,
@@ -179,9 +188,14 @@
       "text": "Cyber Monday Sale is ON! Grab it Now!"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://www.getmerlin.in/mobile-app",
       "text": "Get Early Access to Merlin Mobile"
+    },
+    {
+      "isActive": true,
+      "link": "https://bcin.short.gy/backlink-chatbot",
+      "text": "Merlin Pro Giveaway is here! Join Now!"
     },
     {
       "isActive": false,
@@ -232,8 +246,8 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Get Early Access to Merlin Mobile",
-      "url": "https://www.getmerlin.in/mobile-app",
+      "text": "Merlin Pro Giveaway is here! Join Now!",
+      "url": "https://bcin.short.gy/backlink-chatbot",
       "visible": true,
       "recurAfter": 14400000,
       "timeout": 0
@@ -249,7 +263,11 @@
         "url": "https://www.getmerlin.in/mobile-app"
       }
     ],
-    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
+    "mountOn": [
+      "blogSummarizer",
+      "youtubeSummarizer",
+      "SERP"
+    ]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -880,7 +898,7 @@
         "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/make-your-own-chatbot"
       },
       "visible": true,
-      "chatSharing": true,
+      "chatSharing": false,
       "chatWithImage": true,
       "web": {
         "visible": true,
@@ -895,6 +913,9 @@
         "summary": "How to use doc chat under 30sec",
         "videoURL": "https://www.youtube-nocookie.com/embed/AFdcZj0Z6Xc",
         "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/summarize-any-pdf"
+      },
+      "unified": {
+        "visible": true
       }
     },
     "codeSummarizer": {
@@ -942,7 +963,18 @@
         "signup",
         "logout",
         "privacy",
-        "tos"
+        "tos",
+        "status",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
       ]
     },
     "linkPreview": {
@@ -986,7 +1018,9 @@
   },
   "personas": [
     {
-      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
+      "greetings": [
+        "Hello, I am Merlin! How can I assist you today?"
+      ],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
