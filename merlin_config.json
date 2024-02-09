@@ -818,7 +818,7 @@
       "tutorialVisibility": true,
       "summary": "How to use code interpreter under 30sec",
       "videoURL": "https://www.youtube-nocookie.com/embed/VKEi5eeoeg4",
-      "blogURL": "https://www.getmerlin.in/blogs/ai-tools/how-to-use-ai-for-data-analysis"
+      "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/how-to-use-ai-for-data-analysis"
     },
     "merlinOnAmazon": {
       "cta": "Ask AI",
@@ -877,7 +877,7 @@
         ],
         "tutorialVisibility": true,
         "summary": "How to use astro chat under 30sec",
-        "videoURL": "https://www.youtube-nocookie.com/embed/QnAnLqWooB0?si=YhxQIfVQPRNdboGI",
+        "videoURL": "https://www.youtube-nocookie.com/embed/QnAnLqWooB0",
         "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/astrology-ai"
       },
       "image": {
@@ -892,10 +892,10 @@
       },
       "chatbot": {
         "visible": true,
-        "tutorialVisibility": false,
+        "tutorialVisibility": true,
         "summary": "How to use chatbots under 30sec",
-        "videoURL": "https://www.youtube-nocookie.com/embed/EUx6FKUcoOM",
-        "blogURL": "https://www.getmerlin.in/blogs/feature-updates/what-is-venus-ai"
+        "videoURL": "https://www.youtube-nocookie.com/embed/SABesWY2fEU",
+        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/make-your-own-chatbot"
       },
       "visible": true,
       "chatSharing": false,
