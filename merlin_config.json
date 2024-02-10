@@ -832,7 +832,7 @@
     "merlinOnGoogleSheets": {
       "cta": "Analyse Sheets With AI",
       "questions": [],
-      "visible": true
+      "visible": false
     },
     "chat": {
       "astro": {
