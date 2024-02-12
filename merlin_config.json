@@ -803,6 +803,10 @@
     "ads": {
       "visible": true
     },
+    "quill": {
+      "visible": true,
+      "blacklistedDomains": []
+    },
     "merlinCTA": {
       "isVisible": true
     },
