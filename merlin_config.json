@@ -1003,6 +1003,9 @@
         "visible": true,
         "percent": 0.1
       },
+      "tryRealtimeSearch": {
+        "percent": 0.1
+      },
       "newMount": true,
       "regional": false,
       "visible": true,
