@@ -1,0 +1,74 @@
+{
+  "quickPrompts": [
+    {
+      "copy": "Shorten",
+      "prompt": "Shorten it to 50 words"
+    },
+    {
+      "copy": "Improve",
+      "prompt": "Improve writing"
+    },
+    {
+      "copy": "Simplify",
+      "prompt": "Simplify the language"
+    },
+    {
+      "copy": "Lengthen",
+      "prompt": "Make it longer and verbose"
+    },
+    {
+      "copy": "Fix spelling & grammar",
+      "prompt": "Fix spelling & grammar"
+    },
+    {
+      "copy": "Sarcasm",
+      "prompt": "Rewrite it to be more sarcastic"
+    }
+  ],
+  "dropdownItems": {
+    "textSelected": [
+      {
+        "icon": "replace",
+        "copy": "Improve",
+        "promptConfig": {
+          "query": "Improve the wording and sentence structure of the provided context."
+        }
+      },
+      {
+        "icon": "messagecircle2",
+        "copy": "Make it ai proof",
+        "promptConfig": {
+          "query": "Rewrite the text so that it's simple and easy to understand."
+        }
+      }
+    ],
+    "default": [
+      {
+        "icon": "messagecircle2",
+        "copy": "Draft comment",
+        "promptConfig": {
+          "query": "Draft a comment for me based on the provided context.",
+          "extractContext": true
+        }
+      }
+    ],
+    "inputContent": [
+      {
+        "icon": "tool",
+        "copy": "Fix spelling and grammar",
+        "promptConfig": {
+          "extractInput": true,
+          "query": "Fix any spelling or grammar mistake in the context. Do not modify any contents other than the mistakes."
+        }
+      },
+      {
+        "icon": "briefcase",
+        "copy": "Make it professional",
+        "promptConfig": {
+          "extractInput": true,
+          "query": "Rewrite the context so that it feels bit more professional."
+        }
+      }
+    ]
+  }
+}
