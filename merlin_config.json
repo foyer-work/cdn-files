@@ -902,7 +902,7 @@
         "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/make-your-own-chatbot"
       },
       "visible": true,
-      "chatSharing": false,
+      "chatSharing": true,
       "chatWithImage": true,
       "web": {
         "visible": true,
