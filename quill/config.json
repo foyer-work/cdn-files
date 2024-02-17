@@ -1,0 +1,39 @@
+{
+  "shouldUseMount": true,
+  "visible": true,
+  "blacklistedAttributes": [],
+  "blacklistType": "contains",
+  "blacklist": [
+    "mail.google.com",
+    "www.google.com",
+    "www.youtube.com",
+    "www.linkedin.com",
+    "outlook.live.com",
+    "outlook.office.com",
+    "www.facebook.com",
+    "business.facebook.com",
+    "twitter.com",
+    "x.com",
+    "docs.google.com"
+  ],
+  "mount": [
+    {
+      "host": "www.reddit.com",
+      "mountingSchema": [
+        {
+          "condition": {
+            "then": {
+              "type": "hasClass",
+              "value": "DraftEditor-editorContainer"
+            },
+            "type": "parent"
+          },
+          "selector": "div[contenteditable=\"true\"]"
+        },
+        {
+          "selector": "div.VBa-xDMEbFi3vsO4id4OC > textarea"
+        }
+      ]
+    }
+  ]
+}
