@@ -193,7 +193,7 @@
       "text": "Get Early Access to Merlin Mobile"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "link": "https://bcin.short.gy/backlink-chatbot",
       "text": "Merlin Pro Giveaway is here! Join Now!"
     },
@@ -248,7 +248,7 @@
     "chat": {
       "text": "Merlin Pro Giveaway is here! Join Now!",
       "url": "https://bcin.short.gy/backlink-chatbot",
-      "visible": true,
+      "visible": false,
       "recurAfter": 14400000,
       "timeout": 0
     },
@@ -889,7 +889,10 @@
         "tutorialVisibility": true,
         "summary": "How to use image chat under 30sec",
         "videoURL": "https://www.youtube-nocookie.com/embed/3BV8RVKpR5Y",
-        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/kids-drawing-into-ai-art"
+        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/kids-drawing-into-ai-art",
+        "tryNewBannerVisible": true,
+        "tryNewBannerTitle": "Try out our new image generator",
+        "tryNewLink": "https://www.getmerlin.in/bonkers"
       },
       "rizz": {
         "visible": false
@@ -916,7 +919,10 @@
         "tutorialVisibility": true,
         "summary": "How to use doc chat under 30sec",
         "videoURL": "https://www.youtube-nocookie.com/embed/AFdcZj0Z6Xc",
-        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/summarize-any-pdf"
+        "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/summarize-any-pdf",
+        "tryNewBannerVisible": true,
+        "tryNewBannerTitle": "Try out our new doc chat",
+        "tryNewLink": "https://www.getmerlin.in/pdf-chat"
       },
       "unified": {
         "visible": true
