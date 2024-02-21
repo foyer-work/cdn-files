@@ -885,7 +885,7 @@
         "blogURL": "https://www.getmerlin.in/blogs/chatgpt-app/astrology-ai"
       },
       "image": {
-        "visible": true,
+        "visible": false,
         "tutorialVisibility": true,
         "summary": "How to use image chat under 30sec",
         "videoURL": "https://www.youtube-nocookie.com/embed/3BV8RVKpR5Y",
