@@ -1,4 +1,11 @@
 {
+  "listInUse": "whitelist",
+  "whitelist": [
+    "www.reddit.com",
+    "news.ycombinator.com",
+    "www.producthunt.com"
+  ],
+  "whitelistType": "exact",
   "shouldUseMount": true,
   "visible": true,
   "blacklistedAttributes": [],
