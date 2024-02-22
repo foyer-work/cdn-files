@@ -1,4 +1,11 @@
 {
+  "listInUse": "whitelist",
+  "whitelist": [
+    "www.reddit.com",
+    "news.ycombinator.com",
+    "www.producthunt.com"
+  ],
+  "whitelistType": "exact",
   "shouldUseMount": true,
   "visible": true,
   "blacklistedAttributes": [],
@@ -14,7 +21,8 @@
     "business.facebook.com",
     "twitter.com",
     "x.com",
-    "docs.google.com"
+    "docs.google.com",
+    "medium.com"
   ],
   "mount": [
     {
