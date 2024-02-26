@@ -42,7 +42,7 @@
         }
       }
     ],
-    "default": [
+    "context": [
       {
         "icon": "messagecircle2",
         "copy": "Draft comment",
@@ -52,6 +52,7 @@
         }
       }
     ],
+    "default": [],
     "inputContent": [
       {
         "icon": "tool",
