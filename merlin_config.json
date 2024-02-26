@@ -41,6 +41,15 @@
       "paid": false
     },
     {
+      "charge": "Charges 25x Queries",
+      "default": false,
+      "description": "Mistral AI's best model, good at reasoning",
+      "id": "mistral-large-latest",
+      "name": "Mistral Large",
+      "queryCost": 25,
+      "paid": false
+    },
+    {
       "charge": "Charges 1x Query",
       "default": false,
       "description": "Open Source model by Meta, finetuned for coding tasks",
