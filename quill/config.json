@@ -7,10 +7,10 @@
   ],
   "rollout": {
     "authenticated": {
-      "paid": 0,
-      "free": 0
+      "paid": 100,
+      "free": 1
     },
-    "unauthenticated": false
+    "unauthenticated": 0
   },
   "whitelistType": "exact",
   "shouldUseMount": true,
