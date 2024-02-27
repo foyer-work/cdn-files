@@ -5,6 +5,13 @@
     "news.ycombinator.com",
     "www.producthunt.com"
   ],
+  "rollout": {
+    "authenticated": {
+      "paid": 0,
+      "free": 0
+    },
+    "unauthenticated": false
+  },
   "whitelistType": "exact",
   "shouldUseMount": true,
   "visible": true,
