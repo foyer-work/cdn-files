@@ -2,74 +2,122 @@
   "quickPrompts": [
     {
       "copy": "Shorten",
-      "prompt": "Shorten it to 50 words"
-    },
-    {
-      "copy": "Improve",
-      "prompt": "Improve writing"
+      "prompt": "Shorten it to 50 words",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Round%20pushpin/Color/round_pushpin_color.svg"
     },
     {
       "copy": "Simplify",
-      "prompt": "Simplify the language"
+      "prompt": "Simplify the language",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Baby/Default/Color/baby_color_default.svg"
     },
     {
-      "copy": "Lengthen",
-      "prompt": "Make it longer and verbose"
+      "copy": "Make it AI-proof",
+      "prompt": "Rewrite the text so that it's simple and easy to understand",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Mechanical%20arm/Color/mechanical_arm_color.svg"
     },
     {
-      "copy": "Fix spelling & grammar",
-      "prompt": "Fix spelling & grammar"
+      "copy": "Improve",
+      "prompt": "Improve writing",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Magic%20wand/Color/magic_wand_color.svg"
+    },
+    {
+      "copy": "Fix grammar",
+      "prompt": "Fix spelling & grammar",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Open%20book/Color/open_book_color.svg"
+    },
+    {
+      "copy": "Expand",
+      "prompt": "Expand the text",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Scroll/Color/scroll_color.svg"
+    },
+    {
+      "copy": "Funny",
+      "prompt": "Rewrite it to be more funny",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Face%20with%20tears%20of%20joy/Color/face_with_tears_of_joy_color.svg"
     },
     {
       "copy": "Sarcasm",
-      "prompt": "Rewrite it to be more sarcastic"
+      "prompt": "Rewrite it to be more sarcastic",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Eyes/Color/eyes_color.svg"
     }
   ],
   "dropdownItems": {
     "textSelected": [
       {
-        "icon": "replace",
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Magic%20wand/Color/magic_wand_color.svg",
         "copy": "Improve",
         "promptConfig": {
           "query": "Improve the wording and sentence structure of the provided context."
         }
       },
       {
-        "icon": "messagecircle2",
-        "copy": "Make it ai proof",
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Open%20book/Color/open_book_color.svg",
+        "copy": "Fix grammar",
+        "promptConfig": {
+          "query": "Fix spelling & grammar of the provided context. Do not modify any contents other than the mistakes."
+        }
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Mechanical%20arm/Color/mechanical_arm_color.svg",
+        "copy": "Make it AI-proof",
         "promptConfig": {
           "query": "Rewrite the text so that it's simple and easy to understand."
         }
       }
     ],
-    "context": [
+    "context": [],
+    "default": [
       {
-        "icon": "messagecircle2",
-        "copy": "Draft comment",
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Necktie/Color/necktie_color.svg",
+        "copy": "Professional reply",
         "promptConfig": {
-          "query": "Draft a comment for me based on the provided context.",
-          "extractContext": true
-        }
-      }
-    ],
-    "default": [],
-    "inputContent": [
-      {
-        "icon": "tool",
-        "copy": "Fix spelling and grammar",
-        "promptConfig": {
-          "extractInput": true,
-          "query": "Fix any spelling or grammar mistake in the context. Do not modify any contents other than the mistakes."
+          "query": "Draft a professional reply based on the provided context.",
+          "extractContext": true,
+          "liveSelection": true
         }
       },
       {
-        "icon": "briefcase",
-        "copy": "Make it professional",
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Raising%20hands/Default/Color/raising_hands_color_default.svg",
+        "copy": "Complement",
         "promptConfig": {
-          "extractInput": true,
-          "query": "Rewrite the context so that it feels bit more professional."
+          "query": "Draft a complement based on the provided context.",
+          "extractContext": true,
+          "liveSelection": true
+        }
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Open%20book/Color/open_book_color.svg",
+        "copy": "Fix grammar",
+        "promptConfig": {
+          "query": "Fix the grammar of the provided context.",
+          "extractContext": true,
+          "liveSelection": true
+        }
+      }
+    ],
+    "inputContent": [
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Magic%20wand/Color/magic_wand_color.svg",
+        "copy": "Improve",
+        "promptConfig": {
+          "query": "Improve the wording and sentence structure of the provided context."
+        }
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Open%20book/Color/open_book_color.svg",
+        "copy": "Fix grammar",
+        "promptConfig": {
+          "query": "Fix spelling & grammar of the provided context. Do not modify any contents other than the mistakes."
+        }
+      },
+      {
+        "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Mechanical%20arm/Color/mechanical_arm_color.svg",
+        "copy": "Make it AI-proof",
+        "promptConfig": {
+          "query": "Rewrite the text so that it's simple and easy to understand."
         }
       }
     ]
-  }
+  },
+  "textSelectionWithCustomPrompt": true
 }
