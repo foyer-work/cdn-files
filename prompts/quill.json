@@ -78,9 +78,9 @@
       },
       {
         "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Raising%20hands/Default/Color/raising_hands_color_default.svg",
-        "copy": "Complement",
+        "copy": "Compliment",
         "promptConfig": {
-          "query": "Draft a complement based on the provided context.",
+          "query": "Draft a compliment based on the provided context.",
           "extractContext": true,
           "liveSelection": true
         }
