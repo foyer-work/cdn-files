@@ -32,6 +32,15 @@
       "paid": true
     },
     {
+      "charge": "Charges 50x Queries",
+      "default": false,
+      "description": "Anthropic's latest model, best at reasoning",
+      "id": "claude-3-opus",
+      "name": "Claude 3 Opus",
+      "queryCost": 50,
+      "paid": false
+    },
+    {
       "charge": "Charges 1x Query",
       "default": false,
       "description": "Google's latest and best model for good reasoning",
