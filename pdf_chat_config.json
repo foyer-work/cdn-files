@@ -3,6 +3,7 @@
     {
       "charge": "Charges 1x Query",
       "default": true,
+      "defaultPro": false,
       "description": "Original ChatGPT model. Fast and good at reasoning",
       "id": "GPT 3",
       "name": "GPT 3.5",
@@ -12,6 +13,7 @@
     {
       "charge": "Charges 30x Queries",
       "default": false,
+      "defaultPro": true,
       "description": "Slightly slow and best at reasoning",
       "id": "GPT 4",
       "name": "GPT 4",
