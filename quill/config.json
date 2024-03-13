@@ -1,5 +1,5 @@
 {
-  "listInUse": "whitelist",
+  "listInUse": "blacklist",
   "whitelist": [
     "www.reddit.com",
     "news.ycombinator.com",
@@ -8,7 +8,7 @@
   "rollout": {
     "authenticated": {
       "paid": 100,
-      "free": 1
+      "free": 20
     },
     "unauthenticated": 0
   },
