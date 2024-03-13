@@ -1,7 +1,7 @@
 {
   "availableModels": [
     {
-      "charge": "Charges 1x Query",
+      "charge": "1x Query",
       "default": true,
       "defaultPro": false,
       "description": "Original ChatGPT model. Fast and good at reasoning",
@@ -11,7 +11,7 @@
       "paid": false
     },
     {
-      "charge": "Charges 30x Queries",
+      "charge": "30x Queries",
       "default": false,
       "defaultPro": true,
       "description": "Slightly slow and best at reasoning",
