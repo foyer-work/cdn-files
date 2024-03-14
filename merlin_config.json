@@ -1,4 +1,5 @@
 {
+  "useNewDomClean" : false,
   "goProModal": {
     "visible": true,
     "interval": 86400000
