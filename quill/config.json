@@ -3,19 +3,51 @@
   "whitelist": [
     "www.reddit.com",
     "news.ycombinator.com",
-    "www.producthunt.com"
+    "www.producthunt.com",
+    "web.whatsapp.com",
+    "stackoverflow.com",
+    "discord.com"
   ],
   "rollout": {
     "authenticated": {
       "paid": 100,
-      "free": 5
+      "free": 10
     },
     "unauthenticated": 0
   },
   "whitelistType": "exact",
   "shouldUseMount": true,
   "visible": true,
-  "blacklistedAttributes": [],
+  "blacklistedAttributes": [
+    {
+      "key": "aria-label",
+      "value": "Search"
+    },
+    {
+      "key": "name",
+      "value": "display-name"
+    },
+    {
+      "key": "name",
+      "value": "m-address"
+    },
+    {
+      "key": "title",
+      "value": "Search input textbox"
+    },
+    {
+      "key": "aria-controls",
+      "value": "file-results-list"
+    },
+    {
+      "key": "aria-controls",
+      "value": "query-builder-test-results"
+    },
+    {
+      "key": "data-target",
+      "value": "diff-layout.fileTreePathFilter"
+    }
+  ],
   "blacklistType": "contains",
   "blacklist": [
     "mail.google.com",
