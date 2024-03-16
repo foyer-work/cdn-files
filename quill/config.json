@@ -11,7 +11,7 @@
   "rollout": {
     "authenticated": {
       "paid": 100,
-      "free": 5
+      "free": 10
     },
     "unauthenticated": 0
   },
