@@ -2,7 +2,7 @@
   "useCloudSearch": true,
   "useNewDomClean": false,
   "goProModal": {
-    "visible": true,
+    "visible": false,
     "interval": 86400000
   },
   "availableModels": [
