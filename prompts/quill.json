@@ -100,21 +100,24 @@
         "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Magic%20wand/Color/magic_wand_color.svg",
         "copy": "Improve",
         "promptConfig": {
-          "query": "Improve the wording and sentence structure of the provided context."
+          "query": "Improve the wording and sentence structure of the provided context.",
+          "extractInput": true
         }
       },
       {
         "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Open%20book/Color/open_book_color.svg",
         "copy": "Fix grammar",
         "promptConfig": {
-          "query": "Fix spelling & grammar of the provided context. Do not modify any contents other than the mistakes."
+          "query": "Fix spelling & grammar of the provided context. Do not modify any contents other than the mistakes.",
+          "extractInput": true
         }
       },
       {
         "icon": "https://cdn.jsdelivr.net/gh/foyer-work/fluentui-emoji@latest/assets/Mechanical%20arm/Color/mechanical_arm_color.svg",
         "copy": "Make it AI-proof",
         "promptConfig": {
-          "query": "Rewrite the text so that it's simple and easy to understand."
+          "query": "Rewrite the text so that it's simple and easy to understand.",
+          "extractInput": true
         }
       }
     ]
