@@ -13,6 +13,20 @@
       "content": "Write a simple and crisp reply to in less than 50 words saying no or replying negatively (or declining) to the other person"
     }
   ],
+  "LinkedinMessageIntro": [
+    {
+      "name": "Intro",
+      "content": "Write an email draft that is concise, brief, and aims to introduce the sender to the receiver based on the given prompt."
+    },
+    {
+      "name": "Friendly Greeting",
+      "content": "Compose a friendly, informal greeting to initiate a Facebook conversation."
+    },
+    {
+      "name": "Connect Invite",
+      "content": "Compose a professional and friendly invite message to connect with the person."
+    }
+  ],
   "OutlookReply": [
     {
       "name": "Affirmative Response",
