@@ -8,5 +8,8 @@
   "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "diffEditor.ignoreTrimWhitespace": true,
-  "prettier.useTabs": false
+  "prettier.useTabs": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
