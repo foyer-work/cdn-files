@@ -1,5 +1,5 @@
 {
-  "useCloudSearch": true,
+  "useCloudSearch": false,
   "useNewDomClean": false,
   "goProModal": {
     "visible": false,
