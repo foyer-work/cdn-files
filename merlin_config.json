@@ -921,9 +921,11 @@
         "perplexity.ai",
         "telegram.org",
         "tabs.ultimate-guitar.com",
-        "huggingface.co"
+        "huggingface.co",
+        "substack",
+        "gemini.com"
       ],
-      "visible": true
+      "visible": false
     },
     "dopplegainger": {
       "visible": true
@@ -1294,7 +1296,7 @@
         }
       ],
       "tokensPerQuery": 2000,
-      "universalView": true,
+      "universalView": false,
       "visible": true
     },
     "whisper": {
