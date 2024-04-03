@@ -819,7 +819,7 @@
     },
     "chat": {
       "astro": {
-        "visible": true,
+        "visible": false,
         "astrologerPrompts": [
           {
             "prompts": [
