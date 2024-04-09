@@ -94,7 +94,7 @@
       "id": "gemini-1.5-pro",
       "name": "Gemini 1.5 (Experimental)",
       "queryCost": 30,
-      "paid": true
+      "paid": false
     }
   ],
   "blogWebchatCTA": {
@@ -1350,47 +1350,47 @@
     "visible": true
   },
   "survey": {
-		"visible": true,
-		"questionnaire": [
-			{
-				"options": [
-					"Word of mouth (Friend or colleague)",
-					"Online search (e.g., Google, Bing)",
-					"Chrome Web Store",
-					"Social media",
-					"Our mobile app (Android/iOS)",
-					"Article or blog post",
-					"Website or forum recommendation",
-					"Other"
-				],
+    "visible": true,
+    "questionnaire": [
+      {
+        "options": [
+          "Word of mouth (Friend or colleague)",
+          "Online search (e.g., Google, Bing)",
+          "Chrome Web Store",
+          "Social media",
+          "Our mobile app (Android/iOS)",
+          "Article or blog post",
+          "Website or forum recommendation",
+          "Other"
+        ],
 
-				"question": "Where did you find us?",
-				"title": "Excited to meet you!"
-			},
-			{
-				"options": [
-					"Student/Educator",
-					"Writer/Content",
-					"Developer/Engineer",
-					"Designer/Artist",
-					"Marketing/Sales Pro",
-					"Entrepreneur/Founder"
-				],
-				"question": "Let's start by getting to know you better. What do you do?",
-				"title": "We're excited to tailor your experience."
-			},
-			{
-				"options": [
-					"Writing content like blogs and articles",
-					"Researching and gathering information",
-					"Engage better on social media",
-					"Writing better code",
-					"Design and artistic advice",
-					"Just exploring what Merlin can do"
-				],
-				"question": "How do you see yourself teaming up with Merlin?",
-				"title": "Merlin is here to boost your productivity, creativity, and efficiency."
-			}
-		]
-	}
+        "question": "Where did you find us?",
+        "title": "Excited to meet you!"
+      },
+      {
+        "options": [
+          "Student/Educator",
+          "Writer/Content",
+          "Developer/Engineer",
+          "Designer/Artist",
+          "Marketing/Sales Pro",
+          "Entrepreneur/Founder"
+        ],
+        "question": "Let's start by getting to know you better. What do you do?",
+        "title": "We're excited to tailor your experience."
+      },
+      {
+        "options": [
+          "Writing content like blogs and articles",
+          "Researching and gathering information",
+          "Engage better on social media",
+          "Writing better code",
+          "Design and artistic advice",
+          "Just exploring what Merlin can do"
+        ],
+        "question": "How do you see yourself teaming up with Merlin?",
+        "title": "Merlin is here to boost your productivity, creativity, and efficiency."
+      }
+    ]
+  }
 }
