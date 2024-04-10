@@ -942,6 +942,7 @@
     },
     "doppelgainger": {
       "visible": false,
+      "v2Visible": true,
       "blacklistedSlugs": [
         "home",
         "explore",
