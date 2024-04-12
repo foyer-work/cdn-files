@@ -1352,6 +1352,7 @@
   },
   "survey": {
     "visible": true,
+    "showSurveyInterval": 6,
     "questionnaire": [
       {
         "options": [
