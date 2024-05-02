@@ -17,7 +17,7 @@
       "paid": false
     },
     {
-      "charge": "30x Queries",
+      "charge": "15x Queries",
       "default": false,
       "defaultPro": true,
       "description": "OpenAI's best and most capable model. (with Vision)",
