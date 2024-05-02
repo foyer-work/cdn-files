@@ -1,0 +1,95 @@
+{
+   "textModels": [
+    {
+      "charge": "1x Query",
+      "default": true,
+      "defaultPro": false,
+      "description": "OpenAI's most scalable and fast model.",
+      "id": "GPT 3",
+      "name": "GPT 3.5",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": true,
+      "description": "OpenAI's best and most capable model. (with Vision)",
+      "id": "GPT 4",
+      "name": "GPT 4",
+      "queryCost": 30,
+      "paid": false
+    },
+    {
+      "charge": "50x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "The multimodal model by OpenAI, best at vision tasks",
+      "id": "gpt-4-vision-preview",
+      "name": "GPT Vision",
+      "queryCost": 50,
+      "paid": true
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "Claude 3 Haiku",
+      "id": "claude-3-haiku",
+      "name": "Claude 3 Haiku",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
+      "charge": "50x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "The most capable model across all tasks.",
+      "id": "claude-3-opus",
+      "name": "Claude 3 Opus",
+      "queryCost": 50,
+      "paid": true
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's GenAI model, gives structured and well crafted answers.",
+      "id": "gemini-pro",
+      "name": "Gemini",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
+      "charge": "25x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Mistral AI's most capable proprietary model",
+      "id": "mistral-large-latest",
+      "name": "Mistral Large",
+      "queryCost": 25,
+      "paid": false
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "Mistral AI's open source model, good at reasoning with less moderation",
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "name": "Mixtral",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's flagship model, gives structured and well crafted answers.",
+      "id": "gemini-1.5-pro",
+      "name": "Gemini 1.5 (Experimental)",
+      "queryCost": 30,
+      "paid": false
+    }
+  ]
+  
+}
