@@ -17,24 +17,24 @@
       "paid": false
     },
     {
-      "charge": "15x Queries",
+      "charge": "5x Queries",
       "default": false,
       "defaultPro": true,
-      "description": "OpenAI's best and most capable model. (with Vision)",
-      "id": "GPT 4",
-      "name": "GPT 4",
-      "queryCost": 30,
+      "description": "OpenAI's flagship model with vision support.",
+      "id": "gpt-4o",
+      "name": "GPT 4o",
+      "queryCost": 5,
       "paid": false
     },
     {
-      "charge": "50x Queries",
+      "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "The multimodal model by OpenAI, best at vision tasks",
-      "id": "gpt-4-vision-preview",
-      "name": "GPT Vision",
-      "queryCost": 50,
-      "paid": true
+      "description": "OpenAI's best and most capable model.",
+      "id": "GPT 4",
+      "name": "GPT 4",
+      "queryCost": 15,
+      "paid": false
     },
     {
       "charge": "1x Query",
