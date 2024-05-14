@@ -256,11 +256,7 @@
         "url": "https://bcin.short.gy/serp-merlin"
       }
     ],
-    "mountOn": [
-      "blogSummarizer",
-      "youtubeSummarizer",
-      "SERP"
-    ]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -1027,9 +1023,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
@@ -1399,5 +1393,25 @@
         "title": "Merlin is here to boost your productivity, creativity, and efficiency."
       }
     ]
-  }
+  },
+  "availableTools": [
+    {
+      "toolName": "Essay Writer",
+      "keywords": ["Essay", "Writer", "Essay AI Tools"],
+      "toolImage": "https://i.ibb.co/tZYbXw5/check.jpg",
+      "ctaLink": "https://www.getmerlin.in/ai-tools/essay-writer"
+    },
+    {
+      "toolName": "AI Detection",
+      "keywords": ["Detection", "AI Plagiarism", "Cheating"],
+      "toolImage": "https://i.ibb.co/tZYbXw5/check.jpg",
+      "ctaLink": "https://www.getmerlin.in/ai-detection"
+    },
+    {
+      "toolName": "Youtube Summariser",
+      "keywords": ["Summarise", "Cut short", "Youtube"],
+      "toolImage": "https://i.ibb.co/tZYbXw5/check.jpg",
+      "ctaLink": "https://www.getmerlin.in/feature/youtube-summary-with-chatgpt"
+    }
+  ]
 }
