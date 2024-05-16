@@ -17,7 +17,7 @@
       "paid": false
     },
     {
-      "charge": "5x Queries",
+      "charge": "15x Queries",
       "default": false,
       "defaultPro": true,
       "description": "OpenAI's flagship model with vision support.",
@@ -27,7 +27,7 @@
       "paid": false
     },
     {
-      "charge": "15x Queries",
+      "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
       "description": "OpenAI's best and most capable model.",
