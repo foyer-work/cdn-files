@@ -23,7 +23,7 @@
       "description": "OpenAI's flagship model with vision support.",
       "id": "gpt-4o",
       "name": "GPT 4o",
-      "queryCost": 5,
+      "queryCost": 15,
       "paid": false
     },
     {
@@ -33,7 +33,7 @@
       "description": "OpenAI's best and most capable model.",
       "id": "GPT 4",
       "name": "GPT 4",
-      "queryCost": 15,
+      "queryCost": 25,
       "paid": false
     },
     {
