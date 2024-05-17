@@ -57,12 +57,22 @@
       "paid": true
     },
     {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's flagship model, gives structured and well crafted answers.",
+      "id": "gemini-1.5-pro",
+      "name": "Gemini 1.5 Pro",
+      "queryCost": 30,
+      "paid": false
+    },
+    {
       "charge": "1x Query",
       "default": false,
       "defaultPro": false,
-      "description": "Google's GenAI model, gives structured and well crafted answers.",
-      "id": "gemini-pro",
-      "name": "Gemini",
+      "description": "Google's fastest model, gives structured and well crafted answers.",
+      "id": "gemini-1.5-pro",
+      "name": "Gemini 1.5 Flash",
       "queryCost": 1,
       "paid": false
     },
@@ -84,16 +94,6 @@
       "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
       "name": "Mixtral",
       "queryCost": 1,
-      "paid": false
-    },
-    {
-      "charge": "30x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's flagship model, gives structured and well crafted answers.",
-      "id": "gemini-1.5-pro",
-      "name": "Gemini 1.5 (Experimental)",
-      "queryCost": 30,
       "paid": false
     }
   ],
