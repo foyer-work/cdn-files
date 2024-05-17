@@ -71,7 +71,7 @@
       "default": false,
       "defaultPro": false,
       "description": "Google's fastest model, gives structured and well crafted answers.",
-      "id": "gemini-1.5-pro",
+      "id": "gemini-1.5-flash",
       "name": "Gemini 1.5 Flash",
       "queryCost": 1,
       "paid": false
