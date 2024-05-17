@@ -256,11 +256,7 @@
         "url": "https://bcin.short.gy/serp-merlin"
       }
     ],
-    "mountOn": [
-      "blogSummarizer",
-      "youtubeSummarizer",
-      "SERP"
-    ]
+    "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
   },
   "latestVersion": "6.6.2",
   "leonardoModels": [
@@ -1027,9 +1023,7 @@
   },
   "personas": [
     {
-      "greetings": [
-        "Hello, I am Merlin! How can I assist you today?"
-      ],
+      "greetings": ["Hello, I am Merlin! How can I assist you today?"],
       "image": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@main/merlin.webp",
       "name": "Merlin"
     },
@@ -1399,5 +1393,67 @@
         "title": "Merlin is here to boost your productivity, creativity, and efficiency."
       }
     ]
-  }
+  },
+  "availableTools": [
+    {
+      "toolName": "Essay Writer",
+      "keywords": [
+        "essay writer",
+        "essay generator",
+        "ai essay writer",
+        "free essay writer",
+        "essay writer free",
+        "ai essay generator",
+        "essay writer ai",
+        "ai essay writer free",
+        "essay maker",
+        "free ai essay writer",
+        "ai checker essay",
+        "editpad",
+        "essay generator free",
+        "essay ai",
+        "editpad essay writer",
+        "ai paper generator",
+        "essaywriter",
+        "free essay generator"
+      ],
+      "toolImage": "https://d22e6o9mp4t2lx.cloudfront.net/cms/Frame_1321317528_8a6f64914e.png",
+      "ctaLink": " https://www.getmerlin.in/ai-tools/essay-writer?ref=y2viymu"
+    },
+    {
+      "toolName": "AI Detection",
+      "keywords": [
+        "ai detector",
+        "ai checker",
+        "ai detector free",
+        "copyleaks",
+        "ai content detector",
+        "chat gpt detector",
+        "chatgpt checker",
+        "chatgpt detector",
+        "ai checker free",
+        "ai scanner",
+        "free ai checker",
+        "ai writing detector",
+        "ai detection tool",
+        "gpt detector",
+        "best ai detector",
+        "ai text",
+        "chat gpt checker",
+        "ai generated text",
+        "is this ai",
+        "detect to english",
+        "ai detection",
+        "detector",
+        "ai tracker",
+        "ai check",
+        "turnitin checker",
+        "online checkers",
+        "chatgpt checker",
+        "checker"
+      ],
+      "toolImage": "https://d22e6o9mp4t2lx.cloudfront.net/cms/Frame_1321317528_1_3a3213859a.png",
+      "ctaLink": " https://www.getmerlin.in/ai-detection?ref=y2viymu"
+    }
+  ]
 }
