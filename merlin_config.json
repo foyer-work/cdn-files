@@ -47,6 +47,16 @@
       "paid": false
     },
     {
+      "charge": "10x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Claude 3 Sonnet",
+      "id": "claude-3-sonnet",
+      "name": "Claude 3 Sonnet",
+      "queryCost": 10,
+      "paid": false
+    },
+    {
       "charge": "50x Queries",
       "default": false,
       "defaultPro": false,
