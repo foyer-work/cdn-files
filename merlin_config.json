@@ -244,7 +244,7 @@
       "text": "Merlin API is here! Try Now!",
       "threshold": 102,
       "url": "https://api.getmerlin.in/",
-      "visible": true
+      "visible": false
     }
   ],
   "infoBanners": {
