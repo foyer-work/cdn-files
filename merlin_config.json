@@ -249,8 +249,8 @@
   ],
   "infoBanners": {
     "chat": {
-      "text": "Merlin Pro Giveaway is here! Join Now!",
-      "url": "https://bcin.short.gy/backlink-chatbot",
+      "text": "Access Web is not functioning at 100%. We're working on a fix!",
+      "url": "",
       "visible": false,
       "recurAfter": 14400000,
       "timeout": 0
