@@ -1,0 +1,2472 @@
+{
+    "advnace-features": {
+        "face-generator": {
+            "Name": "Face Generator",
+            "options": [
+                {
+                    "label": "Hair",
+                    "key": "hair",
+                    "placeholder": "Select hair color",
+                    "items": [
+                        {
+                            "value": "Black",
+                            "color": "bg-black",
+                            "label": "Black"
+                        },
+                        {
+                            "value": "White",
+                            "color": "bg-white",
+                            "label": "White"
+                        },
+                        {
+                            "value": "Brown",
+                            "color": "bg-yellow-900",
+                            "label": "Brown"
+                        },
+                        {
+                            "value": "Blonde",
+                            "color": "bg-amber-300",
+                            "label": "Blonde"
+                        }
+                    ]
+                },
+                {
+                    "label": "Hair Style",
+                    "key": "hairStyle",
+                    "placeholder": "Select hair Style",
+                    "items": [
+                        {
+                            "value": "Short",
+                            "label": "Short Hair"
+                        },
+                        {
+                            "value": "Long",
+                            "label": "Long Hair"
+                        },
+                        {
+                            "value": "Buzz Cut",
+                            "label": "Buzz Cur"
+                        },
+                        {
+                            "value": "Bob Cut",
+                            "label": "Bob Cut"
+                        },
+                        {
+                            "value": "Wavy",
+                            "label": "Wavy Hair"
+                        },
+                        {
+                            "value": "Straight",
+                            "label": "Straight Hair"
+                        },
+                        {
+                            "value": "Curly",
+                            "label": "Curly Hair"
+                        },
+                        {
+                            "value": "Afro",
+                            "label": "Afro Hair"
+                        }
+                    ]
+                },
+                {
+                    "label": "Glasses",
+                    "key": "glasses",
+                    "placeholder": "Select glasses",
+                    "items": [
+                        {
+                            "value": "Aviator",
+                            "label": "Aviator Sunglasses"
+                        },
+                        {
+                            "value": "Wayfarer",
+                            "label": "Wayfarer Sunglasses"
+                        },
+                        {
+                            "value": "Round",
+                            "label": "Round Glasses"
+                        },
+                        {
+                            "value": "Cat-eye",
+                            "label": "Cat-eye Glasses"
+                        },
+                        {
+                            "value": "Rectangular",
+                            "label": "Rectangular Glasses"
+                        },
+                        {
+                            "value": "Square",
+                            "label": "Square Glasses"
+                        },
+                        {
+                            "value": "Oversized",
+                            "label": "Oversized Sunglasses"
+                        }
+                    ]
+                },
+                {
+                    "label": "Eye Color",
+                    "key": "eyeColor",
+                    "placeholder": "Select eye color",
+                    "items": [
+                        {
+                            "value": "Black",
+                            "color": "bg-black",
+                            "label": "Black"
+                        },
+                        {
+                            "value": "Green",
+                            "color": "bg-green-600",
+                            "label": "Green"
+                        },
+                        {
+                            "value": "Brown",
+                            "color": "bg-yellow-900",
+                            "label": "Brown"
+                        },
+                        {
+                            "value": "Blue",
+                            "color": "bg-blue-700",
+                            "label": "Blue"
+                        },
+                        {
+                            "value": "Grey",
+                            "color": "bg-gray-500",
+                            "label": "Grey"
+                        }
+                    ]
+                },
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Age",
+                    "key": "age",
+                    "placeholder": "Select Age",
+                    "items": [
+                        {
+                            "value": "0-10 years",
+                            "label": "0-10 yrs"
+                        },
+                        {
+                            "value": "10-20 years",
+                            "label": "10-20 yrs"
+                        },
+                        {
+                            "value": "20-30 years",
+                            "label": "20-30 yrs"
+                        },
+                        {
+                            "value": "30-40 years",
+                            "label": "30-40 yrs"
+                        },
+                        {
+                            "value": "40-50 years",
+                            "label": "40-50 yrs"
+                        },
+                        {
+                            "value": "50 years above",
+                            "label": "50 yrs above"
+                        }
+                    ]
+                },
+                {
+                    "label": "Expression",
+                    "key": "expression",
+                    "placeholder": "Facial Expression",
+                    "items": [
+                        {
+                            "value": "Neutral",
+                            "label": "Neutral"
+                        },
+                        {
+                            "value": "Happy",
+                            "label": "Happy"
+                        },
+                        {
+                            "value": "Sad",
+                            "label": "Sad"
+                        },
+                        {
+                            "value": "Surprised",
+                            "label": "Surprised"
+                        },
+                        {
+                            "value": "Frightened",
+                            "label": "Frightened"
+                        },
+                        {
+                            "value": "Disgusted",
+                            "label": "Disgusted"
+                        },
+                        {
+                            "value": "Puzzled",
+                            "label": "Puzzled"
+                        }
+                    ]
+                }
+            ]
+        },
+        "character-generator": {
+            "Name": "Character Generator",
+            "options": [
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Appearance",
+                    "key": "appearance",
+                    "placeholder": "Select Appearance",
+                    "items": [
+                        {
+                            "value": "Friendly",
+                            "label": "Friendly"
+                        },
+                        {
+                            "value": "Funny",
+                            "label": "Funny"
+                        },
+                        {
+                            "value": "Casusal",
+                            "label": "Casusal"
+                        },
+                        {
+                            "value": "Professional",
+                            "label": "Professional"
+                        },
+                        {
+                            "value": "Feminine",
+                            "label": "Feminine"
+                        },
+                        {
+                            "value": "Masculine",
+                            "label": "Masculine"
+                        },
+                        {
+                            "value": "Bold",
+                            "label": "Bold"
+                        }
+                    ]
+                },
+                {
+                    "label": "Genre",
+                    "key": "genre",
+                    "placeholder": "Select Genre",
+                    "items": [
+                        {
+                            "value": "Fantasy",
+                            "label": "Fantasy"
+                        },
+                        {
+                            "value": "Romance",
+                            "label": "Romance"
+                        },
+                        {
+                            "value": "Mystery",
+                            "label": "Mystery"
+                        },
+                        {
+                            "value": "Adventure",
+                            "label": "Adventure"
+                        },
+                        {
+                            "value": "Historical",
+                            "label": "Historical"
+                        },
+                        {
+                            "value": "Fiction",
+                            "label": "Fiction"
+                        }
+                    ]
+                },
+                {
+                    "label": "Age",
+                    "key": "age",
+                    "placeholder": "Select Age",
+                    "items": [
+                        {
+                            "value": "0-10 years",
+                            "label": "0-10 yrs"
+                        },
+                        {
+                            "value": "10-20 years",
+                            "label": "10-20 yrs"
+                        },
+                        {
+                            "value": "20-30 years",
+                            "label": "20-30 yrs"
+                        },
+                        {
+                            "value": "30-40 years",
+                            "label": "30-40 yrs"
+                        },
+                        {
+                            "value": "40-50 years",
+                            "label": "40-50 yrs"
+                        },
+                        {
+                            "value": "50 years above",
+                            "label": "50 yrs above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "avatar-generator": {
+            "Name": "Avatar Generator",
+            "options": [
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select Gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Hair Style",
+                    "key": "hairStyle",
+                    "placeholder": "Select hair Style",
+                    "items": [
+                        {
+                            "value": "Short",
+                            "label": "Short Hair (Men)"
+                        },
+                        {
+                            "value": "Long",
+                            "label": "Long Hair (Men)"
+                        },
+                        {
+                            "value": "Buzz Cut",
+                            "label": "Buzz Cut (Men)"
+                        },
+                        {
+                            "value": "Bob Cut",
+                            "label": "Bob Cut (Women)"
+                        },
+                        {
+                            "value": "Wavy",
+                            "label": "Wavy Hair (Women)"
+                        },
+                        {
+                            "value": "Straight",
+                            "label": "Straight Hair (Women)"
+                        },
+                        {
+                            "value": "Curly",
+                            "label": "Curly Hair (Unisex)"
+                        },
+                        {
+                            "value": "Afro",
+                            "label": "Afro Hair (Unisex)"
+                        }
+                    ]
+                },
+                {
+                    "label": "Clothing Style",
+                    "key": "clothingStyle",
+                    "placeholder": "Select Clothing Style",
+                    "items": [
+                        {
+                            "value": "Casual",
+                            "label": "Casual"
+                        },
+                        {
+                            "value": "Formal",
+                            "label": "Formal"
+                        },
+                        {
+                            "value": "Sporty",
+                            "label": "Sporty"
+                        },
+                        {
+                            "value": "Bohemian",
+                            "label": "Bohemian"
+                        },
+                        {
+                            "value": "Business Casual",
+                            "label": "Business Casual"
+                        }
+                    ]
+                },
+                {
+                    "label": "Accessories",
+                    "key": "accessories",
+                    "placeholder": "Select Accessories",
+                    "items": [
+                        {
+                            "value": "Glasses",
+                            "label": "Glasses"
+                        },
+                        {
+                            "value": "Hat",
+                            "label": "Hat"
+                        },
+                        {
+                            "value": "Cap",
+                            "label": "Cap"
+                        },
+                        {
+                            "value": "Necklace",
+                            "label": "Necklace"
+                        },
+                        {
+                            "value": "Earrings",
+                            "label": "Earrings"
+                        },
+                        {
+                            "value": "Watch",
+                            "label": "Watch"
+                        }
+                    ]
+                },
+                {
+                    "label": "Background",
+                    "key": "background",
+                    "placeholder": "Select Background",
+                    "items": [
+                        {
+                            "value": "Cityscape",
+                            "label": "Cityscape"
+                        },
+                        {
+                            "value": "Beach",
+                            "label": "Beach"
+                        },
+                        {
+                            "value": "Mountains",
+                            "label": "Mountains"
+                        },
+                        {
+                            "value": "Space",
+                            "label": "Space"
+                        },
+                        {
+                            "value": "Abstract Patterns",
+                            "label": "Abstract Patterns"
+                        }
+                    ]
+                },
+                {
+                    "label": "Image Style",
+                    "key": "imageStyle",
+                    "placeholder": "Select Avatar Style",
+                    "items": [
+                        {
+                            "value": "Realistic",
+                            "label": "Realistic"
+                        },
+                        {
+                            "value": "Cartoon",
+                            "label": "Cartoon"
+                        },
+                        {
+                            "value": "Pixel Art",
+                            "label": "Pixel Avatar"
+                        },
+                        {
+                            "value": "Gaming",
+                            "label": "Gaming Avatar"
+                        },
+                        {
+                            "value": "Anime",
+                            "label": "Anime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "portrait-generator": {
+            "Name": "AI Portrait Generator",
+            "options": [
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select Gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Age Group",
+                    "key": "age",
+                    "placeholder": "Select Age Group",
+                    "items": [
+                        {
+                            "value": "Child",
+                            "label": "Child (0-12 years)"
+                        },
+                        {
+                            "value": "Teenager",
+                            "label": "Teenager (13-19 years)"
+                        },
+                        {
+                            "value": "Adult",
+                            "label": "Adult (20-59 years)"
+                        },
+                        {
+                            "value": "Senior",
+                            "label": "Senior (60+ years)"
+                        }
+                    ]
+                },
+                {
+                    "label": "Ethnicity",
+                    "key": "ethnicity",
+                    "placeholder": "Select Ethnicity",
+                    "items": [
+                        {
+                            "value": "Caucasian",
+                            "label": "Caucasian"
+                        },
+                        {
+                            "value": "African",
+                            "label": "African"
+                        },
+                        {
+                            "value": "Asian",
+                            "label": "Asian"
+                        },
+                        {
+                            "value": "Hispanic",
+                            "label": "Hispanic"
+                        },
+                        {
+                            "value": "Other",
+                            "label": "Other"
+                        }
+                    ]
+                },
+                {
+                    "label": "Hairstyle",
+                    "key": "hairstyle",
+                    "placeholder": "Select Hairstyle",
+                    "items": [
+                        {
+                            "value": "Short",
+                            "label": "Short Hair"
+                        },
+                        {
+                            "value": "Long",
+                            "label": "Long Hair"
+                        },
+                        {
+                            "value": "Curly",
+                            "label": "Curly Hair"
+                        },
+                        {
+                            "value": "Straight",
+                            "label": "Straight Hair"
+                        },
+                        {
+                            "value": "Bald",
+                            "label": "Bald"
+                        }
+                    ]
+                },
+                {
+                    "label": "Facial Expression",
+                    "key": "expression",
+                    "placeholder": "Select Facial Expression",
+                    "items": [
+                        {
+                            "value": "Smiling",
+                            "label": "Smiling"
+                        },
+                        {
+                            "value": "Serious",
+                            "label": "Serious"
+                        },
+                        {
+                            "value": "Neutral",
+                            "label": "Neutral"
+                        },
+                        {
+                            "value": "Surprised",
+                            "label": "Surprised"
+                        }
+                    ]
+                }
+            ]
+        },
+        "anime-art-generator": {
+            "Name": "Anime Art Generator",
+            "options": [
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select Gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Hairstyle",
+                    "key": "hairstyle",
+                    "placeholder": "Select Hairstyle",
+                    "items": [
+                        {
+                            "value": "Short",
+                            "label": "Short Hair"
+                        },
+                        {
+                            "value": "Long",
+                            "label": "Long Hair"
+                        },
+                        {
+                            "value": "Ponytail",
+                            "label": "Ponytail"
+                        },
+                        {
+                            "value": "Bangs",
+                            "label": "Bangs"
+                        },
+                        {
+                            "value": "Braids",
+                            "label": "Braids"
+                        }
+                    ]
+                },
+                {
+                    "label": "Eye Color",
+                    "key": "eyeColor",
+                    "placeholder": "Select Eye Color",
+                    "items": [
+                        {
+                            "value": "Black",
+                            "color": "bg-black",
+                            "label": "Black"
+                        },
+                        {
+                            "value": "Green",
+                            "color": "bg-green-600",
+                            "label": "Green"
+                        },
+                        {
+                            "value": "Brown",
+                            "color": "bg-yellow-900",
+                            "label": "Brown"
+                        },
+                        {
+                            "value": "Blue",
+                            "color": "bg-blue-700",
+                            "label": "Blue"
+                        },
+                        {
+                            "value": "Sky Blue",
+                            "color": "bg-sky-300",
+                            "label": "Sky Blue"
+                        },
+                        {
+                            "value": "Red",
+                            "color": "bg-red-600",
+                            "label": "Red"
+                        },
+                        {
+                            "value": "Grey",
+                            "color": "bg-gray-500",
+                            "label": "Grey"
+                        }
+                    ]
+                },
+                {
+                    "label": "Eye Style",
+                    "key": "eyeStyle",
+                    "placeholder": "Select Eye Style",
+                    "items": [
+                        {
+                            "label": "Big Eyes",
+                            "value": "big_eyes"
+                        },
+                        {
+                            "label": "Small Eyes",
+                            "value": "small_eyes"
+                        },
+                        {
+                            "label": "Sparkling Eyes",
+                            "value": "sparkling_eyes"
+                        },
+                        {
+                            "label": "Round Eyes",
+                            "value": "round_eyes"
+                        },
+                        {
+                            "label": "Almond Eyes",
+                            "value": "almond_eyes"
+                        }
+                    ]
+                },
+                {
+                    "label": "Outfit",
+                    "key": "outfit",
+                    "placeholder": "Select Outfit",
+                    "items": [
+                        {
+                            "value": "Casual",
+                            "label": "Casual"
+                        },
+                        {
+                            "value": "Formal",
+                            "label": "Formal"
+                        },
+                        {
+                            "value": "School Uniform",
+                            "label": "School Uniform"
+                        },
+                        {
+                            "value": "Traditional",
+                            "label": "Traditional"
+                        },
+                        {
+                            "value": "Fantasy",
+                            "label": "Fantasy"
+                        }
+                    ]
+                },
+                {
+                    "label": "Expression",
+                    "key": "expression",
+                    "placeholder": "Select Expression",
+                    "items": [
+                        {
+                            "value": "Smiling",
+                            "label": "Smiling"
+                        },
+                        {
+                            "value": "Serious",
+                            "label": "Serious"
+                        },
+                        {
+                            "value": "Surprised",
+                            "label": "Surprised"
+                        },
+                        {
+                            "value": "Angry",
+                            "label": "Angry"
+                        },
+                        {
+                            "value": "Sad",
+                            "label": "Sad"
+                        }
+                    ]
+                },
+                {
+                    "label": "Theme",
+                    "key": "theme",
+                    "placeholder": "Select Theme",
+                    "items": [
+                        {
+                            "value": "Fantasy",
+                            "label": "Fantasy"
+                        },
+                        {
+                            "value": "Sci-Fi",
+                            "label": "Sci-Fi"
+                        },
+                        {
+                            "value": "Romance",
+                            "label": "Romance"
+                        },
+                        {
+                            "value": "Horror",
+                            "label": "Horror"
+                        },
+                        {
+                            "value": "Adventure",
+                            "label": "Adventure"
+                        }
+                    ]
+                },
+                {
+                    "label": "Time Period",
+                    "key": "timePeriod",
+                    "placeholder": "Select Time Period",
+                    "items": [
+                        {
+                            "value": "Ancient",
+                            "label": "Ancient"
+                        },
+                        {
+                            "value": "Medieval",
+                            "label": "Medieval"
+                        },
+                        {
+                            "value": "Modern",
+                            "label": "Modern"
+                        },
+                        {
+                            "value": "Future",
+                            "label": "Future"
+                        }
+                    ]
+                }
+            ]
+        },
+        "painting-generator": {
+            "Name": "Painting Generator",
+            "options": [
+                {
+                    "label": "Art Style",
+                    "key": "artStyle",
+                    "placeholder": "Select Art Style",
+                    "items": [
+                        {
+                            "value": "Realism",
+                            "label": "Realism"
+                        },
+                        {
+                            "value": "Impressionism",
+                            "label": "Impressionism"
+                        },
+                        {
+                            "value": "Abstract",
+                            "label": "Abstract"
+                        },
+                        {
+                            "value": "Cubism",
+                            "label": "Cubism"
+                        },
+                        {
+                            "value": "Surrealism",
+                            "label": "Surrealism"
+                        }
+                    ]
+                },
+                {
+                    "label": "Medium",
+                    "key": "medium",
+                    "placeholder": "Select Medium",
+                    "items": [
+                        {
+                            "value": "Oil Paint",
+                            "label": "Oil Paint"
+                        },
+                        {
+                            "value": "Watercolor",
+                            "label": "Watercolor"
+                        },
+                        {
+                            "value": "Acrylic Paint",
+                            "label": "Acrylic Paint"
+                        },
+                        {
+                            "value": "Pastel",
+                            "label": "Pastel"
+                        },
+                        {
+                            "value": "Ink",
+                            "label": "Ink"
+                        }
+                    ]
+                },
+                {
+                    "label": "Subject",
+                    "key": "subject",
+                    "placeholder": "Select Subject",
+                    "items": [
+                        {
+                            "value": "Landscape",
+                            "label": "Landscape"
+                        },
+                        {
+                            "value": "Portrait",
+                            "label": "Portrait"
+                        },
+                        {
+                            "value": "Still Life",
+                            "label": "Still Life"
+                        },
+                        {
+                            "value": "Abstract",
+                            "label": "Abstract"
+                        },
+                        {
+                            "value": "Figurative",
+                            "label": "Figurative"
+                        }
+                    ]
+                },
+                {
+                    "label": "Color Palette",
+                    "key": "colorPalette",
+                    "placeholder": "Select Color Palette",
+                    "items": [
+                        {
+                            "value": "Warm Colors",
+                            "label": "Warm Colors"
+                        },
+                        {
+                            "value": "Cool Colors",
+                            "label": "Cool Colors"
+                        },
+                        {
+                            "value": "Earth Tones",
+                            "label": "Earth Tones"
+                        },
+                        {
+                            "value": "Monochrome",
+                            "label": "Monochrome"
+                        },
+                        {
+                            "value": "Vibrant",
+                            "label": "Vibrant"
+                        }
+                    ]
+                },
+                {
+                    "label": "Brush Technique",
+                    "key": "brush",
+                    "placeholder": "Select Brush Technique",
+                    "items": [
+                        {
+                            "value": "Impasto",
+                            "label": "Impasto"
+                        },
+                        {
+                            "value": "Wet-on-Wet",
+                            "label": "Wet-on-Wet"
+                        },
+                        {
+                            "value": "Dry Brush",
+                            "label": "Dry Brush"
+                        },
+                        {
+                            "value": "Sgraffito",
+                            "label": "Sgraffito"
+                        },
+                        {
+                            "value": "Glazing",
+                            "label": "Glazing"
+                        }
+                    ]
+                }
+            ]
+        },
+        "person-generator": {
+            "Name": "Person Generator",
+            "options": [
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select Gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Age",
+                    "key": "age",
+                    "placeholder": "Select Age",
+                    "items": [
+                        {
+                            "value": "Child",
+                            "label": "Child"
+                        },
+                        {
+                            "value": "Teenager",
+                            "label": "Teenager"
+                        },
+                        {
+                            "value": "Adult",
+                            "label": "Adult"
+                        },
+                        {
+                            "value": "Elderly",
+                            "label": "Elderly"
+                        }
+                    ]
+                },
+                {
+                    "label": "Hair Color",
+                    "key": "hair",
+                    "placeholder": "Select Hair Color",
+                    "items": [
+                        {
+                            "value": "Black",
+                            "label": "Black"
+                        },
+                        {
+                            "value": "Brown",
+                            "label": "Brown"
+                        },
+                        {
+                            "value": "Blonde",
+                            "label": "Blonde"
+                        },
+                        {
+                            "value": "Red",
+                            "label": "Red"
+                        },
+                        {
+                            "value": "Gray",
+                            "label": "Gray"
+                        }
+                    ]
+                },
+                {
+                    "label": "Eye Color",
+                    "key": "eyeColor",
+                    "placeholder": "Select Eye Color",
+                    "items": [
+                        {
+                            "value": "Brown",
+                            "label": "Brown"
+                        },
+                        {
+                            "value": "Blue",
+                            "label": "Blue"
+                        },
+                        {
+                            "value": "Green",
+                            "label": "Green"
+                        },
+                        {
+                            "value": "Hazel",
+                            "label": "Hazel"
+                        },
+                        {
+                            "value": "Gray",
+                            "label": "Gray"
+                        }
+                    ]
+                },
+                {
+                    "label": "Facial Expression",
+                    "key": "expression",
+                    "placeholder": "Select Facial Expression",
+                    "items": [
+                        {
+                            "value": "Smiling",
+                            "label": "Smiling"
+                        },
+                        {
+                            "value": "Serious",
+                            "label": "Serious"
+                        },
+                        {
+                            "value": "Neutral",
+                            "label": "Neutral"
+                        },
+                        {
+                            "value": "Surprised",
+                            "label": "Surprised"
+                        },
+                        {
+                            "value": "Angry",
+                            "label": "Angry"
+                        }
+                    ]
+                },
+                {
+                    "label": "Clothing Style",
+                    "key": "clothingStyle",
+                    "placeholder": "Select Clothing Style",
+                    "items": [
+                        {
+                            "value": "Casual",
+                            "label": "Casual"
+                        },
+                        {
+                            "value": "Formal",
+                            "label": "Formal"
+                        },
+                        {
+                            "value": "Sporty",
+                            "label": "Sporty"
+                        },
+                        {
+                            "value": "Vintage",
+                            "label": "Vintage"
+                        },
+                        {
+                            "value": "Bohemian",
+                            "label": "Bohemian"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tattoo-art-generator": {
+            "Name": "Tattoo Art Generator",
+            "options": [
+                {
+                    "label": "Tattoo Style",
+                    "key": "tattooStyle",
+                    "placeholder": "Select Tattoo Style",
+                    "items": [
+                        {
+                            "value": "Traditional",
+                            "label": "Traditional"
+                        },
+                        {
+                            "value": "Realistic",
+                            "label": "Realistic"
+                        },
+                        {
+                            "value": "Watercolor",
+                            "label": "Watercolor"
+                        },
+                        {
+                            "value": "Blackwork",
+                            "label": "Blackwork"
+                        },
+                        {
+                            "value": "Geometric",
+                            "label": "Geometric"
+                        },
+                        {
+                            "value": "Neo-traditional",
+                            "label": "Neo-traditional"
+                        },
+                        {
+                            "value": "Minimalist",
+                            "label": "Minimalist"
+                        }
+                    ]
+                },
+                {
+                    "label": "Tattoo Subject",
+                    "key": "tattooSubject",
+                    "placeholder": "Select Tattoo Subject",
+                    "items": [
+                        {
+                            "value": "Animals",
+                            "label": "Animals"
+                        },
+                        {
+                            "value": "Nature",
+                            "label": "Nature"
+                        },
+                        {
+                            "value": "Flowers",
+                            "label": "Flowers"
+                        },
+                        {
+                            "value": "Skulls",
+                            "label": "Skulls"
+                        },
+                        {
+                            "value": "Fantasy",
+                            "label": "Fantasy"
+                        },
+                        {
+                            "value": "Quotes",
+                            "label": "Quotes"
+                        },
+                        {
+                            "value": "Symbols",
+                            "label": "Symbols"
+                        }
+                    ]
+                },
+                {
+                    "label": "Tattoo Placement",
+                    "key": "tattooPlacement",
+                    "placeholder": "Select Tattoo Placement",
+                    "items": [
+                        {
+                            "value": "Arm",
+                            "label": "Arm"
+                        },
+                        {
+                            "value": "Back",
+                            "label": "Back"
+                        },
+                        {
+                            "value": "Leg",
+                            "label": "Leg"
+                        },
+                        {
+                            "value": "Chest",
+                            "label": "Chest"
+                        },
+                        {
+                            "value": "Neck",
+                            "label": "Neck"
+                        },
+                        {
+                            "value": "Hand",
+                            "label": "Hand"
+                        },
+                        {
+                            "value": "Foot",
+                            "label": "Foot"
+                        }
+                    ]
+                },
+                {
+                    "label": "Tattoo Color",
+                    "key": "tattooColor",
+                    "placeholder": "Select Tattoo Color",
+                    "items": [
+                        {
+                            "value": "Black",
+                            "label": "Black"
+                        },
+                        {
+                            "value": "Colorful",
+                            "label": "Colorful"
+                        },
+                        {
+                            "value": "Monochrome",
+                            "label": "Monochrome"
+                        },
+                        {
+                            "value": "Grayscale",
+                            "label": "Grayscale"
+                        },
+                        {
+                            "value": "Pastel",
+                            "label": "Pastel"
+                        },
+                        {
+                            "value": "Neon",
+                            "label": "Neon"
+                        },
+                        {
+                            "value": "Metallic",
+                            "label": "Metallic"
+                        }
+                    ]
+                },
+                {
+                    "label": "Tattoo Size",
+                    "key": "tattooSize",
+                    "placeholder": "Select Tattoo Size",
+                    "items": [
+                        {
+                            "value": "Small",
+                            "label": "Small"
+                        },
+                        {
+                            "value": "Medium",
+                            "label": "Medium"
+                        },
+                        {
+                            "value": "Large",
+                            "label": "Large"
+                        },
+                        {
+                            "value": "Full Sleeve",
+                            "label": "Full Sleeve"
+                        },
+                        {
+                            "value": "Back Piece",
+                            "label": "Back Piece"
+                        },
+                        {
+                            "value": "Hand Tattoo",
+                            "label": "Hand Tattoo"
+                        },
+                        {
+                            "value": "Finger Tattoo",
+                            "label": "Finger Tattoo"
+                        }
+                    ]
+                }
+            ]
+        },
+        "sketch-generator": {
+            "Name": "Drawing Ideas Generator",
+            "options": [
+                {
+                    "label": "Theme",
+                    "key": "theme",
+                    "placeholder": "Select Theme",
+                    "items": [
+                        {
+                            "value": "Fantasy",
+                            "label": "Fantasy"
+                        },
+                        {
+                            "value": "Sci-Fi",
+                            "label": "Sci-Fi"
+                        },
+                        {
+                            "value": "Nature",
+                            "label": "Nature"
+                        },
+                        {
+                            "value": "Animals",
+                            "label": "Animals"
+                        },
+                        {
+                            "value": "People",
+                            "label": "People"
+                        },
+                        {
+                            "value": "Technology",
+                            "label": "Technology"
+                        },
+                        {
+                            "value": "Abstract",
+                            "label": "Abstract"
+                        }
+                    ]
+                },
+                {
+                    "label": "Subject",
+                    "key": "subject",
+                    "placeholder": "Select Subject",
+                    "items": [
+                        {
+                            "value": "Landscapes",
+                            "label": "Landscapes"
+                        },
+                        {
+                            "value": "Portraits",
+                            "label": "Portraits"
+                        },
+                        {
+                            "value": "Still Life",
+                            "label": "Still Life"
+                        },
+                        {
+                            "value": "Fantasy Creatures",
+                            "label": "Fantasy Creatures"
+                        },
+                        {
+                            "value": "Science Fiction Scenes",
+                            "label": "Science Fiction Scenes"
+                        },
+                        {
+                            "value": "Botanicals",
+                            "label": "Botanicals"
+                        },
+                        {
+                            "value": "Machines",
+                            "label": "Machines"
+                        }
+                    ]
+                },
+                {
+                    "label": "Style",
+                    "key": "style",
+                    "placeholder": "Select Drawing Style",
+                    "items": [
+                        {
+                            "value": "Realistic",
+                            "label": "Realistic"
+                        },
+                        {
+                            "value": "Cartoon",
+                            "label": "Cartoon"
+                        },
+                        {
+                            "value": "Abstract",
+                            "label": "Abstract"
+                        },
+                        {
+                            "value": "Surrealistic",
+                            "label": "Surrealistic"
+                        },
+                        {
+                            "value": "Comic",
+                            "label": "Comic"
+                        },
+                        {
+                            "value": "Impressionistic",
+                            "label": "Impressionistic"
+                        },
+                        {
+                            "value": "Expressionistic",
+                            "label": "Expressionistic"
+                        }
+                    ]
+                },
+                {
+                    "label": "Medium",
+                    "key": "medium",
+                    "placeholder": "Select Drawing Medium",
+                    "items": [
+                        {
+                            "value": "Pencil",
+                            "label": "Pencil"
+                        },
+                        {
+                            "value": "Ink",
+                            "label": "Ink"
+                        },
+                        {
+                            "value": "Charcoal",
+                            "label": "Charcoal"
+                        },
+                        {
+                            "value": "Graphite",
+                            "label": "Graphite"
+                        },
+                        {
+                            "value": "Colored Pencil",
+                            "label": "Colored Pencil"
+                        },
+                        {
+                            "value": "Markers",
+                            "label": "Markers"
+                        },
+                        {
+                            "value": "Digital",
+                            "label": "Digital"
+                        }
+                    ]
+                },
+                {
+                    "label": "Composition",
+                    "key": "composition",
+                    "placeholder": "Select Composition",
+                    "items": [
+                        {
+                            "value": "Single Object",
+                            "label": "Single Object"
+                        },
+                        {
+                            "value": "Group of Objects",
+                            "label": "Group of Objects"
+                        },
+                        {
+                            "value": "Character Design",
+                            "label": "Character Design"
+                        },
+                        {
+                            "value": "Landscape",
+                            "label": "Landscape"
+                        },
+                        {
+                            "value": "Cityscape",
+                            "label": "Cityscape"
+                        },
+                        {
+                            "value": "Abstract Composition",
+                            "label": "Abstract Composition"
+                        },
+                        {
+                            "value": "Still Life",
+                            "label": "Still Life"
+                        }
+                    ]
+                }
+            ]
+        },
+        "baby-face-generator": {
+            "Name": "Baby Face Generator",
+            "options": [
+                {
+                    "label": "Baby Gender",
+                    "key": "gender",
+                    "placeholder": "Select Baby Gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Eye Color",
+                    "key": "eyeColor",
+                    "placeholder": "Select Eye Color",
+                    "items": [
+                        {
+                            "value": "Blue",
+                            "label": "Blue"
+                        },
+                        {
+                            "value": "Brown",
+                            "label": "Brown"
+                        },
+                        {
+                            "value": "Green",
+                            "label": "Green"
+                        },
+                        {
+                            "value": "Hazel",
+                            "label": "Hazel"
+                        },
+                        {
+                            "value": "Gray",
+                            "label": "Gray"
+                        }
+                    ]
+                },
+                {
+                    "label": "Expression",
+                    "key": "expression",
+                    "placeholder": "Select Expression",
+                    "items": [
+                        {
+                            "value": "Happy",
+                            "label": "Happy"
+                        },
+                        {
+                            "value": "Sad",
+                            "label": "Sad"
+                        },
+                        {
+                            "value": "Surprised",
+                            "label": "Surprised"
+                        },
+                        {
+                            "value": "Angry",
+                            "label": "Angry"
+                        },
+                        {
+                            "value": "Neutral",
+                            "label": "Neutral"
+                        }
+                    ]
+                },
+                {
+                    "label": "Ethnicity",
+                    "key": "ethnicity",
+                    "placeholder": "Select Ethnicity",
+                    "items": [
+                        {
+                            "value": "Caucasian",
+                            "label": "Caucasian"
+                        },
+                        {
+                            "value": "African American",
+                            "label": "African American"
+                        },
+                        {
+                            "value": "Asian",
+                            "label": "Asian"
+                        },
+                        {
+                            "value": "Hispanic",
+                            "label": "Hispanic"
+                        },
+                        {
+                            "value": "Native American",
+                            "label": "Native American"
+                        }
+                    ]
+                },
+                {
+                    "label": "Age Group",
+                    "key": "age",
+                    "placeholder": "Select Age Group",
+                    "items": [
+                        {
+                            "value": "Newborn",
+                            "label": "Newborn"
+                        },
+                        {
+                            "value": "Infant",
+                            "label": "Infant"
+                        },
+                        {
+                            "value": "Toddler",
+                            "label": "Toddler"
+                        },
+                        {
+                            "value": "Preschooler",
+                            "label": "Preschooler"
+                        }
+                    ]
+                }
+            ]
+        },
+        "logo-generator": {
+            "Name": "Logo Generator",
+            "options": [
+                {
+                    "label": "Logo Style",
+                    "key": "style",
+                    "placeholder": "Select Logo Style",
+                    "items": [
+                        {
+                            "value": "Abstract",
+                            "label": "Abstract"
+                        },
+                        {
+                            "value": "Minimalistic",
+                            "label": "Minimalistic"
+                        },
+                        {
+                            "value": "Modern",
+                            "label": "Modern"
+                        },
+                        {
+                            "value": "Vintage",
+                            "label": "Vintage"
+                        }
+                    ]
+                },
+                {
+                    "label": "Color",
+                    "key": "colorScheme",
+                    "placeholder": "Select Color Scheme",
+                    "items": [
+                        {
+                            "value": "Monochrome",
+                            "label": "Monochrome"
+                        },
+                        {
+                            "value": "Pastel",
+                            "label": "Pastel"
+                        },
+                        {
+                            "value": "Bold",
+                            "label": "Bold"
+                        },
+                        {
+                            "value": "Gradient",
+                            "label": "Gradient"
+                        },
+                        {
+                            "value": "Metallic",
+                            "label": "Metallic"
+                        }
+                    ]
+                },
+                {
+                    "label": "Icon Type",
+                    "key": "iconType",
+                    "placeholder": "Select Icon Type",
+                    "items": [
+                        {
+                            "value": "Abstract",
+                            "label": "Abstract"
+                        },
+                        {
+                            "value": "Geometric",
+                            "label": "Geometric"
+                        },
+                        {
+                            "value": "Nature",
+                            "label": "Nature"
+                        },
+                        {
+                            "value": "Lettermark",
+                            "label": "Lettermark"
+                        },
+                        {
+                            "value": "Wordmark",
+                            "label": "Wordmark"
+                        }
+                    ]
+                },
+                {
+                    "label": "Font Style",
+                    "key": "fontStyle",
+                    "placeholder": "Select Font Style",
+                    "items": [
+                        {
+                            "value": "Sans-serif",
+                            "label": "Sans-serif"
+                        },
+                        {
+                            "value": "Serif",
+                            "label": "Serif"
+                        },
+                        {
+                            "value": "Script",
+                            "label": "Script"
+                        },
+                        {
+                            "value": "Handwritten",
+                            "label": "Handwritten"
+                        },
+                        {
+                            "value": "Display",
+                            "label": "Display"
+                        }
+                    ]
+                },
+                {
+                    "label": "Shape",
+                    "key": "logoShape",
+                    "placeholder": "Select Logo Shape",
+                    "items": [
+                        {
+                            "value": "Circular",
+                            "label": "Circular"
+                        },
+                        {
+                            "value": "Rectangular",
+                            "label": "Rectangular"
+                        },
+                        {
+                            "value": "Triangular",
+                            "label": "Triangular"
+                        },
+                        {
+                            "value": "Abstract",
+                            "label": "Abstract"
+                        },
+                        {
+                            "value": "Custom",
+                            "label": "Custom"
+                        }
+                    ]
+                }
+            ]
+        },
+        "essay-writer": {
+            "Name": "Essay Writer",
+            "options": [
+                {
+                    "label": "Education Level",
+                    "key": "eduLvl",
+                    "placeholder": "Education Level",
+                    "items": [
+                        {
+                            "value": "High school",
+                            "label": "High school"
+                        },
+                        {
+                            "value": "College",
+                            "label": "College"
+                        },
+                        {
+                            "value": "Graduate School",
+                            "label": "Graduate School"
+                        }
+                    ]
+                },
+                {
+                    "label": "Essay Type",
+                    "key": "essayType",
+                    "placeholder": "Select Essay Type",
+                    "items": [
+                        {
+                            "value": "Argumentative",
+                            "label": "Argumentative"
+                        },
+                        {
+                            "value": "Persuasive",
+                            "label": "Persuasive"
+                        },
+                        {
+                            "value": "Expository",
+                            "label": "Expository"
+                        },
+                        {
+                            "value": "Analytical",
+                            "label": "Analytical"
+                        },
+                        {
+                            "value": "Descriptive",
+                            "label": "Descriptive"
+                        },
+                        {
+                            "value": "Narrative",
+                            "label": "Narrative"
+                        },
+                        {
+                            "value": "Reflective",
+                            "label": "Reflective"
+                        },
+                        {
+                            "value": "Research",
+                            "label": "Research"
+                        }
+                    ]
+                },
+                {
+                    "label": "Word Count",
+                    "key": "wordCount",
+                    "placeholder": "Select Word Count",
+                    "items": [
+                        {
+                            "value": "500-1000 words",
+                            "label": "500-1000 words"
+                        },
+                        {
+                            "value": "1000-1500 words",
+                            "label": "1000-1500 words"
+                        },
+                        {
+                            "value": "1500-2000 words",
+                            "label": "1500-2000 words"
+                        },
+                        {
+                            "value": "2000+ words",
+                            "label": "2000+ words"
+                        }
+                    ]
+                },
+                {
+                    "label": "Essay Stance",
+                    "key": "essayStance",
+                    "placeholder": "Select Essay Stance",
+                    "items": [
+                        {
+                            "value": "Against",
+                            "label": "Against"
+                        },
+                        {
+                            "value": "In Favor",
+                            "label": "In Favor"
+                        },
+                        {
+                            "value": "Neutral",
+                            "label": "Neutral"
+                        }
+                    ]
+                }
+            ]
+        },
+        "pictionary-word-generator": {
+            "Name": "Pictionary Word Generator",
+            "options": [
+                {
+                    "label": "Difficulty",
+                    "key": "difficulty",
+                    "placeholder": "Select Difficulty",
+                    "items": [
+                        {
+                            "value": "Easy",
+                            "label": "Easy"
+                        },
+                        {
+                            "value": "Medium",
+                            "label": "Medium"
+                        },
+                        {
+                            "value": "Hard",
+                            "label": "Hard"
+                        }
+                    ]
+                },
+                {
+                    "label": "Category",
+                    "key": "category",
+                    "placeholder": "Select Category",
+                    "items": [
+                        {
+                            "value": "Animals",
+                            "label": "Animals"
+                        },
+                        {
+                            "value": "Objects",
+                            "label": "Objects"
+                        },
+                        {
+                            "value": "Actions",
+                            "label": "Actions"
+                        },
+                        {
+                            "value": "Places",
+                            "label": "Places"
+                        },
+                        {
+                            "value": "Food",
+                            "label": "Food"
+                        },
+                        {
+                            "value": "Professions",
+                            "label": "Professions"
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Words",
+                    "key": "wordCount",
+                    "placeholder": "Select Number of Words",
+                    "items": [
+                        {
+                            "value": "1",
+                            "label": "1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "2"
+                        },
+                        {
+                            "value": "3",
+                            "label": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "robot-name-generator": {
+            "Name": "Robot Name Generator",
+            "options": [
+                {
+                    "label": "Name Length",
+                    "key": "nameLength",
+                    "placeholder": "Select Name Length",
+                    "items": [
+                        {
+                            "value": "Short",
+                            "label": "Short"
+                        },
+                        {
+                            "value": "Medium",
+                            "label": "Medium"
+                        },
+                        {
+                            "value": "Long",
+                            "label": "Long"
+                        }
+                    ]
+                },
+                {
+                    "label": "Style",
+                    "key": "style",
+                    "placeholder": "Select Style",
+                    "items": [
+                        {
+                            "value": "Classic",
+                            "label": "Classic"
+                        },
+                        {
+                            "value": "Futuristic",
+                            "label": "Futuristic"
+                        },
+                        {
+                            "value": "Retro",
+                            "label": "Retro"
+                        },
+                        {
+                            "value": "Industrial",
+                            "label": "Industrial"
+                        }
+                    ]
+                },
+                {
+                    "label": "Functionality",
+                    "key": "functionality",
+                    "placeholder": "Select Functionality",
+                    "items": [
+                        {
+                            "value": "Assistance",
+                            "label": "Assistance"
+                        },
+                        {
+                            "value": "Combat",
+                            "label": "Combat"
+                        },
+                        {
+                            "value": "Exploration",
+                            "label": "Exploration"
+                        },
+                        {
+                            "value": "Maintenance",
+                            "label": "Maintenance"
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Names",
+                    "key": "numNames",
+                    "placeholder": "Select Number of Names",
+                    "items": [
+                        {
+                            "value": "1",
+                            "label": "1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "2"
+                        },
+                        {
+                            "value": "3",
+                            "label": "3"
+                        },
+                        {
+                            "value": "5",
+                            "label": "5"
+                        }
+                    ]
+                }
+            ]
+        },
+        "superhero-name-generator": {
+            "Name": "Superhero Name Generator",
+            "options": [
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Power Theme",
+                    "key": "theme",
+                    "placeholder": "Select Power Theme",
+                    "items": [
+                        {
+                            "value": "Elemental",
+                            "label": "Elemental"
+                        },
+                        {
+                            "value": "Telepathic",
+                            "label": "Telepathic"
+                        },
+                        {
+                            "value": "Super Strength",
+                            "label": "Super Strength"
+                        },
+                        {
+                            "value": "Speed",
+                            "label": "Speed"
+                        },
+                        {
+                            "value": "Flight",
+                            "label": "Flight"
+                        },
+                        {
+                            "value": "Invisibility",
+                            "label": "Invisibility"
+                        }
+                    ]
+                },
+                {
+                    "label": "Origin Story",
+                    "key": "story",
+                    "placeholder": "Select Origin Story",
+                    "items": [
+                        {
+                            "value": "Experiment Gone Wrong",
+                            "label": "Experiment Gone Wrong"
+                        },
+                        {
+                            "value": "Alien Descent",
+                            "label": "Alien Descent"
+                        },
+                        {
+                            "value": "Inherited Powers",
+                            "label": "Inherited Powers"
+                        },
+                        {
+                            "value": "Radiation Exposure",
+                            "label": "Radiation Exposure"
+                        },
+                        {
+                            "value": "Magical Artifact",
+                            "label": "Magical Artifact"
+                        },
+                        {
+                            "value": "Cybernetic Enhancement",
+                            "label": "Cybernetic Enhancement"
+                        }
+                    ]
+                },
+                {
+                    "label": "Costume Color",
+                    "key": "color",
+                    "placeholder": "Select Costume Color",
+                    "items": [
+                        {
+                            "value": "Red",
+                            "label": "Red"
+                        },
+                        {
+                            "value": "Blue",
+                            "label": "Blue"
+                        },
+                        {
+                            "value": "Green",
+                            "label": "Green"
+                        },
+                        {
+                            "value": "Black",
+                            "label": "Black"
+                        },
+                        {
+                            "value": "White",
+                            "label": "White"
+                        },
+                        {
+                            "value": "Silver",
+                            "label": "Silver"
+                        },
+                        {
+                            "value": "Gold",
+                            "label": "Gold"
+                        }
+                    ]
+                }
+            ]
+        },
+        "band-name-generator": {
+            "Name": "Band Name Generator",
+            "options": [
+                {
+                    "label": "Genre",
+                    "key": "genre",
+                    "placeholder": "Select Genre",
+                    "items": [
+                        {
+                            "value": "Rock",
+                            "label": "Rock"
+                        },
+                        {
+                            "value": "Pop",
+                            "label": "Pop"
+                        },
+                        {
+                            "value": "Alternative",
+                            "label": "Alternative"
+                        },
+                        {
+                            "value": "Indie",
+                            "label": "Indie"
+                        },
+                        {
+                            "value": "Metal",
+                            "label": "Metal"
+                        },
+                        {
+                            "value": "Electronic",
+                            "label": "Electronic"
+                        },
+                        {
+                            "value": "Folk",
+                            "label": "Folk"
+                        },
+                        {
+                            "value": "Hip Hop",
+                            "label": "Hip Hop"
+                        }
+                    ]
+                },
+                {
+                    "label": "Vibe",
+                    "key": "vibe",
+                    "placeholder": "Select Vibe",
+                    "items": [
+                        {
+                            "value": "Energetic",
+                            "label": "Energetic"
+                        },
+                        {
+                            "value": "Melancholic",
+                            "label": "Melancholic"
+                        },
+                        {
+                            "value": "Upbeat",
+                            "label": "Upbeat"
+                        },
+                        {
+                            "value": "Dark",
+                            "label": "Dark"
+                        },
+                        {
+                            "value": "Dreamy",
+                            "label": "Dreamy"
+                        },
+                        {
+                            "value": "Soulful",
+                            "label": "Soulful"
+                        },
+                        {
+                            "value": "Experimental",
+                            "label": "Experimental"
+                        }
+                    ]
+                },
+                {
+                    "label": "Inspiration",
+                    "key": "inspiration",
+                    "placeholder": "Select Inspiration",
+                    "items": [
+                        {
+                            "value": "Nature",
+                            "label": "Nature"
+                        },
+                        {
+                            "value": "Urban",
+                            "label": "Urban"
+                        },
+                        {
+                            "value": "Literature",
+                            "label": "Literature"
+                        },
+                        {
+                            "value": "Mythology",
+                            "label": "Mythology"
+                        },
+                        {
+                            "value": "Sci-Fi",
+                            "label": "Sci-Fi"
+                        },
+                        {
+                            "value": "Art",
+                            "label": "Art"
+                        },
+                        {
+                            "value": "History",
+                            "label": "History"
+                        }
+                    ]
+                },
+                {
+                    "label": "Name Length",
+                    "key": "nameLength",
+                    "placeholder": "Select Name Length",
+                    "items": [
+                        {
+                            "value": "Short",
+                            "label": "Short"
+                        },
+                        {
+                            "value": "Medium",
+                            "label": "Medium"
+                        },
+                        {
+                            "value": "Long",
+                            "label": "Long"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dnd-name-generator": {
+            "Name": "D&D Name Generator",
+            "options": [
+                {
+                    "label": "Race",
+                    "key": "race",
+                    "placeholder": "Select Race",
+                    "items": [
+                        {
+                            "value": "Human",
+                            "label": "Human"
+                        },
+                        {
+                            "value": "Elf",
+                            "label": "Elf"
+                        },
+                        {
+                            "value": "Dwarf",
+                            "label": "Dwarf"
+                        },
+                        {
+                            "value": "Halfling",
+                            "label": "Halfling"
+                        },
+                        {
+                            "value": "Dragonborn",
+                            "label": "Dragonborn"
+                        },
+                        {
+                            "value": "Gnome",
+                            "label": "Gnome"
+                        },
+                        {
+                            "value": "Half-Elf",
+                            "label": "Half-Elf"
+                        },
+                        {
+                            "value": "Half-Orc",
+                            "label": "Half-Orc"
+                        },
+                        {
+                            "value": "Tiefling",
+                            "label": "Tiefling"
+                        },
+                        {
+                            "value": "Aasimar",
+                            "label": "Aasimar"
+                        },
+                        {
+                            "value": "Firbolg",
+                            "label": "Firbolg"
+                        },
+                        {
+                            "value": "Goliath",
+                            "label": "Goliath"
+                        },
+                        {
+                            "value": "Tabaxi",
+                            "label": "Tabaxi"
+                        },
+                        {
+                            "value": "Triton",
+                            "label": "Triton"
+                        }
+                    ]
+                },
+                {
+                    "label": "Gender",
+                    "key": "gender",
+                    "placeholder": "Select gender",
+                    "items": [
+                        {
+                            "value": "Male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "Female",
+                            "label": "Female"
+                        }
+                    ]
+                },
+                {
+                    "label": "Alignment",
+                    "key": "alignment",
+                    "placeholder": "Select Alignment",
+                    "items": [
+                        {
+                            "value": "Lawful Good",
+                            "label": "Lawful Good"
+                        },
+                        {
+                            "value": "Neutral Good",
+                            "label": "Neutral Good"
+                        },
+                        {
+                            "value": "Chaotic Good",
+                            "label": "Chaotic Good"
+                        },
+                        {
+                            "value": "Lawful Neutral",
+                            "label": "Lawful Neutral"
+                        },
+                        {
+                            "value": "True Neutral",
+                            "label": "True Neutral"
+                        },
+                        {
+                            "value": "Chaotic Neutral",
+                            "label": "Chaotic Neutral"
+                        },
+                        {
+                            "value": "Lawful Evil",
+                            "label": "Lawful Evil"
+                        },
+                        {
+                            "value": "Neutral Evil",
+                            "label": "Neutral Evil"
+                        },
+                        {
+                            "value": "Chaotic Evil",
+                            "label": "Chaotic Evil"
+                        }
+                    ]
+                },
+                {
+                    "label": "Name Style",
+                    "key": "style",
+                    "placeholder": "Select Name Style",
+                    "items": [
+                        {
+                            "value": "Traditional",
+                            "label": "Traditional"
+                        },
+                        {
+                            "value": "Fantasy",
+                            "label": "Fantasy"
+                        },
+                        {
+                            "value": "Unique",
+                            "label": "Unique"
+                        },
+                        {
+                            "value": "Cultural",
+                            "label": "Cultural"
+                        }
+                    ]
+                },
+                {
+                    "label": "Name Origin",
+                    "key": "nameOrigin",
+                    "placeholder": "Select Name Origin",
+                    "items": [
+                        {
+                            "value": "Common",
+                            "label": "Common"
+                        },
+                        {
+                            "value": "Elvish",
+                            "label": "Elvish"
+                        },
+                        {
+                            "value": "Dwarvish",
+                            "label": "Dwarvish"
+                        },
+                        {
+                            "value": "Orcish",
+                            "label": "Orcish"
+                        },
+                        {
+                            "value": "Celestial",
+                            "label": "Celestial"
+                        },
+                        {
+                            "value": "Abyssal",
+                            "label": "Abyssal"
+                        },
+                        {
+                            "value": "Infernal",
+                            "label": "Infernal"
+                        },
+                        {
+                            "value": "Draconic",
+                            "label": "Draconic"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
