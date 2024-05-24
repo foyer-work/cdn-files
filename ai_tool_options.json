@@ -2468,5 +2468,187 @@
                 }
             ]
         }
+    },
+    "tool-chip": {
+        "image-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Mountains"
+                },
+                {
+                    "id": 2,
+                    "text": "Snow"
+                },
+                {
+                    "id": 3,
+                    "text": "Beach"
+                },
+                {
+                    "id": 4,
+                    "text": "Castle"
+                }
+            ]
+        },
+        "profile-picture-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Professional"
+                },
+                {
+                    "id": 2,
+                    "text": "Portrait"
+                },
+                {
+                    "id": 3,
+                    "text": "Funny"
+                },
+                {
+                    "id": 4,
+                    "text": "Photo"
+                }
+            ]
+        },
+        "portrait-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Person"
+                },
+                {
+                    "id": 2,
+                    "text": "Candid"
+                },
+                {
+                    "id": 3,
+                    "text": "Model"
+                },
+                {
+                    "id": 4,
+                    "text": "Lifestyle"
+                }
+            ]
+        },
+        "painting-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Art"
+                },
+                {
+                    "id": 2,
+                    "text": "Canvas"
+                },
+                {
+                    "id": 3,
+                    "text": "Painting"
+                },
+                {
+                    "id": 4,
+                    "text": "Masterpiece"
+                }
+            ]
+        },
+        "logo-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Brand"
+                },
+                {
+                    "id": 2,
+                    "text": "Company"
+                },
+                {
+                    "id": 3,
+                    "text": "Identity"
+                },
+                {
+                    "id": 4,
+                    "text": "Symbol"
+                }
+            ]
+        },
+        "character-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Hero"
+                },
+                {
+                    "id": 2,
+                    "text": "Villain"
+                },
+                {
+                    "id": 3,
+                    "text": "NPC"
+                },
+                {
+                    "id": 4,
+                    "text": "Funny"
+                }
+            ]
+        },
+        "face-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Face"
+                },
+                {
+                    "id": 2,
+                    "text": "Expression"
+                },
+                {
+                    "id": 3,
+                    "text": "Emotion"
+                },
+                {
+                    "id": 4,
+                    "text": "Feature"
+                }
+            ]
+        },
+        "avatar-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Digital"
+                },
+                {
+                    "id": 2,
+                    "text": "Cartoon"
+                },
+                {
+                    "id": 3,
+                    "text": "Anime"
+                },
+                {
+                    "id": 4,
+                    "text": "NFT"
+                }
+            ]
+        },
+        "tattoo-art-generator": {
+            "data": [
+                {
+                    "id": 1,
+                    "text": "Traditional"
+                },
+                {
+                    "id": 2,
+                    "text": "Abstract"
+                },
+                {
+                    "id": 3,
+                    "text": "Realistic"
+                },
+                {
+                    "id": 4,
+                    "text": "Neo-traditional"
+                }
+            ]
+        }
     }
 }
