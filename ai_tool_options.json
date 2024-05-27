@@ -2468,6 +2468,57 @@
                         ]
                     }
                 ]
+            },
+            "paraphrasing-tool": {
+                "name": "Paraphrasing Tool",
+                "options": [
+                    {
+                        "label": "Mode",
+                        "key": "mode",
+                        "placeholder": "Select Mode",
+                        "items": [
+                            {
+                                "value": "Standard",
+                                "label": "Standard"
+                            },
+                            {
+                                "value": "Natural",
+                                "label": "Natural"
+                            },
+                            {
+                                "value": "Simple",
+                                "label": "Simple"
+                            },
+                            {
+                                "value": "Creative",
+                                "label": "Creative"
+                            },
+                            {
+                                "value": "Formal",
+                                "label": "Formal"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Strength",
+                        "key": "strength",
+                        "placeholder": "Select Strength",
+                        "items": [
+                            {
+                                "value": "Low",
+                                "label": "Low"
+                            },
+                            {
+                                "value": "Medium",
+                                "label": "Medium"
+                            },
+                            {
+                                "value": "High",
+                                "label": "High"
+                            }
+                        ]
+                    }
+                ]
             }
         },
         "tool-chip": {
