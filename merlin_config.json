@@ -1465,5 +1465,8 @@
       "toolImage": "https://d22e6o9mp4t2lx.cloudfront.net/cms/Frame_1321317528_1_3a3213859a.png",
       "ctaLink": " https://www.getmerlin.in/ai-detection?ref=y2viymu"
     }
-  ]
+  ],
+  "mobile": {
+    "criticalAppVersion": "4.0.0"
+  }
 }
