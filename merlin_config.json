@@ -15,7 +15,7 @@
       "name": "GPT 3.5",
       "queryCost": 1,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-3.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-3.webp"
     },
     {
       "charge": "15x Queries",
@@ -26,7 +26,7 @@
       "name": "GPT 4o",
       "queryCost": 15,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp"
     },
     {
       "charge": "25x Queries",
@@ -37,7 +37,7 @@
       "name": "GPT 4",
       "queryCost": 25,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp"
     },
     {
       "charge": "1x Query",
@@ -48,7 +48,7 @@
       "name": "Claude 3 Haiku",
       "queryCost": 1,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp"
     },
     {
       "charge": "10x Queries",
@@ -59,7 +59,7 @@
       "name": "Claude 3 Sonnet",
       "queryCost": 10,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-sonnet.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-sonnet.webp"
     },
     {
       "charge": "50x Queries",
@@ -70,7 +70,7 @@
       "name": "Claude 3 Opus",
       "queryCost": 50,
       "paid": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp"
     },
     {
       "charge": "30x Queries",
@@ -81,7 +81,7 @@
       "name": "Gemini 1.5 Pro",
       "queryCost": 30,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-pro.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-pro.webp"
     },
     {
       "charge": "1x Query",
@@ -92,7 +92,7 @@
       "name": "Gemini 1.5 Flash",
       "queryCost": 1,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-flash.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-flash.webp"
     },
     {
       "charge": "25x Queries",
@@ -103,7 +103,7 @@
       "name": "Mistral Large",
       "queryCost": 25,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp"
     },
     {
       "charge": "1x Query",
@@ -114,7 +114,7 @@
       "name": "Mixtral",
       "queryCost": 1,
       "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.png"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     }
   ],
   "blogWebchatCTA": {
