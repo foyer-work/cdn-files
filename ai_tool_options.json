@@ -1763,7 +1763,7 @@
                 "name": "Essay Writer",
                 "options": [
                     {
-                        "label": "Education Level",
+                        "label": "Select Education Level",
                         "key": "eduLvl",
                         "placeholder": "Education Level",
                         "items": [
@@ -2515,6 +2515,45 @@
                             {
                                 "value": "High",
                                 "label": "High"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "summary-generator": {
+                "name": "Summary Generator",
+                "options": [
+                    {
+                        "label": "Summary Length",
+                        "key": "summaryLength",
+                        "placeholder": "Select Summary Length",
+                        "items": [
+                            {
+                                "value": "Short",
+                                "label": "Short"
+                            },
+                            {
+                                "value": "Medium",
+                                "label": "Medium"
+                            },
+                            {
+                                "value": "Long",
+                                "label": "Long"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Summary Format",
+                        "key": "summaryFormat",
+                        "placeholder": "Select Summary Format",
+                        "items": [
+                            {
+                                "value": "BulletPoints",
+                                "label": "Bullet Points"
+                            },
+                            {
+                                "value": "Paragraph",
+                                "label": "Paragraph"
                             }
                         ]
                     }
