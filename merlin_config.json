@@ -1411,6 +1411,15 @@
         ],
         "question": "How do you see yourself teaming up with Merlin?",
         "title": "Merlin is here to boost your productivity, creativity, and efficiency."
+      },
+      {
+        "options": [
+          "Very Disappointed",
+          "Somewhat Disappointed",
+          "Not Disappointed"
+        ],
+        "question": "How would you feel if you could no longer use Merlin?",
+        "title": "We aim to enhance your experience with Merlin."
       }
     ]
   },
