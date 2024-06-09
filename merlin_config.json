@@ -24,7 +24,7 @@
       "description": "OpenAI's flagship model with vision support.",
       "id": "gpt-4o",
       "name": "GPT 4o",
-      "queryCost": 15,
+      "queryCost": 25,
       "paid": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp"
     },
