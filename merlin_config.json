@@ -1096,7 +1096,7 @@
     },
     {
       "html": "BEAST_MODE",
-      "probability": 6,
+      "probability": 0,
       "text": "BEAST_MODE"
     },
     {
@@ -1151,7 +1151,7 @@
     },
     {
       "html": "Instantly preview webpages with a simple &nbsp;<span class=\"font-mono\">Shift+Hover</span>&nbsp; skip the clicks!",
-      "probability": 12,
+      "probability": 0,
       "text": "Instantly preview webpages with a simple Shift + Hover - skip the clicks!"
     },
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "html": "Embed text into images now using DALL-E.3, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/fkvJgYZgBdM?si=l3BZCwQBS8JiKw8-\" target=\"_blank\">Check demo↗</a>",
-      "probability": 12,
+      "probability": 3,
       "text": "Embed text into images now using DALL-E.3"
     }
   ],
