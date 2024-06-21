@@ -124,7 +124,7 @@
   "checkShortcutStatus": true,
   "fabStrip": {
     "facebook": {
-      "visible": true
+      "visible": false
     },
     "gmail": {
       "visible": true
