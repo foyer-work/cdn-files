@@ -124,7 +124,7 @@
   "checkShortcutStatus": true,
   "fabStrip": {
     "facebook": {
-      "visible": true
+      "visible": false
     },
     "gmail": {
       "visible": true
@@ -274,6 +274,12 @@
         "html": "",
         "text": "Free AI Content detector is live - Try it now!",
         "url": "https://bcin.short.gy/serp-merlin"
+      },
+      {
+        "weight": 10,
+        "html": "",
+        "text": "Tell us about your feature requests or report bugs!",
+        "url": "https://feedback.getmerlin.in"
       }
     ],
     "mountOn": ["blogSummarizer", "youtubeSummarizer", "SERP"]
@@ -1103,6 +1109,11 @@
       "html": "Personalise Merlin by clicking here “  <span class=\"text-slate-800 dark:text-slate-300\">⋮</span> ” then click on \" Settings \"",
       "probability": 3,
       "text": "Click '⋮', choose 'Settings' to personalize Merlin"
+    },
+    {
+      "html": "Tell us your feature requests or bugs you face <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://feedback.getmerlin.in\" target=\"_blank\">here ↗</a>",
+      "probability": 3,
+      "text": "Tell us your feature requests or bugs you face at feedback.getmerlin.in"
     },
     {
       "html": "For latest internet data, use turbo or in-depth mode in 'Access Web'!",
