@@ -1,5 +1,5 @@
 {
-   "textModels": [
+  "textModels": [
     {
       "charge": "1x Query",
       "default": true,
@@ -11,23 +11,13 @@
       "paid": false
     },
     {
-      "charge": "30x Queries",
-      "default": false,
-      "defaultPro": true,
-      "description": "OpenAI's best and most capable model. (with Vision)",
-      "id": "gpt-4-turbo",
-      "name": "GPT 4",
-      "queryCost": 30,
-      "paid": false
-    },
-    {
-      "charge": "15x Queries",
+      "charge": "25x Queries",
       "default": false,
       "defaultPro": true,
       "description": "OpenAI's flagship model with vision support.",
       "id": "gpt-4o",
       "name": "GPT 4o",
-      "queryCost": 15,
+      "queryCost": 25,
       "paid": false
     },
     {
@@ -58,6 +48,16 @@
       "id": "claude-3-opus",
       "name": "Claude 3 Opus",
       "queryCost": 50,
+      "paid": true
+    },
+    {
+      "charge": "25x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "The most capable model across all tasks.",
+      "id": "claude-3.5-sonnet",
+      "name": "Claude 3.5 Sonnet",
+      "queryCost": 25,
       "paid": true
     },
     {
@@ -101,5 +101,4 @@
       "paid": false
     }
   ]
-  
 }

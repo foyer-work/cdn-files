@@ -32,23 +32,12 @@
       "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's best and most capable model.",
-      "id": "GPT 4",
-      "name": "GPT 4",
-      "queryCost": 25,
-      "paid": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp"
-    },
-    {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": false,
       "description": "The most capable model across all tasks.",
       "id": "claude-3.5-sonnet",
       "name": "Claude 3.5 Sonnet",
       "queryCost": 25,
       "paid": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3.5-sonnet.webp"
     },
     {
       "charge": "1x Query",

@@ -9,6 +9,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "diffEditor.ignoreTrimWhitespace": true,
   "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
