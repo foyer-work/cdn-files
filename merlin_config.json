@@ -18,6 +18,17 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-3.webp"
     },
     {
+      "charge": "25x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's best and most capable model.",
+      "id": "GPT 4",
+      "name": "GPT 4",
+      "queryCost": 25,
+      "paid": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp"
+    },
+    {
       "charge": "15x Queries",
       "default": false,
       "defaultPro": true,
