@@ -29,7 +29,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp"
     },
     {
-      "charge": "15x Queries",
+      "charge": "25x Queries",
       "default": false,
       "defaultPro": true,
       "description": "OpenAI's flagship model with vision support.",
