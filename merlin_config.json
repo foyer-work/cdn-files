@@ -1117,33 +1117,38 @@
       "text": "BEAST_MODE"
     },
     {
+      "html": ""
+      "probability": 1,
+      "text": ""
+    },
+    {
       "html": "Personalise Merlin by clicking here “  <span class=\"text-slate-800 dark:text-slate-300\">⋮</span> ” then click on \" Settings \"",
-      "probability": 3,
+      "probability": 0,
       "text": "Click '⋮', choose 'Settings' to personalize Merlin"
     },
     {
       "html": "Tell us your feature requests or bugs you face <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://feedback.getmerlin.in\" target=\"_blank\">here ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Tell us your feature requests or bugs you face at feedback.getmerlin.in"
     },
     {
       "html": "For latest internet data, use turbo or in-depth mode in 'Access Web'!",
-      "probability": 3,
+      "probability": 0,
       "text": "For latest internet data, use turbo or in-depth mode in 'Access Web'"
     },
     {
       "html": "Now set your preferred language by clicking here “ <span class=\"text-slate-700 dark:text-slate-300\" >⋮</span> “",
-      "probability": 3,
+      "probability": 0,
       "text": "Now set your preferred language by clicking on the three dots “ ⋮ “"
     },
     {
       "html": "Show your \"X\"-factor. Create Tweets from YouTube.  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=tnBQmEqBCY0&ab_channel=YCombinator\" target=\"_blank\"> Give it a swirl ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Show your \"X\"-factor. Create Tweets from YouTube. Visit YouTube now!"
     },
     {
       "html": "Transform YouTube videos into epic Tweet threads.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Lets explore ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Transform YouTube videos into epic Tweet threads. Visit YouTube now!"
     },
     {
@@ -1153,22 +1158,22 @@
     },
     {
       "html": "Get a preview of a link, without even visiting it! <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.veed.io/view/48d82ba2-0dbb-4127-9d62-d948adca5d62?panel=share\" target=\"_blank\">Check it out ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Get a preview of a link, without even visiting it!"
     },
     {
       "html": "Turn YouTube videos into engaging blogs!  <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=U8uXVHygx44&list=PL5QAQBV5zCqX7izUS8T02ZCg3SFs7nZmn&index=13&ab_channel=MukhiMindset\" target=\"_blank\">Try it now ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Turn YouTube videos into engaging blogs! Try it now!"
     },
     {
       "html": "Now summarise your favourite podcasts on YouTube. <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://www.youtube.com/watch?v=UF8uR6Z6KLc&ab_channel=Stanford\" target=\"_blank\">Give it a spin ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Now summarise your favourite podcasts on YouTube, Give it a spin!"
     },
     {
       "html": "Blogs too long? Fret not, get highlights using summariser.   <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://medium.com/theuglymonster/across-the-spider-verse-and-canonicity-beddf01635c9\" target=\"_blank\">Dive in ↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Long blogs? Use Summariser for highlights. Open a blog now!"
     },
     {
@@ -1183,12 +1188,12 @@
     },
     {
       "html": "Chat with any personality on X/Twitter, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/swwLsut_vIA?si=-5BNejWh6UWZqBSx\" target=\"_blank\">Create their Doppelgainger↗</a>",
-      "probability": 12,
+      "probability": 0,
       "text": "Chat with any personality on X/Twitter, Create their Doppelgainger!"
     },
     {
       "html": "Embed text into images now using DALL-E.3, <a class=\"underline text-cornblue-500 dark:text-cornblue-600\" href=\"https://youtu.be/fkvJgYZgBdM?si=l3BZCwQBS8JiKw8-\" target=\"_blank\">Check demo↗</a>",
-      "probability": 3,
+      "probability": 0,
       "text": "Embed text into images now using DALL-E.3"
     }
   ],
