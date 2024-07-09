@@ -1398,7 +1398,7 @@
     "visible": true
   },
   "survey": {
-    "visible": true,
+    "visible": false,
     "showSurveyInterval": 6,
     "questionnaire": [
       {
