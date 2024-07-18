@@ -11,6 +11,16 @@
       "paid": false
     },
     {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's latest and fast model.",
+      "id": "gpt-4o-mini",
+      "name": "GPT 4o Mini",
+      "queryCost": 1,
+      "paid": false
+    },
+    {
       "charge": "25x Queries",
       "default": false,
       "defaultPro": true,
