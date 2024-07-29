@@ -109,6 +109,16 @@
       "name": "Mixtral",
       "queryCost": 1,
       "paid": false
+    },
+    {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Meta's latest and best model till date.",
+      "id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "name": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "queryCost": 15,
+      "paid": false
     }
   ]
 }

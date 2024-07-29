@@ -51,6 +51,17 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp"
     },
     {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Meta's latest and best model till date.",
+      "id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "name": "Llama 3.1 405B",
+      "queryCost": 15,
+      "paid": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
+    },
+    {
       "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
