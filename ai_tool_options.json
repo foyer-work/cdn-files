@@ -721,24 +721,24 @@
                         "placeholder": "Select Eye Style",
                         "items": [
                             {
-                                "label": "Big Eyes",
-                                "value": "big_eyes"
+                                "value": "big_eyes",
+                                "label": "Big Eyes"
                             },
                             {
-                                "label": "Small Eyes",
-                                "value": "small_eyes"
+                                "value": "small_eyes",
+                                "label": "Small Eyes"
                             },
                             {
-                                "label": "Sparkling Eyes",
-                                "value": "sparkling_eyes"
+                                "value": "sparkling_eyes",
+                                "label": "Sparkling Eyes"
                             },
                             {
-                                "label": "Round Eyes",
-                                "value": "round_eyes"
+                                "value": "round_eyes",
+                                "label": "Round Eyes"
                             },
                             {
-                                "label": "Almond Eyes",
-                                "value": "almond_eyes"
+                                "value": "almond_eyes",
+                                "label": "Almond Eyes"
                             }
                         ]
                     },
