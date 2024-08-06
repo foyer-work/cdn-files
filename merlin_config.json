@@ -1420,7 +1420,7 @@
     "visible": true
   },
   "survey": {
-    "visible": false,
+    "visible": true,
     "showSurveyInterval": 6,
     "questionnaire": [
       {
