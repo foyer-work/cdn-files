@@ -21,13 +21,13 @@
       "paid": false
     },
     {
-      "charge": "25x Queries",
+      "charge": "15x Queries",
       "default": false,
       "defaultPro": true,
       "description": "OpenAI's flagship model with vision support.",
       "id": "gpt-4o",
       "name": "GPT 4o",
-      "queryCost": 25,
+      "queryCost": 15,
       "paid": false
     },
     {
