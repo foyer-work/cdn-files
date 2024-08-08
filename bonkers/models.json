@@ -1,6 +1,40 @@
 {
 	"bonkers_models": [
 		{
+			"aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+			"category": "Flux",
+			"description": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+			"id": "black-forest-labs/flux-pro",
+			"name": "FLUX.1 Pro",
+			"nsfw": false,
+			"pricing": {
+				"cost": 140,
+				"costPerAdditional": 140
+			},
+			"pseudoDescription": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+			"pseudoName": "FLUX.1 Pro",
+			"tag": ["Text", "Realism", "Portrait", "Classic", "HD", "Natural"],
+			"theme": "Realtistic",
+			"url": "https://tjzk.replicate.delivery/models_models_cover_image/ae5d9d40-31f5-4c33-bd66-2f22b0e8d459/Flux_Pro_Sample.jpg"
+		},
+		{
+			"aspectRatios": ["1:1", "16:9", "21:9", "2:3", "3:2", "4:5", "5:4", "9:16", "9:21"],
+			"category": "Flux",
+			"description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+			"id": "black-forest-labs/flux-schnell",
+			"name": "FLUX.1 Schnell",
+			"nsfw": false,
+			"pricing": {
+				"cost": 10,
+				"costPerAdditional": 10
+			},
+			"pseudoDescription": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+			"pseudoName": "FLUX.1 Schnell",
+			"tag": ["Realism", "Classic", "HD", "Natural"],
+			"theme": "Realtistic",
+			"url": "https://tjzk.replicate.delivery/models_models_featured_image/67c990ba-bb67-4355-822f-2bd8c42b2f0d/flux-schnell.webp"
+		},
+		{
 			"aspectRatios": ["1:1", "7:4", "4:7"],
 			"category": "OpenAI",
 			"description": "Offering Superior Precision and Expanded Creativity in Image Generation. A Step Ahead of Render Works v2",
