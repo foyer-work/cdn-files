@@ -1,650 +1,684 @@
 {
-	"bonkers_models": [
-		{
-			"aspectRatios": ["1:1", "7:4", "4:7"],
-			"category": "OpenAI",
-			"description": "Offering Superior Precision and Expanded Creativity in Image Generation. A Step Ahead of Render Works v2",
-			"id": "dall-e-3",
-			"name": "Dalle 3",
-			"nsfw": false,
-			"pricing": {
-				"cost": 60,
-				"costPerAdditional": 60
-			},
-			"pseudoDescription": "Experience unmatched accuracy and artistic liberty in image creation thanks to Render Works v2's superior precision and expansive creative capabilities. Upgrading from its predecessor, this version offers a step forward in image generation technology and empowers users to unlock their creative potential like never before. And it also has the ability to generate images that contain textual data.",
-			"pseudoName": "Render Works v3",
-			"tag": ["Text", "Realism", "Portrait", "Classic", "HD", "Natural"],
-			"theme": "Realtistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Render-Works-v3.avif"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Advanced)",
-			"description": "A versatile model that excels at realism and photography. Better results with longer prompts.",
-			"id": "5c232a9e-9061-4777-980a-ddc8e65647c6",
-			"name": "Leonardo Vision XL",
-			"nsfw": false,
-			"pricing": {
-				"cost": 30,
-				"costPerAdditional": 30
-			},
-			"pseudoDescription": "A high-performance image generation model that masterfully combines various styles and details, producing photorealistic and visually appealing results. Optimal performance with detailed prompts.",
-			"pseudoName": "Vision Blend XL",
-			"tag": ["Realism", "Clean", "Toon", "HD", "Natural"],
-			"theme": "Realtistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Vision-Blend-XL.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Advanced)",
-			"description": "The next phase of the core Leonardo model. Stunning outputs, even with short prompts.",
-			"id": "1e60896f-3c26-4296-8ecc-53e2afecc132",
-			"name": "Leonardo Diffusion XL",
-			"nsfw": false,
-			"pricing": {
-				"cost": 30,
-				"costPerAdditional": 30
-			},
-			"pseudoDescription": "The advanced evolution of the DiffusionBlend model, delivering remarkable outputs with minimal input, tailored for swift and stunning visual creations.",
-			"pseudoName": "Diffusion Blend XL",
-			"tag": ["Artistic", "Toon", "Portrait", "Manga", "Natural", "Cyberpunk", "HD"],
-			"theme": "Artistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Diffusion-Blend-XL.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Advanced)",
-			"description": "A great generalist model that tends towards more CG artistic outputs. By alebdobond.",
-			"id": "2067ae52-33fd-4a82-bb92-c2c55e7d2786",
-			"name": "AlbedoBase XL",
-			"nsfw": false,
-			"pricing": {
-				"cost": 30,
-				"costPerAdditional": 30
-			},
-			"pseudoDescription": "A highly versatile and specialized model capable of generating photorealistic and stylized images across a wide range of CG-related applications.",
-			"pseudoName": "CG Generalist",
-			"tag": ["Anime", "Portrait", "Clean", "Toon", "Artistic", "HD"],
-			"theme": "Artistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/CG-Generalist.webp"
-		},
-		{
-			"aspectRatios": ["1:1"],
-			"category": "OpenAI",
-			"description": "A simple Yet Effective Tool for Crafting Images Ranging from Everyday Realism to Animated Styles.",
-			"id": "dall-e-2",
-			"name": "Dalle 2",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "A powerful and versatile tool for creating vivid, high-quality images, including everyday realism and captivating animated styles, perfect for professionals and enthusiasts alike. Render Works v1 empowers users to shape their visual ideas with efficiency, delivering impressive results at the touch of a button.",
-			"pseudoName": "Render Works v2",
-			"tag": ["Artistic"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Render-Works-v2.avif"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "The latest Stable Diffusion model, currently in Beta.",
-			"id": "b63f7119-31dc-4540-969b-2a9df997e173",
-			"name": "SDXL 0.9",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Meet the older iteration of Stable Diffusion, you can generate images with stability and details. The prompts you provide will greatly affect the output",
-			"pseudoName": "Stable Diff XL Beta",
-			"tag": ["Anime", "Portrait", "Natural", "HD"],
-			"theme": "Artistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Stable-Diff-XL-Beta.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "Anashel returns with another great model, specialising in RPG characters of all kinds.",
-			"id": "f1929ea3-b169-4c18-a16c-5d58b4292c69",
-			"name": "RPG v5",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Immersive RPG Plus takes character art to new heights with enhanced features and capabilities, generating highly detailed and realistic RPG character portraits for a truly immersive gaming experience.",
-			"pseudoName": "Immersive RPG Plus",
-			"tag": ["Dark", "Antique", "Astro", "Gothic"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Immersive-RPG-Plus.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "This model is best at creating RPG character portraits with the ability for great photorealism. Created by Anashel.",
-			"id": "a097c2df-8f0c-4029-ae0f-8fd349055e61",
-			"name": "RPG 4.0",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Generates high-quality, captivating character portraits for role-playing games, providing a deeply engaging experience for players",
-			"pseudoName": "Immersive RPG",
-			"tag": ["Manga", "Natural", "Portrait"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Immersive-RPG.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "The core model of the Leonardo platform. An extremely powerful and diverse finetune which is highly effective for a wide range of uses.",
-			"id": "291be633-cb24-434f-898f-e662799936ad",
-			"name": "Leonardo Signature",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Offering exceptional versatility for a myriad of image generation tasks. Its powerful concoction allows for impressive and distinctive outputs.",
-			"pseudoName": "Signature Blend",
-			"tag": ["Architecture", "Natural", "Antique"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Signature-Blend.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "A powerful finetune of SD2.1 that can achieve a high level of realism.",
-			"id": "cd2b2a15-9760-4174-a5ff-4d2925057376",
-			"name": "Leonardo Select",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Advanced adaptation of SD2.1, designed to seamlessly blend multiple image elements to achieve a heightened level of visual cohesion and realism.",
-			"pseudoName": "Select Blend",
-			"tag": ["Neon", "Dark", "Manga"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Select-Blend.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "A model with incredible shading and contrast, great at both photos and artistic styles, by cac0e.",
-			"id": "b820ea11-02bf-4652-97ae-9ac0cc00593d",
-			"name": "Leonardo Diffusion",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "An outstanding model featuring remarkable blending capabilities, adept at creating diverse visual effects with a unique blending approach.",
-			"pseudoName": "Diffusion Blend",
-			"tag": ["Portrait", "Artistic"],
-			"theme": "Artistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Diffusion-Blend.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "An alternative finetune of SD 2.1 that brings a little more creative interpretation to the mix.",
-			"id": "6bef9f1b-29cb-40c7-b9df-32b51c1f67d3",
-			"name": "Leonardo Creative",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Specifically designed to infuse a unique and imaginative touch into generated images. This model introduces a novel approach to image generation, inspiring creative interpretations and offering a diverse range of visually captivating outputs.",
-			"pseudoName": "Creative Blend",
-			"tag": ["HD", "Cosmic"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Creative-Blend.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "Lykon is back with another update. This model is great at a range of different styles.",
-			"id": "ac614f96-1082-45bf-be9d-757f2d31c174",
-			"name": "DreamShaper v7",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "This latest version further enhances its versatility and precision, empowering users to effortlessly create captivating and harmonious compositions, suitable for a wide array of applications and creative endeavors.",
-			"pseudoName": "Blend Pro v3",
-			"tag": ["HD", "Cosmic", "Ink"],
-			"theme": "Artistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v3.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "A new update to an incredibly versatile model, excels at both people and environments, by Lykon.",
-			"id": "b7aa9939-abed-4d4e-96c4-140b8c65dd92",
-			"name": "DreamShaper v6",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Specializes in seamlessly blending diverse visual elements to produce striking and unified compositions. With enhanced blending capabilities and improved versatility, it empowers users to create captivating and cohesive imagery, making it an essential tool for professional and creative projects alike.",
-			"pseudoName": "Blend Pro v2",
-			"tag": ["Toon", "Manga", "Artistic", "Portrait", "Anime"],
-			"theme": "Artistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v2.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "A powerful model created by XpucT that  is great for both photorealism and artistic creations.",
-			"id": "458ecfff-f76c-402c-8b85-f09f6fb198de",
-			"name": "Deliberate 1.1",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "A powerful model that is great for both photorealism and artistic creations.",
-			"pseudoName": "Precise Art 1.1",
-			"tag": ["Portrait", "Anime", "Toon"],
-			"theme": "Artistic",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Precise-Art-1.1.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "Pastel anime styling. Use with PMv3 and the anime preset for incredible range. Model by Lykon.",
-			"id": "1aa0f478-51be-4efd-94e8-76bfc8f533af",
-			"name": "Anime Pastel Dream",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Experience a gentle and soothing animation style with the Soft Anime Palette model. This model, inspired by anime with a soft and pastel-toned color scheme, is designed to create images with a calming and serene atmosphere. Perfect for creating gentle anime illustrations or adding a touch of softness to your existing anime artwork.",
-			"pseudoName": "Soft Anime Palette",
-			"tag": ["Anime", "Manga", "Portrait", "Natural"],
-			"theme": "Anime",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Soft-Anime-Palette.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "A photorealistic style model from Lykon. Great at all sorts of photorealism.",
-			"id": "e316348f-7773-490e-adcd-46757c738eb7",
-			"name": "Absolute Reality v1.6",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "An advanced image generation model that focuses on high-quality, photorealistic styles. This version excels in creating images that closely mimic reality across a wide range of subjects, resulting in impressive and lifelike visuals",
-			"pseudoName": "Reality Plus v1",
-			"tag": ["Realism", "Portrait", "Classic", "HD"],
-			"theme": "Photography",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Reality-Plus-v1.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "Great at 3D film vibes, capable of complex scenes with rich color. Storyboard time!",
-			"id": "d69c8273-6b17-4a30-a13e-d6637ae1c644",
-			"name": "3D Animation Style",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Tailored for creating 3D film-like imagery, designed to handle complex scenes filled with rich and vibrant colors. Featuring a storyboard setup, it enables users to generate stunning 3D visuals for captivating narratives.",
-			"pseudoName": "High-Def 3D Animator",
-			"tag": ["HD", "Toon", "Portrait", "Cute", "Furry"],
-			"theme": "Anime",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/High-Def-3D-Animator.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "This model can generate a broad range of imagery with a vintage style as if it was taken from a film camera",
-			"id": "17e4edbf-690b-425d-a466-53c816f0de8a",
-			"name": "Vintage Style Photography",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Specializes in generating images that mimic the look and feel of traditional, time-honored photography. It captures the charm of vintage film cameras, evoking a sense of nostalgia and classic artistry, perfect for those who appreciate the simplicity and authenticity of old-fashioned imagery.",
-			"pseudoName": "The Old-Fashioned",
-			"tag": ["Realism", "Classic", "Cosmic", "Astro"],
-			"theme": "Photography",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/The-Old-Fashioned.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "From whimsical fairy-like beings to mythical creatures, create unique cute spirit characters.",
-			"id": "5fdadebb-17ae-472c-bf76-877e657f97de",
-			"name": "Spirit Creatures",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Explore the realm of legends and myths by creating your own enchanting fabled spirits. From mysterious forest dwellers to magical beings of ancient tales, generate a diverse range of captivating characters that will spark the imagination.",
-			"pseudoName": "Fabled Spirits",
-			"tag": ["Cute", "Toon", "Portrait", "Dark", "Ink"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Fabled-Spirits.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Create a variety of impressively varied and detailed shield designs. Allows for an incredible range of material types.",
-			"id": "ee0fc1a3-aacb-48bf-9234-ada3cc02748f",
-			"name": "Shields",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Generate creative and detailed armor designs, offering an impressive range of different materials, textures, and ornamentations to choose from. With Armor Art, you can create visually striking armors for a wide variety of applications.",
-			"pseudoName": "Armor Art",
-			"tag": ["Artistic", "Antique", "Nostalgic"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Armor-Art.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "A great model for creating incredible semi-realistic magic potions. Try appending \"intricately detailed, 3d vray render\" to your prompt.",
-			"id": "45ab2421-87de-44c8-a07c-3b87e3bfdf84",
-			"name": "Magic Potions",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Renders detailed images allowing you to create an enchanting blend of in-depth potion compounds, capturing the essence of fantasy and wonder.",
-			"pseudoName": "Brews",
-			"tag": ["Antique", "Natural", "Cosmic"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Brews.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Create a wide range of magical items like weapons, shields, boots, books. Very versatile.",
-			"id": "2d18c0af-374e-4391-9ca2-639f59837c85",
-			"name": "Magic Items",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Specializes in creating a variety of enchanted items, imbuing them with a wide range of mystical properties and abilities. From enchanted swords and shields to magical boots, books, and beyond.",
-			"pseudoName": "Enchants",
-			"tag": ["Natural", "Dark", "Cosmic"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Enchants.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Great at creating scifi buildings of varying themes. Append the word isometric to your prompt to ensure an isometric view. \"3d vray render\" also helps steer the generation well. ",
-			"id": "7a65f0ab-64a7-4be2-bcf3-64a1cc56f627",
-			"name": "Isometric Scifi Buildings",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Excels at generating futuristic, sci-fi buildings of diverse themes. When using this model, remember to include the term \"isometric\" in your prompt to ensure an isometric view. Additionally, incorporating \"3D Vray render\" will enhance the precision and detail of the generated structures.",
-			"pseudoName": "Iso Tech Craft",
-			"tag": ["Architecture", "Natural", "Nostalgic"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Iso-Tech-Craft.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Create cute and charming game characters, perfect for adding some whimsy to your game design. Be sure to include the word \"character\" in your prompts for best results.",
-			"id": "50c4f43b-f086-4838-bcac-820406244cec",
-			"name": "Cute Characters",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Create cute and charming gaming avatars that will make your gaming experience even more delightful. Whether you're looking for a new character to represent you in an online game or just want to add some adorable flair to your gaming setup, GamingAvatarsCute is the perfect choice.",
-			"pseudoName": "Gaming Avatars",
-			"tag": ["Portrait", "Toon", "Clean", "Cute"],
-			"theme": "Portrait",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Gaming-Avatars.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Perfect for creating adorable and cute animal characters - loveable and playful designs.",
-			"id": "6908bfaf-8cf2-4fda-8c46-03f892d82e06",
-			"name": "Cute Animal Characters",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "This model specializes in generating charming and lovable animal avatars that are perfect for representing users in a fun and engaging way. Whether you need a cute mascot for a brand or web platform, or simply want to create a personalized animal character for yourself, Adorable Animal Avatars has you covered. With a wide range of animals to choose from, you're sure to find the perfect character to express your unique personality and style.",
-			"pseudoName": "Adorable Animal Avatars",
-			"tag": ["Cute", "Anime", "Furry"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Adorable-Animal-Avatars.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "An alternative crystal deposits model that gives a slightly more realistic feel with its creations. Try using \"object\" and \"3d vray render\" in your prompts.",
-			"id": "5fce4543-8e23-4b77-9c3f-202b3f1c211e",
-			"name": "Crystal Deposits Alternate",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "An alternate gemstone generation model, designed to produce more authentic and visually appealing crystals. Ideal for creating captivating visuals in various settings, especially when integrating phrases \"object\" and \"3d vray render\" in your prompts.",
-			"pseudoName": "Gemstones Alternate",
-			"tag": ["Cosmic", "Astro", "Antique", "Architecture"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Gemstones-Alternate.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "A model for creating crystal deposits. Well-suited for use as items or in an isometric environment.",
-			"id": "102a8ee0-cf16-477c-8477-c76963a0d766",
-			"name": "Crystal Deposits",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "An image generation model capable of creating a diverse range of precious and semi-precious gemstones. This model is ideal for creating detailed renditions of various gem types, including but not limited to diamonds, rubies, sapphires, and emeralds, for use in online marketplaces, jewelry design software, or educational materials.",
-			"pseudoName": "Gemstones",
-			"tag": ["Cosmic", "Astro", "Antique", "Architecture"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Gemstones.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Generate festive and fun Christmas stickers with this model. From cute and colorful to traditional and elegant.",
-			"id": "4b2e0f95-f15e-48d8-ada3-c071d6104db8",
-			"name": "Christmas Stickers",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Create personalized and whimsical stickers for the holiday season with Stickers Workshop. Whether you're looking for something playful, festive, or wintry, this model has got you covered!",
-			"pseudoName": "Stickers Workshop",
-			"tag": ["Toon", "Cute", "Portrait", "Clean"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Stickers-Workshop.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Create all sorts of chest armor with this model in a consistent style but with wide thematic range.",
-			"id": "302e258f-29b5-4dd8-9a7c-0cd898cb2143",
-			"name": "Chest Armor",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "This model specializes in generating a wide variety of gaming armors in a consistent style, including different types of chest armor, pauldrons, gauntlets, and leggings, suitable for various gaming characters and environments.",
-			"pseudoName": "Armors for Gaming",
-			"tag": ["Artistic", "Antique"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Armors-for-Gaming.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Generate a variety of detailed axe designs with this model. From medieval battle axes to modern chopping axes, this model is great for creating a r...",
-			"id": "47a6232a-1d49-4c95-83c3-2cc5342f82c7",
-			"name": "Battle Axes",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Explore a wide range of hatchet designs with this versatile model. From classic camping hatchets to decorative antique hatchets, this model can generate detailed and realistic images to fit any need. Whether you're looking for a practical tool or a unique piece of art, the Hatchets model has you covered.",
-			"pseudoName": "Hatchets",
-			"tag": ["Artistic", "Antique"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Hatchets.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Create unique and intricate amulets, jewellery and more. Try loading up the prompt terms to steer it in interesting directions.",
-			"id": "ff883b60-9040-4c18-8d4e-ba7522c6b71d",
-			"name": "Amulets",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "A versatile model for generating unique and exquisite jewelry and amulets. Utilize prompt terms to craft and customize these items with different styles, materials, and adornments.",
-			"pseudoName": "Trinket Engine",
-			"tag": ["Artistic", "Antique", "Cosmic", "Astro"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Trinket-Engine.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "A versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
-			"id": "d2fb9cf9-7999-4ae5-8bfe-f0df2d32abf8",
-			"name": "DreamShaper v5",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "BlendPro v1 is an advanced image generation model adept at seamlessly merging photorealistic and anime aesthetics, leveraging innovative noise offset training techniques to deliver diverse and high-quality visual outputs.",
-			"pseudoName": "Blend Pro v1",
-			"tag": ["Anime", "Portrait", "HD", "Clean"],
-			"theme": "Anime",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v1.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "A model for creating isometric asteroid environment tiles. Try appending \"3d vray render, unreal engine, beautiful, intricately detailed, trending on artstation, 8k\" to your prompt.",
-			"id": "756be0a8-38b1-4946-ad62-c0ac832422e3",
-			"name": "Isometric Asteroid Tiles",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "Space Rocks is a versatile tool for generating intricate, 3D asteroid landscapes in an isometric view. Enhance your input with prompts like \"3D Vray render, Unreal Engine, stunningly detailed, trending on ArtStation, and 8K\" for breathtaking results.",
-			"pseudoName": "Space Rocks",
-			"tag": ["Natural"],
-			"theme": "Other",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Space-Rocks.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "A pixel art model that's trained on headshots, but is surprisingly flexible with all sorts of subjects.",
-			"id": "e5a291b6-3990-495a-b1fa-7bd1864510a6",
-			"name": "Pixel Art",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "A robust pixel art generation model, trained on a diverse range of subjects that extends beyond headshots, ensuring its applicability across various themes and categories within the pixel art realm.",
-			"pseudoName": "All-in-Pixel",
-			"tag": ["Pixel"],
-			"theme": "Gaming",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/All-in-Pixel.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion",
-			"description": "This model by Lykon is great at a range of portrait styles as well as artistic backgrounds.",
-			"id": "f3296a34-9aef-4370-ad18-88daf26862c3",
-			"name": "DreamShaper 3.2",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "BlendPro 0.1 is an innovative image generation model specifically designed to seamlessly blend various visual elements to produce captivating and cohesive images. Its advanced blending capabilities enable users to effortlessly create unique and harmonious compositions, making it an ideal tool for both professional and creative endeavors.",
-			"pseudoName": "Blend Pro v0.1",
-			"tag": ["Anime", "Cute", "Portrait"],
-			"theme": "Anime",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v0.1.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "Create all sorts of isometric fantasy environments. Try appending \"3d vray render, isometric\" and using a guidance scale of 6. For the negative prompt, try \"unclear, harsh, oversaturated, soft, blurry\".",
-			"id": "ab200606-5d09-4e1e-9050-0b05b839e944",
-			"name": "Isometric Fantasy",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "By incorporating the search tags \"3D Vray render\" you can bring your dreams to life in stunning detail. For the negative prompt, experiment with terms such as \"unclear, harsh, oversaturated, soft, blurry\" to tailor the output to your preferences.",
-			"pseudoName": "Iso Dream Craft",
-			"tag": ["Natural", "Cosmic"],
-			"theme": "Nature",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Iso-Dream-Craft.webp"
-		},
-		{
-			"aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
-			"category": "Stable Diffusion (Misc)",
-			"description": "A model that's for creating awesome RPG characters of varying classes in a consistent style.",
-			"id": "6c95de60-a0bc-4f90-b637-ee8971caf3b0",
-			"name": "Character Portraits",
-			"nsfw": false,
-			"pricing": {
-				"cost": 10,
-				"costPerAdditional": 10
-			},
-			"pseudoDescription": "An image generation model designed to produce a series of consistent and cohesive character portraits, suitable for role-playing games, featuring distinct classes and styles. This model allows for the creation of visually harmonious sets of character illustrations, enhancing the immersion and aesthetic of gaming experiences.",
-			"pseudoName": "Consistent Character Art",
-			"tag": ["Portrait", "Dark", "Cute", "Gothic"],
-			"theme": "Portrait",
-			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Consistent-Character-Art.webp"
-		}
-	]
+  "bonkers_models": [
+    {
+      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+      "category": "Flux",
+      "description": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+      "id": "black-forest-labs/flux-pro",
+      "name": "FLUX.1 Pro",
+      "nsfw": false,
+      "pricing": {
+        "cost": 140,
+        "costPerAdditional": 140
+      },
+      "pseudoDescription": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+      "pseudoName": "FLUX.1 Pro",
+      "tag": ["Text", "Realism", "Portrait", "Classic", "HD", "Natural"],
+      "theme": "Realtistic",
+      "url": "https://tjzk.replicate.delivery/models_models_cover_image/ae5d9d40-31f5-4c33-bd66-2f22b0e8d459/Flux_Pro_Sample.jpg"
+    },
+    {
+      "aspectRatios": ["1:1", "16:9", "21:9", "2:3", "3:2", "4:5", "5:4", "9:16", "9:21"],
+      "category": "Flux",
+      "description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+      "id": "black-forest-labs/flux-schnell",
+      "name": "FLUX.1 Schnell",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+      "pseudoName": "FLUX.1 Schnell",
+      "tag": ["Realism", "Classic", "HD", "Natural"],
+      "theme": "Realtistic",
+      "url": "https://tjzk.replicate.delivery/models_models_featured_image/67c990ba-bb67-4355-822f-2bd8c42b2f0d/flux-schnell.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "7:4", "4:7"],
+      "category": "OpenAI",
+      "description": "Offering Superior Precision and Expanded Creativity in Image Generation. A Step Ahead of Render Works v2",
+      "id": "dall-e-3",
+      "name": "Dalle 3",
+      "nsfw": false,
+      "pricing": {
+        "cost": 60,
+        "costPerAdditional": 60
+      },
+      "pseudoDescription": "Experience unmatched accuracy and artistic liberty in image creation thanks to Render Works v2's superior precision and expansive creative capabilities. Upgrading from its predecessor, this version offers a step forward in image generation technology and empowers users to unlock their creative potential like never before. And it also has the ability to generate images that contain textual data.",
+      "pseudoName": "Render Works v3",
+      "tag": ["Text", "Realism", "Portrait", "Classic", "HD", "Natural"],
+      "theme": "Realtistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Render-Works-v3.avif"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Advanced)",
+      "description": "A versatile model that excels at realism and photography. Better results with longer prompts.",
+      "id": "5c232a9e-9061-4777-980a-ddc8e65647c6",
+      "name": "Leonardo Vision XL",
+      "nsfw": false,
+      "pricing": {
+        "cost": 30,
+        "costPerAdditional": 30
+      },
+      "pseudoDescription": "A high-performance image generation model that masterfully combines various styles and details, producing photorealistic and visually appealing results. Optimal performance with detailed prompts.",
+      "pseudoName": "Vision Blend XL",
+      "tag": ["Realism", "Clean", "Toon", "HD", "Natural"],
+      "theme": "Realtistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Vision-Blend-XL.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Advanced)",
+      "description": "The next phase of the core Leonardo model. Stunning outputs, even with short prompts.",
+      "id": "1e60896f-3c26-4296-8ecc-53e2afecc132",
+      "name": "Leonardo Diffusion XL",
+      "nsfw": false,
+      "pricing": {
+        "cost": 30,
+        "costPerAdditional": 30
+      },
+      "pseudoDescription": "The advanced evolution of the DiffusionBlend model, delivering remarkable outputs with minimal input, tailored for swift and stunning visual creations.",
+      "pseudoName": "Diffusion Blend XL",
+      "tag": ["Artistic", "Toon", "Portrait", "Manga", "Natural", "Cyberpunk", "HD"],
+      "theme": "Artistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Diffusion-Blend-XL.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Advanced)",
+      "description": "A great generalist model that tends towards more CG artistic outputs. By alebdobond.",
+      "id": "2067ae52-33fd-4a82-bb92-c2c55e7d2786",
+      "name": "AlbedoBase XL",
+      "nsfw": false,
+      "pricing": {
+        "cost": 30,
+        "costPerAdditional": 30
+      },
+      "pseudoDescription": "A highly versatile and specialized model capable of generating photorealistic and stylized images across a wide range of CG-related applications.",
+      "pseudoName": "CG Generalist",
+      "tag": ["Anime", "Portrait", "Clean", "Toon", "Artistic", "HD"],
+      "theme": "Artistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/CG-Generalist.webp"
+    },
+    {
+      "aspectRatios": ["1:1"],
+      "category": "OpenAI",
+      "description": "A simple Yet Effective Tool for Crafting Images Ranging from Everyday Realism to Animated Styles.",
+      "id": "dall-e-2",
+      "name": "Dalle 2",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "A powerful and versatile tool for creating vivid, high-quality images, including everyday realism and captivating animated styles, perfect for professionals and enthusiasts alike. Render Works v1 empowers users to shape their visual ideas with efficiency, delivering impressive results at the touch of a button.",
+      "pseudoName": "Render Works v2",
+      "tag": ["Artistic"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Render-Works-v2.avif"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "The latest Stable Diffusion model, currently in Beta.",
+      "id": "b63f7119-31dc-4540-969b-2a9df997e173",
+      "name": "SDXL 0.9",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Meet the older iteration of Stable Diffusion, you can generate images with stability and details. The prompts you provide will greatly affect the output",
+      "pseudoName": "Stable Diff XL Beta",
+      "tag": ["Anime", "Portrait", "Natural", "HD"],
+      "theme": "Artistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Stable-Diff-XL-Beta.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "Anashel returns with another great model, specialising in RPG characters of all kinds.",
+      "id": "f1929ea3-b169-4c18-a16c-5d58b4292c69",
+      "name": "RPG v5",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Immersive RPG Plus takes character art to new heights with enhanced features and capabilities, generating highly detailed and realistic RPG character portraits for a truly immersive gaming experience.",
+      "pseudoName": "Immersive RPG Plus",
+      "tag": ["Dark", "Antique", "Astro", "Gothic"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Immersive-RPG-Plus.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "This model is best at creating RPG character portraits with the ability for great photorealism. Created by Anashel.",
+      "id": "a097c2df-8f0c-4029-ae0f-8fd349055e61",
+      "name": "RPG 4.0",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Generates high-quality, captivating character portraits for role-playing games, providing a deeply engaging experience for players",
+      "pseudoName": "Immersive RPG",
+      "tag": ["Manga", "Natural", "Portrait"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Immersive-RPG.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "The core model of the Leonardo platform. An extremely powerful and diverse finetune which is highly effective for a wide range of uses.",
+      "id": "291be633-cb24-434f-898f-e662799936ad",
+      "name": "Leonardo Signature",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Offering exceptional versatility for a myriad of image generation tasks. Its powerful concoction allows for impressive and distinctive outputs.",
+      "pseudoName": "Signature Blend",
+      "tag": ["Architecture", "Natural", "Antique"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Signature-Blend.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "A powerful finetune of SD2.1 that can achieve a high level of realism.",
+      "id": "cd2b2a15-9760-4174-a5ff-4d2925057376",
+      "name": "Leonardo Select",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Advanced adaptation of SD2.1, designed to seamlessly blend multiple image elements to achieve a heightened level of visual cohesion and realism.",
+      "pseudoName": "Select Blend",
+      "tag": ["Neon", "Dark", "Manga"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Select-Blend.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "A model with incredible shading and contrast, great at both photos and artistic styles, by cac0e.",
+      "id": "b820ea11-02bf-4652-97ae-9ac0cc00593d",
+      "name": "Leonardo Diffusion",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "An outstanding model featuring remarkable blending capabilities, adept at creating diverse visual effects with a unique blending approach.",
+      "pseudoName": "Diffusion Blend",
+      "tag": ["Portrait", "Artistic"],
+      "theme": "Artistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Diffusion-Blend.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "An alternative finetune of SD 2.1 that brings a little more creative interpretation to the mix.",
+      "id": "6bef9f1b-29cb-40c7-b9df-32b51c1f67d3",
+      "name": "Leonardo Creative",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Specifically designed to infuse a unique and imaginative touch into generated images. This model introduces a novel approach to image generation, inspiring creative interpretations and offering a diverse range of visually captivating outputs.",
+      "pseudoName": "Creative Blend",
+      "tag": ["HD", "Cosmic"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Creative-Blend.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "Lykon is back with another update. This model is great at a range of different styles.",
+      "id": "ac614f96-1082-45bf-be9d-757f2d31c174",
+      "name": "DreamShaper v7",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "This latest version further enhances its versatility and precision, empowering users to effortlessly create captivating and harmonious compositions, suitable for a wide array of applications and creative endeavors.",
+      "pseudoName": "Blend Pro v3",
+      "tag": ["HD", "Cosmic", "Ink"],
+      "theme": "Artistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v3.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "A new update to an incredibly versatile model, excels at both people and environments, by Lykon.",
+      "id": "b7aa9939-abed-4d4e-96c4-140b8c65dd92",
+      "name": "DreamShaper v6",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Specializes in seamlessly blending diverse visual elements to produce striking and unified compositions. With enhanced blending capabilities and improved versatility, it empowers users to create captivating and cohesive imagery, making it an essential tool for professional and creative projects alike.",
+      "pseudoName": "Blend Pro v2",
+      "tag": ["Toon", "Manga", "Artistic", "Portrait", "Anime"],
+      "theme": "Artistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v2.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "A powerful model created by XpucT that  is great for both photorealism and artistic creations.",
+      "id": "458ecfff-f76c-402c-8b85-f09f6fb198de",
+      "name": "Deliberate 1.1",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "A powerful model that is great for both photorealism and artistic creations.",
+      "pseudoName": "Precise Art 1.1",
+      "tag": ["Portrait", "Anime", "Toon"],
+      "theme": "Artistic",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Precise-Art-1.1.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "Pastel anime styling. Use with PMv3 and the anime preset for incredible range. Model by Lykon.",
+      "id": "1aa0f478-51be-4efd-94e8-76bfc8f533af",
+      "name": "Anime Pastel Dream",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Experience a gentle and soothing animation style with the Soft Anime Palette model. This model, inspired by anime with a soft and pastel-toned color scheme, is designed to create images with a calming and serene atmosphere. Perfect for creating gentle anime illustrations or adding a touch of softness to your existing anime artwork.",
+      "pseudoName": "Soft Anime Palette",
+      "tag": ["Anime", "Manga", "Portrait", "Natural"],
+      "theme": "Anime",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Soft-Anime-Palette.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "A photorealistic style model from Lykon. Great at all sorts of photorealism.",
+      "id": "e316348f-7773-490e-adcd-46757c738eb7",
+      "name": "Absolute Reality v1.6",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "An advanced image generation model that focuses on high-quality, photorealistic styles. This version excels in creating images that closely mimic reality across a wide range of subjects, resulting in impressive and lifelike visuals",
+      "pseudoName": "Reality Plus v1",
+      "tag": ["Realism", "Portrait", "Classic", "HD"],
+      "theme": "Photography",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Reality-Plus-v1.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "Great at 3D film vibes, capable of complex scenes with rich color. Storyboard time!",
+      "id": "d69c8273-6b17-4a30-a13e-d6637ae1c644",
+      "name": "3D Animation Style",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Tailored for creating 3D film-like imagery, designed to handle complex scenes filled with rich and vibrant colors. Featuring a storyboard setup, it enables users to generate stunning 3D visuals for captivating narratives.",
+      "pseudoName": "High-Def 3D Animator",
+      "tag": ["HD", "Toon", "Portrait", "Cute", "Furry"],
+      "theme": "Anime",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/High-Def-3D-Animator.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "This model can generate a broad range of imagery with a vintage style as if it was taken from a film camera",
+      "id": "17e4edbf-690b-425d-a466-53c816f0de8a",
+      "name": "Vintage Style Photography",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Specializes in generating images that mimic the look and feel of traditional, time-honored photography. It captures the charm of vintage film cameras, evoking a sense of nostalgia and classic artistry, perfect for those who appreciate the simplicity and authenticity of old-fashioned imagery.",
+      "pseudoName": "The Old-Fashioned",
+      "tag": ["Realism", "Classic", "Cosmic", "Astro"],
+      "theme": "Photography",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/The-Old-Fashioned.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "From whimsical fairy-like beings to mythical creatures, create unique cute spirit characters.",
+      "id": "5fdadebb-17ae-472c-bf76-877e657f97de",
+      "name": "Spirit Creatures",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Explore the realm of legends and myths by creating your own enchanting fabled spirits. From mysterious forest dwellers to magical beings of ancient tales, generate a diverse range of captivating characters that will spark the imagination.",
+      "pseudoName": "Fabled Spirits",
+      "tag": ["Cute", "Toon", "Portrait", "Dark", "Ink"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Fabled-Spirits.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Create a variety of impressively varied and detailed shield designs. Allows for an incredible range of material types.",
+      "id": "ee0fc1a3-aacb-48bf-9234-ada3cc02748f",
+      "name": "Shields",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Generate creative and detailed armor designs, offering an impressive range of different materials, textures, and ornamentations to choose from. With Armor Art, you can create visually striking armors for a wide variety of applications.",
+      "pseudoName": "Armor Art",
+      "tag": ["Artistic", "Antique", "Nostalgic"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Armor-Art.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "A great model for creating incredible semi-realistic magic potions. Try appending \"intricately detailed, 3d vray render\" to your prompt.",
+      "id": "45ab2421-87de-44c8-a07c-3b87e3bfdf84",
+      "name": "Magic Potions",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Renders detailed images allowing you to create an enchanting blend of in-depth potion compounds, capturing the essence of fantasy and wonder.",
+      "pseudoName": "Brews",
+      "tag": ["Antique", "Natural", "Cosmic"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Brews.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Create a wide range of magical items like weapons, shields, boots, books. Very versatile.",
+      "id": "2d18c0af-374e-4391-9ca2-639f59837c85",
+      "name": "Magic Items",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Specializes in creating a variety of enchanted items, imbuing them with a wide range of mystical properties and abilities. From enchanted swords and shields to magical boots, books, and beyond.",
+      "pseudoName": "Enchants",
+      "tag": ["Natural", "Dark", "Cosmic"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Enchants.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Great at creating scifi buildings of varying themes. Append the word isometric to your prompt to ensure an isometric view. \"3d vray render\" also helps steer the generation well. ",
+      "id": "7a65f0ab-64a7-4be2-bcf3-64a1cc56f627",
+      "name": "Isometric Scifi Buildings",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Excels at generating futuristic, sci-fi buildings of diverse themes. When using this model, remember to include the term \"isometric\" in your prompt to ensure an isometric view. Additionally, incorporating \"3D Vray render\" will enhance the precision and detail of the generated structures.",
+      "pseudoName": "Iso Tech Craft",
+      "tag": ["Architecture", "Natural", "Nostalgic"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Iso-Tech-Craft.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Create cute and charming game characters, perfect for adding some whimsy to your game design. Be sure to include the word \"character\" in your prompts for best results.",
+      "id": "50c4f43b-f086-4838-bcac-820406244cec",
+      "name": "Cute Characters",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Create cute and charming gaming avatars that will make your gaming experience even more delightful. Whether you're looking for a new character to represent you in an online game or just want to add some adorable flair to your gaming setup, GamingAvatarsCute is the perfect choice.",
+      "pseudoName": "Gaming Avatars",
+      "tag": ["Portrait", "Toon", "Clean", "Cute"],
+      "theme": "Portrait",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Gaming-Avatars.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Perfect for creating adorable and cute animal characters - loveable and playful designs.",
+      "id": "6908bfaf-8cf2-4fda-8c46-03f892d82e06",
+      "name": "Cute Animal Characters",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "This model specializes in generating charming and lovable animal avatars that are perfect for representing users in a fun and engaging way. Whether you need a cute mascot for a brand or web platform, or simply want to create a personalized animal character for yourself, Adorable Animal Avatars has you covered. With a wide range of animals to choose from, you're sure to find the perfect character to express your unique personality and style.",
+      "pseudoName": "Adorable Animal Avatars",
+      "tag": ["Cute", "Anime", "Furry"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Adorable-Animal-Avatars.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "An alternative crystal deposits model that gives a slightly more realistic feel with its creations. Try using \"object\" and \"3d vray render\" in your prompts.",
+      "id": "5fce4543-8e23-4b77-9c3f-202b3f1c211e",
+      "name": "Crystal Deposits Alternate",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "An alternate gemstone generation model, designed to produce more authentic and visually appealing crystals. Ideal for creating captivating visuals in various settings, especially when integrating phrases \"object\" and \"3d vray render\" in your prompts.",
+      "pseudoName": "Gemstones Alternate",
+      "tag": ["Cosmic", "Astro", "Antique", "Architecture"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Gemstones-Alternate.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "A model for creating crystal deposits. Well-suited for use as items or in an isometric environment.",
+      "id": "102a8ee0-cf16-477c-8477-c76963a0d766",
+      "name": "Crystal Deposits",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "An image generation model capable of creating a diverse range of precious and semi-precious gemstones. This model is ideal for creating detailed renditions of various gem types, including but not limited to diamonds, rubies, sapphires, and emeralds, for use in online marketplaces, jewelry design software, or educational materials.",
+      "pseudoName": "Gemstones",
+      "tag": ["Cosmic", "Astro", "Antique", "Architecture"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Gemstones.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Generate festive and fun Christmas stickers with this model. From cute and colorful to traditional and elegant.",
+      "id": "4b2e0f95-f15e-48d8-ada3-c071d6104db8",
+      "name": "Christmas Stickers",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Create personalized and whimsical stickers for the holiday season with Stickers Workshop. Whether you're looking for something playful, festive, or wintry, this model has got you covered!",
+      "pseudoName": "Stickers Workshop",
+      "tag": ["Toon", "Cute", "Portrait", "Clean"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Stickers-Workshop.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Create all sorts of chest armor with this model in a consistent style but with wide thematic range.",
+      "id": "302e258f-29b5-4dd8-9a7c-0cd898cb2143",
+      "name": "Chest Armor",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "This model specializes in generating a wide variety of gaming armors in a consistent style, including different types of chest armor, pauldrons, gauntlets, and leggings, suitable for various gaming characters and environments.",
+      "pseudoName": "Armors for Gaming",
+      "tag": ["Artistic", "Antique"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Armors-for-Gaming.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Generate a variety of detailed axe designs with this model. From medieval battle axes to modern chopping axes, this model is great for creating a r...",
+      "id": "47a6232a-1d49-4c95-83c3-2cc5342f82c7",
+      "name": "Battle Axes",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Explore a wide range of hatchet designs with this versatile model. From classic camping hatchets to decorative antique hatchets, this model can generate detailed and realistic images to fit any need. Whether you're looking for a practical tool or a unique piece of art, the Hatchets model has you covered.",
+      "pseudoName": "Hatchets",
+      "tag": ["Artistic", "Antique"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Hatchets.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Create unique and intricate amulets, jewellery and more. Try loading up the prompt terms to steer it in interesting directions.",
+      "id": "ff883b60-9040-4c18-8d4e-ba7522c6b71d",
+      "name": "Amulets",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "A versatile model for generating unique and exquisite jewelry and amulets. Utilize prompt terms to craft and customize these items with different styles, materials, and adornments.",
+      "pseudoName": "Trinket Engine",
+      "tag": ["Artistic", "Antique", "Cosmic", "Astro"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Trinket-Engine.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "A versatile model great at both photorealism and anime, includes noise offset training, by Lykon.",
+      "id": "d2fb9cf9-7999-4ae5-8bfe-f0df2d32abf8",
+      "name": "DreamShaper v5",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "BlendPro v1 is an advanced image generation model adept at seamlessly merging photorealistic and anime aesthetics, leveraging innovative noise offset training techniques to deliver diverse and high-quality visual outputs.",
+      "pseudoName": "Blend Pro v1",
+      "tag": ["Anime", "Portrait", "HD", "Clean"],
+      "theme": "Anime",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v1.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "A model for creating isometric asteroid environment tiles. Try appending \"3d vray render, unreal engine, beautiful, intricately detailed, trending on artstation, 8k\" to your prompt.",
+      "id": "756be0a8-38b1-4946-ad62-c0ac832422e3",
+      "name": "Isometric Asteroid Tiles",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "Space Rocks is a versatile tool for generating intricate, 3D asteroid landscapes in an isometric view. Enhance your input with prompts like \"3D Vray render, Unreal Engine, stunningly detailed, trending on ArtStation, and 8K\" for breathtaking results.",
+      "pseudoName": "Space Rocks",
+      "tag": ["Natural"],
+      "theme": "Other",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Space-Rocks.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "A pixel art model that's trained on headshots, but is surprisingly flexible with all sorts of subjects.",
+      "id": "e5a291b6-3990-495a-b1fa-7bd1864510a6",
+      "name": "Pixel Art",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "A robust pixel art generation model, trained on a diverse range of subjects that extends beyond headshots, ensuring its applicability across various themes and categories within the pixel art realm.",
+      "pseudoName": "All-in-Pixel",
+      "tag": ["Pixel"],
+      "theme": "Gaming",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/All-in-Pixel.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion",
+      "description": "This model by Lykon is great at a range of portrait styles as well as artistic backgrounds.",
+      "id": "f3296a34-9aef-4370-ad18-88daf26862c3",
+      "name": "DreamShaper 3.2",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "BlendPro 0.1 is an innovative image generation model specifically designed to seamlessly blend various visual elements to produce captivating and cohesive images. Its advanced blending capabilities enable users to effortlessly create unique and harmonious compositions, making it an ideal tool for both professional and creative endeavors.",
+      "pseudoName": "Blend Pro v0.1",
+      "tag": ["Anime", "Cute", "Portrait"],
+      "theme": "Anime",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Blend-Pro-v0.1.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "Create all sorts of isometric fantasy environments. Try appending \"3d vray render, isometric\" and using a guidance scale of 6. For the negative prompt, try \"unclear, harsh, oversaturated, soft, blurry\".",
+      "id": "ab200606-5d09-4e1e-9050-0b05b839e944",
+      "name": "Isometric Fantasy",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "By incorporating the search tags \"3D Vray render\" you can bring your dreams to life in stunning detail. For the negative prompt, experiment with terms such as \"unclear, harsh, oversaturated, soft, blurry\" to tailor the output to your preferences.",
+      "pseudoName": "Iso Dream Craft",
+      "tag": ["Natural", "Cosmic"],
+      "theme": "Nature",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Iso-Dream-Craft.webp"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2", "3:4", "4:3", "9:16", "16:9"],
+      "category": "Stable Diffusion (Misc)",
+      "description": "A model that's for creating awesome RPG characters of varying classes in a consistent style.",
+      "id": "6c95de60-a0bc-4f90-b637-ee8971caf3b0",
+      "name": "Character Portraits",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "An image generation model designed to produce a series of consistent and cohesive character portraits, suitable for role-playing games, featuring distinct classes and styles. This model allows for the creation of visually harmonious sets of character illustrations, enhancing the immersion and aesthetic of gaming experiences.",
+      "pseudoName": "Consistent Character Art",
+      "tag": ["Portrait", "Dark", "Cute", "Gothic"],
+      "theme": "Portrait",
+      "url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Consistent-Character-Art.webp"
+    }
+  ]
 }
