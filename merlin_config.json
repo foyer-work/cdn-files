@@ -1385,7 +1385,8 @@
     },
     "youtube": {
       "costPerHour": 14,
-      "visible": true
+      "visible": true,
+      "scrapeSubsOnFrontend": true
     }
   },
   "switchEndpoint": false,
