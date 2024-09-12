@@ -119,6 +119,26 @@
       "name": "Llama 3.1 405B",
       "queryCost": 15,
       "paid": false
+    },
+    {
+      "charge": "20x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "O1 Mini",
+      "id": "o1-mini",
+      "name": "O1 Mini",
+      "queryCost": 20,
+      "paid": true
+    },
+    {
+      "charge": "90x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "O1 Preview",
+      "id": "o1-preview",
+      "name": "O1 Preview",
+      "queryCost": 90,
+      "paid": true
     }
   ]
 }
