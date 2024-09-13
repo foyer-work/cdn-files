@@ -121,23 +121,23 @@
       "paid": false
     },
     {
-      "charge": "20x Queries",
+      "charge": "40x Queries",
       "default": false,
       "defaultPro": false,
       "description": "O1 Mini",
       "id": "o1-mini",
       "name": "O1 Mini",
-      "queryCost": 20,
+      "queryCost": 40,
       "paid": true
     },
     {
-      "charge": "90x Queries",
+      "charge": "180x Queries",
       "default": false,
       "defaultPro": false,
       "description": "O1 Preview",
       "id": "o1-preview",
       "name": "O1 Preview",
-      "queryCost": 90,
+      "queryCost": 180,
       "paid": true
     }
   ]
