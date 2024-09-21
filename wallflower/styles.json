@@ -1,0 +1,49 @@
+{
+  "wallflower_styles": [
+    {
+      "id": "Anime",
+      "name": "Anime",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/anime_2e3e465d32.png"
+    },
+    {
+      "id": "Auto",
+      "name": "Auto",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/auto_548ff6fa18.jpeg"
+    },
+    {
+      "id": "Cartoon",
+      "name": "Cartoon",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/cartoon_87b80005e2.jpg"
+    },
+    {
+      "id": "Cinematic",
+      "name": "Cinematic",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/cinematic_92dfbddddc.jpeg"
+    },
+    {
+      "id": "Minimalist",
+      "name": "Minimalist",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/minimalistic_b1607df473.jpeg"
+    },
+    {
+      "id": "Realistic",
+      "name": "Realistic",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/realistic_b8b02ad220.webp"
+    },
+    {
+      "id": "Vintage",
+      "name": "Vintage",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/vintage_a4d3d6202f.webp"
+    },
+    {
+      "id": "Design",
+      "name": "Design",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/design_a2b8dcd2e2.jpeg"
+    },
+    {
+      "id": "3D",
+      "name": "3D",
+      "image": "https://d22e6o9mp4t2lx.cloudfront.net/cms/3d_anime_9af3d6ec6a.jpeg"
+    }
+  ]
+}
