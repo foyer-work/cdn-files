@@ -43,6 +43,64 @@
       "tag": ["Realism", "Classic", "HD", "Natural"],
       "theme": "Realtistic",
       "url": "https://tjzk.replicate.delivery/models_models_featured_image/67c990ba-bb67-4355-822f-2bd8c42b2f0d/flux-schnell.webp"
+    },
+    {
+      "aspectRatios": [
+        "10:16",
+        "16:10",
+        "9:16",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "1:1",
+        "1:3",
+        "3:1"
+      ],
+      "category": "Ideogram",
+      "description": "Ideogram 1.0 generates sharp, detailed images while understanding long, complex prompts.",
+      "id": "V_1_TURBO",
+      "name": "Ideogram V1 Turbo",
+      "nsfw": false,
+      "pricing": {
+        "cost": 140,
+        "costPerAdditional": 140
+      },
+      "pseudoDescription": "Ideogram 1.0 generates sharp, detailed images while understanding long, complex prompts.",
+      "pseudoName": "Ideogram V1 Turbo",
+      "tag": ["Photorealism", "HD", "Natural", "Text"],
+      "theme": "Realtistic",
+      "url": "https://d22e6o9mp4t2lx.cloudfront.net/cms/ideogram_v1_aecc430b97.jpeg"
+    },
+    {
+      "aspectRatios": [
+        "10:16",
+        "16:10",
+        "9:16",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "1:1",
+        "1:3",
+        "3:1"
+      ],
+      "category": "Ideogram",
+      "description": "Ideogram 2.0 is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
+      "id": "V_2_TURBO",
+      "name": "Ideogram V2 Turbo",
+      "nsfw": false,
+      "pricing": {
+        "cost": 140,
+        "costPerAdditional": 140
+      },
+      "pseudoDescription": "Ideogram 2.0 is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
+      "pseudoName": "Ideogram V2 Turbo",
+      "tag": ["Photorealism", "HD", "Natural", "Text"],
+      "theme": "Realtistic",
+      "url": "https://d22e6o9mp4t2lx.cloudfront.net/cms/ideogram_v2_a0ec8bacd4.jpeg"
     }
   ]
 }
