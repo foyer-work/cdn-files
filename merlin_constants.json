@@ -140,7 +140,7 @@
       "id": "o1-mini",
       "name": "O1 Mini",
       "queryCost": 40,
-      "paid": true,
+      "paid": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     },
     {
@@ -151,7 +151,7 @@
       "id": "o1-preview",
       "name": "O1 Preview",
       "queryCost": 180,
-      "paid": true,
+      "paid": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     }
   ]
