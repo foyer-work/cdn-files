@@ -63,7 +63,7 @@
       "id": "claude-3-opus",
       "name": "Claude 3 Opus",
       "queryCost": 50,
-      "paid": true,
+      "paid": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp"
     },
     {
@@ -74,7 +74,7 @@
       "id": "claude-3.5-sonnet",
       "name": "Claude 3.5 Sonnet",
       "queryCost": 25,
-      "paid": true,
+      "paid": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3.5-sonnet.webp"
     },
     {
