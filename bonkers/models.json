@@ -3,6 +3,23 @@
 		{
 			"aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
 			"category": "Flux",
+			"description": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+			"id": "black-forest-labs/flux-1.1-pro",
+			"name": "FLUX.1.1 Pro",
+			"nsfw": false,
+			"pricing": {
+				"cost": 130,
+				"costPerAdditional": 130
+			},
+			"pseudoDescription": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+			"pseudoName": "FLUX.1.1 Pro",
+			"tag": ["Text", "Realism", "Portrait", "Fast", "Natural"],
+			"theme": "Realtistic",
+			"url": "https://tjzk.replicate.delivery/models_models_featured_image/bd872eff-363a-4e10-8cc1-84057afa9f57/flux-1.1-cover.webp"
+		},
+		{
+			"aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+			"category": "Flux",
 			"description": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
 			"id": "black-forest-labs/flux-pro",
 			"name": "FLUX.1 Pro",
@@ -18,7 +35,17 @@
 			"url": "https://tjzk.replicate.delivery/models_models_cover_image/ae5d9d40-31f5-4c33-bd66-2f22b0e8d459/Flux_Pro_Sample.jpg"
 		},
 		{
-			"aspectRatios": ["1:1", "16:9", "21:9", "2:3", "3:2", "4:5", "5:4", "9:16", "9:21"],
+			"aspectRatios": [
+				"1:1",
+				"16:9",
+				"21:9",
+				"2:3",
+				"3:2",
+				"4:5",
+				"5:4",
+				"9:16",
+				"9:21"
+			],
 			"category": "Flux",
 			"description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
 			"id": "black-forest-labs/flux-schnell",
@@ -81,7 +108,15 @@
 			},
 			"pseudoDescription": "The advanced evolution of the DiffusionBlend model, delivering remarkable outputs with minimal input, tailored for swift and stunning visual creations.",
 			"pseudoName": "Diffusion Blend XL",
-			"tag": ["Artistic", "Toon", "Portrait", "Manga", "Natural", "Cyberpunk", "HD"],
+			"tag": [
+				"Artistic",
+				"Toon",
+				"Portrait",
+				"Manga",
+				"Natural",
+				"Cyberpunk",
+				"HD"
+			],
 			"theme": "Artistic",
 			"url": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/bonkers/Diffusion-Blend-XL.webp"
 		},
