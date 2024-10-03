@@ -9,6 +9,7 @@
       "name": "GPT 3.5",
       "queryCost": 1,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-3.webp"
     },
     {
@@ -20,6 +21,7 @@
       "name": "GPT 4o Mini",
       "queryCost": 1,
       "paid": false,
+      "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp"
     },
     {
@@ -31,6 +33,7 @@
       "name": "GPT 4o",
       "queryCost": 15,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp"
     },
     {
@@ -42,6 +45,7 @@
       "name": "Claude 3 Haiku",
       "queryCost": 1,
       "paid": false,
+      "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp"
     },
     {
@@ -53,6 +57,7 @@
       "name": "Claude 3 Sonnet",
       "queryCost": 10,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-sonnet.webp"
     },
     {
@@ -64,6 +69,7 @@
       "name": "Claude 3 Opus",
       "queryCost": 50,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp"
     },
     {
@@ -75,6 +81,7 @@
       "name": "Claude 3.5 Sonnet",
       "queryCost": 25,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3.5-sonnet.webp"
     },
     {
@@ -86,6 +93,7 @@
       "name": "Gemini 1.5 Flash",
       "queryCost": 1,
       "paid": false,
+      "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-flash.webp"
     },
     {
@@ -97,6 +105,7 @@
       "name": "Gemini 1.5 Pro",
       "queryCost": 30,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-pro.webp"
     },
     {
@@ -108,6 +117,7 @@
       "name": "Mistral Large",
       "queryCost": 25,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp"
     },
     {
@@ -119,6 +129,7 @@
       "name": "Mixtral",
       "queryCost": 1,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     },
     {
@@ -130,6 +141,7 @@
       "name": "Llama 3.1 405B",
       "queryCost": 15,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     },
     {
@@ -141,6 +153,7 @@
       "name": "O1 Mini",
       "queryCost": 40,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     },
     {
@@ -152,6 +165,7 @@
       "name": "O1 Preview",
       "queryCost": 180,
       "paid": false,
+      "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     }
   ]
