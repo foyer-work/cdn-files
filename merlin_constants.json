@@ -197,9 +197,7 @@
       "archived": false,
       "new": false,
       "importance": 21,
-      "filers": [
-        "Speed"
-      ]
+      "filters": ["Speed"]
     },
     {
       "charge": "15x Queries",
@@ -214,9 +212,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp",
       "archived": false,
       "importance": 35,
-      "filers": [
-        "Reasoning"
-      ]
+      "filters": ["Reasoning"]
     },
     {
       "charge": "1x Query",
@@ -231,9 +227,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp",
       "archived": false,
       "importance": 23,
-      "filers": [
-        "Speed"
-      ]
+      "filters": ["Speed"]
     },
     {
       "charge": "10x Queries",
@@ -276,10 +270,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3.5-sonnet.webp",
       "archived": false,
       "importance": 37,
-      "filers": [
-        "Reasoning",
-        "Writing"
-      ]
+      "filters": ["Reasoning", "Writing"]
     },
     {
       "charge": "1x Query",
@@ -294,9 +285,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-flash.webp",
       "archived": false,
       "importance": 22,
-      "filers": [
-        "Speed"
-      ]
+      "filters": ["Speed"]
     },
     {
       "charge": "30x Queries",
@@ -311,10 +300,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-pro.webp",
       "archived": false,
       "importance": 36,
-      "filers": [
-        "Reasoning",
-        "Writing"
-      ]
+      "filters": ["Reasoning", "Writing"]
     },
     {
       "charge": "25x Queries",
@@ -357,9 +343,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
       "importance": 30,
-      "filers": [
-        "Reasoning"
-      ]
+      "filters": ["Reasoning"]
     },
     {
       "charge": "40x Queries",
@@ -375,9 +359,7 @@
       "new": true,
       "archived": false,
       "importance": 40,
-      "filers": [
-        "Reasoning"
-      ]
+      "filters": ["Reasoning"]
     },
     {
       "charge": "180x Queries",
@@ -393,9 +375,7 @@
       "new": true,
       "archived": false,
       "importance": 41,
-      "filers": [
-        "Reasoning"
-      ]
+      "filters": ["Reasoning"]
     }
   ]
 }
