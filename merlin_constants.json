@@ -215,6 +215,21 @@
       "filters": ["Reasoning"]
     },
     {
+      "charge": "50x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship text generation model with longer outputs",
+      "id": "gpt-4o",
+      "name": "GPT 4o",
+      "queryCost": 50,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp",
+      "archived": false,
+      "importance": 10,
+      "filters": ["Reasoning"]
+    },
+    {
       "charge": "1x Query",
       "default": false,
       "defaultPro": false,
