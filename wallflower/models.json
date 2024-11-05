@@ -1,6 +1,35 @@
 {
   "wallflower_models": [
     {
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "category": "Recraft",
+      "bestFor": ["Long Texts", "Prompt Adherence", "Superior Realism"],
+      "description": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
+      "id": "fal-ai/recraft-v3",
+      "name": "Recraft V3",
+      "nsfw": false,
+      "pricing": {
+        "cost": 100,
+        "costPerAdditional": 100
+      },
+      "pseudoDescription": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
+      "pseudoName": "Recraft V3",
+      "speed": "Medium",
+      "tag": ["Realism", "Long Texts", "Prompt Adherence"],
+      "theme": "Realtistic",
+      "url": "https://tjzk.replicate.delivery/models_models_featured_image/afce5fa4-5f8a-45db-95c0-bf62ec6958e7/output-59.webp"
+    },
+    {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
       "category": "Flux",
       "bestFor": ["Prompt Adherence", "Output Diversity", "Superior Realism"],
