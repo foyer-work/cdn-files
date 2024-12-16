@@ -27,7 +27,7 @@
       "speed": "Medium",
       "tag": ["Realism", "Long Texts", "Prompt Adherence"],
       "theme": "Realtistic",
-      "isInpaintAvailable": false,
+      "featureSupport": ["GENERATE"],
       "url": "https://tjzk.replicate.delivery/models_models_featured_image/afce5fa4-5f8a-45db-95c0-bf62ec6958e7/output-59.webp"
     },
     {
@@ -47,7 +47,7 @@
       "speed": "Medium",
       "tag": ["Visual Diversity", "Text", "Prompt Adherence"],
       "theme": "Realtistic",
-      "isInpaintAvailable": false,
+      "featureSupport": ["GENERATE"],
       "url": "https://tjzk.replicate.delivery/models_models_featured_image/bd872eff-363a-4e10-8cc1-84057afa9f57/flux-1.1-cover.webp"
     },
     {
@@ -71,7 +71,7 @@
       "speed": "Medium - Fast",
       "tag": ["Accurate Prompt Following", "Fast Performance", "Realism"],
       "theme": "Realtistic",
-      "isInpaintAvailable": false,
+      "featureSupport": ["GENERATE"],
       "url": "https://tjzk.replicate.delivery/models_models_cover_image/ae5d9d40-31f5-4c33-bd66-2f22b0e8d459/Flux_Pro_Sample.jpg"
     },
     {
@@ -101,7 +101,7 @@
       "speed": "Fastest",
       "tag": ["Fast Speed", "Text", "Versatility", "High Quality"],
       "theme": "Realtistic",
-      "isInpaintAvailable": false,
+      "featureSupport": ["GENERATE"],
       "url": "https://tjzk.replicate.delivery/models_models_featured_image/67c990ba-bb67-4355-822f-2bd8c42b2f0d/flux-schnell.webp"
     },
     {
@@ -137,7 +137,7 @@
       "speed": "Slow - Medium",
       "tag": ["Photorealism", "Text", "Style Adherence"],
       "theme": "Realtistic",
-      "isInpaintAvailable": true,
+      "featureSupport": ["GENERATE"],
       "url": "https://d22e6o9mp4t2lx.cloudfront.net/cms/ideogram_v2_a0ec8bacd4.jpeg"
     }
   ]
