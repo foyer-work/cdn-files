@@ -345,6 +345,22 @@
       "filters": ["Reasoning", "Writing"]
     },
     {
+      "charge": "2x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "DeepSeek's newest open source model",
+      "id": "deepseek-chat",
+      "name": "DeepSeek V3",
+      "queryCost": 2,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "archived": false,
+      "importance": 20,
+      "filters": ["Coding", "Writing"],
+      "new": true
+    },
+    {
       "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
@@ -398,7 +414,6 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
-      "new": true,
       "archived": false,
       "importance": 40,
       "filters": ["Reasoning"]
@@ -414,7 +429,6 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
-      "new": true,
       "archived": false,
       "importance": 19,
       "filters": ["Reasoning", "Coding"]
@@ -430,7 +444,6 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
-      "new": true,
       "archived": false,
       "importance": 18,
       "filters": ["Reasoning", "Coding"]
