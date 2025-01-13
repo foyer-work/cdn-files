@@ -841,7 +841,7 @@
       "visible": true
     },
     "quill": {
-      "visible": true,
+      "visible": false,
       "blacklistedDomains": []
     },
     "merlinCTA": {
@@ -987,11 +987,11 @@
       "visible": false
     },
     "dopplegainger": {
-      "visible": true
+      "visible": false
     },
     "doppelgainger": {
       "visible": false,
-      "v2Visible": true,
+      "v2Visible": false,
       "blacklistedSlugs": [
         "home",
         "explore",
@@ -1411,7 +1411,7 @@
     "visible": false
   },
   "survey": {
-    "visible": true,
+    "visible": false,
     "showSurveyInterval": 6,
     "questionnaire": [
       {
