@@ -209,7 +209,9 @@
       "archived": false,
       "new": false,
       "importance": 21,
-      "filters": ["Speed"]
+      "filters": [
+        "Speed"
+      ]
     },
     {
       "charge": "15x Queries",
@@ -224,7 +226,10 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp",
       "archived": false,
       "importance": 34,
-      "filters": ["Reasoning", "Writing"]
+      "filters": [
+        "Reasoning",
+        "Writing"
+      ]
     },
     {
       "charge": "50x Queries",
@@ -238,8 +243,12 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp",
       "archived": false,
-      "importance": 36,
-      "filters": ["Reasoning", "Writing", "Coding"]
+      "importance": 20,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
     },
     {
       "charge": "1x Query",
@@ -254,7 +263,9 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp",
       "archived": false,
       "importance": 23,
-      "filters": ["Speed"]
+      "filters": [
+        "Speed"
+      ]
     },
     {
       "charge": "5x Query",
@@ -269,7 +280,9 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp",
       "archived": false,
       "importance": 25,
-      "filters": ["Speed"]
+      "filters": [
+        "Speed"
+      ]
     },
     {
       "charge": "10x Queries",
@@ -312,7 +325,11 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3.5-sonnet.webp",
       "archived": false,
       "importance": 37,
-      "filters": ["Reasoning", "Writing", "Coding"]
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
     },
     {
       "charge": "1x Query",
@@ -327,7 +344,9 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-flash.webp",
       "archived": false,
       "importance": 22,
-      "filters": ["Speed"]
+      "filters": [
+        "Speed"
+      ]
     },
     {
       "charge": "30x Queries",
@@ -342,7 +361,10 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-pro.webp",
       "archived": false,
       "importance": 35,
-      "filters": ["Reasoning", "Writing"]
+      "filters": [
+        "Reasoning",
+        "Writing"
+      ]
     },
     {
       "charge": "2x Queries",
@@ -356,8 +378,11 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
-      "importance": 20,
-      "filters": ["Coding", "Writing"],
+      "importance": 36,
+      "filters": [
+        "Coding",
+        "Writing"
+      ],
       "new": true
     },
     {
@@ -401,7 +426,9 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
       "importance": 30,
-      "filters": ["Reasoning"]
+      "filters": [
+        "Reasoning"
+      ]
     },
     {
       "charge": "40x Queries",
@@ -416,7 +443,9 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
       "importance": 40,
-      "filters": ["Reasoning"]
+      "filters": [
+        "Reasoning"
+      ]
     },
     {
       "charge": "180x Queries",
@@ -431,7 +460,10 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
       "importance": 19,
-      "filters": ["Reasoning", "Coding"]
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ]
     },
     {
       "charge": "180x Queries",
@@ -446,7 +478,10 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
       "importance": 18,
-      "filters": ["Reasoning", "Coding"]
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ]
     }
   ]
 }
