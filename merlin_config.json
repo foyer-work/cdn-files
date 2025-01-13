@@ -963,7 +963,8 @@
       },
       "unified": {
         "visible": true
-      }
+      },
+      "gui": "iframe"
     },
     "codeSummarizer": {
       "blackListedDomains": [
