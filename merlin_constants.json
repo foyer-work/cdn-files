@@ -183,7 +183,7 @@
   ],
   "textLLMs": [
     {
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "OpenAI's original ChatGPT model",
       "id": "gpt-3.5-turbo",
@@ -367,13 +367,13 @@
       ]
     },
     {
-      "charge": "2x Queries",
-      "default": false,
+      "charge": "1x Queries",
+      "default": true,
       "defaultPro": false,
       "description": "DeepSeek's newest open source model",
       "id": "deepseek-chat",
       "name": "DeepSeek V3",
-      "queryCost": 2,
+      "queryCost": 1,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
