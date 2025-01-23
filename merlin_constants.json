@@ -386,6 +386,26 @@
       "new": true
     },
     {
+      "charge": "20x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "DeepSeek's newest model that can think",
+      "id": "deepseek-reasoner",
+      "name": "DeepSeek R1",
+      "queryCost": 20,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "archived": false,
+      "importance": 37,
+      "filters": [
+        "Coding",
+        "Writing",
+        "Reasoning"
+      ],
+      "new": true
+    },
+    {
       "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
