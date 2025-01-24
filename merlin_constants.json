@@ -205,7 +205,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
       "archived": false,
       "new": false,
       "importance": 21,
@@ -223,7 +223,7 @@
       "queryCost": 15,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
       "archived": false,
       "importance": 34,
       "filters": [
@@ -241,7 +241,7 @@
       "queryCost": 50,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_longer_output.webp",
       "archived": false,
       "importance": 20,
       "filters": [
@@ -260,7 +260,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_haiku.webp",
       "archived": false,
       "importance": 23,
       "filters": [
@@ -277,7 +277,7 @@
       "queryCost": 5,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_haiku.webp",
       "archived": false,
       "importance": 25,
       "filters": [
@@ -294,7 +294,7 @@
       "queryCost": 10,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-sonnet.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_sonnet.webp",
       "archived": true,
       "importance": 2
     },
@@ -308,7 +308,7 @@
       "queryCost": 50,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_opus.webp",
       "archived": true,
       "importance": 3
     },
@@ -322,7 +322,7 @@
       "queryCost": 25,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3.5-sonnet.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_sonnet.webp",
       "archived": false,
       "importance": 37,
       "filters": [
@@ -341,7 +341,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-flash.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_flash.webp",
       "archived": false,
       "importance": 22,
       "filters": [
@@ -358,7 +358,7 @@
       "queryCost": 15,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-pro.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_pro.webp",
       "archived": false,
       "importance": 35,
       "filters": [
