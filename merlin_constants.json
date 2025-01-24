@@ -205,7 +205,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp",
       "archived": false,
       "new": false,
       "importance": 21,
@@ -223,7 +223,7 @@
       "queryCost": 15,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4.webp",
       "archived": false,
       "importance": 34,
       "filters": [
@@ -376,7 +376,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
       "archived": false,
       "importance": 36,
       "filters": [
@@ -395,7 +395,7 @@
       "queryCost": 20,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
       "archived": false,
       "importance": 37,
       "filters": [
@@ -429,7 +429,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp",
       "archived": true,
       "importance": 1
     },
@@ -443,7 +443,7 @@
       "queryCost": 15,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/llama.webp",
       "archived": false,
       "importance": 30,
       "filters": [
@@ -460,7 +460,7 @@
       "queryCost": 40,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
       "archived": false,
       "importance": 40,
       "filters": [
@@ -477,7 +477,7 @@
       "queryCost": 180,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1.webp",
       "archived": false,
       "importance": 19,
       "filters": [
@@ -495,7 +495,7 @@
       "queryCost": 180,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
       "archived": false,
       "importance": 18,
       "filters": [
