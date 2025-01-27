@@ -183,7 +183,7 @@
   ],
   "textLLMs": [
     {
-      "default": false,
+      "default": true,
       "defaultPro": false,
       "description": "OpenAI's original ChatGPT model",
       "id": "gpt-3.5-turbo",
@@ -368,7 +368,7 @@
     },
     {
       "charge": "1x Queries",
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "DeepSeek's newest open source model",
       "id": "deepseek-chat",
