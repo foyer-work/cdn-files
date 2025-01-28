@@ -1526,5 +1526,12 @@
   ],
   "mobile": {
     "criticalAppVersion": "4.0.0"
+  },
+  "serp": {
+    "mountAnchorSelectors": [
+      "#rhs div[jsname='TlEBqd']",
+      "#rhs div.TzHB6b",
+      "#rhs"
+    ]
   }
 }
