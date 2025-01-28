@@ -1060,7 +1060,12 @@
         "text": "Discover your destiny with Merlin's horoscope predictions!",
         "isActive": false,
         "btnHandler": "getHoroscope"
-      }
+      },
+      "mountAnchorSelectors": [
+        "#rhs div[jsname='TlEBqd']",
+        "#rhs div.TzHB6b",
+        "#rhs"
+      ]
     },
     "shouldDoStatusCall": false
   },
@@ -1526,12 +1531,5 @@
   ],
   "mobile": {
     "criticalAppVersion": "4.0.0"
-  },
-  "serp": {
-    "mountAnchorSelectors": [
-      "#rhs div[jsname='TlEBqd']",
-      "#rhs div.TzHB6b",
-      "#rhs"
-    ]
   }
 }
