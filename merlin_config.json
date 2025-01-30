@@ -186,8 +186,8 @@
     }
   },
   "saveToMerlin": {
-    "isVisible": true,
-    "blacklistPaths": ["www.getmerlin.in", "staging.getmerlin.in"]
+    "visible": true,
+    "blacklistHostNames": ["www.getmerlin.in", "staging.getmerlin.in"]
   },
   "featPersona": true,
   "features": [
