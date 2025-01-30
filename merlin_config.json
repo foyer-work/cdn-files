@@ -185,6 +185,10 @@
       "visible": true
     }
   },
+  "saveToMerlin": {
+    "visible": true,
+    "blacklistHostnames": ["www.getmerlin.in", "staging.getmerlin.in"]
+  },
   "featPersona": true,
   "features": [
     {
