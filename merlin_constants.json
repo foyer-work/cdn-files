@@ -145,13 +145,13 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     },
     {
-      "charge": "40x Queries",
+      "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
       "description": "O3 Mini",
       "id": "o3-mini",
       "name": "O3 Mini",
-      "queryCost": 40,
+      "queryCost": 15,
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
