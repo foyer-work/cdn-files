@@ -489,7 +489,7 @@
       "queryCost": 15,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
       "importance": 37,
       "filters": [
