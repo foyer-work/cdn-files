@@ -157,6 +157,18 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
     },
     {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "O3 Mini",
+      "id": "o3-mini",
+      "name": "O3 Mini",
+      "queryCost": 15,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp"
+    },
+    {
       "charge": "180x Queries",
       "default": false,
       "defaultPro": false,
@@ -458,6 +470,23 @@
       "id": "o1-mini",
       "name": "O1 Mini",
       "queryCost": 40,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
+      "archived": false,
+      "importance": 18,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's New Chain-Of-Thought based mini model",
+      "id": "o3-mini",
+      "name": "O3 Mini",
+      "queryCost": 15,
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
