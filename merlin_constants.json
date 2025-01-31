@@ -166,7 +166,7 @@
       "queryCost": 15,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp"
     },
     {
       "charge": "180x Queries",
@@ -474,7 +474,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
       "archived": false,
-      "importance": 40,
+      "importance": 18,
       "filters": [
         "Reasoning"
       ]
@@ -489,9 +489,9 @@
       "queryCost": 15,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
       "archived": false,
-      "importance": 37,
+      "importance": 40,
       "filters": [
         "Reasoning"
       ]
