@@ -463,7 +463,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp",
-      "archived": false,
+      "archived": true,
       "importance": 15
     },
     {
