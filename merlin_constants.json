@@ -361,13 +361,48 @@
       ]
     },
     {
-      "charge": "30x Queries",
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's fastest model with good reasoning",
+      "id": "gemini-2.0-flash",
+      "name": "Gemini 2.0 Flash",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_flash.webp",
+      "archived": false,
+      "importance": 23,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
+      "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
       "description": "Google's flagship model, gives structured and well crafted answers",
       "id": "gemini-1.5-pro",
       "name": "Gemini 1.5 Pro",
       "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_pro.webp",
+      "archived": true,
+      "importance": 35,
+      "filters": [
+        "Reasoning",
+        "Writing"
+      ]
+    },
+    {
+      "charge": "10x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's flagship model, gives structured and well crafted answers",
+      "id": "gemini-2.0-pro",
+      "name": "Gemini 2.0 Pro",
+      "queryCost": 10,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_pro.webp",
@@ -473,7 +508,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
-      "archived": false,
+      "archived": true,
       "importance": 18,
       "filters": [
         "Reasoning"
@@ -492,6 +527,23 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
       "archived": false,
       "importance": 40,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "25x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's New Chain-Of-Thought based mini model with higher reasoning",
+      "id": "o3-mini-high",
+      "name": "O3 Mini High",
+      "queryCost": 25,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
+      "archived": false,
+      "importance": 39,
       "filters": [
         "Reasoning"
       ]
@@ -525,7 +577,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
-      "archived": false,
+      "archived": true,
       "importance": 18,
       "filters": [
         "Reasoning",
