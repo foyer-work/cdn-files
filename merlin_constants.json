@@ -203,7 +203,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-3.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
       "archived": true,
       "new": false,
       "importance": 1
@@ -217,7 +217,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini_new.webp",
       "archived": false,
       "new": false,
       "importance": 21,
@@ -370,7 +370,7 @@
       "queryCost": 1,
       "paid": false,
       "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_flash.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_flash.webp",
       "archived": false,
       "importance": 23,
       "filters": [
@@ -507,7 +507,7 @@
       "queryCost": 15,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1_mini.webp",
       "archived": true,
       "importance": 18,
       "filters": [
@@ -524,7 +524,7 @@
       "queryCost": 15,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini.webp",
       "archived": false,
       "importance": 40,
       "filters": [
@@ -541,7 +541,7 @@
       "queryCost": 25,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini_high.webp",
       "archived": false,
       "importance": 39,
       "filters": [
@@ -558,7 +558,7 @@
       "queryCost": 180,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1_new.webp",
       "archived": false,
       "importance": 19,
       "filters": [
