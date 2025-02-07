@@ -405,7 +405,7 @@
       "queryCost": 10,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_pro.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_pro.webp",
       "archived": false,
       "importance": 35,
       "filters": [
