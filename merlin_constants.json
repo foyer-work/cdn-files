@@ -195,7 +195,7 @@
   ],
   "textLLMs": [
     {
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "OpenAI's original ChatGPT model",
       "id": "gpt-3.5-turbo",
@@ -228,7 +228,7 @@
     {
       "charge": "15x Queries",
       "default": false,
-      "defaultPro": true,
+      "defaultPro": false,
       "description": "OpenAI's flagship text generation model",
       "id": "gpt-4o",
       "name": "GPT 4o",
@@ -362,7 +362,7 @@
     },
     {
       "charge": "1x Query",
-      "default": false,
+      "default": true,
       "defaultPro": false,
       "description": "Google's fastest model with good reasoning",
       "id": "gemini-2.0-flash",
@@ -534,7 +534,7 @@
     {
       "charge": "25x Queries",
       "default": false,
-      "defaultPro": false,
+      "defaultPro": true,
       "description": "OpenAI's New Chain-Of-Thought based mini model with higher reasoning",
       "id": "o3-mini-high",
       "name": "O3 Mini High",
