@@ -13,8 +13,8 @@
         "9:21"
       ],
       "category": "Recraft",
-      "bestFor": ["Long Texts", "Prompt Adherence", "Superior Realism"],
       "description": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
+      "featureSupport": ["GENERATE"],
       "id": "fal-ai/recraft-v3",
       "name": "Recraft V3",
       "nsfw": false,
@@ -25,16 +25,21 @@
       "pseudoDescription": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
       "pseudoName": "Recraft V3",
       "speed": "Medium",
-      "tag": ["Realism", "Long Texts", "Prompt Adherence"],
+      "tag": [
+        "Posters",
+        "Design Creatives",
+        "Long Texts",
+        "Realism",
+        "Prompt Adherence"
+      ],
       "theme": "Realtistic",
-      "featureSupport": ["GENERATE"],
-      "url": "https://tjzk.replicate.delivery/models_models_featured_image/afce5fa4-5f8a-45db-95c0-bf62ec6958e7/output-59.webp"
+      "url": "https://s3-alpha-sig.figma.com/img/8326/ccba/7794efbae86ed496699437512490043c?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qhi0lrs9Wiln7G-1dDi2aDebDLP47oYawF27I1dpmVV5p62JEG-88j2E9OcBxn4G5m1oEnuA0zZ1vRHT85s5oMlWcBxEmG8-VCKklPij453L7fUoKdT7OYEwgSyhGeChzbhDaSMrt0B9JSFODmK7svvk9yJvbg~2PQnqDZmas6jL9rVHlP6MIxsYDHJcT10Uqu1~gVdE9tW8hmNjZr44mX9yhTqRxbwbvtFLH2V3mpOlu6q~BOM7sBU95gFSbZpFiOiyaMfYUmcxFIabCgRyWbUyEG6yxp8Fu8aa9t3uMFN4MGkGiOXVZte9YtCJgNtC12djrIBzTmFl0yY8ZT3Leg__"
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
       "category": "Flux",
-      "bestFor": ["Prompt Adherence", "Output Diversity", "Superior Realism"],
       "description": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+      "featureSupport": ["GENERATE"],
       "id": "black-forest-labs/flux-1.1-pro",
       "name": "FLUX.1.1 Pro",
       "nsfw": false,
@@ -45,64 +50,15 @@
       "pseudoDescription": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
       "pseudoName": "Flux 1.1 Pro",
       "speed": "Medium",
-      "tag": ["Visual Diversity", "Text", "Prompt Adherence"],
-      "theme": "Realtistic",
-      "featureSupport": ["GENERATE"],
-      "url": "https://tjzk.replicate.delivery/models_models_featured_image/bd872eff-363a-4e10-8cc1-84057afa9f57/flux-1.1-cover.webp"
-    },
-    {
-      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
-      "bestFor": [
-        "Complex scenes",
-        "Photorealistic renders",
-        "Artistic creations"
+      "tag": [
+        "Human Realism",
+        "Excellent Quality",
+        "Output Diversity",
+        "Text",
+        "Prompt Adherence"
       ],
-      "category": "Flux",
-      "description": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
-      "id": "black-forest-labs/flux-pro",
-      "name": "FLUX.1 Pro",
-      "nsfw": false,
-      "pricing": {
-        "cost": 140,
-        "costPerAdditional": 140
-      },
-      "pseudoDescription": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
-      "pseudoName": "Flux Pro",
-      "speed": "Medium - Fast",
-      "tag": ["Accurate Prompt Following", "Fast Performance", "Realism"],
       "theme": "Realtistic",
-      "featureSupport": ["GENERATE"],
-      "url": "https://tjzk.replicate.delivery/models_models_cover_image/ae5d9d40-31f5-4c33-bd66-2f22b0e8d459/Flux_Pro_Sample.jpg"
-    },
-    {
-      "aspectRatios": [
-        "1:1",
-        "16:9",
-        "21:9",
-        "2:3",
-        "3:2",
-        "4:5",
-        "5:4",
-        "9:16",
-        "9:21"
-      ],
-      "bestFor": ["Content Creation", "Rapid Prototyping", "Personal Use"],
-      "category": "Flux",
-      "description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
-      "id": "black-forest-labs/flux-schnell",
-      "name": "FLUX.1 Schnell",
-      "nsfw": false,
-      "pricing": {
-        "cost": 10,
-        "costPerAdditional": 10
-      },
-      "pseudoDescription": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
-      "pseudoName": "Flux Schnell",
-      "speed": "Fastest",
-      "tag": ["Fast Speed", "Text", "Versatility", "High Quality"],
-      "theme": "Realtistic",
-      "featureSupport": ["GENERATE"],
-      "url": "https://tjzk.replicate.delivery/models_models_featured_image/67c990ba-bb67-4355-822f-2bd8c42b2f0d/flux-schnell.webp"
+      "url": "https://s3-alpha-sig.figma.com/img/675c/5b2a/d06fff16f3cb7d3827af3a73b2cad4f4?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=s1WLzbo3CR1ArKiIqZhO-Ve-9Hh7O7dYjuU6UayVaqfQsB6QOctLTugF5neg7wTLPekkwZ5If~-ADpT95kacahFbVTQ75CrJdkRuXKKqv8uTS5yla5zPnWTRpi8adXrcWOY3c2upQOUBJnOlUM4XVabnxhkztJAzZJgYqfmegmBqJIAgKaF7irPWWIBtx6rIqAzxZzWAOGkHQeEGMlvMTLze75M8kI1un3kDtIUTZP7qHoupCk-OiBVKFqwfTB9ohNWjutDw4Ghm6W6CYE3-vwmMY52mSLds914jODrVWVmBYd449-1oBLG~H5LKZFMysPDCL2pBrBfXryytKsK33A__"
     },
     {
       "aspectRatios": [
@@ -118,13 +74,9 @@
         "1:3",
         "3:1"
       ],
-      "bestFor": [
-        "Text-heavy images",
-        "Realistic human features",
-        "Prompt adherence"
-      ],
       "category": "Ideogram",
       "description": "Ideogram 2.0 is  a powerful AI text-to-image model that generate text in images along with realistic human features and more prompt following.",
+      "featureSupport": ["GENERATE"],
       "id": "V_2_TURBO",
       "name": "Ideogram V2 Turbo",
       "nsfw": false,
@@ -135,10 +87,76 @@
       "pseudoDescription": "Ideogram 2.0 is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
       "pseudoName": "Ideogram V2 Turbo",
       "speed": "Slow - Medium",
-      "tag": ["Photorealism", "Text", "Style Adherence"],
+      "tag": [
+        "Human Realism",
+        "Design Creatives",
+        "Posters",
+        "Style Adherence",
+        "Text-heavy images"
+      ],
       "theme": "Realtistic",
+      "url": "https://s3-alpha-sig.figma.com/img/4c07/304d/55b55a9aa737d6f6d29a03c6e3457a20?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SAMmFA2VREa1V1ui2~HmVO~wog8aZHA4J0BQacfqoQfCzPcCifopBNHdcGXPdQI5xTOs4mPGFQCndC00LVc50Hy411On3~K8OA3cx01MkaohWIHqpnlBWO8mDErspj1gcGvwKfxHFiOvcEp-p99VHf2XXbdv3sOmUsgJZc4c3OjqqLSD549Uq2pkVgXQxIIdDIxJDje6Ub4DN1QhravTzMHJCql4mBfBpxTY4Q9lc81F4DqCsZeCYp1rLrrnPyp4E-aIlJp74b1~G9WkeXId9CAGPg5A-Hz0fECAxIsjdjnK9kPyGiLS79EFBqoKlyZy78URKAUzvugioacjHuW~oQ__"
+    },
+    {
+      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+      "category": "Flux",
+      "description": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
       "featureSupport": ["GENERATE"],
-      "url": "https://d22e6o9mp4t2lx.cloudfront.net/cms/ideogram_v2_a0ec8bacd4.jpeg"
+      "id": "black-forest-labs/flux-pro",
+      "name": "FLUX.1 Pro",
+      "nsfw": false,
+      "pricing": {
+        "cost": 140,
+        "costPerAdditional": 140
+      },
+      "pseudoDescription": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+      "pseudoName": "Flux Pro",
+      "speed": "Medium - Fast",
+      "tag": [
+        "Text",
+        "Photorealistic renders",
+        "Complex scenes",
+        "Artistic creation",
+        "Accurate Prompt Following"
+      ],
+      "theme": "Realtistic",
+      "url": "https://s3-alpha-sig.figma.com/img/a1c3/5397/3390864884129cf4ea70e01e5b2bf885?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QqWpkYc0BQ3rTsERtyIR8gvWoqS~IlJRhvfL0z2chNbDJEGWORdIVP2dL5EZ7A--tEMePF3N8nR81gVsyzY6t399SCDnf9RnTrRix5voV9lxmOvOl-Co8Q-4H7KCnKBP~qdrJoqPDcjMtlbjJESadIlo4hd9my7npjaLNpkUkX5XNxc9LJSZg0~FwTJ7s1hIn-wBHlw2XUK9~zxdFpiA9cWw8Hy2H1fQSDAb8H3v9pQtQJ4LpBuRDKDx6ezPeHg0xyadSINIM0aslrrXonAx3Gzy1j8uc1wU5EmomvSDaesnMGJsvE1kEGJDGLsk0VbKCgVb6gGLDWas1mXfmM0S~g__"
+    },
+    {
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "category": "Flux",
+      "description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+      "featureSupport": ["GENERATE"],
+      "id": "black-forest-labs/flux-schnell",
+      "name": "FLUX.1 Schnell",
+      "nsfw": false,
+      "pricing": {
+        "cost": 10,
+        "costPerAdditional": 10
+      },
+      "pseudoDescription": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+      "pseudoName": "Flux Schnell",
+      "speed": "Fastest",
+      "tag": [
+        "Fast Speed",
+        "Low Quality",
+        "Quick Ideation",
+        "Content Creation",
+        "Rapid Prototyping",
+        "Personal Use"
+      ],
+      "theme": "Realtistic",
+      "url": "https://s3-alpha-sig.figma.com/img/2638/0085/053fda41527edcba57e4e1d8113ec49e?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uCldPdH7jcCq3N7YGsjWQNmBBXxK3kto7N5WLqLMLddin3xaM290Av4KQxzia7PR0Kr8deKGbZrmwpFDOAFMayYwACPjP07CLmT1TMk5Qji-oDRcvOafg11tBx7maA9x8-wgqT7dOHnlJhY2Zd10QX2FgVjnYI~sHNKPT1FWl4P5kh4c8uxTcZ-l2A86xqKBrK1PnucQjMKPbZ~JYoqcTX8mQ6elSuG6q6eqdyZcMNfUePc1Tv0bcL~Qwpnl9ExgTZDVNhMInc1UE41ts5uwTtUKI3Yqdhm3iJHHx6quQSYCBncC1q0og7ZBtsbp7F0bkUkBo1vtTbEVlpAjqfA-Jg__"
     }
   ]
 }
