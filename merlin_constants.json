@@ -336,7 +336,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_sonnet.webp",
       "archived": false,
-      "importance": 37,
+      "importance": 32,
       "filters": [
         "Reasoning",
         "Writing",
@@ -526,7 +526,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini.webp",
       "archived": false,
-      "importance": 37,
+      "importance": 28,
       "filters": [
         "Reasoning"
       ]
