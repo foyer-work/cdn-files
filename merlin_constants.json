@@ -237,7 +237,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
       "archived": false,
-      "importance": 34,
+      "importance": 31,
       "filters": [
         "Reasoning",
         "Writing"
@@ -419,13 +419,13 @@
       "defaultPro": false,
       "description": "DeepSeek's newest open source model",
       "id": "deepseek-chat",
-      "name": "DeepSeek V3",
+      "name": "DeepSeek V3 (US-hosted)",
       "queryCost": 1,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
       "archived": false,
-      "importance": 36,
+      "importance": 33,
       "filters": [
         "Coding",
         "Writing"
@@ -438,13 +438,13 @@
       "defaultPro": false,
       "description": "DeepSeek's newest model that can think",
       "id": "deepseek-reasoner",
-      "name": "DeepSeek R1",
+      "name": "DeepSeek R1 (US-hosted)",
       "queryCost": 20,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
       "archived": false,
-      "importance": 37,
+      "importance": 39,
       "filters": [
         "Coding",
         "Writing",
@@ -526,7 +526,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini.webp",
       "archived": false,
-      "importance": 40,
+      "importance": 37,
       "filters": [
         "Reasoning"
       ]
@@ -543,7 +543,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini_high.webp",
       "archived": false,
-      "importance": 39,
+      "importance": 40,
       "filters": [
         "Reasoning"
       ]
