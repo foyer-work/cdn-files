@@ -453,6 +453,22 @@
       "new": true
     },
     {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "DeepSeek's newest model that can think. Slower output speed.",
+      "id": "deepseek-reasoner-slow",
+      "name": "DeepSeek R1 Slow (US-hosted)",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
+      "archived": false,
+      "importance": 38,
+      "filters": ["Coding", "Writing", "Reasoning"],
+      "new": true
+    },
+    {
       "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
