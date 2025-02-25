@@ -335,7 +335,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_sonnet.webp",
-      "archived": false,
+      "archived": true,
       "importance": 32,
       "filters": [
         "Reasoning",
@@ -347,7 +347,7 @@
       "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "Anthropic's latest thinking model, great across everything",
+      "description": "Anthropic's latest and best model, great across everything",
       "id": "claude-3.7-sonnet",
       "name": "Claude 3.7 Sonnet",
       "queryCost": 25,
@@ -356,6 +356,25 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
       "archived": false,
       "importance": 41,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Anthropic's latest thinking model, great across everything",
+      "id": "claude-3.7-sonnet-thinking",
+      "name": "Claude 3.7 Sonnet (Thinking)",
+      "queryCost": 60,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "archived": false,
+      "importance": 42,
       "filters": [
         "Reasoning",
         "Writing",
