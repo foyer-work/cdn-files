@@ -371,7 +371,7 @@
       "queryCost": 25,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet.webp",
       "archived": false,
       "importance": 41,
       "filters": [
@@ -390,7 +390,7 @@
       "queryCost": 60,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet_thinking.webp",
       "archived": false,
       "importance": 42,
       "filters": [
