@@ -244,18 +244,18 @@
       ]
     },
     {
-      "charge": "25x Queries",
+      "charge": "400x Queries",
       "default": false,
       "defaultPro": false,
       "description": "OpenAI's flagship text generation model. Best overall model.",
       "id": "gpt-4.5",
       "name": "GPT 4.5",
-      "queryCost": 25,
+      "queryCost": 400,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
       "archived": false,
-      "importance": 41,
+      "importance": 45,
       "filters": [
         "Reasoning",
         "Writing"
