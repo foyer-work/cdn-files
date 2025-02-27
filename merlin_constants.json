@@ -229,7 +229,7 @@
       "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's flagship text generation model",
+      "description": "OpenAI's general purpose text generation model",
       "id": "gpt-4o",
       "name": "GPT 4o",
       "queryCost": 15,
@@ -238,6 +238,24 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
       "archived": false,
       "importance": 31,
+      "filters": [
+        "Reasoning",
+        "Writing"
+      ]
+    },
+    {
+      "charge": "20x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship text generation model",
+      "id": "gpt-4.5",
+      "name": "GPT 4.5",
+      "queryCost": 20,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
+      "archived": false,
+      "importance": 43,
       "filters": [
         "Reasoning",
         "Writing"
