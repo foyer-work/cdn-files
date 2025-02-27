@@ -250,12 +250,12 @@
       "description": "OpenAI's flagship text generation model. Best overall model.",
       "id": "gpt-4.5",
       "name": "GPT 4.5",
-      "queryCost": 41,
-      "paid": false,
+      "queryCost": 25,
+      "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
       "archived": false,
-      "importance": 35,
+      "importance": 41,
       "filters": [
         "Reasoning",
         "Writing"
