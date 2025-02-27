@@ -237,17 +237,36 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
       "archived": false,
-      "importance": 31,
+      "importance": 35,
       "filters": [
         "Reasoning",
         "Writing"
       ]
     },
     {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship text generation model. Best overall model.",
+      "id": "gpt-4.5",
+      "name": "GPT 4.5",
+      "queryCost": 41,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
+      "archived": false,
+      "importance": 35,
+      "filters": [
+        "Reasoning",
+        "Writing"
+      ],
+      "new": true
+    },
+    {
       "charge": "50x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's flagship text generation model with longer outputs",
+      "description": "OpenAI's omni modal model. Great for reasoning and writing.",
       "id": "gpt-4o-64k-output",
       "name": "GPT 4o (Longer Output)",
       "queryCost": 50,
@@ -360,7 +379,8 @@
         "Reasoning",
         "Writing",
         "Coding"
-      ]
+      ],
+      "new": true
     },
     {
       "charge": "60x Queries",
@@ -370,7 +390,7 @@
       "id": "claude-3.7-sonnet-thinking",
       "name": "Claude 3.7 Sonnet (Thinking)",
       "queryCost": 60,
-      "paid": false,
+      "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
       "archived": false,
@@ -379,7 +399,8 @@
         "Reasoning",
         "Writing",
         "Coding"
-      ]
+      ],
+      "new": true
     },
     {
       "charge": "1x Query",
@@ -445,7 +466,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_pro.webp",
       "archived": false,
-      "importance": 35,
+      "importance": 34,
       "filters": [
         "Reasoning",
         "Writing"
@@ -468,7 +489,7 @@
         "Coding",
         "Writing"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "20x Queries",
@@ -488,7 +509,7 @@
         "Writing",
         "Reasoning"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "5x Queries",
@@ -502,13 +523,13 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
       "archived": false,
-      "importance": 38,
+      "importance": 15,
       "filters": [
         "Coding",
         "Writing",
         "Reasoning"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "25x Queries",
