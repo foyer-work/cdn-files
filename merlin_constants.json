@@ -253,7 +253,7 @@
       "queryCost": 400,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
       "archived": false,
       "importance": 45,
       "filters": [
