@@ -247,7 +247,7 @@
       "charge": "400x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's flagship text generation model. Best overall model.",
+      "description": "OpenAI's best non-thinking model. Only for experimental research use and extremely expensive.",
       "id": "gpt-4.5",
       "name": "GPT 4.5",
       "queryCost": 400,
@@ -255,7 +255,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
       "archived": false,
-      "importance": 45,
+      "importance": 1,
       "filters": [
         "Reasoning",
         "Writing"
