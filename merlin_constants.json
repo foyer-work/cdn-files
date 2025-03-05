@@ -293,7 +293,7 @@
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_haiku.webp",
       "archived": false,
-      "importance": 23,
+      "importance": 22,
       "filters": [
         "Speed"
       ]
@@ -354,8 +354,8 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_sonnet.webp",
-      "archived": true,
-      "importance": 32,
+      "archived": false,
+      "importance": 34,
       "filters": [
         "Reasoning",
         "Writing",
@@ -363,18 +363,18 @@
       ]
     },
     {
-      "charge": "25x Queries",
+      "charge": "40x Queries",
       "default": false,
       "defaultPro": false,
       "description": "Anthropic's latest and best model, great across everything",
       "id": "claude-3.7-sonnet",
       "name": "Claude 3.7 Sonnet",
-      "queryCost": 25,
-      "paid": false,
+      "queryCost": 40,
+      "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet.webp",
       "archived": false,
-      "importance": 41,
+      "importance": 23,
       "filters": [
         "Reasoning",
         "Writing",
@@ -394,7 +394,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet_thinking.webp",
       "archived": false,
-      "importance": 42,
+      "importance": 24,
       "filters": [
         "Reasoning",
         "Writing",
@@ -414,7 +414,7 @@
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_flash.webp",
       "archived": false,
-      "importance": 22,
+      "importance": 21,
       "filters": [
         "Speed"
       ]
@@ -466,7 +466,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_pro.webp",
       "archived": false,
-      "importance": 34,
+      "importance": 33,
       "filters": [
         "Reasoning",
         "Writing"
@@ -484,7 +484,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
       "archived": false,
-      "importance": 33,
+      "importance": 32,
       "filters": [
         "Coding",
         "Writing"
