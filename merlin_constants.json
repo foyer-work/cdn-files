@@ -363,13 +363,13 @@
       ]
     },
     {
-      "charge": "25x Queries",
+      "charge": "40x Queries",
       "default": false,
       "defaultPro": false,
       "description": "Anthropic's latest and best model, great across everything",
       "id": "claude-3.7-sonnet",
       "name": "Claude 3.7 Sonnet",
-      "queryCost": 25,
+      "queryCost": 40,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet.webp",
