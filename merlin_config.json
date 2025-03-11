@@ -186,7 +186,7 @@
     }
   },
   "saveToMerlin": {
-    "visible": true,
+    "visible": false,
     "blacklistHostnames": ["www.getmerlin.in", "staging.getmerlin.in"]
   },
   "featPersona": true,
@@ -968,7 +968,7 @@
       "unified": {
         "visible": true
       },
-      "gui": "iframe"
+      "gui": "native"
     },
     "codeSummarizer": {
       "blackListedDomains": [
