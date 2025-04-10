@@ -3,6 +3,7 @@
     {
       "id": "ghibli-style",
       "name": "Ghiblify Style",
+      "isEnabled": true,
       "instruction": "Upload an image to transform into a Ghibli-style artwork",
       "description": "Transform your image into a Ghibli-style artwork",
       "previewImageUrl": "https://cdn.getmerlin.in/cms/3_ghiblipng_c0f99ca75b.png",
