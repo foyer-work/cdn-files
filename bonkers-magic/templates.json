@@ -1,0 +1,23 @@
+{
+  "templates": [
+    {
+      "id": "ghibli-style",
+      "name": "Ghiblify Style",
+      "instruction": "Upload an image to transform into a Ghibli-style artwork",
+      "description": "Transform your image into a Ghibli-style artwork",
+      "previewImageUrl": "https://cdn.getmerlin.in/cms/3_ghiblipng_c0f99ca75b.png",
+      "pricing": {
+        "cost": 130
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Image to Ghiblify",
+          "placeholder": "Upload an image",
+          "variableName": "inspirationImage",
+          "value": null
+        }
+      ]
+    }
+  ]
+}
