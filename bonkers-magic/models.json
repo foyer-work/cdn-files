@@ -1,0 +1,162 @@
+{
+	"bonkers_models": [
+		{
+			"aspectRatios": [
+				"1:1",
+				"16:9",
+				"21:9",
+				"2:3",
+				"3:2",
+				"4:5",
+				"5:4",
+				"9:16",
+				"9:21"
+			],
+			"category": "Recraft",
+			"description": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
+			"featureSupport": ["GENERATE"],
+			"id": "fal-ai/recraft-v3",
+			"name": "Recraft V3",
+			"nsfw": false,
+			"pricing": {
+				"cost": 100,
+				"costPerAdditional": 100
+			},
+			"pseudoDescription": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
+			"pseudoName": "Recraft V3",
+			"speed": "Medium",
+			"tag": [
+				"Posters",
+				"Design Creatives",
+				"Long Texts",
+				"Realism",
+				"Prompt Adherence"
+			],
+			"theme": "Realtistic",
+			"url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg"
+		},
+		{
+			"aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+			"category": "Flux",
+			"description": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+			"featureSupport": ["GENERATE"],
+			"id": "black-forest-labs/flux-1.1-pro",
+			"name": "FLUX.1.1 Pro",
+			"nsfw": false,
+			"pricing": {
+				"cost": 100,
+				"costPerAdditional": 100
+			},
+			"pseudoDescription": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+			"pseudoName": "Flux 1.1 Pro",
+			"speed": "Medium",
+			"tag": [
+				"Human Realism",
+				"Excellent Quality",
+				"Output Diversity",
+				"Text",
+				"Prompt Adherence"
+			],
+			"theme": "Realtistic",
+			"url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_1pro.png"
+		},
+		{
+			"aspectRatios": [
+				"10:16",
+				"16:10",
+				"9:16",
+				"16:9",
+				"3:2",
+				"2:3",
+				"4:3",
+				"3:4",
+				"1:1",
+				"1:3",
+				"3:1"
+			],
+			"category": "Ideogram",
+			"description": "Ideogram 2.0 is  a powerful AI text-to-image model that generate text in images along with realistic human features and more prompt following.",
+			"featureSupport": ["GENERATE"],
+			"id": "V_2_TURBO",
+			"name": "Ideogram V2 Turbo",
+			"nsfw": false,
+			"pricing": {
+				"cost": 130,
+				"costPerAdditional": 130
+			},
+			"pseudoDescription": "Ideogram 2.0 is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
+			"pseudoName": "Ideogram V2 Turbo",
+			"speed": "Slow - Medium",
+			"tag": [
+				"Human Realism",
+				"Design Creatives",
+				"Posters",
+				"Style Adherence",
+				"Text-heavy images"
+			],
+			"theme": "Realtistic",
+			"url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram.png"
+		},
+		{
+			"aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+			"category": "Flux",
+			"description": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+			"featureSupport": ["GENERATE"],
+			"id": "black-forest-labs/flux-pro",
+			"name": "FLUX.1 Pro",
+			"nsfw": false,
+			"pricing": {
+				"cost": 140,
+				"costPerAdditional": 140
+			},
+			"pseudoDescription": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+			"pseudoName": "Flux Pro",
+			"speed": "Medium - Fast",
+			"tag": [
+				"Text",
+				"Photorealistic renders",
+				"Complex scenes",
+				"Artistic creation",
+				"Accurate Prompt Following"
+			],
+			"theme": "Realtistic",
+			"url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png"
+		},
+		{
+			"aspectRatios": [
+				"1:1",
+				"16:9",
+				"21:9",
+				"2:3",
+				"3:2",
+				"4:5",
+				"5:4",
+				"9:16",
+				"9:21"
+			],
+			"category": "Flux",
+			"description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+			"featureSupport": ["GENERATE"],
+			"id": "black-forest-labs/flux-schnell",
+			"name": "FLUX.1 Schnell",
+			"nsfw": false,
+			"pricing": {
+				"cost": 10,
+				"costPerAdditional": 10
+			},
+			"pseudoDescription": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+			"pseudoName": "Flux Schnell",
+			"speed": "Fastest",
+			"tag": [
+				"Fast Speed",
+				"Low Quality",
+				"Quick Ideation",
+				"Content Creation",
+				"Rapid Prototyping",
+				"Personal Use"
+			],
+			"theme": "Realtistic",
+			"url": "https://storage.googleapis.com/wallflower-images/custom_assets/schnell.png"
+		}
+	]
+}
