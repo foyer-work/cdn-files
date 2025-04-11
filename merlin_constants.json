@@ -237,7 +237,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
       "archived": false,
-      "importance": 35,
+      "importance": 36,
       "filters": [
         "Reasoning",
         "Writing"
@@ -293,7 +293,7 @@
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_haiku.webp",
       "archived": false,
-      "importance": 22,
+      "importance": 23,
       "filters": [
         "Speed"
       ]
@@ -355,7 +355,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_sonnet.webp",
       "archived": false,
-      "importance": 34,
+      "importance": 35,
       "filters": [
         "Reasoning",
         "Writing",
@@ -394,7 +394,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet_thinking.webp",
       "archived": false,
-      "importance": 24,
+      "importance": 25,
       "filters": [
         "Reasoning",
         "Writing",
@@ -431,7 +431,7 @@
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_flash.webp",
       "archived": false,
-      "importance": 23,
+      "importance": 24,
       "filters": [
         "Speed"
       ]
@@ -455,13 +455,13 @@
       ]
     },
     {
-      "charge": "10x Queries",
+      "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
       "description": "Google's flagship model, gives structured and well crafted answers",
-      "id": "gemini-2.0-pro",
-      "name": "Gemini 2.0 Pro",
-      "queryCost": 10,
+      "id": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "queryCost": 15,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_pro.webp",
@@ -662,6 +662,38 @@
         "Reasoning",
         "Coding"
       ]
+    },
+    {
+      "charge": "2x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "X.AI's reasoning enabled model",
+      "id": "grok-3-mini",
+      "name": "Grok 3 Mini",
+      "queryCost": 2,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3_mini.webp",
+      "archived": false,
+      "importance": 22,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "25x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "X.AI's flagship model",
+      "id": "grok-3",
+      "name": "Grok 3",
+      "queryCost": 25,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3.webp",
+      "archived": false,
+      "importance": 34,
+      "filters": []
     }
   ]
 }
