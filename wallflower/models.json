@@ -123,6 +123,32 @@
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png"
     },
     {
+      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+      "category": "HiDream",
+      "description": "This is an optimised version of the hidream-l1 model using the pruna ai optimisation toolkit",
+      "featureSupport": ["GENERATE"],
+      "id": "prunaai/hidream-l1-fast",
+      "name": "HiDream L1 Fast",
+      "nsfw": false,
+      "pricing": {
+        "cost": 20,
+        "costPerAdditional": 20
+      },
+      "pseudoDescription": "This is an optimised version of the hidream-l1 model using the pruna ai optimisation toolkit",
+      "pseudoName": "HiDream L1",
+      "speed": "Fastest",
+      "tag": [
+        "Fast Speed",
+        "Rapid Prototyping",
+        "Better Quality",
+        "Quick Ideation",
+        "Content Creation",
+        "Personal Use"
+      ],
+      "theme": "Realtistic",
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg"
+    },
+    {
       "aspectRatios": [
         "1:1",
         "16:9",
