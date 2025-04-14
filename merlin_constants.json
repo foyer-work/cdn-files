@@ -220,7 +220,61 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini_new.webp",
       "archived": false,
       "new": false,
+      "importance": 20,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship model for complex tasks",
+      "id": "gpt-4.1",
+      "name": "GPT 4.1",
+      "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp",
+      "archived": false,
+      "new": true,
+      "importance": 41,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's mid tier text generation model for everyday tasks",
+      "id": "gpt-4.1-mini",
+      "name": "GPT 4.1 Mini",
+      "queryCost": 3,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1_mini.webp",
+      "archived": false,
+      "new": true,
       "importance": 21,
+      "filters": [
+        "Speed",
+        "Coding"
+      ]
+    },
+    {
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's fastest text generation model",
+      "id": "gpt-4.1-nano",
+      "name": "GPT 4.1 Nano",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1_nano.webp",
+      "archived": false,
+      "new": true,
+      "importance": 10,
       "filters": [
         "Speed"
       ]
@@ -260,7 +314,7 @@
         "Reasoning",
         "Writing"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "50x Queries",
@@ -274,7 +328,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_longer_output.webp",
       "archived": false,
-      "importance": 20,
+      "importance": 19,
       "filters": [
         "Reasoning",
         "Writing",
@@ -380,7 +434,7 @@
         "Writing",
         "Coding"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "60x Queries",
@@ -400,7 +454,7 @@
         "Writing",
         "Coding"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "1x Query",
@@ -413,7 +467,7 @@
       "paid": false,
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_flash.webp",
-      "archived": false,
+      "archived": true,
       "importance": 21,
       "filters": [
         "Speed"
@@ -639,7 +693,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1_new.webp",
       "archived": false,
-      "importance": 19,
+      "importance": 18,
       "filters": [
         "Reasoning",
         "Coding"
