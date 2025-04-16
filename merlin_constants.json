@@ -665,6 +665,24 @@
       ]
     },
     {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's Latest Chain-Of-Thought based mini model",
+      "id": "o4-mini",
+      "name": "O4 Mini",
+      "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini.webp",
+      "archived": false,
+      "importance": 28,
+      "new": true,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
       "charge": "25x Queries",
       "default": false,
       "defaultPro": true,
@@ -694,6 +712,25 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1_new.webp",
       "archived": false,
       "importance": 18,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "180x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship Chain-Of-Thought based model",
+      "id": "o3",
+      "name": "O3",
+      "queryCost": 180,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1_new.webp",
+      "archived": false,
+      "importance": 18,
+      "new": true,
       "filters": [
         "Reasoning",
         "Coding"
