@@ -474,6 +474,42 @@
       ]
     },
     {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's latest model with thinking enabled",
+      "id": "gemini-2.5-flash-thinking",
+      "name": "Gemini 2.5 Flash (Thinking)",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_flash.webp",
+      "archived": false,
+      "importance": 24,
+      "new": true,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's fastest model with good reasoning",
+      "id": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_flash.webp",
+      "archived": false,
+      "importance": 24,
+      "new": true,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
       "charge": "1x Query",
       "default": true,
       "defaultPro": false,
