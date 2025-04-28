@@ -3,26 +3,6 @@
     {
       "aspectRatios": ["1:1", "2:3", "3:2"],
       "description": "A multimodal image generation model that creates high-quality images.",
-      "id": "gpt-image-1-high",
-      "name": "GPT Image 1 High",
-      "pricing": {
-        "cost": 625
-      },
-      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
-      "pseudoName": "GPT Image 1 High",
-      "speed": "Slow",
-      "tag": [
-        "Perfect text",
-        "Very clear",
-        "Perfect light",
-        "Very real",
-        "High quality"
-      ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png"
-    },
-    {
-      "aspectRatios": ["1:1", "2:3", "3:2"],
-      "description": "A multimodal image generation model that creates high-quality images.",
       "id": "gpt-image-1-medium",
       "name": "GPT Image 1 Medium",
       "pricing": {
@@ -39,26 +19,6 @@
         "Few mistakes"
       ],
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-medium.png"
-    },
-    {
-      "aspectRatios": ["1:1", "2:3", "3:2"],
-      "description": "A multimodal image generation model that creates high-quality images.",
-      "id": "gpt-image-1-low",
-      "name": "GPT Image 1 Low",
-      "pricing": {
-        "cost": 40
-      },
-      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
-      "pseudoName": "GPT Image 1 Low",
-      "speed": "Medium",
-      "tag": [
-        "Basic colors",
-        "Blurry shapes",
-        "Simple layout",
-        "Some mistakes",
-        "Main idea visible"
-      ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image1-low.png"
     },
     {
       "aspectRatios": [
@@ -161,6 +121,26 @@
         "Accurate Prompt Following"
       ],
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "A multimodal image generation model that creates high-quality images.",
+      "id": "gpt-image-1-high",
+      "name": "GPT Image 1 High",
+      "pricing": {
+        "cost": 625
+      },
+      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
+      "pseudoName": "GPT Image 1 High",
+      "speed": "Slow",
+      "tag": [
+        "Perfect text",
+        "Very clear",
+        "Perfect light",
+        "Very real",
+        "High quality"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png"
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
