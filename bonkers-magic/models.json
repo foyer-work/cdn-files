@@ -1,0 +1,218 @@
+{
+  "bonkers_models": [
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "A multimodal image generation model that creates high-quality images.",
+      "id": "gpt-image-1-high",
+      "name": "GPT Image 1 High",
+      "pricing": {
+        "cost": 625
+      },
+      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
+      "pseudoName": "GPT Image 1 High",
+      "speed": "Slow",
+      "tag": [
+        "Perfect text",
+        "Very clear",
+        "Perfect light",
+        "Very real",
+        "High quality"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "A multimodal image generation model that creates high-quality images.",
+      "id": "gpt-image-1-medium",
+      "name": "GPT Image 1 Medium",
+      "pricing": {
+        "cost": 160
+      },
+      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
+      "pseudoName": "GPT Image 1 Medium",
+      "speed": "Medium",
+      "tag": [
+        "Clear shapes",
+        "Good light",
+        "Some details",
+        "Okay size",
+        "Few mistakes"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-medium.png"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "A multimodal image generation model that creates high-quality images.",
+      "id": "gpt-image-1-low",
+      "name": "GPT Image 1 Low",
+      "pricing": {
+        "cost": 40
+      },
+      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
+      "pseudoName": "GPT Image 1 Low",
+      "speed": "Medium",
+      "tag": [
+        "Basic colors",
+        "Blurry shapes",
+        "Simple layout",
+        "Some mistakes",
+        "Main idea visible"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image1-low.png"
+    },
+    {
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "description": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
+      "id": "fal-ai/recraft-v3",
+      "name": "Recraft V3",
+      "pricing": {
+        "cost": 100
+      },
+      "pseudoDescription": "Recraft V3 (code-named red_panda) is a text-to-image model with the ability to generate long texts, and images in a wide list of styles.",
+      "pseudoName": "Recraft V3",
+      "speed": "Medium",
+      "tag": [
+        "Posters",
+        "Design Creatives",
+        "Long Texts",
+        "Realism",
+        "Prompt Adherence"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg"
+    },
+    {
+      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+      "description": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+      "id": "black-forest-labs/flux-1.1-pro",
+      "name": "FLUX.1.1 Pro",
+      "pricing": {
+        "cost": 100
+      },
+      "pseudoDescription": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
+      "pseudoName": "Flux 1.1 Pro",
+      "speed": "Medium",
+      "tag": [
+        "Human Realism",
+        "Excellent Quality",
+        "Output Diversity",
+        "Text",
+        "Prompt Adherence"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_1pro.png"
+    },
+    {
+      "aspectRatios": [
+        "10:16",
+        "16:10",
+        "9:16",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "1:1",
+        "1:3",
+        "3:1"
+      ],
+      "description": "Ideogram 2.0 is  a powerful AI text-to-image model that generate text in images along with realistic human features and more prompt following.",
+      "id": "V_2_TURBO",
+      "name": "Ideogram V2 Turbo",
+      "pricing": {
+        "cost": 130
+      },
+      "pseudoDescription": "Ideogram 2.0 is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
+      "pseudoName": "Ideogram V2 Turbo",
+      "speed": "Slow - Medium",
+      "tag": [
+        "Human Realism",
+        "Design Creatives",
+        "Posters",
+        "Style Adherence",
+        "Text-heavy images"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram.png"
+    },
+    {
+      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+      "description": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+      "id": "black-forest-labs/flux-pro",
+      "name": "FLUX.1 Pro",
+      "pricing": {
+        "cost": 140
+      },
+      "pseudoDescription": "State-of-the-art image generation with top of the line prompt following, visual quality, image detail and output diversity.",
+      "pseudoName": "Flux Pro",
+      "speed": "Medium - Fast",
+      "tag": [
+        "Text",
+        "Photorealistic renders",
+        "Complex scenes",
+        "Artistic creation",
+        "Accurate Prompt Following"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png"
+    },
+    {
+      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+      "description": "This is an optimised version of the hidream-l1 model using the pruna ai optimisation toolkit",
+      "id": "prunaai/hidream-l1-fast",
+      "name": "HiDream L1 Fast",
+      "pricing": {
+        "cost": 20
+      },
+      "pseudoDescription": "This is an optimised version of the hidream-l1 model using the pruna ai optimisation toolkit",
+      "pseudoName": "HiDream L1",
+      "speed": "Fastest",
+      "tag": [
+        "Fast Speed",
+        "Rapid Prototyping",
+        "Better Quality",
+        "Quick Ideation",
+        "Content Creation",
+        "Personal Use"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg"
+    },
+    {
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+      "id": "black-forest-labs/flux-schnell",
+      "name": "FLUX.1 Schnell",
+      "pricing": {
+        "cost": 10
+      },
+      "pseudoDescription": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
+      "pseudoName": "Flux Schnell",
+      "speed": "Fastest",
+      "tag": [
+        "Fast Speed",
+        "Low Quality",
+        "Quick Ideation",
+        "Content Creation",
+        "Rapid Prototyping",
+        "Personal Use"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/schnell.png"
+    }
+  ]
+}
