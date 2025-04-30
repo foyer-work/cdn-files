@@ -1,14 +1,96 @@
 {
   "templates": [
     {
+      "id": "product-photography",
+      "name": "Product Photoshoots",
+      "isEnabled": true,
+      "instruction": "Upload product image and describe a scene or setting to create product shots\n\nNote: this template is in beta and may not work as expected sometimes.",
+      "description": "",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/product-template.png",
+      "pricing": {
+        "cost": 625
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Product Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        },
+        {
+          "type": "aspectratio",
+          "label": "Aspect Ratio",
+          "placeholder": "Select an aspect ratio",
+          "variableName": "aspectRatio",
+          "selectValuesFrom": ["1:1", "2:3", "3:2"],
+          "value": null
+        },
+        {
+          "type": "numberofimages",
+          "label": "Number of Images",
+          "placeholder": "Select number of images",
+          "variableName": "numberOfImages",
+          "value": null
+        },
+        {
+          "type": "text",
+          "label": "Scene",
+          "placeholder": "Describe the scene or setting",
+          "variableName": "prompt",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "make-me-bald",
+      "name": "Make Me Bald",
+      "isEnabled": true,
+      "instruction": "Upload your image to make yourself bald\n\nNote: this is a fun template and may not be used by/for kids, doing so will result in failure.",
+      "description": "",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/make-me-bald-template.png",
+      "pricing": {
+        "cost": 60
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Your Photo",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "watermark-remover",
+      "name": "Remove Watermark",
+      "isEnabled": true,
+      "instruction": "Upload an image to remove the watermark\n\nNote: this template is in beta and may not work as expected sometimes.",
+      "description": "Remove the watermark from your image",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/watermark-template.png",
+      "pricing": {
+        "cost": 60
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
+    },
+    {
       "id": "ghibli-style",
-      "name": "Ghiblify Style",
+      "name": "Ghibli Style",
       "isEnabled": true,
       "instruction": "Upload an image to transform into a Ghibli-style artwork",
       "description": "Transform your image into a Ghibli-style artwork",
-      "previewImageUrl": "https://cdn.getmerlin.in/cms/3_ghiblipng_c0f99ca75b.png",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-ghibli.png",
       "pricing": {
-        "cost": 130
+        "cost": 160
       },
       "inputParameters": [
         {
