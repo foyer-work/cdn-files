@@ -1,14 +1,116 @@
 {
   "templates": [
     {
+      "id": "product-photography",
+      "name": "Product Photoshoots",
+      "isEnabled": true,
+      "instruction": "Upload product image and describe a scene or setting to create product shots\n\nNote: this template is in beta and may not work as expected sometimes.",
+      "description": "Need professional product shots but lack a studio budget? This AI-powered product photoshoot template turns ordinary pictures into glossy, high-resolution catalog images. Perfect for Shopify, Amazon, Etsy, and social ads, it auto-adjusts lighting, shadows, and backgrounds to match brand aesthetics. Simply upload your item, pick a scene, and export ready-to-sell visuals in seconds. Boost click-through rates, lower bounce, and convert more shoppers with consistent, eye-catching imagery.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/product-template.png",
+      "pricing": {
+        "cost": 625
+      },
+      "meta": {
+        "keywords": "product photo generator, AI product photography, ecommerce images",
+        "title": "AI Product Photo Generator – Studio-Quality Images in Seconds",
+        "description": "Create studio-quality product photos instantly. Our AI product photo generator delivers crisp ecommerce images without expensive gear or photoshoots."
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Product Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        },
+        {
+          "type": "aspectratio",
+          "label": "Aspect Ratio",
+          "placeholder": "Select an aspect ratio",
+          "variableName": "aspectRatio",
+          "selectValuesFrom": ["1:1", "2:3", "3:2"],
+          "value": null
+        },
+        {
+          "type": "numberofimages",
+          "label": "Number of Images",
+          "placeholder": "Select number of images",
+          "variableName": "numberOfImages",
+          "value": null
+        },
+        {
+          "type": "text",
+          "label": "Scene",
+          "placeholder": "Describe the scene or setting",
+          "variableName": "prompt",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "make-me-bald",
+      "name": "Make Me Bald",
+      "isEnabled": true,
+      "instruction": "Upload your image to make yourself bald\n\nNote: this is a fun template and may not be used by/for kids, doing so will result in failure.",
+      "description": "Test-drive the bald look before committing. This AI template maps facial contours, removes hair strands, and renders natural skin texture, subtle scalp shine, and correct lighting for a convincing result. Share the transformation on social media, prank friends, or explore style options risk-free. Works on any frontal portrait with adjustable beard retention for even more customization.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/make-me-bald-template.png",
+      "pricing": {
+        "cost": 60
+      },
+      "meta": {
+        "keywords": "bald filter, shave head photo effect, AI bald generator",
+        "title": "AI Bald Filter – See Yourself Bald Instantly",
+        "description": "Curious how you’d look without hair? Upload a selfie and our bald filter simulates a realistic shaved head in seconds—no clippers needed!"
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Your Photo",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "watermark-remover",
+      "name": "Remove Watermark",
+      "isEnabled": true,
+      "instruction": "Upload an image to remove the watermark\n\nNote: this template is in beta and may not work as expected sometimes.",
+      "description": "Stop losing time to manual cloning. This template leverages deep-learning inpainting to detect and delete intrusive watermarks, timestamps, and logos while intelligently reconstructing the underlying pixels. Preserve edge sharpness and color accuracy for a flawless finish suitable for print or web. Drag, drop, and download—no Photoshop skills required. Ideal for photographers, bloggers, and marketers who need clean visuals fast.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/watermark-template.png",
+      "pricing": {
+        "cost": 60
+      },
+      "meta": {
+        "keywords": "AI watermark remover, remove watermark online, clean images",
+        "title": "Remove Watermarks Online – Fast, AI Cleaner",
+        "description": "Erase watermarks, dates, or logos from photos in one click. Our AI watermark remover restores clean, high-quality images without blur or artifacts."
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
+    },
+    {
       "id": "ghibli-style",
-      "name": "Ghiblify Style",
+      "name": "Ghibli Style",
       "isEnabled": true,
       "instruction": "Upload an image to transform into a Ghibli-style artwork",
-      "description": "Transform your image into a Ghibli-style artwork",
-      "previewImageUrl": "https://cdn.getmerlin.in/cms/3_ghiblipng_c0f99ca75b.png",
+      "description": "Bring the enchanting worlds of Studio Ghibli to life with this advanced style-transfer template. It infuses photos with painterly brushstrokes, pastel palettes, and cinematic depth reminiscent of classics like Spirited Away and Totoro. Perfect for profile pics, posters, or creative projects, it maintains subject integrity while adding animated backgrounds and atmospheric lighting. One upload—endless Miyazaki-style storytelling.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-ghibli.png",
       "pricing": {
-        "cost": 130
+        "cost": 160
+      },
+      "meta": {
+        "keywords": "Ghibli style image generator, anime art filter, Studio Ghibli effect",
+        "title": "Ghibli Style Art Generator – Turn Photos into Anime Magic",
+        "description": "Transform selfies or landscapes into whimsical Ghibli-inspired art. Our AI anime filter adds dreamy colors, soft lines, and storybook charm."
       },
       "inputParameters": [
         {
