@@ -121,6 +121,106 @@
           "value": null
         }
       ]
+    },
+    {
+      "id": "humanize-my-pet",
+      "name": "Humanize My Pet",
+      "isEnabled": true,
+      "instruction": "Upload an image of your pet to see them as a human",
+      "description": "Ever wondered how your pet would look as a person? With the Humanize My Pet template, upload your pet's photo and watch it transform into a humanized character with detailed facial features and personality cues. This creative tool uses advanced AI to generate vibrant, lifelike images combining animal traits with human aesthetics. Ideal for social media posts, personalized gifts, or just a fun digital makeover, bring your pet’s character to life like never before.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-humanize-my-pet.png",
+      "pricing": {
+        "cost": 160
+      },
+      "meta": {
+        "keywords": "humanize my pet, pet to human conversion, AI pet humanizer",
+        "title": "Humanize My Pet – Turn Your Pet into a Human Character",
+        "description": "See your furry friend in a whole new light. Our AI pet humanizer converts pet photos into stunning human likenesses with artistic charm."
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Pet Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "pixar-style",
+      "name": "Pixar Style",
+      "isEnabled": true,
+      "instruction": "Upload an image to transform into a Pixar style",
+      "description": "Discover a whole new dimension of storytelling with the Pixar Style template. This tool reimagines your photos with the bright, whimsical aesthetics reminiscent of Pixar masterpieces. It highlights expressive eyes, dynamic lighting, and smooth, playful contours to create images that pop off the screen. Perfect for social media avatars, animated stories, or digital art projects, let your photographs tell a captivating animated tale.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-pixar.png",
+      "pricing": {
+        "cost": 625
+      },
+      "meta": {
+        "keywords": "Pixar style image generator, animated art filter, AI Pixar transformation",
+        "title": "Pixar Style Image Converter – Create Animated Magic",
+        "description": "Transform photos into charming, Pixar-inspired characters with our AI-powered generator. Bring your images to life with vibrant colors and animated style."
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "simpson-style",
+      "name": "Simpson Style",
+      "isEnabled": true,
+      "instruction": "Upload an image to transform into a Simpson style",
+      "description": "Step into the animated world of Springfield with the Simpson Style template. This fun and engaging tool transforms ordinary photos with a vibrant, cartoonish filter that mimics the look of The Simpsons. Expect playful exaggeration, bold lines, and that signature yellow tone that makes your images stand out. Great for fans, custom avatars, or quirky gifts, let your photos join the antics of Springfield in a creative and humorous way.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-simpson.png",
+      "pricing": {
+        "cost": 625
+      },
+      "meta": {
+        "keywords": "Simpson style image generator, yellow cartoon filter, AI Simpson transformation",
+        "title": "Simpson Style Image Generator – Enter Springfield",
+        "description": "Convert your photos into iconic Simpson-style cartoons. Our AI tool gives your image a fun, yellow-toned twist inspired by the legendary animated series."
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "minecraft-style",
+      "name": "Minecraft Style",
+      "isEnabled": true,
+      "instruction": "Upload an image to transform into a Minecraft style",
+      "description": "Capture the essence of your images with a twist of blocky creativity using the Minecraft Style template. This tool transforms photos into vibrant, pixelated artwork reminiscent of the classic Minecraft aesthetic. Whether for gaming avatars, profile pictures, or unique art projects, it recreates images with clear, recognizable details in a fun, retro style. Experience a new way to appreciate your digital memories with an artistic block-building makeover.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-minecraft.png",
+      "pricing": {
+        "cost": 160
+      },
+      "meta": {
+        "keywords": "Minecraft style image generator, block art converter, pixel art transformation",
+        "title": "Minecraft Style Image Converter – Pixel Art Magic",
+        "description": "Turn your favorite photos into Minecraft-inspired pixel art. Our AI tool applies a blocky, vibrant style perfect for gamers, memes, and digital art."
+      },
+      "inputParameters": [
+        {
+          "type": "image",
+          "label": "Image",
+          "placeholder": "Upload an image",
+          "variableName": "parentImage",
+          "value": null
+        }
+      ]
     }
   ]
 }
