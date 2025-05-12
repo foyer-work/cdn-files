@@ -220,10 +220,8 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini_new.webp",
       "archived": false,
       "new": false,
-      "importance": 20,
-      "filters": [
-        "Speed"
-      ]
+      "importance": 130,
+      "filters": ["Speed"]
     },
     {
       "default": false,
@@ -237,47 +235,8 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp",
       "archived": false,
       "new": true,
-      "importance": 41,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ]
-    },
-    {
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's mid tier text generation model for everyday tasks",
-      "id": "gpt-4.1-mini",
-      "name": "GPT 4.1 Mini",
-      "queryCost": 3,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1_mini.webp",
-      "archived": false,
-      "new": true,
-      "importance": 21,
-      "filters": [
-        "Speed",
-        "Coding"
-      ]
-    },
-    {
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's fastest text generation model",
-      "id": "gpt-4.1-nano",
-      "name": "GPT 4.1 Nano",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1_nano.webp",
-      "archived": false,
-      "new": true,
-      "importance": 10,
-      "filters": [
-        "Speed"
-      ]
+      "importance": 200,
+      "filters": ["Writing", "Coding"]
     },
     {
       "charge": "15x Queries",
@@ -290,50 +249,9 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
-      "archived": false,
-      "importance": 36,
-      "filters": [
-        "Reasoning",
-        "Writing"
-      ]
-    },
-    {
-      "charge": "400x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's best non-thinking model. Only for experimental research use and extremely expensive.",
-      "id": "gpt-4.5",
-      "name": "GPT 4.5",
-      "queryCost": 400,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
-      "archived": false,
-      "importance": 1,
-      "filters": [
-        "Reasoning",
-        "Writing"
-      ],
-      "new": false
-    },
-    {
-      "charge": "50x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's omni modal model. Great for reasoning and writing. Generates longer outputs.",
-      "id": "gpt-4o-64k-output",
-      "name": "GPT 4o (Longer Output)",
-      "queryCost": 50,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_longer_output.webp",
-      "archived": false,
-      "importance": 19,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ]
+      "archived": true,
+      "importance": 50,
+      "filters": ["Writing"]
     },
     {
       "charge": "1x Query",
@@ -346,56 +264,9 @@
       "paid": false,
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_haiku.webp",
-      "archived": false,
-      "importance": 23,
-      "filters": [
-        "Speed"
-      ]
-    },
-    {
-      "charge": "5x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's fastest and cheapest model, good for general tasks",
-      "id": "claude-3.5-haiku",
-      "name": "Claude 3.5 Haiku",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_haiku.webp",
-      "archived": false,
-      "importance": 25,
-      "filters": [
-        "Speed"
-      ]
-    },
-    {
-      "charge": "10x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's mid-tier model, 3rd generation",
-      "id": "claude-3-sonnet",
-      "name": "Claude 3 Sonnet",
-      "queryCost": 10,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_sonnet.webp",
       "archived": true,
-      "importance": 2
-    },
-    {
-      "charge": "50x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's largest model from 3rd generation",
-      "id": "claude-3-opus",
-      "name": "Claude 3 Opus",
-      "queryCost": 50,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_opus.webp",
-      "archived": true,
-      "importance": 3
+      "importance": 10,
+      "filters": ["Speed"]
     },
     {
       "charge": "25x Queries",
@@ -408,13 +279,9 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_sonnet.webp",
-      "archived": false,
-      "importance": 35,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ]
+      "archived": true,
+      "importance": 70,
+      "filters": ["Writing", "Coding"]
     },
     {
       "charge": "40x Queries",
@@ -428,12 +295,8 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet.webp",
       "archived": false,
-      "importance": 23,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ],
+      "importance": 150,
+      "filters": ["Writing", "Coding"],
       "new": false
     },
     {
@@ -448,30 +311,9 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet_thinking.webp",
       "archived": false,
-      "importance": 25,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ],
+      "importance": 80,
+      "filters": ["Reasoning", "Coding"],
       "new": false
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's fastest model with good reasoning",
-      "id": "gemini-1.5-flash",
-      "name": "Gemini 1.5 Flash",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_flash.webp",
-      "archived": true,
-      "importance": 21,
-      "filters": [
-        "Speed"
-      ]
     },
     {
       "charge": "5x Queries",
@@ -485,11 +327,9 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
       "archived": false,
-      "importance": 24,
+      "importance": 170,
       "new": true,
-      "filters": [
-        "Speed"
-      ]
+      "filters": ["Reasoning"]
     },
     {
       "charge": "1x Query",
@@ -503,11 +343,9 @@
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash.webp",
       "archived": false,
-      "importance": 24,
+      "importance": 190,
       "new": true,
-      "filters": [
-        "Speed"
-      ]
+      "filters": ["Speed"]
     },
     {
       "charge": "1x Query",
@@ -520,29 +358,9 @@
       "paid": false,
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_flash.webp",
-      "archived": false,
-      "importance": 24,
-      "filters": [
-        "Speed"
-      ]
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's flagship model, gives structured and well crafted answers",
-      "id": "gemini-1.5-pro",
-      "name": "Gemini 1.5 Pro",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_1_5_pro.webp",
       "archived": true,
-      "importance": 35,
-      "filters": [
-        "Reasoning",
-        "Writing"
-      ]
+      "importance": 40,
+      "filters": ["Speed"]
     },
     {
       "charge": "15x Queries",
@@ -556,11 +374,8 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_pro.webp",
       "archived": false,
-      "importance": 33,
-      "filters": [
-        "Reasoning",
-        "Writing"
-      ]
+      "importance": 210,
+      "filters": ["Reasoning", "Writing", "Coding"]
     },
     {
       "charge": "1x Queries",
@@ -574,31 +389,8 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
       "archived": false,
-      "importance": 32,
-      "filters": [
-        "Coding",
-        "Writing"
-      ],
-      "new": false
-    },
-    {
-      "charge": "20x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "DeepSeek's newest model that can think",
-      "id": "deepseek-reasoner",
-      "name": "DeepSeek R1 (US-hosted)",
-      "queryCost": 20,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
-      "archived": false,
-      "importance": 39,
-      "filters": [
-        "Coding",
-        "Writing",
-        "Reasoning"
-      ],
+      "importance": 110,
+      "filters": ["Speed"],
       "new": false
     },
     {
@@ -607,18 +399,14 @@
       "defaultPro": false,
       "description": "DeepSeek's newest model that can think. Slower output speed.",
       "id": "deepseek-reasoner-slow",
-      "name": "DeepSeek R1 Slow (US-hosted)",
+      "name": "DeepSeek R1 (US-hosted)",
       "queryCost": 5,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
       "archived": false,
-      "importance": 15,
-      "filters": [
-        "Coding",
-        "Writing",
-        "Reasoning"
-      ],
+      "importance": 120,
+      "filters": ["Reasoning"],
       "new": false
     },
     {
@@ -633,73 +421,9 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp",
       "archived": true,
-      "importance": 15
+      "importance": 60
     },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "MistralAI's open source model mixture of experts model",
-      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "name": "Mixtral",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp",
-      "archived": true,
-      "importance": 1
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Meta's latest and best model",
-      "id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
-      "name": "Llama 3.1 405B",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/llama.webp",
-      "archived": false,
-      "importance": 30,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "40x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's Chain-Of-Thought based mini model",
-      "id": "o1-mini",
-      "name": "O1 Mini",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1_mini.webp",
-      "archived": true,
-      "importance": 18,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's New Chain-Of-Thought based mini model",
-      "id": "o3-mini",
-      "name": "O3 Mini",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini.webp",
-      "archived": false,
-      "importance": 28,
-      "filters": [
-        "Reasoning"
-      ]
-    },
+
     {
       "charge": "15x Queries",
       "default": false,
@@ -712,11 +436,9 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o4_mini.webp",
       "archived": false,
-      "importance": 28,
+      "importance": 160,
       "new": true,
-      "filters": [
-        "Reasoning"
-      ]
+      "filters": ["Reasoning"]
     },
     {
       "charge": "25x Queries",
@@ -729,29 +451,9 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini_high.webp",
-      "archived": false,
-      "importance": 40,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "180x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's flagship Chain-Of-Thought based model",
-      "id": "o1",
-      "name": "O1",
-      "queryCost": 180,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1_new.webp",
-      "archived": false,
-      "importance": 18,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ]
+      "archived": true,
+      "importance": 20,
+      "filters": ["Reasoning"]
     },
     {
       "charge": "180x Queries",
@@ -765,30 +467,9 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3.webp",
       "archived": false,
-      "importance": 18,
+      "importance": 90,
       "new": true,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ]
-    },
-    {
-      "charge": "180x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's flagship Chain-Of-Thought based model",
-      "id": "o1-preview",
-      "name": "O1 Preview",
-      "queryCost": 180,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp",
-      "archived": true,
-      "importance": 18,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ]
+      "filters": ["Reasoning", "Coding"]
     },
     {
       "charge": "2x Queries",
@@ -802,10 +483,8 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3_mini.webp",
       "archived": false,
-      "importance": 22,
-      "filters": [
-        "Reasoning"
-      ]
+      "importance": 100,
+      "filters": ["Speed"]
     },
     {
       "charge": "25x Queries",
@@ -819,8 +498,8 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3.webp",
       "archived": false,
-      "importance": 34,
-      "filters": []
+      "importance": 180,
+      "filters": ["Reasoning", "Writing"]
     }
   ]
 }
