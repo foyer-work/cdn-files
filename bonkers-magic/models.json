@@ -41,7 +41,7 @@
         "cost": 160
       },
       "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
-      "pseudoName": "GPT Image 1 Medium",
+      "pseudoName": "ChatGPT 4o Medium",
       "speed": "Medium",
       "tag": [
         "Clear shapes",
@@ -163,7 +163,7 @@
         "cost": 625
       },
       "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
-      "pseudoName": "GPT Image 1 High",
+      "pseudoName": "ChatGPT 4o High",
       "speed": "Slow",
       "tag": [
         "Perfect text",
