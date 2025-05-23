@@ -147,42 +147,6 @@
       ],
       "theme": "Realtistic",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg"
-    },
-    {
-      "aspectRatios": [
-        "1:1",
-        "16:9",
-        "21:9",
-        "2:3",
-        "3:2",
-        "4:5",
-        "5:4",
-        "9:16",
-        "9:21"
-      ],
-      "category": "Flux",
-      "description": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
-      "featureSupport": ["GENERATE"],
-      "id": "black-forest-labs/flux-schnell",
-      "name": "FLUX.1 Schnell",
-      "nsfw": false,
-      "pricing": {
-        "cost": 10,
-        "costPerAdditional": 10
-      },
-      "pseudoDescription": "The fastest model, tailored for personal use. Openly available under an Apache 2.0 license.",
-      "pseudoName": "Flux Schnell",
-      "speed": "Fastest",
-      "tag": [
-        "Fast Speed",
-        "Low Quality",
-        "Quick Ideation",
-        "Content Creation",
-        "Rapid Prototyping",
-        "Personal Use"
-      ],
-      "theme": "Realtistic",
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/schnell.png"
     }
   ]
 }
