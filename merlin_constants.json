@@ -391,7 +391,7 @@
     },
     {
       "charge": "1x Query",
-      "default": false,
+      "default": true,
       "defaultPro": false,
       "description": "Google's fastest model with good reasoning",
       "id": "gemini-2.5-flash",
@@ -409,7 +409,7 @@
     },
     {
       "charge": "1x Query",
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "Google's fastest model with good reasoning",
       "id": "gemini-2.0-flash",
