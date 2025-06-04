@@ -34,7 +34,7 @@
       ],
       "theme": "Realtistic",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg",
-      "default": false,
+      "defaultFree": false,
       "defaultPro": false
     },
     {
@@ -61,7 +61,7 @@
       ],
       "theme": "Realtistic",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_1pro.png",
-      "default": false,
+      "defaultFree": false,
       "defaultPro": true
     },
     {
@@ -100,7 +100,7 @@
       ],
       "theme": "Realtistic",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram.png",
-      "default": false,
+      "defaultFree": false,
       "defaultPro": false
     },
     {
@@ -127,7 +127,7 @@
       ],
       "theme": "Realtistic",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png",
-      "default": false,
+      "defaultFree": false,
       "defaultPro": false
     },
     {
@@ -155,7 +155,7 @@
       ],
       "theme": "Realtistic",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg",
-      "default": true,
+      "defaultFree": true,
       "defaultPro": false
     }
   ]
