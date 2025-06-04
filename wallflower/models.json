@@ -33,7 +33,9 @@
         "Prompt Adherence"
       ],
       "theme": "Realtistic",
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg",
+      "defaultFree": false,
+      "defaultPro": false
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
@@ -58,7 +60,9 @@
         "Prompt Adherence"
       ],
       "theme": "Realtistic",
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_1pro.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_1pro.png",
+      "defaultFree": false,
+      "defaultPro": true
     },
     {
       "aspectRatios": [
@@ -95,7 +99,9 @@
         "Text-heavy images"
       ],
       "theme": "Realtistic",
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram.png",
+      "defaultFree": false,
+      "defaultPro": false
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
@@ -120,7 +126,9 @@
         "Accurate Prompt Following"
       ],
       "theme": "Realtistic",
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png",
+      "defaultFree": false,
+      "defaultPro": false
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
@@ -146,7 +154,9 @@
         "Personal Use"
       ],
       "theme": "Realtistic",
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg",
+      "defaultFree": true,
+      "defaultPro": false
     }
   ]
 }
