@@ -30,7 +30,8 @@
         "Style Adherence",
         "Text-heavy images"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram-v3.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram-v3.png",
+      "icon": "https://cdn.getmerlin.in/cms/ideogram_white_6b4cb97437.svg"
     },
     {
       "aspectRatios": ["1:1", "2:3", "3:2"],
@@ -50,7 +51,8 @@
         "Okay size",
         "Few mistakes"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-medium.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-medium.png",
+      "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
     {
       "aspectRatios": [
@@ -80,7 +82,8 @@
         "Realism",
         "Prompt Adherence"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg",
+      "icon": "https://cdn.getmerlin.in/cms/recraft_white_aa8931a3bd.svg"
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
@@ -100,7 +103,8 @@
         "Text",
         "Prompt Adherence"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_1pro.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_1pro.png",
+      "icon": "https://cdn.getmerlin.in/cms/flux_white_5930b079e0.svg"
     },
     {
       "aspectRatios": [
@@ -132,7 +136,8 @@
         "Style Adherence",
         "Text-heavy images"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram.png",
+      "icon": "https://cdn.getmerlin.in/cms/ideogram_white_6b4cb97437.svg"
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
@@ -152,7 +157,8 @@
         "Artistic creation",
         "Accurate Prompt Following"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png",
+      "icon": "https://cdn.getmerlin.in/cms/flux_white_5930b079e0.svg"
     },
     {
       "aspectRatios": ["1:1", "2:3", "3:2"],
@@ -172,7 +178,8 @@
         "Very real",
         "High quality"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png",
+      "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
     {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
@@ -193,7 +200,8 @@
         "Content Creation",
         "Personal Use"
       ],
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg"
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg",
+      "icon": "https://cdn.getmerlin.in/cms/hidream_5cdb8fb0a2.svg"
     }
   ]
 }
