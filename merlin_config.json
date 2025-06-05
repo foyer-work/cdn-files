@@ -1059,7 +1059,7 @@
       },
       "newMount": true,
       "regional": false,
-      "visible": true,
+      "visible": false,
       "getHoroscope": {
         "text": "Discover your destiny with Merlin's horoscope predictions!",
         "isActive": false,
