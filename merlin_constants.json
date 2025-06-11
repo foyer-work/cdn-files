@@ -529,13 +529,13 @@
       ]
     },
     {
-      "charge": "180x Queries",
+      "charge": "60x Queries",
       "default": false,
       "defaultPro": false,
       "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
       "id": "o3",
       "name": "O3",
-      "queryCost": 180,
+      "queryCost": 60,
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3.webp",
