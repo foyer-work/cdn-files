@@ -1,6 +1,62 @@
 {
   "bonkers_models": [
     {
+      "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
+      "description": "This is an optimised version of the bonkers-lite model using the pruna ai optimisation toolkit",
+      "id": "bonkers-lite",
+      "name": "Bonkers Lite",
+      "pricing": {
+        "cost": 20
+      },
+      "isEnabled": true,
+      "isFeatured": true,
+      "pseudoDescription": "This is an optimised version of the bonkers-lite model using the pruna ai optimisation toolkit",
+      "pseudoName": "Bonkers Lite",
+      "speed": "Fastest",
+      "tag": [
+        "Fast Speed",
+        "Quick Ideation",
+        "Short Texts",
+        "Personal Use",
+        "Bright Visuals"
+      ],
+      "url": "https://cdn.getmerlin.in/cms/3624f2ac581949be527b7e02973e06213b73c85d_c0bfff31d5_1_52b3469e9c.png"
+    },
+    {
+      "aspectRatios": [
+        "10:16",
+        "16:10",
+        "9:16",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "1:1",
+        "1:3",
+        "3:1"
+      ],
+      "description": "Bonkers Advance is a powerful AI text-to-image model that generates text in images along with realistic human features and more prompt following.",
+      "id": "bonkers-advance",
+      "name": "Bonkers Advance",
+      "pricing": {
+        "cost": 120
+      },
+      "isEnabled": true,
+      "isFeatured": true,
+      "pseudoDescription": "Bonkers Advance is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
+      "pseudoName": "Bonkers Advance",
+      "speed": "Medium - Fast",
+      "tag": [
+        "Long Text",
+        "Very Realistic",
+        "Creative",
+        "High Quality",
+        "Great for Design Work"
+      ],
+      "url": "https://cdn.getmerlin.in/cms/8654d640bfe9798410ab77a93336947f918180c2_ac85d2a950_1_394772f6d2.png"
+    },
+    {
       "aspectRatios": [
         "10:16",
         "16:10",
@@ -30,6 +86,8 @@
         "Style Adherence",
         "Text-heavy images"
       ],
+      "isEnabled": true,
+      "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram-v3.png",
       "icon": "https://cdn.getmerlin.in/cms/ideogram_white_6b4cb97437.svg"
     },
@@ -51,6 +109,8 @@
         "Okay size",
         "Few mistakes"
       ],
+      "isEnabled": true,
+      "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-medium.png",
       "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
@@ -82,6 +142,8 @@
         "Realism",
         "Prompt Adherence"
       ],
+      "isEnabled": true,
+      "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg",
       "icon": "https://cdn.getmerlin.in/cms/recraft_white_aa8931a3bd.svg"
     },
@@ -93,6 +155,8 @@
       "pricing": {
         "cost": 100
       },
+      "isEnabled": true,
+      "isFeatured": false,
       "pseudoDescription": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
       "pseudoName": "Flux 1.1 Pro",
       "speed": "Medium",
@@ -126,6 +190,8 @@
       "pricing": {
         "cost": 130
       },
+      "isEnabled": false,
+      "isFeatured": false,
       "pseudoDescription": "Ideogram 2.0 is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
       "pseudoName": "Ideogram V2 Turbo",
       "speed": "Slow - Medium",
@@ -157,6 +223,8 @@
         "Artistic creation",
         "Accurate Prompt Following"
       ],
+      "isEnabled": true,
+      "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png",
       "icon": "https://cdn.getmerlin.in/cms/flux_white_5930b079e0.svg"
     },
@@ -178,6 +246,8 @@
         "Very real",
         "High quality"
       ],
+      "isEnabled": true,
+      "isFeatured": true,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png",
       "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
@@ -200,6 +270,8 @@
         "Content Creation",
         "Personal Use"
       ],
+      "isEnabled": true,
+      "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg",
       "icon": "https://cdn.getmerlin.in/cms/hidream_5cdb8fb0a2.svg"
     }
