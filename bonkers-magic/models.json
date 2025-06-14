@@ -20,7 +20,8 @@
         "Personal Use",
         "Bright Visuals"
       ],
-      "url": "https://cdn.getmerlin.in/cms/3624f2ac581949be527b7e02973e06213b73c85d_c0bfff31d5_1_52b3469e9c.png"
+      "url": "https://cdn.getmerlin.in/cms/3624f2ac581949be527b7e02973e06213b73c85d_c0bfff31d5_1_52b3469e9c.png",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_e68b60b769.svg"
     },
     {
       "aspectRatios": [
@@ -54,7 +55,31 @@
         "High Quality",
         "Great for Design Work"
       ],
-      "url": "https://cdn.getmerlin.in/cms/8654d640bfe9798410ab77a93336947f918180c2_ac85d2a950_1_394772f6d2.png"
+      "url": "https://cdn.getmerlin.in/cms/8654d640bfe9798410ab77a93336947f918180c2_ac85d2a950_1_394772f6d2.png",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_e68b60b769.svg"
+    },
+    {
+      "aspectRatios": ["1:1", "16:9", "4:3", "3:4", "9:16"],
+      "description": "Imagen 4 is Google DeepMind's most advanced image generation model, designed for bringing creative visions to life. It excels at photorealism, fine detail rendering, and accurate text generation.",
+      "id": "google/imagen-4",
+      "name": "Imagen 4",
+      "pricing": {
+        "cost": 100
+      },
+      "isEnabled": true,
+      "isFeatured": true,
+      "pseudoDescription": "Google DeepMind's flagship model for photorealistic, sharp, and text-accurate images.",
+      "pseudoName": "Google Imagen 4",
+      "speed": "Medium - Fast",
+      "tag": [
+        "Photorealistic",
+        "Fine Details",
+        "Professional Use",
+        "Sharp Text",
+        "Versatile Styles"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/imagen-4.jpg",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_e68b60b769.svg"
     },
     {
       "aspectRatios": [
