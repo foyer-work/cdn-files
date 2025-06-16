@@ -42,7 +42,7 @@
           },
           "label": "Describe the Product",
           "placeholder": "Upload an image",
-          "variableName": "productImage",
+          "variableName": "productDesc",
           "value": null
         },
         {
@@ -55,7 +55,7 @@
           },
           "label": "Describe the background",
           "placeholder": "Upload an image",
-          "variableName": "backgroundImage",
+          "variableName": "backgroundDesc",
           "value": null
         }
       ]
