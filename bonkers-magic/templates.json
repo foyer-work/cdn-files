@@ -3,7 +3,7 @@
     {
       "id": "product-photography",
       "name": "Product Photoshoots",
-      "isEnabled": false,
+      "isEnabled": true,
       "instruction": "Upload product image and describe a scene or setting to create product shots\n\nNote: this template is in beta and may not work as expected sometimes.",
       "description": "Need professional product shots but lack a studio budget? This AI-powered product photoshoot template turns ordinary pictures into glossy, high-resolution catalog images. Perfect for Shopify, Amazon, Etsy, and social ads, it auto-adjusts lighting, shadows, and backgrounds to match brand aesthetics. Simply upload your item, pick a scene, and export ready-to-sell visuals in seconds. Boost click-through rates, lower bounce, and convert more shoppers with consistent, eye-catching imagery.",
       "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/product-template.png",
@@ -18,10 +18,10 @@
       },
       "inputParameters": [
         {
-          "type": "image",
-          "label": "Product Image",
-          "placeholder": "Upload an image",
-          "variableName": "parentImage",
+          "type": "numberofimages",
+          "label": "Number of Images",
+          "placeholder": "Select number of images",
+          "variableName": "numberOfImages",
           "value": null
         },
         {
@@ -33,17 +33,29 @@
           "value": null
         },
         {
-          "type": "numberofimages",
-          "label": "Number of Images",
-          "placeholder": "Select number of images",
-          "variableName": "numberOfImages",
+          "type": "image",
+          "variant": "with-text",
+          "textConfig": {
+            "type": "textarea",
+            "placeholder": "Describe the product",
+            "previewImage": "https://cdn.getmerlin.in/cms/product_92f3bbbacd.svg"
+          },
+          "label": "Product Image",
+          "placeholder": "Upload an image",
+          "variableName": "productImage",
           "value": null
         },
         {
-          "type": "text",
-          "label": "Scene",
-          "placeholder": "Describe the scene or setting",
-          "variableName": "prompt",
+          "type": "image",
+          "variant": "with-text",
+          "textConfig": {
+            "type": "textarea",
+            "placeholder": "Describe the scene or setting for the product image",
+            "previewImage": "https://cdn.getmerlin.in/cms/background_9c69f08185.svg"
+          },
+          "label": "Background Image",
+          "placeholder": "Upload an image",
+          "variableName": "backgroundImage",
           "value": null
         }
       ]
@@ -70,6 +82,7 @@
           "label": "Your Photo",
           "placeholder": "Upload an image",
           "variableName": "parentImage",
+          "variant": "standalone",
           "value": null
         }
       ]
@@ -96,6 +109,7 @@
           "label": "Image",
           "placeholder": "Upload an image",
           "variableName": "parentImage",
+          "variant": "standalone",
           "value": null
         }
       ]
@@ -122,6 +136,7 @@
           "label": "Image to Ghiblify",
           "placeholder": "Upload an image",
           "variableName": "inspirationImage",
+          "variant": "standalone",
           "value": null
         }
       ]
@@ -148,6 +163,7 @@
           "label": "Pet Image",
           "placeholder": "Upload an image",
           "variableName": "parentImage",
+          "variant": "standalone",
           "value": null
         }
       ]
@@ -174,6 +190,7 @@
           "label": "Image",
           "placeholder": "Upload an image",
           "variableName": "parentImage",
+          "variant": "standalone",
           "value": null
         }
       ]
@@ -200,6 +217,7 @@
           "label": "Image",
           "placeholder": "Upload an image",
           "variableName": "parentImage",
+          "variant": "standalone",
           "value": null
         }
       ]
@@ -226,6 +244,7 @@
           "label": "Image",
           "placeholder": "Upload an image",
           "variableName": "parentImage",
+          "variant": "standalone",
           "value": null
         }
       ]
