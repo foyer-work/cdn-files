@@ -3,7 +3,7 @@
     {
       "id": "product-photography",
       "name": "Product Photoshoots",
-      "isEnabled": true,
+      "isEnabled": false,
       "instruction": "Upload product image and describe a scene or setting to create product shots\n\nNote: this template is in beta and may not work as expected sometimes.",
       "description": "Need professional product shots but lack a studio budget? This AI-powered product photoshoot template turns ordinary pictures into glossy, high-resolution catalog images. Perfect for Shopify, Amazon, Etsy, and social ads, it auto-adjusts lighting, shadows, and backgrounds to match brand aesthetics. Simply upload your item, pick a scene, and export ready-to-sell visuals in seconds. Boost click-through rates, lower bounce, and convert more shoppers with consistent, eye-catching imagery.",
       "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/product-template.png",
