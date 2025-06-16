@@ -37,10 +37,10 @@
           "variant": "with-text",
           "textConfig": {
             "type": "textarea",
-            "placeholder": "Describe the product",
+            "placeholder": "Eg. a PELLECOTE perfume bottle, matte finish",
             "previewImage": "https://cdn.getmerlin.in/cms/product_92f3bbbacd.svg"
           },
-          "label": "Product Image",
+          "label": "Describe the Product",
           "placeholder": "Upload an image",
           "variableName": "productImage",
           "value": null
@@ -50,10 +50,10 @@
           "variant": "with-text",
           "textConfig": {
             "type": "textarea",
-            "placeholder": "Describe the scene or setting for the product image",
+            "placeholder": "Weathered wood, stones, dried branches and charcoal surround bottle on dark grey.",
             "previewImage": "https://cdn.getmerlin.in/cms/background_9c69f08185.svg"
           },
-          "label": "Background Image",
+          "label": "Describe the background",
           "placeholder": "Upload an image",
           "variableName": "backgroundImage",
           "value": null
