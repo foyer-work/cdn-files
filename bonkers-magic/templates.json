@@ -86,7 +86,6 @@
           "variableName": "parentImage",
           "variant": "standalone",
           "value": null,
-          "isRequired": true
         }
       ]
     },
@@ -114,7 +113,6 @@
           "variableName": "parentImage",
           "variant": "standalone",
           "value": null,
-          "isRequired": true
         }
       ]
     },
@@ -142,7 +140,6 @@
           "variableName": "inspirationImage",
           "variant": "standalone",
           "value": null,
-          "isRequired": true
         }
       ]
     },
@@ -170,7 +167,6 @@
           "variableName": "parentImage",
           "variant": "standalone",
           "value": null,
-          "isRequired": true
         }
       ]
     },
@@ -198,7 +194,6 @@
           "variableName": "parentImage",
           "variant": "standalone",
           "value": null,
-          "isRequired": true
         }
       ]
     },
@@ -226,7 +221,6 @@
           "variableName": "parentImage",
           "variant": "standalone",
           "value": null,
-          "isRequired": true
         }
       ]
     },
@@ -254,7 +248,6 @@
           "variableName": "parentImage",
           "variant": "standalone",
           "value": null,
-          "isRequired": true
         }
       ]
     }
