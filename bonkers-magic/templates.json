@@ -85,7 +85,7 @@
           "placeholder": "Upload an image",
           "variableName": "parentImage",
           "variant": "standalone",
-          "value": null,
+          "value": null
         }
       ]
     },
@@ -112,7 +112,7 @@
           "placeholder": "Upload an image",
           "variableName": "parentImage",
           "variant": "standalone",
-          "value": null,
+          "value": null
         }
       ]
     },
@@ -139,7 +139,7 @@
           "placeholder": "Upload an image",
           "variableName": "inspirationImage",
           "variant": "standalone",
-          "value": null,
+          "value": null
         }
       ]
     },
@@ -166,7 +166,7 @@
           "placeholder": "Upload an image",
           "variableName": "parentImage",
           "variant": "standalone",
-          "value": null,
+          "value": null
         }
       ]
     },
@@ -193,7 +193,7 @@
           "placeholder": "Upload an image",
           "variableName": "parentImage",
           "variant": "standalone",
-          "value": null,
+          "value": null
         }
       ]
     },
@@ -220,7 +220,7 @@
           "placeholder": "Upload an image",
           "variableName": "parentImage",
           "variant": "standalone",
-          "value": null,
+          "value": null
         }
       ]
     },
@@ -247,7 +247,7 @@
           "placeholder": "Upload an image",
           "variableName": "parentImage",
           "variant": "standalone",
-          "value": null,
+          "value": null
         }
       ]
     }
