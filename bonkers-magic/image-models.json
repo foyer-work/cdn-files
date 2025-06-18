@@ -73,7 +73,17 @@
       "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
     },
     {
-      "aspectRatios": [],
+      "aspectRatios": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "3:2",
+        "1:1",
+        "2:3",
+        "3:4",
+        "9:16",
+        "9:21"
+      ],
       "description": "Bonkers Omni Edit is automatically selected omni-edit model that can do everything.",
       "id": "bonkers-omni-edit",
       "name": "Bonkers Omni Edit",
