@@ -1,0 +1,98 @@
+{
+  "image-models": [
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "Bonkers Remix is automatically selected image-to-image model with the ability to generate images using another image as inspiration based on user's intent.",
+      "id": "bonkers-remix",
+      "name": "Bonkers Remix",
+      "pricing": {
+        "cost": 160
+      },
+      "isEnabled": true,
+      "featureType": "GENERATE",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Magic Fill is automatically selected inpainting/outpainting model.",
+      "id": "bonkers-magic-fill",
+      "name": "Bonkers Magic Fill",
+      "pricing": {
+        "cost": 130
+      },
+      "isEnabled": true,
+      "featureType": "INPAINT",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Magic Erase is automatically selected object-erasing model.",
+      "id": "bonkers-magic-erase",
+      "name": "Bonkers Magic Erase",
+      "pricing": {
+        "cost": 100
+      },
+      "isEnabled": true,
+      "featureType": "ERASE",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Magic Upscale is automatically selected upscaling model.",
+      "id": "bonkers-upscale",
+      "name": "Bonkers Upscale",
+      "pricing": {
+        "cost": 50
+      },
+      "isEnabled": true,
+      "featureType": "UPSCALE",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Background Erase is automatically selected background removal model.",
+      "id": "bonkers-bg-erase",
+      "name": "Bonkers Background Erase",
+      "pricing": {
+        "cost": 10
+      },
+      "isEnabled": true,
+      "featureType": "EDIT_BG",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Background Edit is automatically selected background replace model.",
+      "id": "bonkers-bg-edit",
+      "name": "Bonkers BG Edit",
+      "pricing": {
+        "cost": 100
+      },
+      "isEnabled": true,
+      "featureType": "EDIT_BG",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "3:2",
+        "1:1",
+        "2:3",
+        "3:4",
+        "9:16",
+        "9:21"
+      ],
+      "description": "Bonkers Omni Edit is automatically selected omni-edit model that can do everything.",
+      "id": "bonkers-omni-edit",
+      "name": "Bonkers Omni Edit",
+      "pricing": {
+        "cost": 100
+      },
+      "isEnabled": true,
+      "featureType": "OMNI_EDIT",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    }
+  ]
+}
