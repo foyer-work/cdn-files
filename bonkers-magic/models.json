@@ -10,6 +10,7 @@
       },
       "isEnabled": true,
       "isFeatured": true,
+      "featureType": "GENERATE",
       "pseudoDescription": "This is an optimised version of the bonkers-lite model using the pruna ai optimisation toolkit",
       "pseudoName": "Bonkers Lite",
       "speed": "Fastest",
@@ -45,6 +46,7 @@
       },
       "isEnabled": true,
       "isFeatured": true,
+      "featureType": "GENERATE",
       "pseudoDescription": "Bonkers Advance is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
       "pseudoName": "Bonkers Advance",
       "speed": "Medium - Fast",
@@ -68,6 +70,7 @@
       },
       "isEnabled": true,
       "isFeatured": true,
+      "featureType": "GENERATE",
       "pseudoDescription": "Google DeepMind's flagship model for photorealistic, sharp, and text-accurate images.",
       "pseudoName": "Google Imagen 4",
       "speed": "Medium - Fast",
@@ -113,6 +116,7 @@
       ],
       "isEnabled": true,
       "isFeatured": false,
+      "featureType": "GENERATE",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/ideogram-v3.png",
       "icon": "https://cdn.getmerlin.in/cms/ideogram_white_6b4cb97437.svg"
     },
@@ -136,6 +140,7 @@
       ],
       "isEnabled": true,
       "isFeatured": false,
+      "featureType": "GENERATE",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-medium.png",
       "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
@@ -169,6 +174,7 @@
       ],
       "isEnabled": true,
       "isFeatured": false,
+      "featureType": "GENERATE",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/recraft.jpeg",
       "icon": "https://cdn.getmerlin.in/cms/recraft_white_aa8931a3bd.svg"
     },
@@ -182,6 +188,7 @@
       },
       "isEnabled": true,
       "isFeatured": false,
+      "featureType": "GENERATE",
       "pseudoDescription": "Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.",
       "pseudoName": "Flux 1.1 Pro",
       "speed": "Medium",
@@ -217,6 +224,7 @@
       },
       "isEnabled": false,
       "isFeatured": false,
+      "featureType": "GENERATE",
       "pseudoDescription": "Ideogram 2.0 is an AI image model that can create visual content from text, and is designed to address challenges in text rendering and realistic human features",
       "pseudoName": "Ideogram V2 Turbo",
       "speed": "Slow - Medium",
@@ -250,6 +258,7 @@
       ],
       "isEnabled": true,
       "isFeatured": false,
+      "featureType": "GENERATE",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png",
       "icon": "https://cdn.getmerlin.in/cms/flux_white_5930b079e0.svg"
     },
@@ -273,6 +282,7 @@
       ],
       "isEnabled": true,
       "isFeatured": true,
+      "featureType": "GENERATE",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png",
       "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
@@ -297,8 +307,135 @@
       ],
       "isEnabled": true,
       "isFeatured": false,
+      "featureType": "GENERATE",
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/hidream.jpg",
       "icon": "https://cdn.getmerlin.in/cms/hidream_5cdb8fb0a2.svg"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "Bonkers Remix is automatically selected image-to-image model with the ability to generate images using another image as inspiration based on user's intent.",
+      "id": "bonkers-remix",
+      "name": "Bonkers Remix",
+      "pricing": {
+        "cost": 160
+      },
+      "pseudoDescription": "Bonkers Remix is automatically selected image-to-image model with the ability to generate images using another image as inspiration based on user's intent.",
+      "pseudoName": "Bonkers Remix",
+      "speed": "",
+      "tag": [],
+      "isEnabled": true,
+      "isFeatured": false,
+      "featureType": "GENERATE",
+      "url": "",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Magic Fill is automatically selected inpainting/outpainting model.",
+      "id": "bonkers-magic-fill",
+      "name": "Bonkers Magic Fill",
+      "pricing": {
+        "cost": 130
+      },
+      "pseudoDescription": "Bonkers Magic Fill is automatically selected inpainting/outpainting model.",
+      "pseudoName": "Bonkers Magic Fill",
+      "speed": "",
+      "tag": [],
+      "isEnabled": true,
+      "isFeatured": false,
+      "featureType": "INPAINT",
+      "url": "",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Magic Erase is automatically selected object-erasing model.",
+      "id": "bonkers-magic-erase",
+      "name": "Bonkers Magic Erase",
+      "pricing": {
+        "cost": 100
+      },
+      "pseudoDescription": "Bonkers Magic Erase is automatically selected object-erasing model.",
+      "pseudoName": "Bonkers Magic Erase",
+      "speed": "",
+      "tag": [],
+      "isEnabled": true,
+      "isFeatured": false,
+      "featureType": "ERASE",
+      "url": "",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Magic Upscale is automatically selected upscaling model.",
+      "id": "bonkers-upscale",
+      "name": "Bonkers Upscale",
+      "pricing": {
+        "cost": 50
+      },
+      "pseudoDescription": "Bonkers Magic Upscale is automatically selected upscaling model.",
+      "pseudoName": "Bonkers Upscale",
+      "speed": "",
+      "tag": [],
+      "isEnabled": true,
+      "isFeatured": false,
+      "featureType": "UPSCALE",
+      "url": "",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Background Erase is automatically selected background removal model.",
+      "id": "bonkers-bg-erase",
+      "name": "Bonkers Background Erase",
+      "pricing": {
+        "cost": 10
+      },
+      "pseudoDescription": "Bonkers Background Erase is automatically selected background removal model.",
+      "pseudoName": "Bonkers Background Erase",
+      "speed": "",
+      "tag": [],
+      "isEnabled": true,
+      "isFeatured": false,
+      "featureType": "EDIT_BG",
+      "url": "",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Background Edit is automatically selected background replace model.",
+      "id": "bonkers-bg-edit",
+      "name": "Bonkers BG Edit",
+      "pricing": {
+        "cost": 100
+      },
+      "pseudoDescription": "Bonkers Background Edit is automatically selected background replace model.",
+      "pseudoName": "Bonkers BG Edit",
+      "speed": "",
+      "tag": [],
+      "isEnabled": true,
+      "isFeatured": false,
+      "featureType": "EDIT_BG",
+      "url": "",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
+    },
+    {
+      "aspectRatios": [],
+      "description": "Bonkers Omni Edit is automatically selected omni-edit model that can do everything.",
+      "id": "bonkers-omni-edit",
+      "name": "Bonkers Omni Edit",
+      "pricing": {
+        "cost": 100
+      },
+      "pseudoDescription": "Bonkers Omni Edit is automatically selected omni-edit model that can do everything.",
+      "pseudoName": "Bonkers Omni Edit",
+      "speed": "",
+      "tag": [],
+      "isEnabled": true,
+      "isFeatured": false,
+      "featureType": "OMNI_EDIT",
+      "url": "",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_d7a7178c57.svg"
     }
   ]
 }
