@@ -277,6 +277,38 @@
       "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
     {
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "16:9",
+        "9:16",
+        "2:3",
+        "3:2",
+        "21:9"
+      ],
+      "description": "Seedream 3.0 is a bilingual (Chinese and English) text-to-image model.",
+      "id": "fal-ai/bytedance/seedream/v3/text-to-image",
+      "name": "Seedream 3",
+      "pricing": {
+        "cost": 75
+      },
+      "isEnabled": true,
+      "isFeatured": false,
+      "pseudoDescription": "Seedream 3.0 is a bilingual (Chinese and English) text-to-image model.",
+      "pseudoName": "Seedream 3",
+      "speed": "Medium - Fast",
+      "tag": [
+        "Creative",
+        "Low Quality",
+        "Quick Ideation",
+        "Short Texts",
+        "Bright Visuals"
+      ],
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/seedream-3.webp",
+      "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_e68b60b769.svg"
+    },
+    {
       "aspectRatios": ["1:1", "16:9", "2:3", "3:2", "4:5", "5:4", "9:16"],
       "description": "This is an optimised version of the hidream-l1 model using the pruna ai optimisation toolkit",
       "id": "prunaai/hidream-l1-fast",
