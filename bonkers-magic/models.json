@@ -82,6 +82,29 @@
       "icon": "https://cdn.getmerlin.in/cms/google_image_gen_a50b573ff2.svg"
     },
     {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "A multimodal image generation model that creates high-quality images.",
+      "id": "gpt-image-1-high",
+      "name": "GPT Image 1 High",
+      "pricing": {
+        "cost": 625
+      },
+      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
+      "pseudoName": "ChatGPT 4o High",
+      "speed": "Slow",
+      "tag": [
+        "Perfect text",
+        "Very clear",
+        "Perfect light",
+        "Very real",
+        "High quality"
+      ],
+      "isEnabled": true,
+      "isFeatured": true,
+      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png",
+      "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
+    },
+    {
       "aspectRatios": [
         "10:16",
         "16:10",
@@ -252,29 +275,6 @@
       "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/flux1_0pro.png",
       "icon": "https://cdn.getmerlin.in/cms/flux_white_5930b079e0.svg"
-    },
-    {
-      "aspectRatios": ["1:1", "2:3", "3:2"],
-      "description": "A multimodal image generation model that creates high-quality images.",
-      "id": "gpt-image-1-high",
-      "name": "GPT Image 1 High",
-      "pricing": {
-        "cost": 625
-      },
-      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
-      "pseudoName": "ChatGPT 4o High",
-      "speed": "Slow",
-      "tag": [
-        "Perfect text",
-        "Very clear",
-        "Perfect light",
-        "Very real",
-        "High quality"
-      ],
-      "isEnabled": true,
-      "isFeatured": true,
-      "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png",
-      "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
     {
       "aspectRatios": [
