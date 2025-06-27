@@ -3,6 +3,7 @@
     {
       "id": "product-photography",
       "name": "Product Photoshoot",
+      "webName": "Product Photoshoot",
       "isEnabled": true,
       "instruction": "Upload product image and describe a scene or setting to create product shots\n\nNote: this template is in beta and may not work as expected sometimes.",
       "description": "Need professional product shots but lack a studio budget? This AI-powered product photoshoot template turns ordinary pictures into glossy, high-resolution catalog images. Perfect for Shopify, Amazon, Etsy, and social ads, it auto-adjusts lighting, shadows, and backgrounds to match brand aesthetics. Simply upload your item, pick a scene, and export ready-to-sell visuals in seconds. Boost click-through rates, lower bounce, and convert more shoppers with consistent, eye-catching imagery.",
@@ -66,6 +67,7 @@
     {
       "id": "make-me-bald",
       "name": "Make Me Bald",
+      "webName": "Make Me Bald",
       "isEnabled": true,
       "instruction": "Upload your image to make yourself bald\n\nNote: this is a fun template and may not be used by/for kids, doing so will result in failure.",
       "description": "Test-drive the bald look before committing. This AI template maps facial contours, removes hair strands, and renders natural skin texture, subtle scalp shine, and correct lighting for a convincing result. Share the transformation on social media, prank friends, or explore style options risk-free. Works on any frontal portrait with adjustable beard retention for even more customization.",
@@ -94,6 +96,7 @@
     {
       "id": "watermark-remover",
       "name": "Remove Watermark",
+      "webName": "Remove Watermark",
       "isEnabled": true,
       "instruction": "Upload an image to remove the watermark\n\nNote: this template is in beta and may not work as expected sometimes.",
       "description": "Stop losing time to manual cloning. This template leverages deep-learning inpainting to detect and delete intrusive watermarks, timestamps, and logos while intelligently reconstructing the underlying pixels. Preserve edge sharpness and color accuracy for a flawless finish suitable for print or web. Drag, drop, and download—no Photoshop skills required. Ideal for photographers, bloggers, and marketers who need clean visuals fast.",
@@ -121,7 +124,8 @@
     },
     {
       "id": "ghibli-style",
-      "name": "Ghibli Style",
+      "name": "80s Anime",
+      "webName": "Ghibli Style",
       "isEnabled": true,
       "instruction": "Upload an image to transform into a Ghibli-style artwork",
       "description": "Bring the enchanting worlds of Studio Ghibli to life with this advanced style-transfer template. It infuses photos with painterly brushstrokes, pastel palettes, and cinematic depth reminiscent of classics like Spirited Away and Totoro. Perfect for profile pics, posters, or creative projects, it maintains subject integrity while adding animated backgrounds and atmospheric lighting. One upload—endless Miyazaki-style storytelling.",
@@ -150,6 +154,7 @@
     {
       "id": "humanize-my-pet",
       "name": "Humanize My Pet",
+      "webName": "Humanize My Pet",
       "isEnabled": true,
       "instruction": "Upload an image of your pet to see them as a human",
       "description": "Ever wondered how your pet would look as a person? With the Humanize My Pet template, upload your pet's photo and watch it transform into a humanized character with detailed facial features and personality cues. This creative tool uses advanced AI to generate vibrant, lifelike images combining animal traits with human aesthetics. Ideal for social media posts, personalized gifts, or just a fun digital makeover, bring your pet’s character to life like never before.",
@@ -177,7 +182,8 @@
     },
     {
       "id": "pixar-style",
-      "name": "Pixar Style",
+      "name": "3D Cartoon",
+      "webName": "Pixar Style",
       "isEnabled": true,
       "instruction": "Upload an image to transform into a Pixar style",
       "description": "Discover a whole new dimension of storytelling with the Pixar Style template. This tool reimagines your photos with the bright, whimsical aesthetics reminiscent of Pixar masterpieces. It highlights expressive eyes, dynamic lighting, and smooth, playful contours to create images that pop off the screen. Perfect for social media avatars, animated stories, or digital art projects, let your photographs tell a captivating animated tale.",
@@ -205,7 +211,8 @@
     },
     {
       "id": "simpson-style",
-      "name": "Simpson Style",
+      "name": "Springfield Cartoon",
+      "webName": "Simpson Style",
       "isEnabled": true,
       "instruction": "Upload an image to transform into a Simpson style",
       "description": "Step into the animated world of Springfield with the Simpson Style template. This fun and engaging tool transforms ordinary photos with a vibrant, cartoonish filter that mimics the look of The Simpsons. Expect playful exaggeration, bold lines, and that signature yellow tone that makes your images stand out. Great for fans, custom avatars, or quirky gifts, let your photos join the antics of Springfield in a creative and humorous way.",
@@ -233,7 +240,8 @@
     },
     {
       "id": "minecraft-style",
-      "name": "Minecraft Style",
+      "name": "Block Pixel",
+      "webName": "Minecraft Style",
       "isEnabled": true,
       "instruction": "Upload an image to transform into a Minecraft style",
       "description": "Capture the essence of your images with a twist of blocky creativity using the Minecraft Style template. This tool transforms photos into vibrant, pixelated artwork reminiscent of the classic Minecraft aesthetic. Whether for gaming avatars, profile pictures, or unique art projects, it recreates images with clear, recognizable details in a fun, retro style. Experience a new way to appreciate your digital memories with an artistic block-building makeover.",
