@@ -7,11 +7,11 @@
       "isEnabled": true,
       "instruction": "Enter your brand name and a short description of your business. Select logo style and font you want in your logo.\n\nNote: this template is in beta and may occasionally produce varied results.",
       "description": "Need a unique, professional logo without hiring a designer? Logo Wizard uses advanced AI to generate custom logo designs tailored to your brand identity. Whether you're launching a startup, personal brand, or side hustle, just describe your vibe and let the AI craft sleek, scalable logos ready for websites, business cards, merch, and more. Save time, skip design headaches, and launch with confidence.",
-      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/logo-wizard.png",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-logo.png",
       "showGeneratedImages": true,
       "isMobileSupported": false,
       "pricing": {
-        "cost": 120
+        "cost": 75
       },
       "meta": {
         "keywords": "AI logo generator, custom logo design, branding tool, logo creator, startup logo AI",
