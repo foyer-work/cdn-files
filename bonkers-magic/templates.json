@@ -1,6 +1,102 @@
 {
   "templates": [
     {
+      "id": "logo-wizard",
+      "name": "Logo Wizard",
+      "webName": "Logo Wizard",
+      "isEnabled": true,
+      "instruction": "Enter your brand name and a short description of your business. Select logo style and font you want in your logo.\n\nNote: this template is in beta and may occasionally produce varied results.",
+      "description": "Need a unique, professional logo without hiring a designer? Logo Wizard uses advanced AI to generate custom logo designs tailored to your brand identity. Whether you're launching a startup, personal brand, or side hustle, just describe your vibe and let the AI craft sleek, scalable logos ready for websites, business cards, merch, and more. Save time, skip design headaches, and launch with confidence.",
+      "previewImageUrl": "https://storage.googleapis.com/wallflower-images/custom_assets/template-logo.png",
+      "showGeneratedImages": true,
+      "isMobileSupported": false,
+      "pricing": {
+        "cost": 75
+      },
+      "meta": {
+        "keywords": "AI logo generator, custom logo design, branding tool, logo creator, startup logo AI",
+        "title": "AI Logo Wizard – Instantly Create Custom Brand Logos",
+        "description": "Generate stunning, professional logos with AI. Logo Wizard creates custom designs tailored to your brand — no designer needed."
+      },
+      "inputParameters": [
+        {
+          "type": "numberofimages",
+          "label": "Number of Images",
+          "placeholder": "Select number of images",
+          "variableName": "numberOfImages",
+          "value": null
+        },
+        {
+          "type": "styles",
+          "label": "Logo Style",
+          "placeholder": "Select a logo style",
+          "variableName": "logoStyle",
+          "selectValuesFrom": [
+            {
+              "value": "minimalist",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/minimalist.png"
+            },
+            {
+              "value": "modern",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/modern.png"
+            },
+            {
+              "value": "vintage",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/vintage.png"
+            },
+            {
+              "value": "sleek",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/sleek.png"
+            },
+            {
+              "value": "elegant",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/elegant.png"
+            },
+            {
+              "value": "professional",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/professional.png"
+            },
+            {
+              "value": "playful",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/playful.png"
+            },
+            {
+              "value": "whimsical",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/whimsical.png"
+            },
+            {
+              "value": "dynamic",
+              "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/dynamic.png"
+            }
+          ],
+          "value": "minimalist"
+        },
+        {
+          "type": "select",
+          "size": "lg",
+          "label": "Logo Font",
+          "placeholder": "Select a logo font",
+          "variableName": "font",
+          "selectValuesFrom": ["serif", "sans-serif", "cursive", "handwritten"],
+          "value": "serif"
+        },
+        {
+          "type": "text",
+          "label": "Brand Name",
+          "placeholder": "Eg: Echobox",
+          "variableName": "brandName",
+          "value": null
+        },
+        {
+          "type": "textarea",
+          "label": "Describe Logo Graphic",
+          "placeholder": "Eg: a stylized soundwave icon made from thin, mirrored lines forming a perfect square. Each wave tapers smoothly into the corners, suggesting symmetry and clarity. The vibe is sleek, tech-forward, and ideal for an audio hardware or streaming platform",
+          "variableName": "description",
+          "value": null
+        }
+      ]
+    },
+    {
       "id": "product-photography",
       "name": "Product Photoshoot",
       "webName": "Product Photoshoot",
