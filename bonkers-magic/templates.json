@@ -31,7 +31,7 @@
           "label": "Logo Style",
           "placeholder": "Select a logo style",
           "variableName": "logoStyle",
-          "selectValuesFrom": [
+          "selectValues": [
             {
               "value": "minimalist",
               "previewImage": "https://storage.googleapis.com/wallflower-images/custom_assets/templates/logo-wizard/minimalist.png"
