@@ -18,6 +18,17 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-3.webp"
     },
     {
+      "charge": "15x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's latest and best standard model. Fast and great at everyday tasks.",
+      "id": "gpt-4.1",
+      "name": "GPT 4.1",
+      "queryCost": 15,
+      "paid": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp"
+    },
+    {
       "charge": "1x Query",
       "default": false,
       "defaultPro": false,
@@ -32,7 +43,7 @@
       "charge": "15x Queries",
       "default": false,
       "defaultPro": true,
-      "description": "OpenAI's flagship model with vision support. Replaces GPT-4.",
+      "description": "OpenAI's chatGPT model.",
       "id": "gpt-4o",
       "name": "GPT 4o",
       "queryCost": 15,
