@@ -581,6 +581,108 @@
         "Reasoning",
         "Writing"
       ]
+    },
+    {
+      "charge": "400x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
+      "id": "o3-pro",
+      "name": "O3 Pro",
+      "queryCost": 400,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_pro.webp",
+      "archived": false,
+      "importance": 1,
+      "new": true,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Open Source Agentic Model by Kimi AI",
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2.webp",
+      "archived": false,
+      "importance": 2,
+      "new": true,
+      "filters": []
+    },
+    {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "XAI's flagship reasoning model",
+      "id": "grok-4",
+      "name": "Grok 4",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_4.webp",
+      "archived": false,
+      "importance": 3,
+      "new": true,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "1x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Meta's latest open source model",
+      "id": "llama-4-maverick",
+      "name": "LLaMa 4 Maverick",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/llama_4_maverick.webp",
+      "archived": false,
+      "importance": 4,
+      "new": true,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
+      "charge": "1x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Alibaba's latest open source model",
+      "id": "qwen-3-235B",
+      "name": "Qwen 3 235B",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/qwen_3.webp",
+      "archived": false,
+      "importance": 5,
+      "new": true,
+      "filters": []
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Mistral AI's flagship model",
+      "id": "mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral_medium_3.webp",
+      "archived": false,
+      "importance": 6,
+      "new": true,
+      "filters": []
     }
   ]
 }
