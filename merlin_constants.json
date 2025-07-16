@@ -653,22 +653,6 @@
       ]
     },
     {
-      "charge": "1x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Alibaba's latest open source model",
-      "id": "qwen-3-235B",
-      "name": "Qwen 3 235B",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/qwen_3.webp",
-      "archived": false,
-      "importance": 5,
-      "new": true,
-      "filters": []
-    },
-    {
       "charge": "5x Queries",
       "default": false,
       "defaultPro": false,
