@@ -390,13 +390,13 @@
       ]
     },
     {
-      "charge": "1x Query",
+      "charge": "2x Queries",
       "default": true,
       "defaultPro": false,
       "description": "Google's latest, fastest model, best for simple or large context tasks.",
       "id": "gemini-2.5-flash",
       "name": "Gemini 2.5 Flash",
-      "queryCost": 1,
+      "queryCost": 2,
       "paid": false,
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash.webp",
