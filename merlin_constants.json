@@ -209,7 +209,7 @@
       "importance": 1
     },
     {
-      "default": false,
+      "default": true,
       "defaultPro": false,
       "description": "OpenAI's fast, lightweight model with large context support.",
       "id": "gpt-4o-mini",
@@ -632,24 +632,6 @@
       "new": true,
       "filters": [
         "Reasoning"
-      ]
-    },
-    {
-      "charge": "1x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Meta's latest open source model",
-      "id": "llama-4-maverick",
-      "name": "LLaMa 4 Maverick",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/llama_4_maverick.webp",
-      "archived": false,
-      "importance": 4,
-      "new": true,
-      "filters": [
-        "Speed"
       ]
     },
     {
