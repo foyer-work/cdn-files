@@ -505,7 +505,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o4_mini.webp",
       "archived": false,
-      "importance": 160,
+      "importance": 201,
       "new": false,
       "filters": [
         "Reasoning"
