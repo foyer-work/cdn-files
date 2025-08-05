@@ -358,7 +358,7 @@
       "defaultPro": false,
       "description": "Anthropic's most powerful thinking model, best for complex analysis.",
       "id": "claude-4-opus-thinking",
-      "name": "Claude 4 Opus (Thinking)",
+      "name": "Claude 4.1 Opus (Thinking)",
       "queryCost": 300,
       "paid": true,
       "largeContext": false,
