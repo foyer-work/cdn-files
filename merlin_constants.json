@@ -649,6 +649,24 @@
       "importance": 6,
       "new": true,
       "filters": []
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's latest OSS model",
+      "id": "gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_oss.webp",
+      "archived": false,
+      "importance": 195,
+      "new": true,
+      "filters": [
+        "Reasoning"
+      ]
     }
   ]
 }
