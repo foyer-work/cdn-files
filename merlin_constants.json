@@ -350,7 +350,7 @@
         "Reasoning",
         "Coding"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "300x Queries",
@@ -369,7 +369,7 @@
         "Reasoning",
         "Coding"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "5x Queries",
@@ -384,7 +384,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
       "archived": false,
       "importance": 170,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning"
       ]
@@ -595,7 +595,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_pro.webp",
       "archived": false,
       "importance": 1,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning"
       ]
@@ -613,7 +613,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2.webp",
       "archived": false,
       "importance": 2,
-      "new": true,
+      "new": false,
       "filters": []
     },
     {
@@ -629,7 +629,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_4.webp",
       "archived": false,
       "importance": 3,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning"
       ]
@@ -647,7 +647,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral_medium_3.webp",
       "archived": false,
       "importance": 6,
-      "new": true,
+      "new": false,
       "filters": []
     },
     {
@@ -663,9 +663,87 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_oss.webp",
       "archived": false,
       "importance": 195,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning"
+      ]
+    },
+    {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model",
+      "id": "gpt-5",
+      "name": "GPT 5",
+      "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
+      "archived": false,
+      "importance": 315,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model but mini",
+      "id": "gpt-5-mini",
+      "name": "GPT-5 Mini",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_mini.webp",
+      "archived": false,
+      "importance": 310,
+      "new": true,
+      "filters": [
+        "Speed",
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model with speed",
+      "id": "gpt-5-nano",
+      "queryCost": 1,
+      "name": "GPT-5 Nano",
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_nano.webp",
+      "archived": false,
+      "importance": 305,
+      "new": true,
+      "filters": [
+        "Speed",
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model used in ChatGPT",
+      "id": "gpt-5-chat",
+      "name": "GPT-5 Chat",
+      "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_chat.webp",
+      "archived": false,
+      "importance": 300,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Coding",
+        "Writing"
       ]
     }
   ]
