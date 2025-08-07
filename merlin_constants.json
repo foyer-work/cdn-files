@@ -669,6 +669,26 @@
       ]
     },
     {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model, with high reasoning",
+      "id": "gpt-5-pro",
+      "name": "GPT 5 Pro",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
+      "archived": false,
+      "importance": 320,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
       "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
@@ -703,7 +723,6 @@
       "importance": 310,
       "new": true,
       "filters": [
-        "Speed",
         "Reasoning"
       ]
     },
@@ -722,7 +741,6 @@
       "importance": 305,
       "new": true,
       "filters": [
-        "Speed",
         "Reasoning"
       ]
     }
