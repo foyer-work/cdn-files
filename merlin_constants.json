@@ -725,26 +725,6 @@
         "Speed",
         "Reasoning"
       ]
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's greatest GPT model used in ChatGPT",
-      "id": "gpt-5-chat",
-      "name": "GPT-5 Chat",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_chat.webp",
-      "archived": false,
-      "importance": 300,
-      "new": true,
-      "filters": [
-        "Reasoning",
-        "Coding",
-        "Writing"
-      ]
     }
   ]
 }
