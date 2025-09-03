@@ -237,7 +237,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp",
       "archived": false,
       "new": false,
-      "importance": 200,
+      "importance": 320,
       "filters": [
         "Writing",
         "Coding"
@@ -680,7 +680,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
       "archived": false,
-      "importance": 320,
+      "importance": 200,
       "new": true,
       "filters": [
         "Reasoning",
