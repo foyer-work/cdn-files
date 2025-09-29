@@ -353,6 +353,25 @@
       "new": false
     },
     {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Anthropic's latest high-intelligence thinking model, best for creatives.",
+      "id": "claude-4.5-sonnet",
+      "name": "Claude Sonnet 4.5",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_sonnet_thinking.webp",
+      "archived": false,
+      "importance": 207,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ],
+      "new": true
+    },
+    {
       "charge": "300x Queries",
       "default": false,
       "defaultPro": false,
@@ -681,7 +700,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
       "archived": false,
       "importance": 200,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning",
         "Writing",
@@ -701,7 +720,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
       "archived": false,
       "importance": 315,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning",
         "Writing",
@@ -721,7 +740,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_mini.webp",
       "archived": false,
       "importance": 310,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning"
       ]
@@ -739,7 +758,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_nano.webp",
       "archived": false,
       "importance": 305,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning"
       ]
