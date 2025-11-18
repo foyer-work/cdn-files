@@ -369,6 +369,24 @@
         "Reasoning",
         "Coding"
       ],
+      "new": false
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Anthropic's latest fast model, best for everyday work.",
+      "id": "claude-4.5-haiku",
+      "name": "Claude Haiku 4.5",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_5_haiku.webp",
+      "archived": false,
+      "importance": 206,
+      "filters": [
+        "Speed"
+      ],
       "new": true
     },
     {
@@ -461,6 +479,26 @@
         "Writing",
         "Coding"
       ]
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
+      "id": "gemini-3.0-pro",
+      "name": "Gemini 3.0 Pro",
+      "queryCost": 30,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_pro.webp",
+      "archived": false,
+      "importance": 211,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ],
+      "new": true
     },
     {
       "charge": "1x Queries",
@@ -712,13 +750,33 @@
       "default": false,
       "defaultPro": false,
       "description": "OpenAI's greatest GPT model",
+      "id": "gpt-5.1",
+      "name": "GPT 5.1",
+      "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
+      "archived": false,
+      "importance": 316,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model",
       "id": "gpt-5",
       "name": "GPT 5",
       "queryCost": 15,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
-      "archived": false,
+      "archived": true,
       "importance": 315,
       "new": false,
       "filters": [
