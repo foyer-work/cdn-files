@@ -490,7 +490,7 @@
       "queryCost": 30,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_pro.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_0_pro.webp",
       "archived": false,
       "importance": 211,
       "filters": [
