@@ -306,7 +306,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet.webp",
-      "archived": false,
+      "archived": true,
       "importance": 150,
       "filters": [
         "Writing",
@@ -325,7 +325,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet_thinking.webp",
-      "archived": false,
+      "archived": true,
       "importance": 80,
       "filters": [
         "Reasoning",
@@ -344,7 +344,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_sonnet_thinking.webp",
-      "archived": false,
+      "archived": true,
       "importance": 205,
       "filters": [
         "Reasoning",
@@ -397,6 +397,25 @@
       "id": "claude-4-opus-thinking",
       "name": "Claude 4.1 Opus (Thinking)",
       "queryCost": 300,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_opus_thinking.webp",
+      "archived": true,
+      "importance": 154,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ],
+      "new": false
+    },
+    {
+      "charge": "300x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Anthropic's most powerful thinking model, best for complex analysis.",
+      "id": "claude-4.5-opus-thinking",
+      "name": "Claude 4.5 Opus (Thinking)",
+      "queryCost": 150,
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_opus_thinking.webp",
