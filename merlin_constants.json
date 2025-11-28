@@ -409,7 +409,7 @@
       "new": false
     },
     {
-      "charge": "300x Queries",
+      "charge": "150x Queries",
       "default": false,
       "defaultPro": false,
       "description": "Anthropic's most powerful thinking model, best for complex analysis.",
