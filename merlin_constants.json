@@ -765,6 +765,26 @@
       ]
     },
     {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model",
+      "id": "gpt-5.2",
+      "name": "GPT 5.2",
+      "queryCost": 30,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
+      "archived": false,
+      "importance": 317,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
       "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
