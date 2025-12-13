@@ -1,53 +1,95 @@
 {
   "textLLMs": [
     {
+      "charge": "30x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's legacy GPT model, lightweight and fast.",
-      "id": "gpt-3.5-turbo",
-      "name": "GPT 3.5",
-      "queryCost": 1,
+      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
+      "id": "gemini-3.0-pro",
+      "name": "Gemini 3.0 Pro",
+      "queryCost": 30,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
-      "archived": true,
-      "new": false,
-      "importance": 1
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_0_pro.webp",
+      "archived": false,
+      "importance": 400,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ],
+      "new": true
     },
     {
-      "default": true,
+      "charge": "5x Queries",
+      "default": false,
       "defaultPro": false,
-      "description": "OpenAI's fast, lightweight model with large context support.",
-      "id": "gpt-4o-mini",
-      "name": "GPT 4o Mini",
-      "queryCost": 1,
+      "description": "Anthropic's latest fast model, best for everyday work.",
+      "id": "claude-4.5-haiku",
+      "name": "Claude Haiku 4.5",
+      "queryCost": 5,
       "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini_new.webp",
-      "archived": true,
-      "new": false,
-      "importance": 130,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_5_haiku.webp",
+      "archived": false,
+      "importance": 390,
+      "filters": [
+        "Speed"
+      ],
+      "new": true
+    },
+    {
+      "charge": "2x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "xAI's fast and lightweight reasoning model, suited for basic logical tasks.",
+      "id": "grok-4-1-fast-reasoning",
+      "name": "Grok 4.1 Fast Reasoning",
+      "queryCost": 2,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3_mini.webp",
+      "archived": false,
+      "importance": 350,
       "filters": [
         "Speed"
       ]
     },
     {
+      "charge": "30x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's most intelligent general-purpose model, best for daily complex tasks.",
-      "id": "gpt-4.1",
-      "name": "GPT 4.1",
-      "queryCost": 15,
+      "description": "OpenAI's greatest GPT model",
+      "id": "gpt-5.2",
+      "name": "GPT 5.2",
+      "queryCost": 30,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp",
-      "archived": true,
-      "new": false,
-      "importance": 320,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
+      "archived": false,
+      "importance": 317,
+      "new": true,
       "filters": [
+        "Reasoning",
         "Writing",
         "Coding"
       ]
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Open Source Agentic Model by Kimi AI",
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2.webp",
+      "archived": false,
+      "importance": 310,
+      "new": false,
+      "filters": []
     },
     {
       "charge": "60x Queries",
@@ -69,24 +111,6 @@
       "new": false
     },
     {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's latest fast model, best for everyday work.",
-      "id": "claude-4.5-haiku",
-      "name": "Claude Haiku 4.5",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_5_haiku.webp",
-      "archived": false,
-      "importance": 206,
-      "filters": [
-        "Speed"
-      ],
-      "new": true
-    },
-    {
       "charge": "150x Queries",
       "default": false,
       "defaultPro": false,
@@ -98,12 +122,30 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_opus_thinking.webp",
       "archived": false,
-      "importance": 155,
+      "importance": 200,
       "filters": [
         "Reasoning",
         "Coding"
       ],
       "new": false
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's latest OSS model",
+      "id": "gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_oss.webp",
+      "archived": false,
+      "importance": 195,
+      "new": false,
+      "filters": [
+        "Reasoning"
+      ]
     },
     {
       "charge": "5x Queries",
@@ -117,28 +159,102 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
       "archived": false,
-      "importance": 170,
+      "importance": 100,
       "new": false,
       "filters": [
         "Reasoning"
       ]
     },
     {
-      "charge": "1x Query",
-      "default": true,
+      "charge": "5x Queries",
+      "default": false,
       "defaultPro": false,
-      "description": "Google's latest, fastest model, best for simple or large context tasks.",
-      "id": "gemini-2.5-flash",
-      "name": "Gemini 2.5 Flash",
-      "queryCost": 1,
+      "description": "OpenAI's greatest GPT model but mini",
+      "id": "gpt-5-mini",
+      "name": "GPT-5 Mini",
+      "queryCost": 5,
       "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash.webp",
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_mini.webp",
       "archived": false,
-      "importance": 190,
+      "importance": 50,
       "new": false,
       "filters": [
-        "Speed"
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "XAI's flagship reasoning model",
+      "id": "grok-4",
+      "name": "Grok 4",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_4.webp",
+      "archived": false,
+      "importance": 3,
+      "new": false,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's most intelligent general-purpose model, best for daily complex tasks.",
+      "id": "gpt-4.1",
+      "name": "GPT 4.1",
+      "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp",
+      "archived": true,
+      "new": false,
+      "importance": 320,
+      "filters": [
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "15x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model",
+      "id": "gpt-5.1",
+      "name": "GPT 5.1",
+      "queryCost": 15,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
+      "archived": true,
+      "importance": 316,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model with speed",
+      "id": "gpt-5-nano",
+      "queryCost": 1,
+      "name": "GPT-5 Nano",
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_nano.webp",
+      "archived": true,
+      "importance": 305,
+      "new": false,
+      "filters": [
+        "Reasoning"
       ]
     },
     {
@@ -161,62 +277,6 @@
       ]
     },
     {
-      "charge": "30x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
-      "id": "gemini-3.0-pro",
-      "name": "Gemini 3.0 Pro",
-      "queryCost": 30,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_0_pro.webp",
-      "archived": false,
-      "importance": 211,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ],
-      "new": true
-    },
-    {
-      "charge": "1x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "DeepSeek's latest general-purpose model, best for simple daily tasks.",
-      "id": "deepseek-chat",
-      "name": "DeepSeek V3 (US-hosted)",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
-      "archived": true,
-      "importance": 110,
-      "filters": [
-        "Speed"
-      ],
-      "new": false
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "DeepSeek's flagship reasoning model, best for complex tasks.",
-      "id": "deepseek-reasoner-slow",
-      "name": "DeepSeek R1 (US-hosted)",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
-      "archived": true,
-      "importance": 120,
-      "filters": [
-        "Reasoning"
-      ],
-      "new": false
-    },
-    {
       "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
@@ -229,147 +289,6 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o4_mini.webp",
       "archived": true,
       "importance": 201,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
-      "id": "o3",
-      "name": "O3",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3.webp",
-      "archived": true,
-      "importance": 90,
-      "new": false,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ]
-    },
-    {
-      "charge": "2x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "xAI's fast and lightweight reasoning model, suited for basic logical tasks.",
-      "id": "grok-3-mini",
-      "name": "Grok 3 Mini",
-      "queryCost": 2,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3_mini.webp",
-      "archived": false,
-      "importance": 100,
-      "filters": [
-        "Speed"
-      ]
-    },
-    {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "xAI's flagship reasoning model, suited for coding and analysis.",
-      "id": "grok-3",
-      "name": "Grok 3",
-      "queryCost": 25,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3.webp",
-      "archived": true,
-      "importance": 180,
-      "filters": [
-        "Reasoning",
-        "Writing"
-      ]
-    },
-    {
-      "charge": "400x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
-      "id": "o3-pro",
-      "name": "O3 Pro",
-      "queryCost": 400,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_pro.webp",
-      "archived": true,
-      "importance": 1,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Open Source Agentic Model by Kimi AI",
-      "id": "kimi-k2",
-      "name": "Kimi K2",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2.webp",
-      "archived": false,
-      "importance": 2,
-      "new": false,
-      "filters": []
-    },
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "XAI's flagship reasoning model",
-      "id": "grok-4",
-      "name": "Grok 4",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_4.webp",
-      "archived": false,
-      "importance": 3,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Mistral AI's flagship model",
-      "id": "mistral-medium-3",
-      "name": "Mistral Medium 3",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral_medium_3.webp",
-      "archived": true,
-      "importance": 6,
-      "new": false,
-      "filters": []
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's latest OSS model",
-      "id": "gpt-oss-120b",
-      "name": "GPT OSS 120B",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_oss.webp",
-      "archived": false,
-      "importance": 195,
       "new": false,
       "filters": [
         "Reasoning"
@@ -396,42 +315,110 @@
       ]
     },
     {
-      "charge": "30x Queries",
+      "charge": "25x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's greatest GPT model",
-      "id": "gpt-5.2",
-      "name": "GPT 5.2",
-      "queryCost": 30,
+      "description": "xAI's flagship reasoning model, suited for coding and analysis.",
+      "id": "grok-3",
+      "name": "Grok 3",
+      "queryCost": 25,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
-      "archived": false,
-      "importance": 317,
-      "new": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3.webp",
+      "archived": true,
+      "importance": 180,
       "filters": [
         "Reasoning",
-        "Writing",
-        "Coding"
+        "Writing"
       ]
     },
     {
-      "charge": "15x Queries",
+      "default": true,
+      "defaultPro": false,
+      "description": "OpenAI's fast, lightweight model with large context support.",
+      "id": "gpt-4o-mini",
+      "name": "GPT 4o Mini",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini_new.webp",
+      "archived": true,
+      "new": false,
+      "importance": 130,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
+      "charge": "5x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's greatest GPT model",
-      "id": "gpt-5.1",
-      "name": "GPT 5.1",
-      "queryCost": 15,
+      "description": "DeepSeek's flagship reasoning model, best for complex tasks.",
+      "id": "deepseek-reasoner-slow",
+      "name": "DeepSeek R1 (US-hosted)",
+      "queryCost": 5,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
       "archived": true,
-      "importance": 316,
-      "new": true,
+      "importance": 120,
+      "filters": [
+        "Reasoning"
+      ],
+      "new": false
+    },
+    {
+      "charge": "1x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "DeepSeek's latest general-purpose model, best for simple daily tasks.",
+      "id": "deepseek-chat",
+      "name": "DeepSeek V3 (US-hosted)",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
+      "archived": true,
+      "importance": 110,
+      "filters": [
+        "Speed"
+      ],
+      "new": false
+    },
+    {
+      "charge": "1x Query",
+      "default": true,
+      "defaultPro": false,
+      "description": "Google's latest, fastest model, best for simple or large context tasks.",
+      "id": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash.webp",
+      "archived": true,
+      "importance": 100,
+      "new": false,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
+      "id": "o3",
+      "name": "O3",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3.webp",
+      "archived": true,
+      "importance": 90,
+      "new": false,
       "filters": [
         "Reasoning",
-        "Writing",
         "Coding"
       ]
     },
@@ -439,33 +426,45 @@
       "charge": "5x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's greatest GPT model but mini",
-      "id": "gpt-5-mini",
-      "name": "GPT-5 Mini",
+      "description": "Mistral AI's flagship model",
+      "id": "mistral-medium-3",
+      "name": "Mistral Medium 3",
       "queryCost": 5,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_mini.webp",
-      "archived": false,
-      "importance": 310,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral_medium_3.webp",
+      "archived": true,
+      "importance": 6,
       "new": false,
-      "filters": [
-        "Reasoning"
-      ]
+      "filters": []
     },
     {
-      "charge": "1x Query",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's greatest GPT model with speed",
-      "id": "gpt-5-nano",
+      "description": "OpenAI's legacy GPT model, lightweight and fast.",
+      "id": "gpt-3.5-turbo",
+      "name": "GPT 3.5",
       "queryCost": 1,
-      "name": "GPT-5 Nano",
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_nano.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
       "archived": true,
-      "importance": 305,
+      "new": false,
+      "importance": 1
+    },
+    {
+      "charge": "400x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
+      "id": "o3-pro",
+      "name": "O3 Pro",
+      "queryCost": 400,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_pro.webp",
+      "archived": true,
+      "importance": 1,
       "new": false,
       "filters": [
         "Reasoning"
