@@ -152,7 +152,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_pro.webp",
-      "archived": false,
+      "archived": true,
       "importance": 210,
       "filters": [
         "Reasoning",
@@ -191,7 +191,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
-      "archived": false,
+      "archived": true,
       "importance": 110,
       "filters": [
         "Speed"
@@ -209,7 +209,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_r1.webp",
-      "archived": false,
+      "archived": true,
       "importance": 120,
       "filters": [
         "Reasoning"
@@ -227,7 +227,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o4_mini.webp",
-      "archived": false,
+      "archived": true,
       "importance": 201,
       "new": false,
       "filters": [
@@ -246,7 +246,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3.webp",
-      "archived": false,
+      "archived": true,
       "importance": 90,
       "new": false,
       "filters": [
@@ -282,7 +282,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3.webp",
-      "archived": false,
+      "archived": true,
       "importance": 180,
       "filters": [
         "Reasoning",
@@ -300,7 +300,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_pro.webp",
-      "archived": false,
+      "archived": true,
       "importance": 1,
       "new": false,
       "filters": [
@@ -352,7 +352,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral_medium_3.webp",
-      "archived": false,
+      "archived": true,
       "importance": 6,
       "new": false,
       "filters": []
