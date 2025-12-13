@@ -1,198 +1,4 @@
 {
-  "textModels": [
-    {
-      "charge": "1x Query",
-      "default": true,
-      "defaultPro": false,
-      "description": "OpenAI's legacy GPT model, lightweight and fast.",
-      "id": "gpt-3.5-turbo",
-      "name": "GPT 3.5",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-3.webp"
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's fast, lightweight model with large context support.",
-      "id": "gpt-4o-mini",
-      "name": "GPT 4o Mini",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp"
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": true,
-      "description": "OpenAI's general-purpose model: fast, intelligent, and flexible.",
-      "id": "gpt-4o",
-      "name": "GPT 4o",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-4o.webp"
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's fast, lightweight model with large context support.",
-      "id": "claude-3-haiku",
-      "name": "Claude 3 Haiku",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-haiku.webp"
-    },
-    {
-      "charge": "10x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's deprecated mid-tier model.",
-      "id": "claude-3-sonnet",
-      "name": "Claude 3 Sonnet",
-      "queryCost": 10,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-sonnet.webp"
-    },
-    {
-      "charge": "50x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's older-gen flagship performance model.",
-      "id": "claude-3-opus",
-      "name": "Claude 3 Opus",
-      "queryCost": 50,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp"
-    },
-    {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's older-gen, most popular high-intelligence model, suited for creatives",
-      "id": "claude-3.5-sonnet",
-      "name": "Claude 3.5 Sonnet",
-      "queryCost": 25,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3.5-sonnet.webp"
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's older-gen model, suited for simple, large context tasks.",
-      "id": "gemini-1.5-flash",
-      "name": "Gemini 1.5 Flash",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-flash.webp"
-    },
-    {
-      "charge": "30x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's older-gen model, suited for higher intelligence tasks.",
-      "id": "gemini-1.5-pro",
-      "name": "Gemini 1.5 Pro",
-      "queryCost": 30,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini-pro.webp"
-    },
-    {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Mistral's top-tier reasoning model for high-complexity tasks.",
-      "id": "mistral-large-latest",
-      "name": "Mistral Large",
-      "queryCost": 25,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp"
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Mistral's first sparse mixture-of-experts model.",
-      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "name": "Mixtral",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Meta's deprecated high-intelligence model.",
-      "id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
-      "name": "Llama 3.1 405B",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
-    },
-    {
-      "charge": "40x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's older-gen, small reasoning model.",
-      "id": "o1-mini",
-      "name": "O1 Mini",
-      "queryCost": 40,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's older-gen, small reasoning model.",
-      "id": "o3-mini",
-      "name": "O3 Mini",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o1-old.webp"
-    },
-    {
-      "charge": "180x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's first full o-series reasoning model.",
-      "id": "o1",
-      "name": "O1",
-      "queryCost": 180,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
-    },
-    {
-      "charge": "180x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's experimental preview of o-series reasoning model.",
-      "id": "o1-preview",
-      "name": "O1 Preview",
-      "queryCost": 180,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp"
-    }
-  ],
   "textLLMs": [
     {
       "default": false,
@@ -218,7 +24,7 @@
       "paid": false,
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini_new.webp",
-      "archived": false,
+      "archived": true,
       "new": false,
       "importance": 130,
       "filters": [
@@ -235,122 +41,13 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp",
-      "archived": false,
+      "archived": true,
       "new": false,
       "importance": 320,
       "filters": [
         "Writing",
         "Coding"
       ]
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's most popular general-purpose model: fast, intelligent, and flexible.",
-      "id": "gpt-4o",
-      "name": "GPT 4o",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o.webp",
-      "archived": true,
-      "importance": 50,
-      "filters": [
-        "Writing"
-      ]
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's fast, lightweight model with large context support.",
-      "id": "claude-3-haiku",
-      "name": "Claude 3 Haiku",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_haiku.webp",
-      "archived": true,
-      "importance": 10,
-      "filters": [
-        "Speed"
-      ]
-    },
-    {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's older-gen, most popular high-intelligence model.",
-      "id": "claude-3.5-sonnet",
-      "name": "Claude 3.5 Sonnet",
-      "queryCost": 25,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_5_sonnet.webp",
-      "archived": true,
-      "importance": 70,
-      "filters": [
-        "Writing",
-        "Coding"
-      ]
-    },
-    {
-      "charge": "40x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's older-gen high-intelligence model.",
-      "id": "claude-3.7-sonnet",
-      "name": "Claude 3.7 Sonnet",
-      "queryCost": 40,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet.webp",
-      "archived": true,
-      "importance": 150,
-      "filters": [
-        "Writing",
-        "Coding"
-      ],
-      "new": false
-    },
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's older-gen high-intelligence model with thinking capabilities.",
-      "id": "claude-3.7-sonnet-thinking",
-      "name": "Claude 3.7 Sonnet (Thinking)",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_3_7_sonnet_thinking.webp",
-      "archived": true,
-      "importance": 80,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
-      "new": false
-    },
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's latest high-intelligence thinking model, best for creatives.",
-      "id": "claude-4-sonnet-thinking",
-      "name": "Claude 4 Sonnet (Thinking)",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_sonnet_thinking.webp",
-      "archived": true,
-      "importance": 205,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
-      "new": false
     },
     {
       "charge": "60x Queries",
@@ -388,25 +85,6 @@
         "Speed"
       ],
       "new": true
-    },
-    {
-      "charge": "300x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's most powerful thinking model, best for complex analysis.",
-      "id": "claude-4-opus-thinking",
-      "name": "Claude 4.1 Opus (Thinking)",
-      "queryCost": 300,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_opus_thinking.webp",
-      "archived": true,
-      "importance": 154,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
-      "new": false
     },
     {
       "charge": "150x Queries",
@@ -459,23 +137,6 @@
       "archived": false,
       "importance": 190,
       "new": false,
-      "filters": [
-        "Speed"
-      ]
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's older-gen fast model, suited for simple or large context tasks.",
-      "id": "gemini-2.0-flash",
-      "name": "Gemini 2.0 Flash",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_flash.webp",
-      "archived": true,
-      "importance": 40,
       "filters": [
         "Speed"
       ]
@@ -556,20 +217,6 @@
       "new": false
     },
     {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Mistral's top-tier reasoning model for high-complexity tasks.",
-      "id": "mistral-large-latest",
-      "name": "Mistral Large",
-      "queryCost": 25,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral-large.webp",
-      "archived": true,
-      "importance": 60
-    },
-    {
       "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
@@ -587,23 +234,7 @@
         "Reasoning"
       ]
     },
-    {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": true,
-      "description": "OpenAI's older-gen, medium reasoning model, suited for complex analysis.",
-      "id": "o3-mini-high",
-      "name": "O3 Mini High",
-      "queryCost": 25,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_mini_high.webp",
-      "archived": true,
-      "importance": 20,
-      "filters": [
-        "Reasoning"
-      ]
-    },
+
     {
       "charge": "60x Queries",
       "default": false,
@@ -755,7 +386,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
-      "archived": false,
+      "archived": true,
       "importance": 200,
       "new": false,
       "filters": [
@@ -775,29 +406,9 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
-      "archived": false,
+      "archived": true,
       "importance": 316,
       "new": true,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ]
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's greatest GPT model",
-      "id": "gpt-5",
-      "name": "GPT 5",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
-      "archived": true,
-      "importance": 315,
-      "new": false,
       "filters": [
         "Reasoning",
         "Writing",
@@ -833,7 +444,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_nano.webp",
-      "archived": false,
+      "archived": true,
       "importance": 305,
       "new": false,
       "filters": [
