@@ -3,7 +3,7 @@
     {
       "charge": "30x Queries",
       "default": false,
-      "defaultPro": false,
+      "defaultPro": true,
       "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
       "id": "gemini-3.0-pro",
       "name": "Gemini 3.0 Pro",
@@ -217,7 +217,8 @@
       "filters": [
         "Writing",
         "Coding"
-      ]
+      ],
+      "charge" :"15x Queries"
     },
     {
       "charge": "15x Queries",
@@ -333,7 +334,7 @@
       ]
     },
     {
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "OpenAI's fast, lightweight model with large context support.",
       "id": "gpt-4o-mini",
@@ -347,7 +348,8 @@
       "importance": 130,
       "filters": [
         "Speed"
-      ]
+      ],
+      "charge" :"1x Query"
     },
     {
       "charge": "5x Queries",
@@ -450,7 +452,8 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
       "archived": true,
       "new": false,
-      "importance": 1
+      "importance": 1,
+      "charge" :"1x Query"
     },
     {
       "charge": "400x Queries",
