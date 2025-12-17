@@ -148,7 +148,7 @@
       ]
     },
     {
-      "charge": "1x Queries",
+      "charge": "1x Query",
       "default": true,
       "defaultPro": false,
       "description": "Google's latest, fastest reasoning model, best for focused logical tasks.",
@@ -160,6 +160,24 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
       "archived": false,
       "importance": 100,
+      "new": false,
+      "filters": [
+        "Reasoning"
+      ]
+    },
+    {
+      "charge": "1x Query",
+      "default": true,
+      "defaultPro": false,
+      "description": "Google's latest, fastest reasoning model, best for focused logical tasks.",
+      "id": "gemini-3.0-flash",
+      "name": "Gemini 3 Flash",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
+      "archived": false,
+      "importance": 391,
       "new": false,
       "filters": [
         "Reasoning"
@@ -218,7 +236,7 @@
         "Writing",
         "Coding"
       ],
-      "charge" :"15x Queries"
+      "charge": "15x Queries"
     },
     {
       "charge": "15x Queries",
@@ -349,7 +367,7 @@
       "filters": [
         "Speed"
       ],
-      "charge" :"1x Query"
+      "charge": "1x Query"
     },
     {
       "charge": "5x Queries",
@@ -435,7 +453,7 @@
       "archived": true,
       "new": false,
       "importance": 1,
-      "charge" :"1x Query"
+      "charge": "1x Query"
     },
     {
       "charge": "400x Queries",
