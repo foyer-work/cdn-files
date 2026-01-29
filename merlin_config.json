@@ -1082,6 +1082,19 @@
         "#rhs"
       ]
     },
+    "dataCollection": {
+      "extension": {
+        "isActive": false,
+        "privacyPolicy": {
+          "serp": {
+            "visible": true
+          },
+          "chat": {
+            "visible": true
+          }
+        }
+      }
+    },
     "shouldDoStatusCall": false
   },
   "newUploadEndpoint": true,
