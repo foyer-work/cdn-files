@@ -149,7 +149,7 @@
     },
     {
       "charge": "1x Query",
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "Google's latest, fastest reasoning model, best for focused logical tasks.",
       "id": "gemini-2.5-flash-thinking",
