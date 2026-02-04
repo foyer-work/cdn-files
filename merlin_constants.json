@@ -65,7 +65,7 @@
       "queryCost": 30,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_2.webp",
       "archived": false,
       "importance": 317,
       "new": true,
@@ -74,6 +74,42 @@
         "Writing",
         "Coding"
       ]
+    },
+    {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model, with high reasoning",
+      "id": "gpt-5.2-high",
+      "name": "GPT 5.2 (High Reasoning)",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_2_high.webp",
+      "archived": false,
+      "importance": 200,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Open Source Agentic Model by Kimi AI",
+      "id": "kimi-k2.5-thinking",
+      "name": "Kimi K2.5 Thinking",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
+      "archived": false,
+      "importance": 310,
+      "new": true,
+      "filters": ["Coding"]
     },
     {
       "charge": "5x Queries",
@@ -311,26 +347,6 @@
       "new": false,
       "filters": [
         "Reasoning"
-      ]
-    },
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's greatest GPT model, with high reasoning",
-      "id": "gpt-5-pro",
-      "name": "GPT 5 (High Reasoning)",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5.webp",
-      "archived": true,
-      "importance": 200,
-      "new": false,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
       ]
     },
     {
