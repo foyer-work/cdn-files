@@ -68,7 +68,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-5_2.webp",
       "archived": false,
       "importance": 317,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning",
         "Writing",
@@ -87,7 +87,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_2_high.webp",
       "archived": false,
-      "importance": 200,
+      "importance": 150,
       "new": true,
       "filters": [
         "Reasoning",
@@ -107,7 +107,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
       "archived": false,
-      "importance": 310,
+      "importance": 315,
       "new": true,
       "filters": ["Coding"]
     },
@@ -287,7 +287,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
       "archived": true,
       "importance": 316,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning",
         "Writing",
