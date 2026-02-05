@@ -109,7 +109,9 @@
       "archived": false,
       "importance": 315,
       "new": true,
-      "filters": ["Coding"]
+      "filters": [
+        "Coding"
+      ]
     },
     {
       "charge": "5x Queries",
@@ -151,8 +153,27 @@
       "default": false,
       "defaultPro": false,
       "description": "Anthropic's most powerful thinking model, best for complex analysis.",
+      "id": "claude-4.6-opus",
+      "name": "Claude 4.6 Opus",
+      "queryCost": 150,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_opus.webp",
+      "archived": false,
+      "importance": 201,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ],
+      "new": true
+    },
+    {
+      "charge": "150x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Anthropic's most powerful thinking model, best for complex analysis.",
       "id": "claude-4.5-opus-thinking",
-      "name": "Claude 4.5 Opus (Thinking)",
+      "name": "Claude 4.5 Opus",
       "queryCost": 150,
       "paid": true,
       "largeContext": false,
