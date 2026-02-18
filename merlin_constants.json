@@ -107,11 +107,43 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
       "archived": false,
-      "importance": 315,
+      "importance": 251,
       "new": true,
       "filters": [
         "Coding"
       ]
+    },
+    {
+      "charge": "1x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "MiniMax's competitive open-source reasoning and coding model",
+      "id": "minimax-m2.5",
+      "name": "Minimax M2,5",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
+      "archived": false,
+      "importance": 295,
+      "new": true,
+      "filters": ["Coding", "Reasoning"]
+    },
+    {
+      "charge": "1x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Z.ai's open-source frontier model for complex agentic tasks",
+      "id": "glm-5",
+      "name": "GLM 5",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
+      "archived": false,
+      "importance": 273,
+      "new": true,
+      "filters": ["Coding"]
     },
     {
       "charge": "5x Queries",
@@ -125,7 +157,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2.webp",
       "archived": false,
-      "importance": 310,
+      "importance": 229,
       "new": false,
       "filters": []
     },
