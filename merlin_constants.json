@@ -119,7 +119,7 @@
       "defaultPro": false,
       "description": "MiniMax's competitive open-source reasoning and coding model",
       "id": "minimax-m2.5",
-      "name": "Minimax M2,5",
+      "name": "Minimax M2.5",
       "queryCost": 1,
       "paid": false,
       "largeContext": false,
