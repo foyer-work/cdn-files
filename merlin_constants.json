@@ -114,7 +114,7 @@
       ]
     },
     {
-      "charge": "1x Queries",
+      "charge": "1x Query",
       "default": false,
       "defaultPro": false,
       "description": "MiniMax's competitive open-source reasoning and coding model",
@@ -127,23 +127,28 @@
       "archived": false,
       "importance": 295,
       "new": true,
-      "filters": ["Coding", "Reasoning"]
+      "filters": [
+        "Coding",
+        "Reasoning"
+      ]
     },
     {
-      "charge": "1x Queries",
+      "charge": "2x Queries",
       "default": false,
       "defaultPro": false,
       "description": "Z.ai's open-source frontier model for complex agentic tasks",
       "id": "glm-5",
       "name": "GLM 5",
-      "queryCost": 1,
+      "queryCost": 2,
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
       "archived": false,
       "importance": 273,
       "new": true,
-      "filters": ["Coding"]
+      "filters": [
+        "Coding"
+      ]
     },
     {
       "charge": "5x Queries",
@@ -252,7 +257,8 @@
       "importance": 195,
       "new": false,
       "filters": [
-        "Reasoning"
+        "Reasoning",
+        "Speed"
       ]
     },
     {
@@ -476,7 +482,7 @@
       "new": false
     },
     {
-      "charge": "1x Queries",
+      "charge": "1x Query",
       "default": false,
       "defaultPro": false,
       "description": "DeepSeek's latest general-purpose model, best for simple daily tasks.",
