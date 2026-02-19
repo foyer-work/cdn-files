@@ -3,6 +3,26 @@
     {
       "charge": "30x Queries",
       "default": false,
+      "defaultPro": false,
+      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "queryCost": 30,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_0_pro.webp",
+      "archived": false,
+      "importance": 401,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ],
+      "new": true
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
       "defaultPro": true,
       "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
       "id": "gemini-3.0-pro",
@@ -88,7 +108,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_2_high.webp",
       "archived": false,
       "importance": 150,
-      "new": true,
+      "new": false,
       "filters": [
         "Reasoning",
         "Writing",
@@ -108,7 +128,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
       "archived": false,
       "importance": 251,
-      "new": true,
+      "new": false,
       "filters": [
         "Coding"
       ]
@@ -221,7 +241,7 @@
         "Reasoning",
         "Coding"
       ],
-      "new": true
+      "new": false
     },
     {
       "charge": "150x Queries",
