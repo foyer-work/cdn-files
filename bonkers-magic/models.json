@@ -59,6 +59,40 @@
       "icon": "https://cdn.getmerlin.in/cms/bonkers_model_icon_e68b60b769.svg"
     },
     {
+      "aspectRatios": [
+        "1:1",
+        "21:9",
+        "16:9",
+        "3:2",
+        "4:3",
+        "5:4",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16"
+      ],
+      "description": "Nano Banana Pro is Google's most advanced image generation model, designed for bringing creative visions to life. It excels at photorealism, fine detail rendering, and accurate text generation.",
+      "id": "fal-ai/nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "pricing": {
+        "cost": 375
+      },
+      "isEnabled": true,
+      "isFeatured": true,
+      "pseudoDescription": "Google's flagship model for photorealistic, sharp, and text-accurate images.",
+      "pseudoName": "Nano Banana Pro",
+      "speed": "Medium - Fast",
+      "tag": [
+        "Photorealistic",
+        "Fine Details",
+        "Professional Use",
+        "Sharp Text",
+        "Versatile Styles"
+      ],
+      "url": "https://cdn.getmerlin.in/cms/Nano_banana_pro_b66eba33e6.webp",
+      "icon": "https://cdn.getmerlin.in/cms/google_image_gen_a50b573ff2.svg"
+    },
+    {
       "aspectRatios": ["1:1", "16:9", "4:3", "3:4", "9:16"],
       "description": "Imagen 4 is Google DeepMind's most advanced image generation model, designed for bringing creative visions to life. It excels at photorealism, fine detail rendering, and accurate text generation.",
       "id": "google/imagen-4",
@@ -66,8 +100,8 @@
       "pricing": {
         "cost": 100
       },
-      "isEnabled": true,
-      "isFeatured": true,
+      "isEnabled": false,
+      "isFeatured": false,
       "pseudoDescription": "Google DeepMind's flagship model for photorealistic, sharp, and text-accurate images.",
       "pseudoName": "Google Imagen 4",
       "speed": "Medium - Fast",
@@ -80,6 +114,29 @@
       ],
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/google-imagen.png",
       "icon": "https://cdn.getmerlin.in/cms/google_image_gen_a50b573ff2.svg"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "A multimodal image generation model that creates high-quality images.",
+      "id": "gpt-image-1.5-medium",
+      "name": "GPT Image 1.5 Medium",
+      "pricing": {
+        "cost": 130
+      },
+      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
+      "pseudoName": "GPT Image 1.5 Medium",
+      "speed": "Medium",
+      "tag": [
+        "Clear shapes",
+        "Good light",
+        "Some details",
+        "Okay size",
+        "Few mistakes"
+      ],
+      "isEnabled": true,
+      "isFeatured": true,
+      "url": "https://cdn.getmerlin.in/cms/Image1_5_Medium_cd3c8254db.webp",
+      "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
     {
       "aspectRatios": ["1:1", "2:3", "3:2"],
@@ -99,8 +156,8 @@
         "Very real",
         "High quality"
       ],
-      "isEnabled": true,
-      "isFeatured": true,
+      "isEnabled": false,
+      "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-high.png",
       "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
     },
@@ -142,6 +199,29 @@
     {
       "aspectRatios": ["1:1", "2:3", "3:2"],
       "description": "A multimodal image generation model that creates high-quality images.",
+      "id": "gpt-image-1.5-high",
+      "name": "GPT Image 1.5 High",
+      "pricing": {
+        "cost": 500
+      },
+      "pseudoDescription": "A multimodal image generation model that creates high-quality images.",
+      "pseudoName": "GPT Image 1.5 High",
+      "speed": "Slow",
+      "tag": [
+        "Perfect text",
+        "Very clear",
+        "Perfect light",
+        "Very real",
+        "High quality"
+      ],
+      "isEnabled": true,
+      "isFeatured": false,
+      "url": "https://cdn.getmerlin.in/cms/Image_1_5_High_27192bedb6.webp",
+      "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
+    },
+    {
+      "aspectRatios": ["1:1", "2:3", "3:2"],
+      "description": "A multimodal image generation model that creates high-quality images.",
       "id": "gpt-image-1-medium",
       "name": "GPT Image 1 Medium",
       "pricing": {
@@ -157,7 +237,7 @@
         "Okay size",
         "Few mistakes"
       ],
-      "isEnabled": true,
+      "isEnabled": false,
       "isFeatured": false,
       "url": "https://storage.googleapis.com/wallflower-images/custom_assets/gpt-image-1-medium.png",
       "icon": "https://cdn.getmerlin.in/cms/openai_535962a421.svg"
