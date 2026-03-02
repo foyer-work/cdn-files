@@ -1,44 +1,23 @@
 {
   "textLLMs": [
     {
-      "charge": "30x Queries",
+      "charge": "60x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
-      "id": "gemini-3.1-pro",
-      "name": "Gemini 3.1 Pro",
-      "queryCost": 30,
-      "paid": false,
+      "description": "Anthropic's latest high-intelligence thinking model, best for creatives.",
+      "id": "claude-4.6-sonnet",
+      "name": "Claude Sonnet 4.6",
+      "queryCost": 60,
+      "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_pro.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_sonnet.webp",
       "archived": false,
-      "importance": 401,
+      "importance": 600,
       "filters": [
         "Reasoning",
-        "Writing",
         "Coding"
       ],
       "new": true
-    },
-    {
-      "charge": "30x Queries",
-      "default": false,
-      "defaultPro": true,
-      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
-      "id": "gemini-3.0-pro",
-      "name": "Gemini 3.0 Pro",
-      "queryCost": 30,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_0_pro.webp",
-      "archived": false,
-      "importance": 400,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ],
-      "new": false
     },
     {
       "charge": "5x Queries",
@@ -52,27 +31,29 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_5_haiku.webp",
       "archived": false,
-      "importance": 390,
+      "importance": 565,
       "filters": [
         "Speed"
       ],
       "new": false
     },
     {
-      "charge": "2x Queries",
-      "default": false,
+      "charge": "1x Query",
+      "default": true,
       "defaultPro": false,
-      "description": "xAI's fast and lightweight reasoning model, suited for basic logical tasks.",
-      "id": "grok-4.1-fast",
-      "name": "Grok 4.1 Fast",
-      "queryCost": 2,
+      "description": "MiniMax's competitive open-source reasoning and coding model",
+      "id": "minimax-m2.5",
+      "name": "MiniMax M2.5",
+      "queryCost": 1,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3_mini.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
       "archived": false,
-      "importance": 350,
+      "importance": 530,
+      "new": true,
       "filters": [
-        "Speed"
+        "Coding",
+        "Reasoning"
       ]
     },
     {
@@ -87,7 +68,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-5_2.webp",
       "archived": false,
-      "importance": 317,
+      "importance": 495,
       "new": false,
       "filters": [
         "Reasoning",
@@ -96,133 +77,24 @@
       ]
     },
     {
-      "charge": "60x Queries",
+      "charge": "30x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's greatest GPT model, with high reasoning",
-      "id": "gpt-5.2-high",
-      "name": "GPT 5.2 (High Reasoning)",
-      "queryCost": 60,
-      "paid": true,
+      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "queryCost": 30,
+      "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_2_high.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_pro.webp",
       "archived": false,
-      "importance": 150,
-      "new": false,
+      "importance": 460,
       "filters": [
         "Reasoning",
         "Writing",
-        "Coding"
-      ]
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Open Source Agentic Model by Kimi AI",
-      "id": "kimi-k2.5-thinking",
-      "name": "Kimi K2.5 Thinking",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
-      "archived": false,
-      "importance": 251,
-      "new": false,
-      "filters": [
-        "Coding"
-      ]
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "MiniMax's competitive open-source reasoning and coding model",
-      "id": "minimax-m2.5",
-      "name": "Minimax M2.5",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
-      "archived": false,
-      "importance": 295,
-      "new": true,
-      "filters": [
-        "Coding",
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "2x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Z.ai's open-source frontier model for complex agentic tasks",
-      "id": "glm-5",
-      "name": "GLM 5",
-      "queryCost": 2,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
-      "archived": false,
-      "importance": 273,
-      "new": true,
-      "filters": [
-        "Coding"
-      ]
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Open Source Agentic Model by Kimi AI",
-      "id": "kimi-k2",
-      "name": "Kimi K2",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2.webp",
-      "archived": false,
-      "importance": 229,
-      "new": false,
-      "filters": []
-    },
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's latest high-intelligence thinking model, best for creatives.",
-      "id": "claude-4.6-sonnet",
-      "name": "Claude Sonnet 4.6",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_sonnet.webp",
-      "archived": false,
-      "importance": 208,
-      "filters": [
-        "Reasoning",
         "Coding"
       ],
       "new": true
-    },
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's latest high-intelligence thinking model, best for creatives.",
-      "id": "claude-4.5-sonnet",
-      "name": "Claude Sonnet 4.5",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_sonnet_thinking.webp",
-      "archived": false,
-      "importance": 207,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
-      "new": false
     },
     {
       "charge": "150x Queries",
@@ -236,7 +108,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_opus.webp",
       "archived": false,
-      "importance": 201,
+      "importance": 425,
       "filters": [
         "Reasoning",
         "Coding"
@@ -244,64 +116,8 @@
       "new": false
     },
     {
-      "charge": "150x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Anthropic's most powerful thinking model, best for complex analysis.",
-      "id": "claude-4.5-opus-thinking",
-      "name": "Claude 4.5 Opus",
-      "queryCost": 150,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_opus_thinking.webp",
-      "archived": false,
-      "importance": 200,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
-      "new": false
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's latest OSS model",
-      "id": "gpt-oss-120b",
-      "name": "GPT OSS 120B",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_oss.webp",
-      "archived": false,
-      "importance": 195,
-      "new": false,
-      "filters": [
-        "Reasoning",
-        "Speed"
-      ]
-    },
-    {
       "charge": "1x Query",
       "default": false,
-      "defaultPro": false,
-      "description": "Google's latest, fastest reasoning model, best for focused logical tasks.",
-      "id": "gemini-2.5-flash-thinking",
-      "name": "Gemini 2.5 Flash",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
-      "archived": false,
-      "importance": 100,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "1x Query",
-      "default": true,
       "defaultPro": false,
       "description": "Google's latest, fastest reasoning model, best for focused logical tasks.",
       "id": "gemini-3.0-flash",
@@ -311,10 +127,27 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
       "archived": false,
-      "importance": 391,
+      "importance": 390,
       "new": false,
       "filters": [
         "Reasoning"
+      ]
+    },
+    {
+      "charge": "2x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "xAI's fast and lightweight reasoning model, suited for basic logical tasks.",
+      "id": "grok-4.1-fast",
+      "name": "Grok 4.1 Fast",
+      "queryCost": 2,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3_mini.webp",
+      "archived": false,
+      "importance": 355,
+      "filters": [
+        "Speed"
       ]
     },
     {
@@ -329,10 +162,30 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_mini.webp",
       "archived": false,
-      "importance": 50,
+      "importance": 320,
       "new": false,
       "filters": [
         "Reasoning"
+      ]
+    },
+    {
+      "charge": "60x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's greatest GPT model, with high reasoning",
+      "id": "gpt-5.2-high",
+      "name": "GPT 5.2 (High Reasoning)",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_2_high.webp",
+      "archived": false,
+      "importance": 285,
+      "new": false,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
       ]
     },
     {
@@ -347,30 +200,158 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_4.webp",
       "archived": false,
-      "importance": 3,
+      "importance": 250,
       "new": false,
       "filters": [
         "Reasoning"
       ]
     },
     {
+      "charge": "60x Queries",
       "default": false,
       "defaultPro": false,
-      "description": "OpenAI's most intelligent general-purpose model, best for daily complex tasks.",
-      "id": "gpt-4.1",
-      "name": "GPT 4.1",
-      "queryCost": 15,
+      "description": "Anthropic's latest high-intelligence thinking model, best for creatives.",
+      "id": "claude-4.5-sonnet",
+      "name": "Claude Sonnet 4.5",
+      "queryCost": 60,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_sonnet_thinking.webp",
+      "archived": false,
+      "importance": 215,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ],
+      "new": false
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Open Source Agentic Model by Kimi AI",
+      "id": "kimi-k2.5-thinking",
+      "name": "Kimi K2.5 Thinking",
+      "queryCost": 5,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_1.webp",
-      "archived": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
+      "archived": false,
+      "importance": 180,
       "new": false,
-      "importance": 320,
       "filters": [
+        "Coding"
+      ]
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's latest OSS model",
+      "id": "gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_oss.webp",
+      "archived": false,
+      "importance": 162,
+      "new": false,
+      "filters": [
+        "Reasoning",
+        "Speed"
+      ]
+    },
+    {
+      "charge": "2x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Z.ai's open-source frontier model for complex agentic tasks",
+      "id": "glm-5",
+      "name": "GLM 5",
+      "queryCost": 2,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
+      "archived": false,
+      "importance": 145,
+      "new": true,
+      "filters": [
+        "Coding"
+      ]
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": true,
+      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
+      "id": "gemini-3.0-pro",
+      "name": "Gemini 3.0 Pro",
+      "queryCost": 30,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_0_pro.webp",
+      "archived": true,
+      "importance": 400,
+      "filters": [
+        "Reasoning",
         "Writing",
         "Coding"
       ],
-      "charge": "15x Queries"
+      "new": false
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Open Source Agentic Model by Kimi AI",
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2.webp",
+      "archived": true,
+      "importance": 229,
+      "new": false,
+      "filters": []
+    },
+    {
+      "charge": "150x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "Anthropic's most powerful thinking model, best for complex analysis.",
+      "id": "claude-4.5-opus-thinking",
+      "name": "Claude 4.5 Opus",
+      "queryCost": 150,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_opus_thinking.webp",
+      "archived": true,
+      "importance": 200,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ],
+      "new": false
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "Google's latest, fastest reasoning model, best for focused logical tasks.",
+      "id": "gemini-2.5-flash-thinking",
+      "name": "Gemini 2.5 Flash",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
+      "archived": true,
+      "importance": 100,
+      "new": false,
+      "filters": [
+        "Reasoning"
+      ]
     },
     {
       "charge": "15x Queries",
@@ -430,42 +411,6 @@
       ]
     },
     {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's latest, fast reasoning model, best for light analysis.",
-      "id": "o4-mini",
-      "name": "O4 Mini",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o4_mini.webp",
-      "archived": true,
-      "importance": 201,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "25x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "xAI's flagship reasoning model, suited for coding and analysis.",
-      "id": "grok-3",
-      "name": "Grok 3",
-      "queryCost": 25,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_3.webp",
-      "archived": true,
-      "importance": 180,
-      "filters": [
-        "Reasoning",
-        "Writing"
-      ]
-    },
-    {
       "default": false,
       "defaultPro": false,
       "description": "OpenAI's fast, lightweight model with large context support.",
@@ -500,92 +445,6 @@
         "Reasoning"
       ],
       "new": false
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "DeepSeek's latest general-purpose model, best for simple daily tasks.",
-      "id": "deepseek-chat",
-      "name": "DeepSeek V3 (US-hosted)",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v3.webp",
-      "archived": true,
-      "importance": 110,
-      "filters": [
-        "Speed"
-      ],
-      "new": false
-    },
-    {
-      "charge": "60x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
-      "id": "o3",
-      "name": "O3",
-      "queryCost": 60,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3.webp",
-      "archived": true,
-      "importance": 90,
-      "new": false,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ]
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Mistral AI's flagship model",
-      "id": "mistral-medium-3",
-      "name": "Mistral Medium 3",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/mistral_medium_3.webp",
-      "archived": true,
-      "importance": 6,
-      "new": false,
-      "filters": []
-    },
-    {
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's legacy GPT model, lightweight and fast.",
-      "id": "gpt-3.5-turbo",
-      "name": "GPT 3.5",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini.webp",
-      "archived": true,
-      "new": false,
-      "importance": 1,
-      "charge": "1x Query"
-    },
-    {
-      "charge": "400x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's flagship, most powerful reasoning model, best for complex analysis.",
-      "id": "o3-pro",
-      "name": "O3 Pro",
-      "queryCost": 400,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/o3_pro.webp",
-      "archived": true,
-      "importance": 1,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
     }
   ]
 }
