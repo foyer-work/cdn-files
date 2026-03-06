@@ -165,7 +165,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
-      "archived": false,
+      "archived": true,
       "importance": 390,
       "new": false,
       "filters": [
@@ -238,7 +238,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok_4.webp",
-      "archived": false,
+      "archived": true,
       "importance": 250,
       "new": false,
       "filters": [
@@ -256,7 +256,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_sonnet_thinking.webp",
-      "archived": false,
+      "archived": true,
       "importance": 215,
       "filters": [
         "Reasoning",
@@ -375,24 +375,6 @@
       "new": false
     },
     {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's latest, fastest reasoning model, best for focused logical tasks.",
-      "id": "gemini-2.5-flash-thinking",
-      "name": "Gemini 2.5 Flash",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
-      "archived": true,
-      "importance": 100,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
       "charge": "15x Queries",
       "default": false,
       "defaultPro": false,
@@ -411,61 +393,6 @@
         "Writing",
         "Coding"
       ]
-    },
-    {
-      "charge": "1x Query",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's greatest GPT model with speed",
-      "id": "gpt-5-nano",
-      "queryCost": 1,
-      "name": "GPT-5 Nano",
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_nano.webp",
-      "archived": true,
-      "importance": 305,
-      "new": false,
-      "filters": [
-        "Reasoning"
-      ]
-    },
-    {
-      "charge": "15x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "Google's flagship, most capable reasoning model, best for complex tasks.",
-      "id": "gemini-2.5-pro",
-      "name": "Gemini 2.5 Pro",
-      "queryCost": 15,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_pro.webp",
-      "archived": true,
-      "importance": 210,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ]
-    },
-    {
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's fast, lightweight model with large context support.",
-      "id": "gpt-4o-mini",
-      "name": "GPT 4o Mini",
-      "queryCost": 1,
-      "paid": false,
-      "largeContext": true,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4o_mini_new.webp",
-      "archived": true,
-      "new": false,
-      "importance": 130,
-      "filters": [
-        "Speed"
-      ],
-      "charge": "1x Query"
     },
     {
       "charge": "5x Queries",
