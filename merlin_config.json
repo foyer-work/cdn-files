@@ -1070,7 +1070,7 @@
       },
       "newMount": true,
       "regional": false,
-      "visible": false,
+      "visible": true,
       "getHoroscope": {
         "text": "Discover your destiny with Merlin's horoscope predictions!",
         "isActive": false,
@@ -1081,6 +1081,19 @@
         "#rhs div.TzHB6b",
         "#rhs"
       ]
+    },
+    "dataCollection": {
+      "extension": {
+        "isActive": false,
+        "privacyPolicy": {
+          "serp": {
+            "visible": true
+          },
+          "chat": {
+            "visible": true
+          }
+        }
+      }
     },
     "shouldDoStatusCall": false
   },
