@@ -1084,7 +1084,7 @@
     },
     "dataCollection": {
       "extension": {
-        "isActive": false,
+        "isActive": true,
         "privacyPolicy": {
           "serp": {
             "visible": false
