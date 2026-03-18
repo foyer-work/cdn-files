@@ -66,7 +66,7 @@
       "queryCost": 30,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_1.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_4.webp",
       "archived": false,
       "importance": 496,
       "new": true,
@@ -74,6 +74,43 @@
         "Reasoning",
         "Writing",
         "Coding"
+      ]
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's fast and efficient GPT model",
+      "id": "gpt-5.4-mini",
+      "name": "GPT 5.4 Mini",
+      "queryCost": 5,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_4_mini.webp",
+      "archived": false,
+      "importance": 494,
+      "new": true,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ]
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "OpenAI's lightest and fastest GPT model",
+      "id": "gpt-5.4-nano",
+      "name": "GPT 5.4 Nano",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_4_nano.webp",
+      "archived": false,
+      "importance": 493,
+      "new": true,
+      "filters": [
+        "Reasoning"
       ]
     },
     {
@@ -165,7 +202,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
-      "archived": true,
+      "archived": false,
       "importance": 390,
       "new": false,
       "filters": [
@@ -187,24 +224,6 @@
       "importance": 355,
       "filters": [
         "Speed"
-      ]
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "OpenAI's greatest GPT model but mini",
-      "id": "gpt-5-mini",
-      "name": "GPT-5 Mini",
-      "queryCost": 5,
-      "paid": false,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_5_mini.webp",
-      "archived": false,
-      "importance": 320,
-      "new": false,
-      "filters": [
-        "Reasoning"
       ]
     },
     {
