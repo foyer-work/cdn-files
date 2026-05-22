@@ -63,12 +63,12 @@
       "description": "",
       "id": "claude-4.7-opus",
       "name": "Claude 4.7 Opus",
-      "queryCost": 30,
+      "queryCost": 400,
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_7_opus.webp",
       "archived": false,
-      "importance": 425,
+      "importance": 30,
       "filters": [
         "Reasoning",
         "Coding"
