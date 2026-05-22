@@ -12,7 +12,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_5_haiku.webp",
       "archived": false,
-      "importance": 565,
+      "importance": 90,
       "filters": [
         "Speed"
       ],
@@ -30,7 +30,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_sonnet.webp",
       "archived": false,
-      "importance": 600,
+      "importance": 40,
       "filters": [
         "Reasoning",
         "Coding"
@@ -49,7 +49,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_opus.webp",
       "archived": false,
-      "importance": 425,
+      "importance": 35,
       "filters": [
         "Reasoning",
         "Coding"
@@ -63,7 +63,7 @@
       "description": "",
       "id": "claude-4.7-opus",
       "name": "Claude 4.7 Opus",
-      "queryCost": 400,
+      "queryCost": 30,
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_7_opus.webp",
@@ -87,7 +87,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
       "archived": false,
-      "importance": 530,
+      "importance": 95,
       "filters": [
         "Coding",
         "Reasoning"
@@ -106,7 +106,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
       "archived": false,
-      "importance": 530,
+      "importance": 100,
       "filters": [
         "Coding",
         "Reasoning"
@@ -125,7 +125,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-5_4.webp",
       "archived": false,
-      "importance": 496,
+      "importance": 45,
       "filters": [
         "Reasoning",
         "Writing",
@@ -145,7 +145,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-5_5.webp",
       "archived": false,
-      "importance": 496,
+      "importance": 50,
       "filters": [
         "Reasoning",
         "Writing",
@@ -165,7 +165,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_pro.webp",
       "archived": false,
-      "importance": 460,
+      "importance": 65,
       "filters": [
         "Reasoning",
         "Writing",
@@ -185,7 +185,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_0_pro.webp",
       "archived": false,
-      "importance": 391,
+      "importance": 60,
       "new": false,
       "filters": [
         "Reasoning",
@@ -204,7 +204,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_flash_lite.webp",
       "archived": false,
-      "importance": 391,
+      "importance": 50,
       "new": false,
       "filters": [
         "Reasoning",
@@ -223,7 +223,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash_thinking.webp",
       "archived": true,
-      "importance": 390,
+      "importance": 1,
       "new": false,
       "filters": [
         "Reasoning"
@@ -241,7 +241,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
       "archived": false,
-      "importance": 180,
+      "importance": 80,
       "new": false,
       "filters": [
         "Coding"
@@ -259,7 +259,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
       "archived": false,
-      "importance": 180,
+      "importance": 85,
       "new": false,
       "filters": [
         "Coding"
@@ -277,7 +277,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok-4_3.webp",
       "archived": false,
-      "importance": 180,
+      "importance": 75,
       "new": false,
       "filters": [
         "Coding",
@@ -296,7 +296,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v4_pro.webp",
       "archived": false,
-      "importance": 180,
+      "importance": 70,
       "new": false,
       "filters": [
         "Coding",
@@ -313,9 +313,9 @@
       "queryCost": 5,
       "paid": false,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm_5.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
       "archived": false,
-      "importance": 180,
+      "importance": 55,
       "new": false,
       "filters": [
         "Coding",
