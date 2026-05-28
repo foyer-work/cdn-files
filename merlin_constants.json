@@ -43,7 +43,7 @@
       "defaultPro": false,
       "description": "",
       "id": "claude-4.6-opus",
-      "name": "Claude 4.6 Opus",
+      "name": "Claude Opus 4.6",
       "queryCost": 200,
       "paid": true,
       "largeContext": false,
@@ -62,13 +62,32 @@
       "defaultPro": false,
       "description": "",
       "id": "claude-4.7-opus",
-      "name": "Claude 4.7 Opus",
+      "name": "Claude Opus 4.7",
       "queryCost": 400,
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_7_opus.webp",
       "archived": false,
       "importance": 30,
+      "filters": [
+        "Reasoning",
+        "Coding"
+      ],
+      "new": false
+    },
+    {
+      "charge": "400x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "claude-4.8-opus",
+      "name": "Claude Opus 4.8",
+      "queryCost": 400,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "archived": false,
+      "importance": 25,
       "filters": [
         "Reasoning",
         "Coding"
@@ -111,6 +130,22 @@
         "Coding",
         "Reasoning"
       ],
+      "new": false
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-5.2",
+      "name": "GPT 5.2",
+      "queryCost": 30,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-5_2.webp",
+      "archived": true,
+      "importance": 2,
+      "filters": [],
       "new": false
     },
     {
@@ -225,9 +260,7 @@
       "archived": true,
       "importance": 1,
       "new": false,
-      "filters": [
-        "Reasoning"
-      ]
+      "filters": []
     },
     {
       "charge": "5x Queries",
