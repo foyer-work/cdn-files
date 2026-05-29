@@ -85,7 +85,7 @@
       "queryCost": 400,
       "paid": true,
       "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/unknown.webp",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_8_opus.webp",
       "archived": false,
       "importance": 25,
       "filters": [
