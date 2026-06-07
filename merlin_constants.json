@@ -48,7 +48,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_opus.webp",
-      "archived": false,
+      "archived": true,
       "importance": 35,
       "filters": [
         "Reasoning",
@@ -67,7 +67,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_7_opus.webp",
-      "archived": false,
+      "archived": true,
       "importance": 30,
       "filters": [
         "Reasoning",
@@ -105,7 +105,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
-      "archived": false,
+      "archived": true,
       "importance": 95,
       "filters": [
         "Coding",
@@ -115,7 +115,7 @@
     },
     {
       "charge": "1x Query",
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "",
       "id": "minimax-m2.7",
@@ -189,6 +189,24 @@
       "new": false
     },
     {
+      "charge": "1x Query",
+      "default": true,
+      "defaultPro": false,
+      "description": "",
+      "id": "gemini-2.5-flash-lite",
+      "name": "Gemini 2.5 Flash Lite",
+      "queryCost": 1,
+      "paid": false,
+      "largeContext": true,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_5_flash.webp",
+      "archived": false,
+      "importance": 105,
+      "new": false,
+      "filters": [
+        "Speed"
+      ]
+    },
+    {
       "charge": "30x Queries",
       "default": false,
       "defaultPro": false,
@@ -236,7 +254,7 @@
       "name": "Gemini 3.1 Flash Lite",
       "queryCost": 1,
       "paid": false,
-      "largeContext": false,
+      "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_flash_lite.webp",
       "archived": false,
       "importance": 50,
@@ -273,7 +291,7 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
-      "archived": false,
+      "archived": true,
       "importance": 80,
       "new": false,
       "filters": [
