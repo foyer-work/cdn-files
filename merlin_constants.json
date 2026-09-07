@@ -52,23 +52,6 @@
       "new": true
     },
     {
-      "charge": "80x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "",
-      "id": "claude-sonnet-5",
-      "name": "Claude Sonnet 5",
-      "queryCost": 80,
-      "tokenBurn": 2,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
-      "archived": false,
-      "importance": 150,
-      "filters": ["Reasoning", "Coding"],
-      "new": true
-    },
-    {
       "charge": "1x Query",
       "default": true,
       "defaultPro": false,
@@ -81,7 +64,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
       "archived": false,
-      "importance": 140,
+      "importance": 150,
       "filters": ["Coding", "Reasoning"],
       "new": true
     },
@@ -98,7 +81,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_pro.webp",
       "archived": false,
-      "importance": 130,
+      "importance": 140,
       "filters": ["Reasoning", "Speed"],
       "new": true
     },
@@ -115,7 +98,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
       "archived": false,
-      "importance": 120,
+      "importance": 130,
       "filters": ["Coding"],
       "new": true
     },
@@ -132,7 +115,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
       "archived": false,
-      "importance": 110,
+      "importance": 120,
       "filters": ["Reasoning", "Writing", "Coding"],
       "new": true
     },
@@ -149,7 +132,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/qwen_3.webp",
       "archived": false,
-      "importance": 100,
+      "importance": 110,
       "filters": ["Coding", "Reasoning"],
       "new": true
     },
@@ -166,7 +149,7 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok-4_3.webp",
       "archived": false,
-      "importance": 90,
+      "importance": 100,
       "filters": ["Coding", "Reasoning"],
       "new": true
     },
@@ -183,8 +166,25 @@
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
       "archived": false,
-      "importance": 80,
+      "importance": 90,
       "filters": ["Coding", "Reasoning"],
+      "new": true
+    },
+    {
+      "charge": "80x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "queryCost": 80,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "archived": false,
+      "importance": 80,
+      "filters": ["Reasoning", "Coding"],
       "new": true
     },
     {
@@ -273,23 +273,6 @@
       "new": false
     },
     {
-      "charge": "30x Queries",
-      "default": false,
-      "defaultPro": false,
-      "description": "",
-      "id": "gemini-3.1-pro",
-      "name": "Gemini 3.1 Pro",
-      "queryCost": 30,
-      "tokenBurn": 2,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_pro.webp",
-      "archived": false,
-      "importance": 20,
-      "filters": ["Reasoning", "Writing", "Coding"],
-      "new": false
-    },
-    {
       "charge": "1x Query",
       "default": false,
       "defaultPro": false,
@@ -302,9 +285,26 @@
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_flash_lite.webp",
       "archived": false,
-      "importance": 10,
+      "importance": 20,
       "new": false,
       "filters": ["Reasoning", "Speed"]
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "queryCost": 30,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_pro.webp",
+      "archived": true,
+      "importance": 170,
+      "filters": ["Reasoning", "Writing", "Coding"],
+      "new": false
     },
     {
       "charge": "400x Queries",
