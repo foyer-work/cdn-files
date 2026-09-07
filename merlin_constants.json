@@ -14,9 +14,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_5_haiku.webp",
       "archived": false,
       "importance": 90,
-      "filters": [
-        "Speed"
-      ],
+      "filters": ["Speed"],
       "new": false
     },
     {
@@ -33,10 +31,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_sonnet.webp",
       "archived": false,
       "importance": 40,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
+      "filters": ["Reasoning", "Coding"],
       "new": false
     },
     {
@@ -53,10 +48,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_6_opus.webp",
       "archived": true,
       "importance": 35,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
+      "filters": ["Reasoning", "Coding"],
       "new": false
     },
     {
@@ -73,10 +65,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_7_opus.webp",
       "archived": true,
       "importance": 30,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
+      "filters": ["Reasoning", "Coding"],
       "new": false
     },
     {
@@ -93,10 +82,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_8_opus.webp",
       "archived": false,
       "importance": 25,
-      "filters": [
-        "Reasoning",
-        "Coding"
-      ],
+      "filters": ["Reasoning", "Coding"],
       "new": false
     },
     {
@@ -113,10 +99,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
       "archived": true,
       "importance": 95,
-      "filters": [
-        "Coding",
-        "Reasoning"
-      ],
+      "filters": ["Coding", "Reasoning"],
       "new": false
     },
     {
@@ -133,10 +116,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
       "archived": false,
       "importance": 100,
-      "filters": [
-        "Coding",
-        "Reasoning"
-      ],
+      "filters": ["Coding", "Reasoning"],
       "new": false
     },
     {
@@ -170,11 +150,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-5_4.webp",
       "archived": false,
       "importance": 45,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ],
+      "filters": ["Reasoning", "Writing", "Coding"],
       "new": false
     },
     {
@@ -191,11 +167,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt-5_5.webp",
       "archived": false,
       "importance": 50,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ],
+      "filters": ["Reasoning", "Writing", "Coding"],
       "new": false
     },
     {
@@ -213,9 +185,7 @@
       "archived": false,
       "importance": 105,
       "new": false,
-      "filters": [
-        "Speed"
-      ]
+      "filters": ["Speed"]
     },
     {
       "charge": "30x Queries",
@@ -231,11 +201,7 @@
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_pro.webp",
       "archived": false,
       "importance": 65,
-      "filters": [
-        "Reasoning",
-        "Writing",
-        "Coding"
-      ],
+      "filters": ["Reasoning", "Writing", "Coding"],
       "new": false
     },
     {
@@ -253,10 +219,7 @@
       "archived": false,
       "importance": 60,
       "new": false,
-      "filters": [
-        "Reasoning",
-        "Speed"
-      ]
+      "filters": ["Reasoning", "Speed"]
     },
     {
       "charge": "1x Query",
@@ -273,10 +236,7 @@
       "archived": false,
       "importance": 50,
       "new": false,
-      "filters": [
-        "Reasoning",
-        "Speed"
-      ]
+      "filters": ["Reasoning", "Speed"]
     },
     {
       "charge": "1x Query",
@@ -310,9 +270,7 @@
       "archived": true,
       "importance": 80,
       "new": false,
-      "filters": [
-        "Coding"
-      ]
+      "filters": ["Coding"]
     },
     {
       "charge": "5x Queries",
@@ -329,9 +287,7 @@
       "archived": false,
       "importance": 85,
       "new": false,
-      "filters": [
-        "Coding"
-      ]
+      "filters": ["Coding"]
     },
     {
       "charge": "10x Queries",
@@ -348,10 +304,7 @@
       "archived": false,
       "importance": 75,
       "new": false,
-      "filters": [
-        "Coding",
-        "Reasoning"
-      ]
+      "filters": ["Coding", "Reasoning"]
     },
     {
       "charge": "5x Queries",
@@ -368,10 +321,7 @@
       "archived": false,
       "importance": 70,
       "new": false,
-      "filters": [
-        "Coding",
-        "Reasoning"
-      ]
+      "filters": ["Coding", "Reasoning"]
     },
     {
       "charge": "5x Queries",
@@ -388,10 +338,245 @@
       "archived": false,
       "importance": 55,
       "new": false,
-      "filters": [
-        "Coding",
-        "Reasoning"
-      ]
+      "filters": ["Coding", "Reasoning"]
+    },
+    {
+      "charge": "625x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-6-astra",
+      "name": "GPT 6 Astra",
+      "queryCost": 625,
+      "tokenBurn": 3,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
+      "archived": false,
+      "importance": 50,
+      "filters": ["Reasoning", "Writing", "Coding"],
+      "new": true
+    },
+    {
+      "charge": "300x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-5.6-sol",
+      "name": "GPT 5.6 Sol",
+      "queryCost": 300,
+      "tokenBurn": 3,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
+      "archived": false,
+      "importance": 50,
+      "filters": ["Reasoning", "Writing", "Coding"],
+      "new": true
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-5.6-terra",
+      "name": "GPT 5.6 Terra",
+      "queryCost": 30,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
+      "archived": false,
+      "importance": 45,
+      "filters": ["Reasoning", "Writing", "Coding"],
+      "new": true
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-5.6-luna",
+      "name": "GPT 5.6 Luna",
+      "queryCost": 1,
+      "tokenBurn": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
+      "archived": false,
+      "importance": 50,
+      "filters": ["Reasoning", "Writing", "Coding"],
+      "new": true
+    },
+    {
+      "charge": "450x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "queryCost": 450,
+      "tokenBurn": 3,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "archived": false,
+      "importance": 25,
+      "filters": ["Reasoning", "Coding"],
+      "new": true
+    },
+    {
+      "charge": "80x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "queryCost": 80,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "archived": false,
+      "importance": 40,
+      "filters": ["Reasoning", "Coding"],
+      "new": true
+    },
+    {
+      "charge": "10x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "queryCost": 10,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_2_0_pro.webp",
+      "archived": false,
+      "importance": 60,
+      "filters": ["Reasoning", "Speed"],
+      "new": true
+    },
+    {
+      "charge": "20x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "grok-4.6",
+      "name": "Grok 4.6",
+      "queryCost": 20,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok-4_3.webp",
+      "archived": false,
+      "importance": 75,
+      "filters": ["Coding", "Reasoning"],
+      "new": true
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "queryCost": 30,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/kimi_k2_5_thinking.webp",
+      "archived": false,
+      "importance": 85,
+      "filters": ["Coding"],
+      "new": true
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "minimax-m3",
+      "name": "MiniMax M3",
+      "queryCost": 1,
+      "tokenBurn": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/minimax-m2-5.webp",
+      "archived": false,
+      "importance": 100,
+      "filters": ["Coding", "Reasoning"],
+      "new": true
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "glm-5.3",
+      "name": "GLM 5.3",
+      "queryCost": 5,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
+      "archived": false,
+      "importance": 55,
+      "filters": ["Coding", "Reasoning"],
+      "new": true
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "glm-5.3-flash",
+      "name": "GLM 5.3 Flash",
+      "queryCost": 1,
+      "tokenBurn": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
+      "archived": false,
+      "importance": 55,
+      "filters": ["Coding", "Reasoning"],
+      "new": true
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek v4 Flash",
+      "queryCost": 1,
+      "tokenBurn": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/deepseek_v4_pro.webp",
+      "archived": false,
+      "importance": 70,
+      "filters": ["Coding", "Reasoning"],
+      "new": true
+    },
+    {
+      "charge": "10x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "qwen-3.8-max",
+      "name": "Qwen 3.8 Max",
+      "queryCost": 10,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/qwen_3.webp",
+      "archived": false,
+      "importance": 55,
+      "filters": ["Coding", "Reasoning"],
+      "new": true
     }
   ]
 }
