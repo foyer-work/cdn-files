@@ -2,7 +2,7 @@
   "textLLMs": [
     {
       "charge": "1x Query",
-      "default": true,
+      "default": false,
       "defaultPro": false,
       "description": "",
       "id": "minimax-m3",
@@ -70,7 +70,7 @@
     },
     {
       "charge": "1x Query",
-      "default": false,
+      "default": true,
       "defaultPro": false,
       "description": "",
       "id": "glm-5.3-flash",
