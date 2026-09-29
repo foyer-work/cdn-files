@@ -15,6 +15,23 @@
       "archived": false,
       "importance": 180,
       "filters": ["Coding", "Reasoning"],
+      "new": false
+    },
+    {
+      "charge": "1x Query",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-6-luna",
+      "name": "GPT 6 Luna",
+      "queryCost": 1,
+      "tokenBurn": 1,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
+      "archived": false,
+      "importance": 170,
+      "filters": ["Reasoning", "Writing", "Coding"],
       "new": true
     },
     {
@@ -29,10 +46,10 @@
       "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
-      "archived": false,
+      "archived": true,
       "importance": 170,
       "filters": ["Reasoning", "Writing", "Coding"],
-      "new": true
+      "new": false
     },
     {
       "charge": "1x Query",
@@ -49,7 +66,7 @@
       "archived": false,
       "importance": 160,
       "filters": ["Coding", "Reasoning"],
-      "new": true
+      "new": false
     },
     {
       "charge": "1x Query",
@@ -66,7 +83,7 @@
       "archived": false,
       "importance": 150,
       "filters": ["Coding", "Reasoning"],
-      "new": true
+      "new": false
     },
     {
       "charge": "10x Queries",
@@ -83,7 +100,7 @@
       "archived": false,
       "importance": 140,
       "filters": ["Reasoning", "Speed"],
-      "new": true
+      "new": false
     },
     {
       "charge": "30x Queries",
@@ -100,7 +117,7 @@
       "archived": false,
       "importance": 130,
       "filters": ["Coding"],
-      "new": true
+      "new": false
     },
     {
       "charge": "30x Queries",
@@ -117,7 +134,7 @@
       "archived": false,
       "importance": 120,
       "filters": ["Reasoning", "Writing", "Coding"],
-      "new": true
+      "new": false
     },
     {
       "charge": "10x Queries",
@@ -134,6 +151,23 @@
       "archived": false,
       "importance": 110,
       "filters": ["Coding", "Reasoning"],
+      "new": false
+    },
+    {
+      "charge": "20x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "grok-4.7",
+      "name": "Grok 4.7",
+      "queryCost": 20,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok-4_3.webp",
+      "archived": false,
+      "importance": 100,
+      "filters": ["Coding", "Reasoning"],
       "new": true
     },
     {
@@ -148,10 +182,10 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/grok-4_3.webp",
-      "archived": false,
+      "archived": true,
       "importance": 100,
       "filters": ["Coding", "Reasoning"],
-      "new": true
+      "new": false
     },
     {
       "charge": "5x Queries",
@@ -168,6 +202,23 @@
       "archived": false,
       "importance": 90,
       "filters": ["Coding", "Reasoning"],
+      "new": false
+    },
+    {
+      "charge": "80x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "queryCost": 80,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "archived": false,
+      "importance": 80,
+      "filters": ["Reasoning", "Coding"],
       "new": true
     },
     {
@@ -182,9 +233,26 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
-      "archived": false,
+      "archived": true,
       "importance": 80,
       "filters": ["Reasoning", "Coding"],
+      "new": false
+    },
+    {
+      "charge": "150x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-6-sol",
+      "name": "GPT 6 Sol",
+      "queryCost": 150,
+      "tokenBurn": 3,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
+      "archived": false,
+      "importance": 70,
+      "filters": ["Reasoning", "Writing", "Coding"],
       "new": true
     },
     {
@@ -199,10 +267,10 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
-      "archived": false,
+      "archived": true,
       "importance": 70,
       "filters": ["Reasoning", "Writing", "Coding"],
-      "new": true
+      "new": false
     },
     {
       "charge": "5x Queries",
@@ -222,6 +290,23 @@
       "filters": ["Coding", "Reasoning"]
     },
     {
+      "charge": "350x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "claude-opus-5.5",
+      "name": "Claude Opus 5.5",
+      "queryCost": 350,
+      "tokenBurn": 3,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
+      "archived": false,
+      "importance": 50,
+      "filters": ["Reasoning", "Coding"],
+      "new": true
+    },
+    {
       "charge": "450x Queries",
       "default": false,
       "defaultPro": false,
@@ -233,10 +318,10 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude-3-opus.webp",
-      "archived": false,
+      "archived": true,
       "importance": 50,
       "filters": ["Reasoning", "Coding"],
-      "new": true
+      "new": false
     },
     {
       "charge": "625x Queries",
@@ -253,7 +338,7 @@
       "archived": false,
       "importance": 40,
       "filters": ["Reasoning", "Writing", "Coding"],
-      "new": true
+      "new": false
     },
     {
       "charge": "400x Queries",
