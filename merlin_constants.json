@@ -205,6 +205,23 @@
       "new": false
     },
     {
+      "charge": "150x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gpt-6.1-sol",
+      "name": "GPT 6.1 Sol",
+      "queryCost": 150,
+      "tokenBurn": 3,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gpt_4_5.webp",
+      "archived": false,
+      "importance": 1250,
+      "filters": ["Reasoning", "Writing", "Coding"],
+      "new": true
+    },
+    {
       "charge": "80x Queries",
       "default": false,
       "defaultPro": false,
