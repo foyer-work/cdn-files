@@ -1,5 +1,6 @@
 {
   "useCloudSearch": true,
+  "genui": false,
   "useNewDomClean": false,
   "goProModal": {
     "visible": true,
