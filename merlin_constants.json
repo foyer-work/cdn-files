@@ -154,6 +154,23 @@
       "new": false
     },
     {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "claude-haiku-5.5",
+      "name": "Claude Haiku 5.5",
+      "queryCost": 5,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/claude_4_5_haiku.webp",
+      "archived": false,
+      "importance": 1280,
+      "filters": ["Speed", "Coding"],
+      "new": true
+    },
+    {
       "charge": "150x Queries",
       "default": false,
       "defaultPro": false,
@@ -220,6 +237,23 @@
       "importance": 1000,
       "new": false,
       "filters": ["Coding", "Reasoning"]
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "queryCost": 30,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/gemini_3_1_pro.webp",
+      "archived": false,
+      "importance": 950,
+      "filters": ["Reasoning", "Writing", "Coding"],
+      "new": true
     },
     {
       "charge": "350x Queries",
