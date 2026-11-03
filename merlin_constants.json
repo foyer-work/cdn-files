@@ -20,7 +20,7 @@
     {
       "charge": "1x Query",
       "default": true,
-      "defaultPro": false,
+      "defaultPro": true,
       "description": "",
       "id": "gpt-6-luna",
       "name": "GPT 6 Luna",
@@ -135,23 +135,6 @@
       "importance": 1400,
       "filters": ["Coding", "Reasoning"],
       "new": true
-    },
-    {
-      "charge": "5x Queries",
-      "default": false,
-      "defaultPro": true,
-      "description": "",
-      "id": "glm-5.3",
-      "name": "GLM 5.3",
-      "queryCost": 5,
-      "tokenBurn": 2,
-      "paid": true,
-      "largeContext": false,
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
-      "archived": false,
-      "importance": 1300,
-      "filters": ["Coding", "Reasoning"],
-      "new": false
     },
     {
       "charge": "5x Queries",
@@ -321,6 +304,23 @@
       "archived": true,
       "importance": 1600,
       "filters": ["Reasoning", "Writing", "Coding"],
+      "new": false
+    },
+    {
+      "charge": "5x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
+      "id": "glm-5.3",
+      "name": "GLM 5.3",
+      "queryCost": 5,
+      "tokenBurn": 2,
+      "paid": true,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/glm-5.webp",
+      "archived": true,
+      "importance": 1300,
+      "filters": ["Coding", "Reasoning"],
       "new": false
     },
     {
