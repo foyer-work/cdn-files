@@ -459,5 +459,187 @@
       "new": false,
       "filters": ["Speed"]
     }
+  ],
+  "imageGenModels": [
+    {
+      "id": "bytedance/seedream-5-lite",
+      "name": "Seedream 5.0 Lite",
+      "label": "Fast, affordable image generation & editing",
+      "type": "image",
+      "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
+      "queryCost": 118,
+      "isNew": true,
+      "tokenBurn": 1
+    },
+    {
+      "id": "gpt-image-2.5-medium",
+      "name": "GPT Image 2.5",
+      "label": "Best model for detailed instructions",
+      "type": "image",
+      "icon": "https://cdn.getmerlin.in/cms/openai_33090b5760.png",
+      "queryCost": 130,
+      "isNew": true,
+      "tokenBurn": 1
+    },
+    {
+      "id": "gpt-image-2-medium",
+      "name": "GPT Image 2",
+      "label": "Best model for detailed instructions",
+      "type": "image",
+      "icon": "https://cdn.getmerlin.in/cms/openai_33090b5760.png",
+      "queryCost": 130,
+      "isNew": true,
+      "tokenBurn": 1
+    },
+    {
+      "id": "google/nano-banana-2-lite",
+      "name": "Nano Banana 2 Lite",
+      "label": "Fast, cost-effective image generation & editing",
+      "type": "image",
+      "icon": "https://cdn.getmerlin.in/cms/nano_banana_63bf3b3c32.png",
+      "queryCost": 120,
+      "isNew": true,
+      "tokenBurn": 1
+    },
+    {
+      "id": "google/nano-banana-2",
+      "name": "Nano Banana 2",
+      "label": "Best model for great-looking images",
+      "type": "image",
+      "icon": "https://cdn.getmerlin.in/cms/nano_banana_63bf3b3c32.png",
+      "queryCost": 300,
+      "isNew": true,
+      "tokenBurn": 3
+    }
+  ],
+  "videoGenModels": [
+    {
+      "id": "dreamina-seedance-2-5-260628-acr",
+      "name": "Seedance 2.5 Realistic",
+      "label": "Lifelike human faces from your reference photos",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
+      "resolutionQueryCostsPerSecond": {
+        "480p": {"withAudio": 103, "withoutAudio": 103, "r2vWithAudio": 103, "r2vWithoutAudio": 103},
+        "720p": {"withAudio": 231, "withoutAudio": 231, "r2vWithAudio": 231, "r2vWithoutAudio": 231},
+        "1080p": {"withAudio": 569, "withoutAudio": 569, "r2vWithAudio": 569, "r2vWithoutAudio": 569}
+      },
+      "isNew": true,
+      "nativeAudio": false,
+      "tokenBurn": 3
+    },
+    {
+      "id": "dreamina-seedance-2-0-mini-260615",
+      "name": "Seedance 2.0 Mini (Singapore-hosted)",
+      "label": "ByteDance's most affordable video generation model",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
+      "resolutionQueryCostsPerSecond": {
+        "480p": {"withAudio": 40, "withoutAudio": 40, "r2vWithAudio": 40, "r2vWithoutAudio": 40},
+        "720p": {"withAudio": 80, "withoutAudio": 80, "r2vWithAudio": 80, "r2vWithoutAudio": 80}
+      },
+      "isNew": true,
+      "nativeAudio": false,
+      "tokenBurn": 1
+    },
+    {
+      "id": "fal-ai/kling-video/v3/standard/text-to-video",
+      "name": "Kling V3",
+      "label": "Kling's cinematic video generation",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/kling_v3_4e88ebd4ec.png",
+      "resolutionQueryCostsPerSecond": {
+        "720p": {"withAudio": 126, "withoutAudio": 84, "r2vWithAudio": 112, "r2vWithoutAudio": 84}
+      },
+      "isNew": false,
+      "nativeAudio": false,
+      "tokenBurn": 1
+    },
+    {
+      "id": "fal-ai/veo3.1/fast",
+      "name": "Google Veo 3.1 Fast",
+      "label": "Google's fast video generation",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/veo_3_1_d20fb5901d.png",
+      "resolutionQueryCostsPerSecond": {
+        "720p": {"withAudio": 150, "withoutAudio": 100, "r2vWithAudio": 400, "r2vWithoutAudio": 200},
+        "1080p": {"withAudio": 150, "withoutAudio": 100, "r2vWithAudio": 400, "r2vWithoutAudio": 200}
+      },
+      "isNew": false,
+      "nativeAudio": false,
+      "tokenBurn": 1
+    },
+    {
+      "id": "blackforestlabs/flux-3/text-to-video",
+      "name": "FLUX 3",
+      "label": "Black Forest Labs' video generation with native audio",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/black_forest_labs_dark_v2_58eabd9130.png",
+      "resolutionQueryCostsPerSecond": {
+        "720p": {"withAudio": 170, "withoutAudio": 170, "r2vWithAudio": 170, "r2vWithoutAudio": 170},
+        "1080p": {"withAudio": 290, "withoutAudio": 290, "r2vWithAudio": 290, "r2vWithoutAudio": 290}
+      },
+      "isNew": true,
+      "nativeAudio": false,
+      "tokenBurn": 2
+    },
+    {
+      "id": "google/gemini-omni-flash/v1.2/text-to-video",
+      "name": "Gemini Omni 1.2 Flash",
+      "label": "Google's multimodal video generation",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/gemini_393aa959ac.svg",
+      "resolutionQueryCostsPerSecond": {
+        "720p": {"withAudio": 82, "withoutAudio": 82, "r2vWithAudio": 82, "r2vWithoutAudio": 82},
+        "1080p": {"withAudio": 123, "withoutAudio": 123, "r2vWithAudio": 123, "r2vWithoutAudio": 123}
+      },
+      "isNew": true,
+      "nativeAudio": true,
+      "tokenBurn": 1
+    },
+    {
+      "id": "dreamina-seedance-2-0-fast-260128",
+      "name": "Seedance 2.0 Fast (Singapore-hosted)",
+      "label": "ByteDance's fast video generation model",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
+      "resolutionQueryCostsPerSecond": {
+        "480p": {"withAudio": 60, "withoutAudio": 60, "r2vWithAudio": 60, "r2vWithoutAudio": 60},
+        "720p": {"withAudio": 120, "withoutAudio": 120, "r2vWithAudio": 120, "r2vWithoutAudio": 120}
+      },
+      "isNew": false,
+      "nativeAudio": false,
+      "tokenBurn": 2
+    },
+    {
+      "id": "dreamina-seedance-2-0-260128",
+      "name": "Seedance 2.0 (US-hosted)",
+      "label": "ByteDance's most advanced model",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
+      "resolutionQueryCostsPerSecond": {
+        "480p": {"withAudio": 70, "withoutAudio": 70, "r2vWithAudio": 70, "r2vWithoutAudio": 70},
+        "720p": {"withAudio": 150, "withoutAudio": 150, "r2vWithAudio": 150, "r2vWithoutAudio": 150},
+        "1080p": {"withAudio": 370, "withoutAudio": 370, "r2vWithAudio": 370, "r2vWithoutAudio": 370}
+      },
+      "isNew": false,
+      "nativeAudio": false,
+      "tokenBurn": 2
+    },
+    {
+      "id": "dreamina-seedance-2-5-260628",
+      "name": "Seedance 2.5 (Singapore-hosted)",
+      "label": "ByteDance's most advanced video generation model",
+      "type": "video",
+      "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
+      "resolutionQueryCostsPerSecond": {
+        "480p": {"withAudio": 103, "withoutAudio": 103, "r2vWithAudio": 103, "r2vWithoutAudio": 103},
+        "720p": {"withAudio": 231, "withoutAudio": 231, "r2vWithAudio": 231, "r2vWithoutAudio": 231},
+        "1080p": {"withAudio": 569, "withoutAudio": 569, "r2vWithAudio": 569, "r2vWithoutAudio": 569}
+      },
+      "isNew": true,
+      "nativeAudio": false,
+      "tokenBurn": 3
+    }
   ]
 }
