@@ -462,6 +462,16 @@
   ],
   "imageGenModels": [
     {
+      "id": "bytedance/seedream-5.5",
+      "name": "Seedream 5.5",
+      "label": "Consistent multi-round image editing",
+      "type": "image",
+      "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
+      "queryCost": 118,
+      "isNew": true,
+      "tokenBurn": 1
+    },
+    {
       "id": "bytedance/seedream-5-lite",
       "name": "Seedream 5.0 Lite",
       "label": "Fast, affordable image generation & editing",
