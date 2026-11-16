@@ -673,7 +673,7 @@
     },
     {
       "id": "dreamina-seedance-2-0-mini-260615",
-      "name": "Seedance 2.0 Mini (Singapore-hosted)",
+      "name": "Seedance 2.0 Mini",
       "description": "ByteDance's most affordable video generation model",
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/bytedance.webp",
       "resolutionQueryCostsPerSecond": {
@@ -759,7 +759,7 @@
     },
     {
       "id": "dreamina-seedance-2-0-fast-260128",
-      "name": "Seedance 2.0 Fast (Singapore-hosted)",
+      "name": "Seedance 2.0 Fast",
       "description": "ByteDance's fast video generation model",
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/bytedance.webp",
       "resolutionQueryCostsPerSecond": {
@@ -782,7 +782,7 @@
     },
     {
       "id": "dreamina-seedance-2-0-260128",
-      "name": "Seedance 2.0 (US-hosted)",
+      "name": "Seedance 2.0",
       "description": "ByteDance's most advanced model",
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/bytedance.webp",
       "resolutionQueryCostsPerSecond": {
@@ -811,7 +811,7 @@
     },
     {
       "id": "dreamina-seedance-2-5-260628",
-      "name": "Seedance 2.5 (Singapore-hosted)",
+      "name": "Seedance 2.5",
       "description": "ByteDance's most advanced video generation model",
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/bytedance.webp",
       "resolutionQueryCostsPerSecond": {
