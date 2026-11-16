@@ -570,6 +570,29 @@
       "tokenBurn": 2
     },
     {
+      "id": "kling/v4/text-to-video",
+      "name": "Kling V4",
+      "description": "Kling's latest video generation model",
+      "icon": "https://cdn.getmerlin.in/cms/kling_v3_4e88ebd4ec.png",
+      "resolutionQueryCostsPerSecond": {
+        "720p": {
+          "withAudio": 157,
+          "withoutAudio": 157,
+          "r2vWithAudio": 157,
+          "r2vWithoutAudio": 157
+        },
+        "1080p": {
+          "withAudio": 235,
+          "withoutAudio": 235,
+          "r2vWithAudio": 235,
+          "r2vWithoutAudio": 235
+        }
+      },
+      "new": true,
+      "nativeAudio": false,
+      "tokenBurn": 2
+    },
+    {
       "id": "dreamina-seedance-2-0-mini-260615",
       "name": "Seedance 2.0 Mini (Singapore-hosted)",
       "description": "ByteDance's most affordable video generation model",
@@ -591,29 +614,6 @@
       "new": false,
       "nativeAudio": false,
       "tokenBurn": 1
-    },
-    {
-      "id": "kling/v4/text-to-video",
-      "name": "Kling V4",
-      "description": "Kling's latest cinematic video generation, up to 30s",
-      "icon": "https://cdn.getmerlin.in/cms/kling_v3_4e88ebd4ec.png",
-      "resolutionQueryCostsPerSecond": {
-        "720p": {
-          "withAudio": 157,
-          "withoutAudio": 157,
-          "r2vWithAudio": 157,
-          "r2vWithoutAudio": 157
-        },
-        "1080p": {
-          "withAudio": 235,
-          "withoutAudio": 235,
-          "r2vWithAudio": 235,
-          "r2vWithoutAudio": 235
-        }
-      },
-      "new": true,
-      "nativeAudio": false,
-      "tokenBurn": 2
     },
     {
       "id": "fal-ai/kling-video/v3/standard/text-to-video",
