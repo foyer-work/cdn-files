@@ -523,9 +523,24 @@
       "description": "Lifelike human faces from your reference photos",
       "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
       "resolutionQueryCostsPerSecond": {
-        "480p": {"withAudio": 103, "withoutAudio": 103, "r2vWithAudio": 103, "r2vWithoutAudio": 103},
-        "720p": {"withAudio": 231, "withoutAudio": 231, "r2vWithAudio": 231, "r2vWithoutAudio": 231},
-        "1080p": {"withAudio": 569, "withoutAudio": 569, "r2vWithAudio": 569, "r2vWithoutAudio": 569}
+        "480p": {
+          "withAudio": 103,
+          "withoutAudio": 103,
+          "r2vWithAudio": 103,
+          "r2vWithoutAudio": 103
+        },
+        "720p": {
+          "withAudio": 231,
+          "withoutAudio": 231,
+          "r2vWithAudio": 231,
+          "r2vWithoutAudio": 231
+        },
+        "1080p": {
+          "withAudio": 569,
+          "withoutAudio": 569,
+          "r2vWithAudio": 569,
+          "r2vWithoutAudio": 569
+        }
       },
       "new": true,
       "nativeAudio": false,
@@ -537,8 +552,18 @@
       "description": "Flagship quality, faster and cheaper",
       "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
       "resolutionQueryCostsPerSecond": {
-        "480p": {"withAudio": 70, "withoutAudio": 70, "r2vWithAudio": 70, "r2vWithoutAudio": 70},
-        "720p": {"withAudio": 150, "withoutAudio": 150, "r2vWithAudio": 150, "r2vWithoutAudio": 150}
+        "480p": {
+          "withAudio": 70,
+          "withoutAudio": 70,
+          "r2vWithAudio": 70,
+          "r2vWithoutAudio": 70
+        },
+        "720p": {
+          "withAudio": 150,
+          "withoutAudio": 150,
+          "r2vWithAudio": 150,
+          "r2vWithoutAudio": 150
+        }
       },
       "new": true,
       "nativeAudio": false,
@@ -550,8 +575,18 @@
       "description": "ByteDance's most affordable video generation model",
       "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
       "resolutionQueryCostsPerSecond": {
-        "480p": {"withAudio": 40, "withoutAudio": 40, "r2vWithAudio": 40, "r2vWithoutAudio": 40},
-        "720p": {"withAudio": 80, "withoutAudio": 80, "r2vWithAudio": 80, "r2vWithoutAudio": 80}
+        "480p": {
+          "withAudio": 40,
+          "withoutAudio": 40,
+          "r2vWithAudio": 40,
+          "r2vWithoutAudio": 40
+        },
+        "720p": {
+          "withAudio": 80,
+          "withoutAudio": 80,
+          "r2vWithAudio": 80,
+          "r2vWithoutAudio": 80
+        }
       },
       "new": false,
       "nativeAudio": false,
@@ -563,7 +598,12 @@
       "description": "Kling's cinematic video generation",
       "icon": "https://cdn.getmerlin.in/cms/kling_v3_4e88ebd4ec.png",
       "resolutionQueryCostsPerSecond": {
-        "720p": {"withAudio": 126, "withoutAudio": 84, "r2vWithAudio": 112, "r2vWithoutAudio": 84}
+        "720p": {
+          "withAudio": 126,
+          "withoutAudio": 84,
+          "r2vWithAudio": 112,
+          "r2vWithoutAudio": 84
+        }
       },
       "new": false,
       "nativeAudio": false,
@@ -575,8 +615,18 @@
       "description": "Black Forest Labs' video generation with native audio",
       "icon": "https://cdn.getmerlin.in/cms/black_forest_labs_dark_v2_58eabd9130.png",
       "resolutionQueryCostsPerSecond": {
-        "720p": {"withAudio": 170, "withoutAudio": 170, "r2vWithAudio": 170, "r2vWithoutAudio": 170},
-        "1080p": {"withAudio": 290, "withoutAudio": 290, "r2vWithAudio": 290, "r2vWithoutAudio": 290}
+        "720p": {
+          "withAudio": 170,
+          "withoutAudio": 170,
+          "r2vWithAudio": 170,
+          "r2vWithoutAudio": 170
+        },
+        "1080p": {
+          "withAudio": 290,
+          "withoutAudio": 290,
+          "r2vWithAudio": 290,
+          "r2vWithoutAudio": 290
+        }
       },
       "new": true,
       "nativeAudio": false,
@@ -588,8 +638,18 @@
       "description": "Google's multimodal video generation",
       "icon": "https://cdn.getmerlin.in/cms/gemini_393aa959ac.svg",
       "resolutionQueryCostsPerSecond": {
-        "720p": {"withAudio": 82, "withoutAudio": 82, "r2vWithAudio": 82, "r2vWithoutAudio": 82},
-        "1080p": {"withAudio": 123, "withoutAudio": 123, "r2vWithAudio": 123, "r2vWithoutAudio": 123}
+        "720p": {
+          "withAudio": 82,
+          "withoutAudio": 82,
+          "r2vWithAudio": 82,
+          "r2vWithoutAudio": 82
+        },
+        "1080p": {
+          "withAudio": 123,
+          "withoutAudio": 123,
+          "r2vWithAudio": 123,
+          "r2vWithoutAudio": 123
+        }
       },
       "new": true,
       "nativeAudio": true,
@@ -601,8 +661,18 @@
       "description": "ByteDance's fast video generation model",
       "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
       "resolutionQueryCostsPerSecond": {
-        "480p": {"withAudio": 60, "withoutAudio": 60, "r2vWithAudio": 60, "r2vWithoutAudio": 60},
-        "720p": {"withAudio": 120, "withoutAudio": 120, "r2vWithAudio": 120, "r2vWithoutAudio": 120}
+        "480p": {
+          "withAudio": 60,
+          "withoutAudio": 60,
+          "r2vWithAudio": 60,
+          "r2vWithoutAudio": 60
+        },
+        "720p": {
+          "withAudio": 120,
+          "withoutAudio": 120,
+          "r2vWithAudio": 120,
+          "r2vWithoutAudio": 120
+        }
       },
       "new": false,
       "nativeAudio": false,
@@ -614,9 +684,24 @@
       "description": "ByteDance's most advanced model",
       "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
       "resolutionQueryCostsPerSecond": {
-        "480p": {"withAudio": 70, "withoutAudio": 70, "r2vWithAudio": 70, "r2vWithoutAudio": 70},
-        "720p": {"withAudio": 150, "withoutAudio": 150, "r2vWithAudio": 150, "r2vWithoutAudio": 150},
-        "1080p": {"withAudio": 370, "withoutAudio": 370, "r2vWithAudio": 370, "r2vWithoutAudio": 370}
+        "480p": {
+          "withAudio": 70,
+          "withoutAudio": 70,
+          "r2vWithAudio": 70,
+          "r2vWithoutAudio": 70
+        },
+        "720p": {
+          "withAudio": 150,
+          "withoutAudio": 150,
+          "r2vWithAudio": 150,
+          "r2vWithoutAudio": 150
+        },
+        "1080p": {
+          "withAudio": 370,
+          "withoutAudio": 370,
+          "r2vWithAudio": 370,
+          "r2vWithoutAudio": 370
+        }
       },
       "new": false,
       "nativeAudio": false,
@@ -628,9 +713,24 @@
       "description": "ByteDance's most advanced video generation model",
       "icon": "https://cdn.getmerlin.in/cms/seedance_784ea9194b.png",
       "resolutionQueryCostsPerSecond": {
-        "480p": {"withAudio": 103, "withoutAudio": 103, "r2vWithAudio": 103, "r2vWithoutAudio": 103},
-        "720p": {"withAudio": 231, "withoutAudio": 231, "r2vWithAudio": 231, "r2vWithoutAudio": 231},
-        "1080p": {"withAudio": 569, "withoutAudio": 569, "r2vWithAudio": 569, "r2vWithoutAudio": 569}
+        "480p": {
+          "withAudio": 103,
+          "withoutAudio": 103,
+          "r2vWithAudio": 103,
+          "r2vWithoutAudio": 103
+        },
+        "720p": {
+          "withAudio": 231,
+          "withoutAudio": 231,
+          "r2vWithAudio": 231,
+          "r2vWithoutAudio": 231
+        },
+        "1080p": {
+          "withAudio": 569,
+          "withoutAudio": 569,
+          "r2vWithAudio": 569,
+          "r2vWithoutAudio": 569
+        }
       },
       "new": false,
       "nativeAudio": false,
