@@ -675,7 +675,7 @@
       "id": "kling/v4/text-to-video",
       "name": "Kling V4",
       "description": "Kling's latest video generation model",
-      "icon": "https://cdn.getmerlin.in/cms/kling_v3_4e88ebd4ec.png",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/kling.webp",
       "resolutionQueryCostsPerSecond": {
         "720p": {
           "withAudio": 157,
