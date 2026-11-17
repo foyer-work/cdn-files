@@ -672,6 +672,29 @@
       "tokenBurn": 2
     },
     {
+      "id": "kling/v4/text-to-video",
+      "name": "Kling V4",
+      "description": "Kling's latest video generation model",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/kling.webp",
+      "resolutionQueryCostsPerSecond": {
+        "720p": {
+          "withAudio": 157,
+          "withoutAudio": 157,
+          "r2vWithAudio": 157,
+          "r2vWithoutAudio": 157
+        },
+        "1080p": {
+          "withAudio": 235,
+          "withoutAudio": 235,
+          "r2vWithAudio": 235,
+          "r2vWithoutAudio": 235
+        }
+      },
+      "new": true,
+      "nativeAudio": false,
+      "tokenBurn": 2
+    },
+    {
       "id": "dreamina-seedance-2-0-mini-260615",
       "name": "Seedance 2.0 Mini",
       "description": "ByteDance's most affordable video generation model",
