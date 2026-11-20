@@ -600,6 +600,15 @@
       "tokenBurn": 1
     },
     {
+      "id": "google/nano-banana-2.1",
+      "name": "Nano Banana 2.1",
+      "description": "Google's most advanced image model with enhanced quality, reasoning and visual design.",
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/google.webp",
+      "queryCost": 175,
+      "new": true,
+      "tokenBurn": 2
+    },
+    {
       "id": "google/nano-banana-2-lite",
       "name": "Nano Banana 2 Lite",
       "description": "Fast, cost-effective image generation & editing",
