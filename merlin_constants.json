@@ -298,7 +298,7 @@
       "name": "Gemini 4 Neon",
       "queryCost": 30,
       "tokenBurn": 2,
-      "paid": true,
+      "paid": false,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/gemini.webp",
       "archived": false,
