@@ -294,6 +294,27 @@
       "default": false,
       "defaultPro": false,
       "description": "",
+      "id": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "queryCost": 30,
+      "tokenBurn": 2,
+      "paid": false,
+      "largeContext": false,
+      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/gemini.webp",
+      "archived": false,
+      "importance": 980,
+      "filters": [
+        "Reasoning",
+        "Writing",
+        "Coding"
+      ],
+      "new": true
+    },
+    {
+      "charge": "30x Queries",
+      "default": false,
+      "defaultPro": false,
+      "description": "",
       "id": "gemini-4-carbon",
       "name": "Gemini 4 Carbon",
       "queryCost": 30,
