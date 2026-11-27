@@ -284,7 +284,7 @@
       "paid": true,
       "largeContext": false,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/deepseek.webp",
-      "archived": false,
+      "archived": true,
       "importance": 1000,
       "new": false,
       "filters": ["Coding", "Reasoning"]
@@ -407,7 +407,7 @@
       "paid": false,
       "largeContext": true,
       "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/gemini.webp",
-      "archived": false,
+      "archived": true,
       "importance": 100,
       "new": false,
       "filters": ["Reasoning", "Speed"]
@@ -442,15 +442,6 @@
       "tokenBurn": 1
     },
     {
-      "id": "gpt-image-2-medium",
-      "name": "GPT Image 2",
-      "description": "Best model for detailed instructions",
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/openai.webp",
-      "queryCost": 130,
-      "new": false,
-      "tokenBurn": 1
-    },
-    {
       "id": "google/nano-banana-2.1",
       "name": "Nano Banana 2.1",
       "description": "Google's most advanced image model with enhanced quality, reasoning and visual design.",
@@ -467,15 +458,6 @@
       "queryCost": 120,
       "new": false,
       "tokenBurn": 1
-    },
-    {
-      "id": "google/nano-banana-2",
-      "name": "Nano Banana 2",
-      "description": "Best model for great-looking images",
-      "icon": "https://cdn.jsdelivr.net/gh/foyer-work/cdn-files@latest/models/companies/google.webp",
-      "queryCost": 300,
-      "new": false,
-      "tokenBurn": 3
     }
   ],
   "videoGenModels": [
